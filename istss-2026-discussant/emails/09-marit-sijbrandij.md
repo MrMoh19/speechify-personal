@@ -1,6 +1,6 @@
 # Marit Sijbrandij — DRAFT (Tier 1, rank 3)
 
-**To:** likely e.m.sijbrandij@vu.nl — VERIFY against a recent corresponding-author line or the VU Amsterdam directory
+**To:** e.m.sijbrandij@vu.nl (confirmed via her corresponding-author listings)
 **Subject:** Invitation to serve as discussant — Thursday symposium on mental health measurement in Nigeria
 
 ---

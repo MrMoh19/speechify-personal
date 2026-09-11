@@ -11,10 +11,10 @@ Our session as printed: Gradus (chair, 1:45; paper 1, 1:49–2:03), Salma Abdall
 | 0 | Nuha Alshabani | Boston University | Thu 11:00 AM–12:15 PM, presenter, Salon E | sent 9/11 — **no conflict, attending** |
 | 1 | Soraya Seedat | Distinguished Prof. & Head of Psychiatry, Stellenbosch | Thu 11 AM–12:15 discussant (PTSD/dementia MVP symposium); Fri 1:45–3:00 presenter, ISTSS PTSD Treatment Guidelines | sseedat@sun.ac.za (confirmed) |
 | 2 | Richard Bryant | Scientia Prof., UNSW Sydney | Thu 11 AM presenter (Ukraine session); Thu 3:15–4:30 chair, Salon E; Fri keynote panel speaker | r.bryant@unsw.edu.au (confirmed) |
-| 3 | Marit Sijbrandij | Prof., VU Amsterdam | Thu 11 AM–12:15 chair, invited session on scaling interventions for forcibly displaced populations; Fri 1:45–3:00 presenter | likely e.m.sijbrandij@vu.nl — verify |
-| 4 | Peter Ventevogel | Senior Mental Health Officer, UNHCR | Thu 11 AM–12:15 presenter (same invited session) | verify via UNHCR/publications |
-| 5 | Lori Zoellner | Prof., University of Washington | Fri 8:59–9:15 discussant; Fri 11:36 paper (Islamic Trauma Healing in Somaliland RCT) | likely zoellner@uw.edu — verify |
-| 6 | Angela Nickerson | Prof., UNSW Sydney | Thu 11 AM presenter; Thu 3:20–4:15 presenter (Moral Injury in Displaced Refugees) | verify via UNSW |
+| 3 | Marit Sijbrandij | Prof., VU Amsterdam; Director, WHO Collaborating Center for psychological interventions | Thu 11 AM–12:15 chair, invited session on scaling interventions for forcibly displaced populations; Fri 1:45–3:00 presenter | e.m.sijbrandij@vu.nl (confirmed) |
+| 4 | Peter Ventevogel | Senior Mental Health Officer, UNHCR | Thu 11 AM–12:15 presenter (same invited session) | ventevog@unhcr.org (confirmed) |
+| 5 | Lori Zoellner | Prof., University of Washington | Fri 8:59–9:15 discussant; Fri 11:36 paper (Islamic Trauma Healing in Somaliland RCT) | zoellner@uw.edu (confirmed) |
+| 6 | Angela Nickerson | Prof. & Director, Refugee Trauma and Recovery Program, UNSW Sydney | Thu 11 AM presenter; Thu 3:20–4:15 presenter (Moral Injury in Displaced Refugees) | a.nickerson@unsw.edu.au (confirmed) |
 | 7 | Debra Kaysen | Prof., Stanford | Fri 9:30–10:50 AM chair, Awards & Keynote Panel | dkaysen@stanford.edu (confirmed) |
 
 ### Why this order

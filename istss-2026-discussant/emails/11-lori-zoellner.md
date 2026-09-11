@@ -1,6 +1,6 @@
 # Lori Zoellner — DRAFT (Tier 1, rank 5)
 
-**To:** likely zoellner@uw.edu — VERIFY against a recent corresponding-author line or the UW Psychology directory
+**To:** zoellner@uw.edu (confirmed via the UW faculty directory)
 **Subject:** Invitation to serve as discussant — Thursday symposium on mental health measurement in Nigeria
 
 ---

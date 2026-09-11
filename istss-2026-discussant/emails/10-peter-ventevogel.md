@@ -1,6 +1,6 @@
 # Peter Ventevogel — DRAFT (Tier 1, rank 4)
 
-**To:** VERIFY — his UNHCR address appears on his publications (search a recent corresponding-author line)
+**To:** ventevog@unhcr.org (confirmed via his publication listings)
 **Subject:** Invitation to serve as discussant — Thursday symposium on mental health measurement in Nigeria
 
 ---

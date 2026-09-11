@@ -1,6 +1,6 @@
 # Angela Nickerson — DRAFT (Tier 1, rank 6)
 
-**To:** VERIFY — UNSW School of Psychology directory
+**To:** a.nickerson@unsw.edu.au (confirmed via the UNSW staff page)
 **Subject:** Invitation to serve as discussant — Thursday symposium on mental health measurement in Nigeria
 
 ---
