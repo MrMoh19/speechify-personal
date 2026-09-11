@@ -8,8 +8,9 @@
 
 ## Status
 
-- **Sent:** Nuha Alshabani (BU Psychiatry) — emailed 2026-09-11. See `emails/00-nuha-alshabani-SENT.md`.
-- **Queued:** Six backup candidates, ranked in `candidates.md`, each with a ready-to-send email in `emails/`.
+- **Sent:** Nuha Alshabani (BU Psychiatry) — emailed 2026-09-11. Program check: she is attending (Thu 11 AM presenter) and free at our slot. See `emails/00-nuha-alshabani-SENT.md`.
+- **Program verified (2026-09-11):** the full detailed schedule was checked; `candidates.md` now has a Tier 1 of seven attendees confirmed free at Thursday 1:45–3:00 PM (Seedat, Bryant, Sijbrandij, Ventevogel, Zoellner, Nickerson, Kaysen), each with a ready-to-send email in `emails/` (07–12, plus 03 for Kaysen). The earlier candidates not found in the program (Bass, Koenen, Kohrt, Betancourt, Tol) are Tier 2; their drafts (01–06) remain as fallbacks.
+- Norah Feeny was considered and is ruled out: she presents in a parallel Thursday 1:45 session.
 
 ## Recommended process
 

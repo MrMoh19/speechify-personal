@@ -1,33 +1,56 @@
 # Ranked Candidates — Replacement Discussant
 
-Ranking weighs three things: topical fit with the symposium (psychometric validation + epidemiology + policy translation, in conflict-affected Nigeria), likelihood of already being at ISTSS 2026, and the stature to fill a Galea-sized discussant role. Attendance and schedule conflicts must be confirmed in the schedule app before each send (see README).
+**Updated 2026-09-11** after checking the full ISTSS 42nd Annual Meeting detailed schedule (`Schedule_Detailed_View (1).pdf`, uploaded to Drive). Attendance and the Thursday 1:45–3:00 PM conflict check are now verified against the actual program, which lists our symposium in Salon C with Sandro still shown as discussant (2:45–3:00 PM).
 
-| # | Candidate | Affiliation | Email | Conflict check |
-|---|-----------|-------------|-------|----------------|
-| 0 | Nuha Alshabani, PhD | Asst. Prof. of Psychiatry, BU Chobanian & Avedisian SOM; RESTORE Center; Immigrant & Refugee Health Center | (sent 9/11) | ☐ |
-| 1 | Judith Bass, PhD, MPH, MIA | Assoc. Prof., Dept. of Mental Health, Johns Hopkins Bloomberg School of Public Health | jbass1@jhu.edu (confirmed) | ☐ |
-| 2 | Karestan Koenen, PhD | Prof. of Psychiatric Epidemiology, Harvard T.H. Chan School of Public Health | kkoenen@hsph.harvard.edu (confirmed) | ☐ |
-| 3 | Debra Kaysen, PhD, ABPP | Prof., Psychiatry & Behavioral Sciences, Stanford | dkaysen@stanford.edu (confirmed) | ☐ |
-| 4 | Brandon Kohrt, MD, PhD | Akman Prof. in Global Psychiatry, George Washington University | verify at faculty.smhs.gwu.edu/brandon-alan-kohrt | ☐ |
-| 5 | Theresa Betancourt, ScD | Salem Prof. in Global Practice, Boston College School of Social Work | theresa.betancourt@bc.edu | ☐ |
-| 6 | Wietse Tol, PhD | Prof. of Global Health, University of Copenhagen | verify at publichealth.ku.dk directory | ☐ |
+Our session as printed: Gradus (chair, 1:45; paper 1, 1:49–2:03), Salma Abdalla (2:03–2:17), Abba-Aji (2:17–2:31), Tunde MasseyFerguson Ojo, Federal Ministry of Health (2:31–2:45), discussant 2:45–3:00.
 
-## Why each one
+## Tier 1 — In the program and free at Thursday 1:45–3:00 PM
 
-**1. Judith Bass** — the closest topical match in the field. She builds and validates mental health assessment instruments for conflict-affected populations (DRC, Uganda, Indonesia, Ethiopia refugee camps) and co-authored work adapting mental health screening tools for conflict-affected adolescents **in Nigeria** (Cambridge Prisms: Global Mental Health, 2019). She can speak with authority to every arm of the symposium: the psychometrics, the epidemiology, and the task-sharing/policy pathway. Risk: less of an ISTSS fixture than the two past presidents below, so confirm she is attending.
+| # | Candidate | Affiliation | Their sessions (all Central Time) | Email |
+|---|-----------|-------------|-----------------------------------|-------|
+| 0 | Nuha Alshabani | Boston University | Thu 11:00 AM–12:15 PM, presenter, Salon E | sent 9/11 — **no conflict, attending** |
+| 1 | Soraya Seedat | Distinguished Prof. & Head of Psychiatry, Stellenbosch | Thu 11 AM–12:15 discussant (PTSD/dementia MVP symposium); Fri 1:45–3:00 presenter, ISTSS PTSD Treatment Guidelines | sseedat@sun.ac.za (confirmed) |
+| 2 | Richard Bryant | Scientia Prof., UNSW Sydney | Thu 11 AM presenter (Ukraine session); Thu 3:15–4:30 chair, Salon E; Fri keynote panel speaker | r.bryant@unsw.edu.au (confirmed) |
+| 3 | Marit Sijbrandij | Prof., VU Amsterdam | Thu 11 AM–12:15 chair, invited session on scaling interventions for forcibly displaced populations; Fri 1:45–3:00 presenter | likely e.m.sijbrandij@vu.nl — verify |
+| 4 | Peter Ventevogel | Senior Mental Health Officer, UNHCR | Thu 11 AM–12:15 presenter (same invited session) | verify via UNHCR/publications |
+| 5 | Lori Zoellner | Prof., University of Washington | Fri 8:59–9:15 discussant; Fri 11:36 paper (Islamic Trauma Healing in Somaliland RCT) | likely zoellner@uw.edu — verify |
+| 6 | Angela Nickerson | Prof., UNSW Sydney | Thu 11 AM presenter; Thu 3:20–4:15 presenter (Moral Injury in Displaced Refugees) | verify via UNSW |
+| 7 | Debra Kaysen | Prof., Stanford | Fri 9:30–10:50 AM chair, Awards & Keynote Panel | dkaysen@stanford.edu (confirmed) |
 
-**2. Karestan Koenen** — the natural stature-for-stature replacement for Sandro. Former ISTSS president, ISTSS Laufer Award winner (2015), chairs the PTSD Working Group of the World Mental Health Surveys, and a longtime collaborator of both Jaimie Gradus and Sandro Galea, so the ask is warm on two sides. Her global trauma epidemiology frame fits the epidemiologic and policy arms; she is lighter on hands-on instrument validation than Bass.
+### Why this order
 
-**3. Debra Kaysen** — former ISTSS president, so near-certain to be in San Antonio and easy for the program office to slot in. Led landmark trials adapting and testing trauma-focused treatment (CPT) with conflict-affected women in the DRC and in Iraq; deep on cultural adaptation and what screening instruments feed into clinically. Slightly more treatment- than measurement-focused.
+**1. Seedat** — the strongest match on every axis. Africa-based, head of psychiatry at Stellenbosch, decades of PTSD research in African populations, on the ISTSS treatment guidelines. The program already has her doing discussant duty Thursday morning, so the ask is small and concrete: same role, same day, free slot. An African senior voice closing a Nigeria symposium is also the right look for the session.
 
-**4. Brandon Kohrt** — cultural psychiatrist and anthropologist; among the world's leading figures on cross-cultural adaptation and validation of mental health tools in humanitarian settings (Nepal, Liberia, Ethiopia); WHO adviser on task-sharing. Superb topical fit for the validation and task-shifting themes; confirm ISTSS attendance, as his home meetings skew global health.
+**2. Bryant** — arguably the biggest name in global traumatic stress (WHO scalable interventions, trials with Syrian refugees in Jordan, displaced populations). He chairs the 3:15 PM symposium in Salon E on Thursday, next door to our Salon C slot that ends at 3:00 — he is in the building, on that floor, that afternoon. The 15-minute turnaround to his own session is the one thing that could make him decline.
 
-**5. Theresa Betancourt** — 22-year longitudinal study of war-affected youth in Sierra Leone, translated into interventions scaled with the World Bank and the Government of Sierra Leone. The strongest voice for the "policy action" arm; her work centers youth rather than adults, and ISTSS attendance should be confirmed.
+**3. Sijbrandij** — chairs the meeting's invited session on scaling psychological interventions for forcibly displaced populations; leads WHO trials (PM+, Step-by-Step). Speaks directly to the validation-to-implementation arc.
 
-**6. Wietse Tol** — leads the field's humanitarian MHPSS research agenda (Lancet Global Health research priorities); ideal on evidence-to-practice in conflict settings. Ranked last only on feasibility: Copenhagen-based, so unless he is already registered for San Antonio, the two-week timeline likely rules him out.
+**4. Ventevogel** — UNHCR's senior mental health officer; nobody at the meeting sits closer to where measurement evidence becomes operational policy for conflict-affected populations. Perfect for the "policy action" arm; less hands-on with psychometrics.
 
-## Others considered, not drafted
+**5. Zoellner** — presents RCT results of Islamic Trauma Healing in Somaliland on Friday; already a discussant Friday morning. Deep on trauma treatment in African, Muslim-majority, low-resource settings — resonant for northern Nigeria.
 
-- **Soraya Seedat / Lukoye Atwoli** (Stellenbosch / Aga Khan East Africa) — leading African trauma researchers, but intercontinental travel on 12 days' notice makes acceptance unlikely unless already registered; check the app for their names, and if either appears in the program, they leapfrog to the top as an African-based senior voice.
-- **Oye Gureje** (Ibadan) — the elder statesman of Nigerian mental health policy; same feasibility problem, and he is not an ISTSS regular.
-- **BUSPH trauma faculty beyond Alshabani** — Jaimie will know this bench personally; worth asking her for one name from the BU Center for Trauma and Mental Health orbit if the list above thins out.
+**6. Nickerson** — leading refugee trauma researcher; free at our slot (sessions at 11:00 and 3:20 Thursday). Slightly narrower topical overlap than those above.
+
+**7. Kaysen** — attending and free, but her visible role (Awards & Keynote chair) suggests heavy program duties, and her fit is treatment-first rather than measurement-first.
+
+### Ruled out by schedule conflict
+
+- **Norah Feeny** (Case Western) — presenting in the parallel Thursday 1:45 symposium in Salon A. Anyone else appearing in the Thursday 1:45–3:00 sessions (Salons A, B, D, E, GHI, J, K, L, M) is likewise unavailable.
+
+## Tier 2 — Strong fits, but NOT in the ISTSS 2026 program
+
+Attendance unconfirmed; contact only if Tier 1 is exhausted. Draft emails exist for all five.
+
+| Candidate | Affiliation | Note |
+|-----------|-------------|------|
+| Judith Bass | Johns Hopkins | Closest topical fit in the field (instrument validation in conflict settings, incl. Nigeria adaptation work) — but no program appearance |
+| Karestan Koenen | Harvard | Former ISTSS president; knows Gradus and Galea well |
+| Brandon Kohrt | GWU | Cross-cultural instrument validation, humanitarian settings |
+| Theresa Betancourt | Boston College | Evidence-to-policy for war-affected youth |
+| Wietse Tol | Copenhagen | Humanitarian MHPSS; travel unlikely on this timeline |
+
+## Practical notes
+
+- A chair-to-peer ask lands better with the Tier 1 seniors: consider having Jaimie send or co-sign the Seedat and Bryant emails — she will know both.
+- Discussant prep is light (15 minutes, 2:45–3:00): offering the four abstracts up front, as the drafts do, makes accepting easy.
+- Once someone accepts, notify the ISTSS program office (info@istss.org) to update the program and app.
