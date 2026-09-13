@@ -8,7 +8,7 @@ Our session as printed: Gradus (chair, 1:45; paper 1, 1:49–2:03), Salma Abdall
 
 | # | Candidate | Affiliation | Their sessions (all Central Time) | Email |
 |---|-----------|-------------|-----------------------------------|-------|
-| 0 | Nuha Alshabani | Boston University | Thu 11:00 AM–12:15 PM, presenter, Salon E | sent 9/11 — **no conflict, attending** |
+| 0 | Nuha Alshabani | University at Albany (formerly BU; program still lists BU) | Thu 11:00 AM–12:15 PM, presenter, Salon E | sent 9/11 — **no conflict, attending** |
 | 1 | Soraya Seedat | Distinguished Prof. & Head of Psychiatry, Stellenbosch | Thu 11 AM–12:15 discussant (PTSD/dementia MVP symposium); Fri 1:45–3:00 presenter, ISTSS PTSD Treatment Guidelines | sseedat@sun.ac.za (confirmed) |
 | 2 | Richard Bryant | Scientia Prof., UNSW Sydney | Thu 11 AM presenter (Ukraine session); Thu 3:15–4:30 chair, Salon E; Fri keynote panel speaker | r.bryant@unsw.edu.au (confirmed) |
 | 3 | Marit Sijbrandij | Prof., VU Amsterdam; Director, WHO Collaborating Center for psychological interventions | Thu 11 AM–12:15 chair, invited session on scaling interventions for forcibly displaced populations; Fri 1:45–3:00 presenter | e.m.sijbrandij@vu.nl (confirmed) |
@@ -36,6 +36,14 @@ Our session as printed: Gradus (chair, 1:45; paper 1, 1:49–2:03), Salma Abdall
 ### Ruled out by schedule conflict
 
 - **Norah Feeny** (Case Western) — presenting in the parallel Thursday 1:45 symposium in Salon A. Anyone else appearing in the Thursday 1:45–3:00 sessions (Salons A, B, D, E, GHI, J, K, L, M) is likewise unavailable.
+
+### Asked and declined
+
+- **Laura Sampson** — asked by Mohammed before this list was built; declined because she arrives after the symposium.
+
+### Fallback (offered)
+
+- **Jaimie Gradus** has offered to move to the discussant slot herself, with someone else taking her validation paper. Held as the backup plan per Mohammed's reply to her (emails/14); if invoked, Salma or Mohammed presents paper 1 and the program office is notified.
 
 ## Tier 2 — Strong fits, but NOT in the ISTSS 2026 program
 

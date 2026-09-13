@@ -1,22 +1,26 @@
-# Jaimie Gradus — REPLY (send in her thread; also serves as the planned briefing)
+# Jaimie Gradus — REPLY (FINAL, per Mohammed's dictation; send in her thread)
 
 **To:** jgradus@bu.edu
-**Context:** her email offered two things — look through the schedule for similar-topic presenters, and, as an alternative, she takes the discussant slot herself while someone else presents her paper.
 
 ---
 
 Hi Jaimie,
 
-Thank you, and thank you for the offer at the end.
+Thank you very much. I did exactly that: I went through the schedule and found the people presenting or discussing on similar topics. The first two I reached out to were Laura Sampson, who declined because she arrives after our symposium, and Nuha Alshabani, formerly at BU and now at Albany, whom I emailed on Friday. I have not heard back from her yet, and I will send her a reminder tomorrow.
 
-I went through the full program and checked everyone against our Thursday 1:45 slot. The strongest fits who are free at that hour are Soraya Seedat and Richard Bryant. Soraya is already a discussant for a Thursday morning symposium and presents on Friday, so she is at the meeting and open at 1:45. Richard presents Thursday morning and chairs the 3:15 symposium next door in Salon E. Also in the program and free: Marit Sijbrandij, Peter Ventevogel, Lori Zoellner, and Angela Nickerson.
+In the meantime, here is the potential lineup. All of them are in the program and free during our slot:
 
-Since your note I have written to Nuha Alshabani in BU Psychiatry, who presents Thursday morning and is free at 1:45. I follow up with her tomorrow; if I have not heard by midday Tuesday I will move to Soraya.
+1. Soraya Seedat (Stellenbosch), already serving as a discussant Thursday morning and presenting Friday
+2. Richard Bryant (UNSW), presenting Thursday morning and chairing the 3:15 symposium next door to us
+3. Marit Sijbrandij (VU Amsterdam), chairing the invited session on scaling interventions for displaced populations
+4. Peter Ventevogel (UNHCR)
+5. Lori Zoellner (University of Washington)
+6. Angela Nickerson (UNSW)
 
-A request from you would carry more weight with Soraya or Richard. Would you send the invitation, or may I write that you join me in it? I have a draft and a one-page packet with the four paper summaries ready either way.
+I think some of them are more likely to respond if you are also on the thread. Do you mind if I copy you on the emails I send? I can also draft them for you to send, whichever you prefer.
 
-On your offer: my preference is to keep you on the validation paper and hold the swap as our fallback. If nobody has accepted by Friday the 18th, Salma or I take your paper, you move to the discussant slot, and I notify the program office that day. If you would rather swap now, I am glad to do that too.
+And thank you for offering to step in as discussant yourself. That would be our backup plan, but I am optimistic we will find one.
 
-Thanks again,
+Thank you, and have a good day.
 
 Mohammed
