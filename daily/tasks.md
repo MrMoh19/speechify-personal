@@ -5,7 +5,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 ## Open
 
 - [ ] Send Alshabani reminder from Outlook (slipped past 10 AM) — ADD one line given the Nickerson send: "Given how close the meeting is, I am also reaching out to other colleagues, so please feel no pressure either way."
-- [ ] Epi Matters 2e response letter (Mohammed leads, per Sandro Sep 14): save the two attachments to Google Drive so Claude can draft — "Epi Matters 2e_External Review Set.docx" (Emma's email) and "zimmerman letter 060916 copy.doc" (Sandro's forward); reply to Kerry on process
+- [ ] Epi Matters 2e response letter: DRAFT READY in Drive ("Epi Matters 2e — Response to Reviews (draft)") — Mohammed reviews/edits, circulates to Kerry + Sandro for one round, then to Emma; also answers Kerry's process question
 - [ ] Confirm Salma Abdalla has registered for ISTSS — program office (Alex Hinnen, Sep 9) flagged her and Sandro as unregistered presenters
 - [ ] Notify Alex Hinnen (ahinnen@parthenonmgmt.com) of the discussant change once confirmed — BEFORE Thursday Sep 17: he is out of office Sep 18 and 21-25
 - [ ] PLOS Mental Health: action needed on PMEN-D-26-00318 (reminder Sep 14) and four pending editor invitations (PMEN-D-26-00483, -00492, -00497, -00507) awaiting accept/decline
