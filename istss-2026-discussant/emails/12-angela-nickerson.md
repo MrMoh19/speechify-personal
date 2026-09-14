@@ -1,7 +1,9 @@
-# Angela Nickerson — DRAFT (Tier 1, rank 6)
+# Angela Nickerson — SEND TODAY (Jaimie-backed; cc her)
 
 **To:** a.nickerson@unsw.edu.au (confirmed via the UNSW staff page)
-**Subject:** Invitation to serve as discussant — Thursday symposium on mental health measurement in Nigeria
+**Cc:** jgradus@bu.edu — Jaimie asked to be copied and will follow up on the thread ("I will jump on and say we would really appreciate the help")
+**Subject:** Invitation to serve as discussant — ISTSS symposium on mental health measurement in Nigeria
+**Timing note:** Sydney is 15 hours ahead of St. Louis; a morning send from St. Louis lands overnight her time and is read her Tuesday morning.
 
 ---
 
@@ -9,7 +11,7 @@ Dear Professor Nickerson,
 
 I hope you are doing well.
 
-My name is Mohammed Abba-Aji, and I am a Postdoctoral Research Associate at Washington University in St. Louis. Your program of research on the mechanisms and treatment of traumatic stress in refugees speaks directly to the populations our symposium examines in Nigeria.
+My name is Mohammed Abba-Aji, and I am a Postdoctoral Research Associate at Washington University in St. Louis. Jaimie Gradus, who chairs the symposium below and is copied here, suggested I write to you directly.
 
 I am writing with a request regarding the ISTSS Annual Meeting in San Antonio. I wanted to ask whether you might be willing to serve as the discussant for our symposium titled:
 
@@ -17,12 +19,12 @@ I am writing with a request regarding the ISTSS Annual Meeting in San Antonio. I
 
 The symposium was originally scheduled to have Sandro Galea as discussant. Unfortunately, due to scheduling conflicts, he will no longer be able to attend the meeting, and we are seeking a colleague whose expertise would help enrich the discussion and provide valuable insights for presenters and attendees.
 
-The session will be chaired by Jaimie Gradus, who will also present the first paper. The symposium is scheduled for:
+Jaimie will chair the session and present the first paper. The symposium is scheduled for:
 
 Thursday, September 24, 1:45 PM - 3:00 PM
 Salon C, Floor 3
 
-I checked the program and this sits between your morning session and your 3:20 PM panel on Thursday; the discussant slot itself runs 2:45 to 3:00 PM.
+I checked the program before writing: this sits between your morning session and your 3:20 PM panel on Thursday, and the discussant portion itself runs 2:45 to 3:00 PM.
 
 The symposium brings together research examining mental health in the context of mass trauma and violence in Nigeria, including psychometric validation studies, epidemiologic analyses, and pathways for translating evidence into policy and practice. Given your expertise in refugee and post-conflict mental health, we believe your perspective would greatly enhance the session.
 
