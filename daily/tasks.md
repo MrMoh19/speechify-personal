@@ -4,7 +4,10 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Open
 
-- [ ] Send Alshabani reminder from Outlook (slipped past 10 AM) — ADD one line given the Nickerson send: "Given how close the meeting is, I am also reaching out to other colleagues, so please feel no pressure either way."
+- [ ] URGENT: send Nickerson the release email (her thread, cc Jaimie) BEFORE Sydney morning — Nuha accepted hours after Nickerson was invited
+- [ ] Reply to Nuha confirming; attach symposium abstract + four paper summaries (discussant-packet.md — fill the three bracketed spots); slides promised by Mon Sep 21
+- [ ] Notify Alex Hinnen (ahinnen@parthenonmgmt.com, cc Jaimie) of discussant change BEFORE Thu Sep 17 (he is out Sep 18, 21-25)
+- [ ] Collect slides from all four presenters for Nuha by Mon Sep 21 (sweep reminds Fri and Sun if missing)
 - [ ] Epi Matters 2e response letter: DRAFT READY in Drive ("Epi Matters 2e — Response to Reviews (draft)") — Mohammed reviews/edits, circulates to Kerry + Sandro for one round, then to Emma; also answers Kerry's process question
 - [ ] Confirm Salma Abdalla has registered for ISTSS — program office (Alex Hinnen, Sep 9) flagged her and Sandro as unregistered presenters
 - [ ] Notify Alex Hinnen (ahinnen@parthenonmgmt.com) of the discussant change once confirmed — BEFORE Thursday Sep 17: he is out of office Sep 18 and 21-25

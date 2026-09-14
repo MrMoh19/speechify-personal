@@ -1,5 +1,7 @@
 # Ranked Candidates — Replacement Discussant
 
+**RESOLVED 2026-09-14: Nuha Alshabani (University at Albany, nalshabani@albany.edu) ACCEPTED at 2:39 PM CT**, three days after the first invitation. She has asked for all four presenters' slides to prepare talking points (promised by Mon Sep 21). Same-day wrap-up: Nickerson released (invited that morning, Jaimie cc'd), program office notified via Alex Hinnen before his Sep 18 out-of-office, packet sent. Remaining: Salma's registration, slide collection.
+
 **Updated 2026-09-11** after checking the full ISTSS 42nd Annual Meeting detailed schedule (`Schedule_Detailed_View (1).pdf`, uploaded to Drive). Attendance and the Thursday 1:45–3:00 PM conflict check are now verified against the actual program, which lists our symposium in Salon C with Sandro still shown as discussant (2:45–3:00 PM).
 
 Our session as printed: Gradus (chair, 1:45; paper 1, 1:49–2:03), Salma Abdalla (2:03–2:17), Abba-Aji (2:17–2:31), Tunde MasseyFerguson Ojo, Federal Ministry of Health (2:31–2:45), discussant 2:45–3:00.
