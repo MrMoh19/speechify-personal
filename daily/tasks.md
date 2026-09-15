@@ -6,17 +6,14 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ### Today (Tue Sep 15)
 - [ ] Send Nuha the symposium abstract + four paper summaries (promised "by tomorrow" = today; fill the three bracketed spots in discussant-packet.md first)
-- [ ] Send the Tueth Keeney waiver nudge from Outlook (paste-ready draft emailed 9:40 AM; two weeks since the Aug 31 letter language; if silent past Thursday, go direct to Melanie)
 - [ ] Decide Aanya Pandey's Applied Learning Lab request — she submitted partial work in class, asks to complete and resubmit; lab grades were released 11:42 AM, so the ruling is now visible to her (Sep 14 evening)
 - [ ] Send the ANCHOR-MH welcome (reply-all to Ross + Brady Heward) from Outlook, then forward Brady the concept note and minutes (paste-ready draft emailed ~1:20 PM)
-- [ ] ANCHOR concept note v2: EDITED FILE DELIVERED (staggered design fully integrated, his Sep 15 Box edits ported) — in Box open the concept note, Upload New Version, pick the delivered file; then recirculate to Ross, Heward, Abiso, Musami, Ojo
+- [ ] ANCHOR concept note v2: recover Dr. Ojo's comments from the ORIGINAL docx (Word comments embedded; Mohammed to Open with Google Docs in Drive, or forward Ojo's email) → integrate into v2 → then Box Upload New Version and recirculate
 - [ ] Send the RA group-training email (Parth o.parth, Ellie e.i.solomon, Gabriel Estrada egabriel, + Zoe) — fill Zoe's address and the day options (Fri Sep 18 / Mon Sep 21); citation-exercise documents go out AFTER the session; this answers Ellie's follow-up too
 - [ ] Approve Zana Kennedy's accommodated exam request in the Disability Resources portal (notice 9:27 AM, copied to Ans)
 
 ### This week
-- [ ] SEND NOW: reply-all on Alex Hinnen's "Action Required" thread with all symposium changes (paste-ready delivered ~1:55 PM; Alex asked ASAP at 1:42, Jaimie told him you'd be in touch; he is in office only through Thursday)
 - [ ] Sandro-fy Courtney Babcock's opening remarks for Leading with Listening by end of week (draft in her email + Box; Sandro hands off to Charlie White, then Matt Kreuter)
-- [ ] Send Kirsten Jacobsen the meeting-times reply from Outlook (paste-ready draft emailed ~1 PM: Wed 11:15 AM-1:15 PM or Thu 1-2 PM — check the day on the first window before sending)
 - [ ] TFRH white paper: upload assigned section first draft by Sun Sep 20; review sections 1-6 and bring section-7 ideas before the Sep 25 meeting (Morven's minutes, Sep 14)
 - [ ] Collect slides from all four presenters for Nuha by Mon Sep 21 (sweep reminds Fri and Sun if missing)
 
@@ -28,6 +25,9 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Done
 
+- [x] 2026-09-15 — Alex Hinnen change-package reply SENT (Sandro out, Nuha in, Salma registration in motion); watch for his confirmation
+- [x] 2026-09-15 — Tueth Keeney waiver nudge SENT (watch for Calvin/Melanie; escalate to Melanie if silent past Thursday)
+- [x] 2026-09-15 — Kirsten Jacobsen meeting-times reply SENT (Wed 11:15-1:15 or Thu 1-2; awaiting her pick)
 - [x] 2026-09-15 — Google Calendar connector reconnected (abbaaji189@gmail.com verified); Outlook ICS feed still pending
 - [x] 2026-09-15 — Salma nudge SENT from Outlook 9:48 AM (registration + slides + headline numbers, to s.abdalla@wustl.edu)
 - [x] 2026-09-15 — Becky Light's Epi in Action rubric request answered (per Mohammed)
