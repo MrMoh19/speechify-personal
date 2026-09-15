@@ -7,7 +7,7 @@
 <title>Explore Farrlandia | Epidemiology Matters</title>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&display=swap" rel="stylesheet">
 <style>
-:root{--ink:#2C1810;--paper:#FAF8F4;--cream:#F3F0E8;--accent:#C15B2C;--accentBg:#FFF5EF;--sage:#5B7B6A;--sageBg:#E8F0EB;--slate:#4A5568;--muted:#8B8680;--border:#D8D3CA;--white:#fff;--serif:'Instrument Serif',Georgia,serif;--sans:'DM Sans',-apple-system,sans-serif}
+:root{--ink:#1A1A1A;--paper:#FAF8F4;--cream:#F3F0E8;--accent:#C5312F;--accentBg:#FBEEED;--sage:#5B7B6A;--sageBg:#E8F0EB;--slate:#4A5568;--muted:#8B8680;--border:#D8D3CA;--white:#fff;--serif:'Instrument Serif',Georgia,serif;--sans:'DM Sans',-apple-system,sans-serif}
 *{margin:0;padding:0;box-sizing:border-box}
 html{color-scheme:light only;scroll-behavior:smooth}
 body{font-family:var(--sans);background:var(--paper);color:var(--ink);-webkit-font-smoothing:antialiased}
@@ -251,19 +251,19 @@ function removeFilter(f){
 }
 
 function getColor(p,colorBy){
-  if(colorBy==="disease") return p.any_disease?"#C15B2C":"#D4D0C8";
-  if(colorBy==="cvd") return p.cvd?"#C15B2C":"#D4D0C8";
+  if(colorBy==="disease") return p.any_disease?"#C5312F":"#D4D0C8";
+  if(colorBy==="cvd") return p.cvd?"#C5312F":"#D4D0C8";
   if(colorBy==="depression") return p.depression?"#6B7DB3":"#D4D0C8";
   if(colorBy==="lung_cancer") return p.lung_cancer?"#9B6B9E":"#D4D0C8";
   if(colorBy==="smoking") return p.smoking?"#C4A35A":"#D4D0C8";
-  if(colorBy==="ses"){var c=["#C15B2C","#E8946A","#D8D3CA","#8BB89B","#5B7B6A"];return c[p.ses-1]}
-  if(colorBy==="district"){var c2=["","#C15B2C","#5B7B6A","#6B7DB3","#C4A35A","#9B6B9E"];return c2[p.district]}
+  if(colorBy==="ses"){var c=["#C5312F","#E8946A","#D8D3CA","#8BB89B","#5B7B6A"];return c[p.ses-1]}
+  if(colorBy==="district"){var c2=["","#C5312F","#5B7B6A","#6B7DB3","#C4A35A","#9B6B9E"];return c2[p.district]}
   return "#D4D0C8";
 }
 
 function getStroke(p,exposure){
   if(!exposure) return "#B8B3AB";
-  return p[exposure]?"#2C1810":"#D8D3CA";
+  return p[exposure]?"#1A1A1A":"#D8D3CA";
 }
 
 function pctF(n,d){return d>0?(n/d*100).toFixed(1)+"%":"—"}
@@ -306,10 +306,10 @@ function render(){
 
   // LEGEND
   var lg=document.getElementById("popLegend");
-  if(colorBy==="disease") lg.innerHTML='<span><svg width="10" height="10"><circle cx="5" cy="5" r="4" fill="#C15B2C"/></svg> Diseased</span><span><svg width="10" height="10"><circle cx="5" cy="5" r="4" fill="#D4D0C8"/></svg> Healthy</span>';
-  else if(colorBy==="ses") lg.innerHTML='<span><svg width="10" height="10"><circle cx="5" cy="5" r="4" fill="#C15B2C"/></svg> SES 1</span><span><svg width="10" height="10"><circle cx="5" cy="5" r="4" fill="#E8946A"/></svg> 2</span><span><svg width="10" height="10"><circle cx="5" cy="5" r="4" fill="#D8D3CA"/></svg> 3</span><span><svg width="10" height="10"><circle cx="5" cy="5" r="4" fill="#8BB89B"/></svg> 4</span><span><svg width="10" height="10"><circle cx="5" cy="5" r="4" fill="#5B7B6A"/></svg> 5</span>';
+  if(colorBy==="disease") lg.innerHTML='<span><svg width="10" height="10"><circle cx="5" cy="5" r="4" fill="#C5312F"/></svg> Diseased</span><span><svg width="10" height="10"><circle cx="5" cy="5" r="4" fill="#D4D0C8"/></svg> Healthy</span>';
+  else if(colorBy==="ses") lg.innerHTML='<span><svg width="10" height="10"><circle cx="5" cy="5" r="4" fill="#C5312F"/></svg> SES 1</span><span><svg width="10" height="10"><circle cx="5" cy="5" r="4" fill="#E8946A"/></svg> 2</span><span><svg width="10" height="10"><circle cx="5" cy="5" r="4" fill="#D8D3CA"/></svg> 3</span><span><svg width="10" height="10"><circle cx="5" cy="5" r="4" fill="#8BB89B"/></svg> 4</span><span><svg width="10" height="10"><circle cx="5" cy="5" r="4" fill="#5B7B6A"/></svg> 5</span>';
   else lg.innerHTML='<span><svg width="10" height="10"><circle cx="5" cy="5" r="4" fill="'+getColor({any_disease:1,cvd:1,depression:1,lung_cancer:1,smoking:1,ses:1,district:1},colorBy)+'"/></svg> Yes</span><span><svg width="10" height="10"><circle cx="5" cy="5" r="4" fill="#D4D0C8"/></svg> No</span>';
-  if(exposure) lg.innerHTML+='<span style="margin-left:8px"><svg width="10" height="10"><circle cx="5" cy="5" r="4" fill="#eee" stroke="#2C1810" stroke-width="2"/></svg> Exposed</span><span><svg width="10" height="10"><circle cx="5" cy="5" r="4" fill="#eee" stroke="#D8D3CA" stroke-width="1"/></svg> Unexposed</span>';
+  if(exposure) lg.innerHTML+='<span style="margin-left:8px"><svg width="10" height="10"><circle cx="5" cy="5" r="4" fill="#eee" stroke="#1A1A1A" stroke-width="2"/></svg> Exposed</span><span><svg width="10" height="10"><circle cx="5" cy="5" r="4" fill="#eee" stroke="#D8D3CA" stroke-width="1"/></svg> Unexposed</span>';
 
   // POPULATION GRID
   var container=document.getElementById("popContainer");

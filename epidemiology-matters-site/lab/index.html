@@ -9,11 +9,11 @@
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 html{color-scheme:light only}
-body{font-family:'DM Sans',-apple-system,sans-serif;background:#FAF8F4;color:#2C1810;-webkit-font-smoothing:antialiased}
+body{font-family:'DM Sans',-apple-system,sans-serif;background:#FAF8F4;color:#1A1A1A;-webkit-font-smoothing:antialiased}
 
 .header{border-bottom:1px solid #D8D3CA;padding:10px 20px;display:flex;justify-content:space-between;align-items:center;background:rgba(250,248,244,0.95);position:sticky;top:0;z-index:10;backdrop-filter:blur(8px)}
-.header-title{font-family:'Instrument Serif',Georgia,serif;font-size:16px;color:#2C1810}
-.header-title em{color:#C15B2C;font-style:italic}
+.header-title{font-family:'Instrument Serif',Georgia,serif;font-size:16px;color:#1A1A1A}
+.header-title em{color:#C5312F;font-style:italic}
 .header-sub{font-size:12px;color:#8B8680;margin-left:8px}
 .header-authors{font-size:11px;color:#8B8680}
 
@@ -23,8 +23,8 @@ body{font-family:'DM Sans',-apple-system,sans-serif;background:#FAF8F4;color:#2C
 .presets{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px;align-items:center}
 .presets-label{font-size:11px;font-weight:600;color:#8B8680;margin-right:4px;letter-spacing:0.08em;text-transform:uppercase}
 .preset-btn{font-family:inherit;font-size:11px;padding:5px 10px;border-radius:4px;cursor:pointer;border:1px solid #D8D3CA;background:white;color:#4A5568;font-weight:500;transition:all 0.2s}
-.preset-btn:hover{border-color:#C15B2C;color:#C15B2C}
-.preset-btn.active{border-color:#C15B2C;background:#FFF5EF;color:#C15B2C;font-weight:600}
+.preset-btn:hover{border-color:#C5312F;color:#C5312F}
+.preset-btn.active{border-color:#C5312F;background:#FBEEED;color:#C5312F;font-weight:600}
 
 /* LAYOUT */
 .layout{display:grid;grid-template-columns:220px 1fr 260px;gap:16px;align-items:start}
@@ -32,21 +32,21 @@ body{font-family:'DM Sans',-apple-system,sans-serif;background:#FAF8F4;color:#2C
 
 /* PANELS */
 .panel{background:white;border:1px solid #D8D3CA;border-radius:8px;padding:14px}
-.panel-label{font-size:10px;font-weight:600;letter-spacing:0.1em;color:#C15B2C;margin-bottom:10px;text-transform:uppercase}
+.panel-label{font-size:10px;font-weight:600;letter-spacing:0.1em;color:#C5312F;margin-bottom:10px;text-transform:uppercase}
 .panel-divider{border-top:1px solid #D8D3CA;margin:10px 0;padding-top:10px}
-.panel-sub{font-size:10px;font-weight:600;color:#C15B2C;margin-bottom:6px;text-transform:uppercase;letter-spacing:0.1em}
+.panel-sub{font-size:10px;font-weight:600;color:#C5312F;margin-bottom:6px;text-transform:uppercase;letter-spacing:0.1em}
 
 /* SLIDERS */
 .slider-group{margin-bottom:12px}
 .slider-header{display:flex;justify-content:space-between;margin-bottom:3px}
 .slider-label{font-size:12px;font-weight:500;color:#4A5568}
-.slider-value{font-size:12px;font-weight:600;color:#C15B2C;font-family:'Courier New',monospace}
-.slider-input{width:100%;accent-color:#C15B2C;cursor:pointer;height:4px}
+.slider-value{font-size:12px;font-weight:600;color:#C5312F;font-family:'Courier New',monospace}
+.slider-input{width:100%;accent-color:#C5312F;cursor:pointer;height:4px}
 
 /* TABS */
 .tabs{display:flex;gap:6px;margin-bottom:10px}
 .tab-btn{font-family:inherit;font-size:11px;padding:5px 12px;border-radius:4px;cursor:pointer;border:1px solid #D8D3CA;background:white;color:#4A5568;font-weight:400;transition:all 0.2s}
-.tab-btn.active{border-color:#C15B2C;background:#FFF5EF;color:#C15B2C;font-weight:600}
+.tab-btn.active{border-color:#C5312F;background:#FBEEED;color:#C5312F;font-weight:600}
 
 /* GRID */
 .pop-grid{display:flex;flex-wrap:wrap;gap:2px;justify-content:center;padding:8px 0;min-height:200px}
@@ -66,12 +66,12 @@ body{font-family:'DM Sans',-apple-system,sans-serif;background:#FAF8F4;color:#2C
 .est-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px}
 .est-card{background:#FAF8F4;border-radius:6px;padding:10px;text-align:center}
 .est-card.adj{background:#E8F0EB}
-.est-num{font-size:22px;font-weight:600;font-family:'Courier New',monospace;color:#2C1810}
+.est-num{font-size:22px;font-weight:600;font-family:'Courier New',monospace;color:#1A1A1A}
 .est-card.adj .est-num{color:#5B7B6A}
 .est-label{font-size:9px;color:#8B8680;margin-top:2px}
 .est-true{background:#FAF8F4;border-radius:6px;padding:8px;text-align:center;margin-bottom:8px}
-.est-true-num{font-size:14px;font-weight:600;font-family:'Courier New',monospace;color:#C15B2C}
-.bias-alert{background:#FFF5EF;border-radius:6px;padding:6px;font-size:11px;color:#C15B2C;font-weight:600;text-align:center;margin-bottom:8px}
+.est-true-num{font-size:14px;font-weight:600;font-family:'Courier New',monospace;color:#C5312F}
+.bias-alert{background:#FBEEED;border-radius:6px;padding:6px;font-size:11px;color:#C5312F;font-weight:600;text-align:center;margin-bottom:8px}
 .est-detail{font-size:10px;color:#8B8680;line-height:1.6}
 
 /* INTERPRETATION */
@@ -85,8 +85,8 @@ body{font-family:'DM Sans',-apple-system,sans-serif;background:#FAF8F4;color:#2C
 
 /* FOOTER */
 .footer{text-align:center;margin-top:32px;padding-top:16px;border-top:1px solid #D8D3CA}
-.footer-title{font-family:'Instrument Serif',Georgia,serif;font-size:14px;color:#2C1810}
-.footer-title em{color:#C15B2C}
+.footer-title{font-family:'Instrument Serif',Georgia,serif;font-size:14px;color:#1A1A1A}
+.footer-title em{color:#C5312F}
 .footer-sub{font-size:11px;color:#8B8680;margin-top:3px}
 </style>
 </head>
@@ -220,8 +220,8 @@ function slider(id, label, val, min, max, step, fmt){
 }
 
 function dotSVG(diseased, exposed){
-  const fill = diseased ? "#C15B2C" : "#E8F0EB";
-  const stroke = exposed ? "#2C1810" : "#B8B3AB";
+  const fill = diseased ? "#C5312F" : "#E8F0EB";
+  const stroke = exposed ? "#1A1A1A" : "#B8B3AB";
   return `<svg width="9" height="9"><circle cx="4.5" cy="4.5" r="3.8" fill="${fill}" stroke="${stroke}" stroke-width="1"/></svg>`;
 }
 
@@ -255,9 +255,9 @@ function renderAll(){
 
   // CENTER
   const legendHTML = `<div class="legend">
-    <span class="legend-item"><svg width="10" height="10"><circle cx="5" cy="5" r="4" fill="#C15B2C" stroke="#2C1810" stroke-width="1"/></svg> Diseased+Exposed</span>
-    <span class="legend-item"><svg width="10" height="10"><circle cx="5" cy="5" r="4" fill="#C15B2C" stroke="#B8B3AB" stroke-width="1"/></svg> Diseased+Unexposed</span>
-    <span class="legend-item"><svg width="10" height="10"><circle cx="5" cy="5" r="4" fill="#E8F0EB" stroke="#2C1810" stroke-width="1"/></svg> Healthy+Exposed</span>
+    <span class="legend-item"><svg width="10" height="10"><circle cx="5" cy="5" r="4" fill="#C5312F" stroke="#1A1A1A" stroke-width="1"/></svg> Diseased+Exposed</span>
+    <span class="legend-item"><svg width="10" height="10"><circle cx="5" cy="5" r="4" fill="#C5312F" stroke="#B8B3AB" stroke-width="1"/></svg> Diseased+Unexposed</span>
+    <span class="legend-item"><svg width="10" height="10"><circle cx="5" cy="5" r="4" fill="#E8F0EB" stroke="#1A1A1A" stroke-width="1"/></svg> Healthy+Exposed</span>
     <span class="legend-item"><svg width="10" height="10"><circle cx="5" cy="5" r="4" fill="#E8F0EB" stroke="#B8B3AB" stroke-width="1"/></svg> Healthy+Unexposed</span>
   </div>`;
 
@@ -282,16 +282,16 @@ function renderAll(){
     const coO = state.confToOut>0?0.7:0.15;
     centerContent = `<div class="dag-wrap"><svg viewBox="0 0 360 180" width="360" height="180">
       <defs><marker id="ah" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#4A5568"/></marker>
-      <marker id="ahA" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#C15B2C"/></marker></defs>
+      <marker id="ahA" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#C5312F"/></marker></defs>
       <circle cx="180" cy="30" r="24" fill="#F3F0E8" stroke="#D8D3CA" stroke-width="1.5"/>
       <text x="180" y="34" text-anchor="middle" font-size="11" font-weight="600" fill="#4A5568" font-family="DM Sans,sans-serif">Confounder</text>
-      <circle cx="60" cy="140" r="24" fill="#F3F0E8" stroke="#C15B2C" stroke-width="1.5"/>
-      <text x="60" y="144" text-anchor="middle" font-size="11" font-weight="600" fill="#C15B2C" font-family="DM Sans,sans-serif">Exposure</text>
-      <circle cx="300" cy="140" r="24" fill="#F3F0E8" stroke="#C15B2C" stroke-width="1.5"/>
-      <text x="300" y="144" text-anchor="middle" font-size="11" font-weight="600" fill="#C15B2C" font-family="DM Sans,sans-serif">Disease</text>
+      <circle cx="60" cy="140" r="24" fill="#F3F0E8" stroke="#C5312F" stroke-width="1.5"/>
+      <text x="60" y="144" text-anchor="middle" font-size="11" font-weight="600" fill="#C5312F" font-family="DM Sans,sans-serif">Exposure</text>
+      <circle cx="300" cy="140" r="24" fill="#F3F0E8" stroke="#C5312F" stroke-width="1.5"/>
+      <text x="300" y="144" text-anchor="middle" font-size="11" font-weight="600" fill="#C5312F" font-family="DM Sans,sans-serif">Disease</text>
       <line x1="160" y1="48" x2="82" y2="122" stroke="#4A5568" stroke-width="${ceW}" opacity="${ceO}" marker-end="url(#ah)"/>
       <line x1="200" y1="48" x2="278" y2="122" stroke="#4A5568" stroke-width="${coW}" opacity="${coO}" marker-end="url(#ah)"/>
-      <line x1="84" y1="140" x2="276" y2="140" stroke="#C15B2C" stroke-width="${teW}" opacity="0.8" marker-end="url(#ahA)"/>
+      <line x1="84" y1="140" x2="276" y2="140" stroke="#C5312F" stroke-width="${teW}" opacity="0.8" marker-end="url(#ahA)"/>
     </svg></div>`;
   }
 

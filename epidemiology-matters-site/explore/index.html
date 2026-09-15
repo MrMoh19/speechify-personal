@@ -6,7 +6,7 @@
 <title>Epidemiology Matters | Interactive Companion</title>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&display=swap" rel="stylesheet">
 <style>
-:root{--ink:#1a1a1a;--paper:#FAF8F4;--cream:#F3F0E8;--accent:#C15B2C;--accent-light:#E8946A;--accent-bg:#FFF5EF;--sage:#5B7B6A;--sage-light:#E8F0EB;--slate:#4A5568;--muted:#8B8680;--border:#D8D3CA;--serif:'Instrument Serif',Georgia,serif;--sans:'DM Sans',-apple-system,sans-serif}
+:root{--ink:#1a1a1a;--paper:#FAF8F4;--cream:#F3F0E8;--accent:#C5312F;--accent-light:#E8946A;--accent-bg:#FBEEED;--sage:#5B7B6A;--sage-light:#E8F0EB;--slate:#4A5568;--muted:#8B8680;--border:#D8D3CA;--serif:'Instrument Serif',Georgia,serif;--sans:'DM Sans',-apple-system,sans-serif}
 *{margin:0;padding:0;box-sizing:border-box}
 html{color-scheme:light only}
 body{font-family:var(--sans);background-color:#FAF8F4;color:var(--ink);-webkit-font-smoothing:antialiased;overflow-x:hidden}
@@ -16,9 +16,9 @@ body{font-family:var(--sans);background-color:#FAF8F4;color:var(--ink);-webkit-f
 .topnav-links a{font-size:0.8rem;color:var(--muted);text-decoration:none;font-weight:500;transition:color 0.2s}
 .topnav-links a:hover{color:var(--accent)}
 .hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:2rem;position:relative;overflow:hidden;background-color:#FAF8F4}
-.hero::before{content:'';position:absolute;top:-20%;right:-10%;width:600px;height:600px;background:radial-gradient(circle,rgba(193,91,44,0.06) 0%,transparent 70%);border-radius:50%;pointer-events:none}
+.hero::before{content:'';position:absolute;top:-20%;right:-10%;width:600px;height:600px;background:radial-gradient(circle,rgba(197,49,47,0.06) 0%,transparent 70%);border-radius:50%;pointer-events:none}
 .hero-label{font-size:0.72rem;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:var(--accent);margin-bottom:1.5rem;opacity:0;animation:fadeUp .8s ease forwards .2s}
-.hero h1{font-family:var(--serif);font-size:clamp(3rem,7vw,5.5rem);font-weight:400;line-height:1.05;max-width:700px;opacity:0;animation:fadeUp .8s ease forwards .4s;color:#2C1810}
+.hero h1{font-family:var(--serif);font-size:clamp(3rem,7vw,5.5rem);font-weight:400;line-height:1.05;max-width:700px;opacity:0;animation:fadeUp .8s ease forwards .4s;color:#1A1A1A}
 .hero h1 em{font-style:italic;color:var(--accent)}
 .hero-sub{font-size:1.05rem;font-weight:300;color:var(--muted);max-width:500px;margin-top:1.5rem;line-height:1.6;opacity:0;animation:fadeUp .8s ease forwards .6s}
 .hero-authors{font-size:0.85rem;color:var(--slate);margin-top:1.8rem;opacity:0;animation:fadeUp .8s ease forwards .8s}
@@ -27,14 +27,14 @@ body{font-family:var(--sans);background-color:#FAF8F4;color:var(--ink);-webkit-f
 .pop-label{font-size:0.72rem;color:var(--muted);margin-top:0.6rem;text-align:center;opacity:0;animation:fadeUp .8s ease forwards 1.1s}
 .hero-cta{display:flex;gap:1rem;margin-top:2rem;opacity:0;animation:fadeUp .8s ease forwards 1.2s;flex-wrap:wrap;justify-content:center}
 .btn{font-family:var(--sans);font-size:0.9rem;font-weight:500;padding:0.85rem 2rem;border-radius:6px;cursor:pointer;transition:all .3s;text-decoration:none;border:none}
-.btn-primary{background:var(--accent);color:white}.btn-primary:hover{background:#A84D25;transform:translateY(-1px);box-shadow:0 4px 20px rgba(193,91,44,0.25)}
+.btn-primary{background:var(--accent);color:white}.btn-primary:hover{background:#A32623;transform:translateY(-1px);box-shadow:0 4px 20px rgba(197,49,47,0.25)}
 .btn-secondary{background:transparent;color:var(--ink);border:1.5px solid var(--border)}.btn-secondary:hover{border-color:var(--ink);background:var(--cream)}
 .btn-sm{font-size:0.8rem;padding:0.6rem 1.2rem}
 .scroll-hint{position:absolute;bottom:2rem;left:50%;transform:translateX(-50%);font-size:0.72rem;color:var(--muted);letter-spacing:0.15em;text-transform:uppercase;opacity:0;animation:fadeUp .8s ease forwards 1.4s}
 .scroll-hint::after{content:'';display:block;width:1px;height:24px;background:var(--border);margin:0.5rem auto 0;animation:pulse 2s ease-in-out infinite}
 .section{padding:5rem 2rem;max-width:1000px;margin:0 auto;background-color:#FAF8F4}
 .section-label{font-size:0.7rem;font-weight:600;letter-spacing:0.25em;text-transform:uppercase;color:var(--accent);margin-bottom:1rem}
-.section h2{font-family:var(--serif);font-size:clamp(2rem,4vw,3rem);font-weight:400;line-height:1.15;margin-bottom:1rem;color:#2C1810}
+.section h2{font-family:var(--serif);font-size:clamp(2rem,4vw,3rem);font-weight:400;line-height:1.15;margin-bottom:1rem;color:#1A1A1A}
 .section-intro{font-size:1rem;font-weight:300;color:var(--slate);line-height:1.7;max-width:650px;margin-bottom:3rem}
 .sim-section{background:white;border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:5rem 2rem}
 .sim-wrap{max-width:800px;margin:0 auto}
@@ -117,7 +117,7 @@ textarea.builder-input{min-height:90px}
 .consequence-header span{font-size:0.72rem;font-weight:600;letter-spacing:0.15em;text-transform:uppercase;color:white}
 .consequence-body{padding:1.5rem;background:var(--accent-bg)}
 .consequence-body p{font-size:0.9rem;line-height:1.75;color:var(--ink);margin-bottom:0.8rem}
-.consequence-body .cq{font-family:var(--serif);font-size:1.1rem;font-style:italic;color:var(--accent);margin-top:1rem;padding-top:0.8rem;border-top:1px solid rgba(193,91,44,0.2)}
+.consequence-body .cq{font-family:var(--serif);font-size:1.1rem;font-style:italic;color:var(--accent);margin-top:1rem;padding-top:0.8rem;border-top:1px solid rgba(197,49,47,0.2)}
 .site-footer{text-align:center;padding:3rem 2rem;border-top:1px solid var(--border);background-color:#FAF8F4}
 .footer-title{font-family:var(--serif);font-size:1.3rem;margin-bottom:0.4rem}.footer-title em{color:var(--accent)}
 .footer-sub{font-size:0.8rem;color:var(--muted);margin-bottom:0.2rem}
@@ -218,8 +218,7 @@ textarea.builder-input{min-height:90px}
 </footer>
 
 <script>
-function pSVG(w,h){const hw=w/2,hr=w*.22,hcy=hr+1,ny=hcy+hr,sy=ny+h*.08,hy2=sy+h*.32,fy=h-1;
-return`<svg viewBox="0 0 ${w} ${h}" width="${w}" height="${h}"><circle cx="${hw}" cy="${hcy}" r="${hr}" fill="currentColor"/><line x1="${hw}" y1="${ny}" x2="${hw}" y2="${hy2}" stroke="currentColor" stroke-width="1.8"/><line x1="${hw-w*.42}" y1="${sy+h*.12}" x2="${hw+w*.42}" y2="${sy+h*.12}" stroke="currentColor" stroke-width="1.5"/><line x1="${hw}" y1="${hy2}" x2="${hw-w*.3}" y2="${fy}" stroke="currentColor" stroke-width="1.5"/><line x1="${hw}" y1="${hy2}" x2="${hw+w*.3}" y2="${fy}" stroke="currentColor" stroke-width="1.5"/></svg>`}
+function pSVG(w,h){return`<svg viewBox="0 0 60 130" width="${w}" height="${h}"><g fill="currentColor"><circle cx="30" cy="13" r="11"/><rect x="12" y="28" width="6" height="39" rx="3"/><rect x="42" y="28" width="6" height="39" rx="3"/><rect x="19" y="27" width="22" height="46" rx="5"/><rect x="19" y="70" width="9.5" height="57" rx="4.5"/><rect x="31.5" y="70" width="9.5" height="57" rx="4.5"/></g></svg>`}
 
 // HERO POP
 !function(){const w=document.getElementById('heroPop'),g=document.createElement('div');g.className='pop-grid';
@@ -242,7 +241,7 @@ updateSim();
 // COMPONENT CAUSE MODEL — PERSON-BASED
 !function(){
 const causes = [
-  {id:'a',name:'Obesity',color:'#C15B2C'},
+  {id:'a',name:'Obesity',color:'#C5312F'},
   {id:'b',name:'No prev. care',color:'#5B7B6A'},
   {id:'c',name:'Family history',color:'#6B7DB3'},
   {id:'d',name:'Smoking',color:'#C4A35A'},
@@ -282,7 +281,7 @@ function render(){
     card.style.cssText = 'display:flex;flex-direction:column;align-items:center;width:160px;gap:0.5rem';
 
     // Person SVG — larger, with color indicating disease status
-    const personColor = isDiseased ? '#C15B2C' : '#B8B3AB';
+    const personColor = isDiseased ? '#C5312F' : '#B8B3AB';
     const personDiv = document.createElement('div');
     personDiv.style.cssText = 'position:relative;';
     personDiv.innerHTML = `<svg viewBox="0 0 50 90" width="50" height="90">
@@ -297,7 +296,7 @@ function render(){
 
     // Person name
     const nameEl = document.createElement('div');
-    nameEl.style.cssText = 'font-size:0.8rem;font-weight:600;color:'+(isDiseased?'#C15B2C':'#4A5568');
+    nameEl.style.cssText = 'font-size:0.8rem;font-weight:600;color:'+(isDiseased?'#C5312F':'#4A5568');
     nameEl.textContent = p.name;
     card.appendChild(nameEl);
 
@@ -334,7 +333,7 @@ function render(){
     // Disease status badge
     const badge = document.createElement('div');
     if(isDiseased){
-      badge.style.cssText = 'font-size:0.72rem;font-weight:600;padding:0.3rem 0.7rem;border-radius:20px;background:#C15B2C;color:white;text-align:center';
+      badge.style.cssText = 'font-size:0.72rem;font-weight:600;padding:0.3rem 0.7rem;border-radius:20px;background:#C5312F;color:white;text-align:center';
       badge.textContent = '\u26A0 Diseased';
     } else {
       badge.style.cssText = 'font-size:0.72rem;font-weight:500;padding:0.3rem 0.7rem;border-radius:20px;background:#F3F0E8;color:#8B8680;text-align:center';
@@ -345,7 +344,7 @@ function render(){
     // Which sufficient cause was triggered
     if(isDiseased && diseaseResult){
       const scLabel = document.createElement('div');
-      scLabel.style.cssText = 'font-size:0.65rem;color:#C15B2C;text-align:center;margin-top:0.2rem;line-height:1.3';
+      scLabel.style.cssText = 'font-size:0.65rem;color:#C5312F;text-align:center;margin-top:0.2rem;line-height:1.3';
       scLabel.textContent = 'via: ' + diseaseResult.label;
       card.appendChild(scLabel);
     }
@@ -358,9 +357,9 @@ function render(){
   if(totalDiseased === 0){
     exp.innerHTML = 'No one is diseased yet. Click the colored dots beneath each person to add component causes. Disease occurs when all causes in a sufficient cause are present in the same individual.';
   } else if(totalDiseased === 1){
-    exp.innerHTML = '<strong style="color:#C15B2C">1 of 3 Farrlandians has disease.</strong> Their component causes completed a sufficient cause. Notice that different people can get the same disease through different causal pathways.';
+    exp.innerHTML = '<strong style="color:#C5312F">1 of 3 Farrlandians has disease.</strong> Their component causes completed a sufficient cause. Notice that different people can get the same disease through different causal pathways.';
   } else {
-    exp.innerHTML = '<strong style="color:#C15B2C">' + totalDiseased + ' of 3 Farrlandians have disease.</strong> Each may have become diseased through a different sufficient cause \u2014 a different combination of component causes.';
+    exp.innerHTML = '<strong style="color:#C5312F">' + totalDiseased + ' of 3 Farrlandians have disease.</strong> Each may have become diseased through a different sufficient cause \u2014 a different combination of component causes.';
   }
 }
 render();
