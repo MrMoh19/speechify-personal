@@ -8,8 +8,8 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Send Nuha the symposium abstract + four paper summaries (promised "by tomorrow" = today; fill the three bracketed spots in discussant-packet.md first)
 - [ ] Send the Tueth Keeney waiver nudge from Outlook (paste-ready draft emailed 9:40 AM; two weeks since the Aug 31 letter language; if silent past Thursday, go direct to Melanie)
 - [ ] Decide Aanya Pandey's Applied Learning Lab request — she submitted partial work in class, asks to complete and resubmit; lab grades were released 11:42 AM, so the ruling is now visible to her (Sep 14 evening)
-- [ ] Reply David Ross (ANCHOR-MH): welcome Brady Heward as UofA liaison and connect him into the project (Ross intro'd him 9:45 AM, cc bheward@ualberta.ca)
-- [ ] Reply Ellie Solomon: she offered help with the hypertension citations, free next week (ISTSS week) — send her the task in writing or set a meeting for after San Antonio
+- [ ] Send the ANCHOR-MH welcome (reply-all to Ross + Brady Heward) from Outlook, then forward Brady the concept note and minutes (paste-ready draft emailed ~1:20 PM)
+- [ ] Send the RA group-training email (Parth o.parth, Ellie e.i.solomon, Gabriel Estrada egabriel, + Zoe) — fill Zoe's address and the day options (Fri Sep 18 / Mon Sep 21); citation-exercise documents go out AFTER the session; this answers Ellie's follow-up too
 - [ ] Approve Zana Kennedy's accommodated exam request in the Disability Resources portal (notice 9:27 AM, copied to Ans)
 
 ### This week
