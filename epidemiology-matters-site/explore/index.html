@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Epidemiology Matters | Interactive Companion</title>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1a1a1a;--paper:#FAF8F4;--cream:#F3F0E8;--accent:#C15B2C;--accent-light:#E8946A;--accent-bg:#FFF5EF;--sage:#5B7B6A;--sage-light:#E8F0EB;--slate:#4A5568;--muted:#8B8680;--border:#D8D3CA;--serif:'Instrument Serif',Georgia,serif;--sans:'DM Sans',-apple-system,sans-serif}
+*{margin:0;padding:0;box-sizing:border-box}
+html{color-scheme:light only}
+body{font-family:var(--sans);background-color:#FAF8F4;color:var(--ink);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+.topnav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(250,248,244,0.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:0.7rem 2rem;display:flex;justify-content:space-between;align-items:center}
+.topnav-title{font-family:var(--serif);font-size:1.1rem}.topnav-title em{color:var(--accent)}
+.topnav-links{display:flex;gap:1.5rem}
+.topnav-links a{font-size:0.8rem;color:var(--muted);text-decoration:none;font-weight:500;transition:color 0.2s}
+.topnav-links a:hover{color:var(--accent)}
+.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:2rem;position:relative;overflow:hidden;background-color:#FAF8F4}
+.hero::before{content:'';position:absolute;top:-20%;right:-10%;width:600px;height:600px;background:radial-gradient(circle,rgba(193,91,44,0.06) 0%,transparent 70%);border-radius:50%;pointer-events:none}
+.hero-label{font-size:0.72rem;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:var(--accent);margin-bottom:1.5rem;opacity:0;animation:fadeUp .8s ease forwards .2s}
+.hero h1{font-family:var(--serif);font-size:clamp(3rem,7vw,5.5rem);font-weight:400;line-height:1.05;max-width:700px;opacity:0;animation:fadeUp .8s ease forwards .4s;color:#2C1810}
+.hero h1 em{font-style:italic;color:var(--accent)}
+.hero-sub{font-size:1.05rem;font-weight:300;color:var(--muted);max-width:500px;margin-top:1.5rem;line-height:1.6;opacity:0;animation:fadeUp .8s ease forwards .6s}
+.hero-authors{font-size:0.85rem;color:var(--slate);margin-top:1.8rem;opacity:0;animation:fadeUp .8s ease forwards .8s}
+.hero-pop{margin-top:2rem;opacity:0;animation:fadeUp .8s ease forwards 1s}
+.pop-grid{display:flex;flex-wrap:wrap;justify-content:center;gap:3px;max-width:360px;margin:0 auto}
+.pop-label{font-size:0.72rem;color:var(--muted);margin-top:0.6rem;text-align:center;opacity:0;animation:fadeUp .8s ease forwards 1.1s}
+.hero-cta{display:flex;gap:1rem;margin-top:2rem;opacity:0;animation:fadeUp .8s ease forwards 1.2s;flex-wrap:wrap;justify-content:center}
+.btn{font-family:var(--sans);font-size:0.9rem;font-weight:500;padding:0.85rem 2rem;border-radius:6px;cursor:pointer;transition:all .3s;text-decoration:none;border:none}
+.btn-primary{background:var(--accent);color:white}.btn-primary:hover{background:#A84D25;transform:translateY(-1px);box-shadow:0 4px 20px rgba(193,91,44,0.25)}
+.btn-secondary{background:transparent;color:var(--ink);border:1.5px solid var(--border)}.btn-secondary:hover{border-color:var(--ink);background:var(--cream)}
+.btn-sm{font-size:0.8rem;padding:0.6rem 1.2rem}
+.scroll-hint{position:absolute;bottom:2rem;left:50%;transform:translateX(-50%);font-size:0.72rem;color:var(--muted);letter-spacing:0.15em;text-transform:uppercase;opacity:0;animation:fadeUp .8s ease forwards 1.4s}
+.scroll-hint::after{content:'';display:block;width:1px;height:24px;background:var(--border);margin:0.5rem auto 0;animation:pulse 2s ease-in-out infinite}
+.section{padding:5rem 2rem;max-width:1000px;margin:0 auto;background-color:#FAF8F4}
+.section-label{font-size:0.7rem;font-weight:600;letter-spacing:0.25em;text-transform:uppercase;color:var(--accent);margin-bottom:1rem}
+.section h2{font-family:var(--serif);font-size:clamp(2rem,4vw,3rem);font-weight:400;line-height:1.15;margin-bottom:1rem;color:#2C1810}
+.section-intro{font-size:1rem;font-weight:300;color:var(--slate);line-height:1.7;max-width:650px;margin-bottom:3rem}
+.sim-section{background:white;border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:5rem 2rem}
+.sim-wrap{max-width:800px;margin:0 auto}
+.sim-controls{display:flex;flex-wrap:wrap;gap:2rem;margin:2rem 0;align-items:flex-end}
+.sim-control{flex:1;min-width:200px}
+.sim-control label{display:block;font-size:0.8rem;font-weight:600;color:var(--slate);margin-bottom:0.5rem}
+.sim-control input[type=range]{width:100%;accent-color:var(--accent);cursor:pointer}
+.sim-value{font-family:var(--serif);font-size:1.8rem;color:var(--accent);text-align:center;margin-top:0.3rem}
+.sim-pop{display:flex;flex-wrap:wrap;gap:3px;justify-content:center;margin:2rem auto;max-width:600px;min-height:180px}
+.sim-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:1rem;margin-top:2rem}
+.stat-card{background:var(--paper);border:1px solid var(--border);border-radius:8px;padding:1rem;text-align:center}
+.stat-card .stat-num{font-family:var(--serif);font-size:1.8rem;color:var(--ink)}
+.stat-card .stat-label{font-size:0.72rem;color:var(--muted);margin-top:0.3rem}
+.marble-section{padding:5rem 2rem;max-width:800px;margin:0 auto;background-color:#FAF8F4}
+.marble-wrap{display:flex;flex-wrap:wrap;gap:2.5rem;justify-content:center;margin:2rem 0}
+.jar-unit{display:flex;flex-direction:column;align-items:center;gap:0.5rem}
+.marble-jar{background:white;border:2px solid var(--border);border-radius:0 0 20px 20px;border-top:none;width:140px;min-height:160px;position:relative;display:flex;flex-wrap:wrap;align-content:flex-end;padding:10px;gap:6px;justify-content:center;transition:all 0.3s}
+.marble-jar::before{content:'';position:absolute;top:-3px;left:-8px;right:-8px;height:6px;background:var(--border);border-radius:3px}
+.marble-jar.jar-full{border-color:var(--accent);background:var(--accent-bg)}
+.marble-jar.jar-full::before{background:var(--accent)}
+.jar-label{font-size:0.72rem;color:var(--muted);font-weight:500;transition:color 0.3s;text-align:center}
+.jar-label.jar-label-full{color:var(--accent);font-weight:600}
+.jar-status{font-size:0.75rem;font-weight:600;padding:0.35rem 0.8rem;border-radius:20px;transition:all 0.3s;text-align:center}
+.jar-status-empty{background:var(--cream);color:var(--muted)}
+.jar-status-full{background:var(--accent);color:white}
+.marble{width:22px;height:22px;border-radius:50%;transition:all 0.3s;cursor:pointer}
+.marble:hover{transform:scale(1.2)}
+.marble-a{background:var(--accent);box-shadow:inset -3px -3px 6px rgba(0,0,0,0.2),inset 3px 3px 6px rgba(255,255,255,0.3)}
+.marble-b{background:var(--sage);box-shadow:inset -3px -3px 6px rgba(0,0,0,0.2),inset 3px 3px 6px rgba(255,255,255,0.3)}
+.marble-c{background:#6B7DB3;box-shadow:inset -3px -3px 6px rgba(0,0,0,0.2),inset 3px 3px 6px rgba(255,255,255,0.3)}
+.marble-d{background:#C4A35A;box-shadow:inset -3px -3px 6px rgba(0,0,0,0.2),inset 3px 3px 6px rgba(255,255,255,0.3)}
+.marble-e{background:#9B6B9E;box-shadow:inset -3px -3px 6px rgba(0,0,0,0.2),inset 3px 3px 6px rgba(255,255,255,0.3)}
+.marble-legend{display:flex;flex-wrap:wrap;gap:1rem;justify-content:center;margin:2rem 0 1rem}
+.legend-item{display:flex;align-items:center;gap:0.4rem;font-size:0.78rem;color:var(--slate)}
+.legend-dot{width:12px;height:12px;border-radius:50%}
+.marble-explanation{max-width:600px;margin:0 auto;font-size:0.9rem;color:var(--slate);line-height:1.7;text-align:center;min-height:2.5em}
+.steps-grid{display:grid;gap:1px;background:var(--border);border:1px solid var(--border);border-radius:8px;overflow:hidden}
+.step-card{background:var(--paper);padding:1.3rem 1.5rem;cursor:pointer;transition:all .3s;display:grid;grid-template-columns:2.5rem 1fr auto;align-items:center;gap:1rem}
+.step-card:hover{background:var(--cream)}.step-card.active{background:var(--accent-bg)}
+.step-num{font-family:var(--serif);font-size:1.6rem;color:var(--border);transition:color .3s}
+.step-card.active .step-num,.step-card:hover .step-num{color:var(--accent)}
+.step-title{font-size:0.9rem;font-weight:500}
+.step-chapter{font-size:0.72rem;color:var(--muted);margin-top:2px}
+.step-arrow{font-size:0.9rem;color:var(--border);transition:all .3s}
+.step-card.active .step-arrow{color:var(--accent);transform:rotate(90deg)}
+.step-detail{background:white;border:1px solid var(--border);border-radius:8px;margin-top:1.5rem;padding:2rem;display:none;animation:slideDown .4s}
+.step-detail.visible{display:block}
+.step-detail h3{font-family:var(--serif);font-size:1.4rem;margin-bottom:0.5rem}
+.step-detail .step-meta{font-size:0.78rem;color:var(--accent);font-weight:500;margin-bottom:1.2rem}
+.step-detail p{font-size:0.9rem;line-height:1.75;color:var(--slate);margin-bottom:0.8rem}
+.key-concept{background:var(--sage-light);border-left:3px solid var(--sage);padding:1rem 1.2rem;margin:1.2rem 0;border-radius:0 6px 6px 0;font-size:0.85rem;line-height:1.6}
+.key-concept strong{color:var(--sage);font-weight:600}
+.builder-section{background:white;border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:5rem 2rem}
+.builder-wrap{max-width:700px;margin:0 auto}
+.builder-wrap h2{font-family:var(--serif);font-size:clamp(2rem,4vw,2.8rem);text-align:center;margin-bottom:0.5rem}
+.builder-intro{text-align:center;font-size:0.95rem;color:var(--muted);margin-bottom:2.5rem;line-height:1.6}
+.builder-progress{display:flex;justify-content:center;gap:0.5rem;margin-bottom:2rem}
+.progress-dot{width:8px;height:8px;border-radius:50%;background:var(--border);transition:all .3s;cursor:pointer}
+.progress-dot.active{background:var(--accent);transform:scale(1.3)}.progress-dot.completed{background:var(--sage)}
+.builder-question{font-family:var(--serif);font-size:1.4rem;margin-bottom:0.5rem;line-height:1.3}
+.builder-hint{font-size:0.82rem;color:var(--muted);margin-bottom:1.2rem}
+.builder-input{width:100%;font-family:var(--sans);font-size:0.95rem;padding:0.9rem 1rem;border:1.5px solid var(--border);border-radius:6px;background:var(--paper);color:var(--ink);outline:none;transition:border-color .3s;resize:vertical}
+.builder-input:focus{border-color:var(--accent)}
+textarea.builder-input{min-height:90px}
+.builder-options{display:grid;gap:0.6rem}
+.builder-option{font-size:0.9rem;padding:0.9rem 1rem;border:1.5px solid var(--border);border-radius:6px;background:var(--paper);cursor:pointer;transition:all .2s;text-align:left}
+.builder-option:hover{border-color:var(--accent-light);background:var(--accent-bg)}
+.builder-option.selected{border-color:var(--accent);background:var(--accent-bg);font-weight:500}
+.builder-nav{display:flex;justify-content:space-between;margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--border)}
+.study-summary{display:none;animation:fadeUp .6s}.study-summary.visible{display:block}
+.summary-card{background:var(--paper);border:1px solid var(--border);border-radius:8px;padding:1.5rem;margin-top:1rem}
+.summary-card h4{font-family:var(--serif);font-size:1.1rem;margin-bottom:1rem}
+.summary-row{display:grid;grid-template-columns:130px 1fr;gap:0.5rem;padding:0.6rem 0;border-bottom:1px solid var(--cream);font-size:0.85rem}
+.summary-row:last-child{border-bottom:none}
+.summary-label{font-weight:600;color:var(--accent);font-size:0.75rem}
+.summary-value{color:var(--slate);line-height:1.5}
+.consequence-section{padding:5rem 2rem;max-width:700px;margin:0 auto;background-color:#FAF8F4}
+.consequence-box{border:2px solid var(--accent);border-radius:8px;overflow:hidden}
+.consequence-header{background:var(--accent);padding:0.7rem 1.2rem}
+.consequence-header span{font-size:0.72rem;font-weight:600;letter-spacing:0.15em;text-transform:uppercase;color:white}
+.consequence-body{padding:1.5rem;background:var(--accent-bg)}
+.consequence-body p{font-size:0.9rem;line-height:1.75;color:var(--ink);margin-bottom:0.8rem}
+.consequence-body .cq{font-family:var(--serif);font-size:1.1rem;font-style:italic;color:var(--accent);margin-top:1rem;padding-top:0.8rem;border-top:1px solid rgba(193,91,44,0.2)}
+.site-footer{text-align:center;padding:3rem 2rem;border-top:1px solid var(--border);background-color:#FAF8F4}
+.footer-title{font-family:var(--serif);font-size:1.3rem;margin-bottom:0.4rem}.footer-title em{color:var(--accent)}
+.footer-sub{font-size:0.8rem;color:var(--muted);margin-bottom:0.2rem}
+.footer-note{font-size:0.7rem;color:var(--border);margin-top:1.5rem}
+@keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+@keyframes slideDown{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
+@keyframes pulse{0%,100%{opacity:.3}50%{opacity:1}}
+@media(max-width:640px){.topnav-links{display:none}.step-card{grid-template-columns:2rem 1fr;padding:1rem}.step-arrow,.step-chapter{display:none}.sim-controls{flex-direction:column}.summary-row{grid-template-columns:1fr}.marble-jar{width:110px;min-height:130px}.jar-unit{min-width:120px}}
+</style>
+</head>
+<body>
+<nav class="topnav"><div class="topnav-title">Epidemiology <em>Matters</em></div><div class="topnav-links"><a href="#prevalence">Prevalence</a><a href="#causation">Causation</a><a href="#steps">Seven Steps</a><a href="#builder">Build a Study</a></div></nav>
+
+<section class="hero">
+  <div class="hero-label">Second Edition &mdash; Coming 2028</div>
+  <h1>Epidemiology <em>Matters</em></h1>
+  <p class="hero-sub">An introduction to methodological foundations. Seven steps toward an epidemiology of consequence.</p>
+  <p class="hero-authors">Katherine M. Keyes &middot; Mohammed Abba-Aji &middot; Sandro Galea</p>
+  <div class="hero-pop" id="heroPop"></div>
+  <p class="pop-label">100 Farrlandians &mdash; 20 with disease</p>
+  <div class="hero-cta"><a href="#prevalence" class="btn btn-primary">Explore Prevalence</a><a href="#builder" class="btn btn-secondary">Build a Study</a></div>
+  <div class="scroll-hint">Scroll</div>
+</section>
+
+<section class="sim-section" id="prevalence">
+  <div class="sim-wrap">
+    <div class="section-label" style="text-align:center">Interactive &mdash; Chapter 5</div>
+    <h2 style="font-family:var(--serif);font-size:clamp(2rem,4vw,2.8rem);text-align:center;margin-bottom:0.5rem">Disease in a Population</h2>
+    <p style="text-align:center;font-size:0.95rem;color:var(--muted);margin-bottom:1rem">Adjust the sliders to see how prevalence and measures of association change.</p>
+    <div class="sim-controls">
+      <div class="sim-control"><label>Diseased</label><input type="range" id="simD" min="0" max="100" value="20" oninput="updateSim()"><div class="sim-value" id="simDV">20</div></div>
+      <div class="sim-control"><label>Exposed</label><input type="range" id="simE" min="0" max="100" value="50" oninput="updateSim()"><div class="sim-value" id="simEV">50</div></div>
+    </div>
+    <div class="sim-pop" id="simPop"></div>
+    <div style="display:flex;flex-wrap:wrap;gap:0.8rem;justify-content:center;margin:0.5rem 0;font-size:0.75rem;color:var(--slate)">
+      <span style="color:var(--accent)">&#9679; Diseased</span><span style="color:var(--sage)">&#9679; Exposed (healthy)</span><span style="color:#B8B3AB">&#9679; Unexposed (healthy)</span>
+    </div>
+    <div class="sim-stats" id="simStats"></div>
+  </div>
+</section>
+
+<section class="marble-section" id="causation">
+  <div class="section-label" style="color:var(--accent)">Interactive &mdash; Chapter 7</div>
+  <h2 style="font-family:var(--serif);font-size:clamp(2rem,4vw,2.8rem);margin-bottom:0.5rem;color:#1a1a1a">Causation: The Sufficient-Component Cause Model</h2>
+  <p style="font-size:0.95rem;color:#4A5568;line-height:1.7;max-width:640px;margin-bottom:0.5rem">No single factor causes disease alone. Disease occurs when all the component causes in a sufficient cause are present in the same individual. Click on a Farrlandian to add or remove component causes, and watch what happens when a sufficient cause is complete.</p>
+  <p style="font-size:0.82rem;color:#8B8680;margin-bottom:1.5rem">Each person has different combinations of causes. A sufficient cause is like a complete recipe — every ingredient must be present.</p>
+
+  <div class="marble-legend">
+    <div class="legend-item"><div class="legend-dot" style="background:var(--accent)"></div>Obesity</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--sage)"></div>No preventive care</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#6B7DB3"></div>Family history</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#C4A35A"></div>Smoking</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#9B6B9E"></div>Sedentary lifestyle</div>
+  </div>
+
+  <div id="personCause" style="display:flex;flex-wrap:wrap;gap:2rem;justify-content:center;margin:2rem 0"></div>
+  <p class="marble-explanation" id="mExp" style="color:#4A5568">Click on a person to toggle their component causes. Disease occurs when all causes in at least one sufficient cause are present.</p>
+</section>
+
+<section class="section" id="steps">
+  <div class="section-label">The Framework</div>
+  <h2>Seven Steps for an Epidemiology of Consequence</h2>
+  <p class="section-intro">Each decision shapes what we can learn and what we can do with what we learn.</p>
+  <div class="steps-grid" id="sGrid"></div>
+  <div class="step-detail" id="sDet"><h3 id="sT"></h3><div class="step-meta" id="sM"></div><div id="sC"></div></div>
+</section>
+
+<section class="builder-section" id="builder">
+  <div class="builder-wrap">
+    <div class="section-label" style="text-align:center">Interactive</div>
+    <h2>Design Your Study</h2>
+    <p class="builder-intro">Walk through the seven steps to design an epidemiologic study of consequence.</p>
+    <div class="builder-progress" id="bProg"></div>
+    <div id="bSteps"></div>
+    <div class="study-summary" id="bSum"><h3 style="font-family:var(--serif);font-size:1.4rem;text-align:center;margin-bottom:0.5rem">Your Study Design</h3><p style="text-align:center;color:var(--muted);font-size:0.85rem;margin-bottom:1rem">A summary of your epidemiologic study of consequence.</p><div class="summary-card" id="bSumC"></div><div style="text-align:center;margin-top:1.5rem"><button class="btn btn-secondary btn-sm" onclick="resetB()">Start Over</button></div></div>
+  </div>
+</section>
+
+<section class="consequence-section">
+  <div class="section-label">New in the Second Edition</div>
+  <h2 style="font-family:var(--serif);font-size:clamp(1.8rem,3.5vw,2.3rem);margin-bottom:1.2rem">Consequence Boxes</h2>
+  <p style="font-size:0.9rem;color:var(--slate);line-height:1.7;margin-bottom:1.5rem">Each chapter connects methodological choices to questions of social responsibility.</p>
+  <div class="consequence-box">
+    <div class="consequence-header"><span>&#9670; Consequence Box &middot; Chapter 3</span></div>
+    <div class="consequence-body">
+      <p>How we define a health indicator determines who counts as a case. Who counts determines what risk factors we find. What we find determines what gets funded.</p>
+      <p>Consider depression. A clinical interview identifies fewer cases than a screening tool. Those missed are disproportionately people without access to clinical settings. The measurement choice is not neutral.</p>
+      <p class="cq">When you choose a measure, ask: whose health does this make visible, and whose does it obscure?</p>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-title">Epidemiology <em>Matters</em></div>
+  <div class="footer-sub">An Introduction to Methodological Foundations, Second Edition</div>
+  <div class="footer-sub">Oxford University Press</div>
+  <div class="footer-note">Keyes &middot; Abba-Aji &middot; Galea &middot; &copy; 2028</div>
+</footer>
+
+<script>
+function pSVG(w,h){const hw=w/2,hr=w*.22,hcy=hr+1,ny=hcy+hr,sy=ny+h*.08,hy2=sy+h*.32,fy=h-1;
+return`<svg viewBox="0 0 ${w} ${h}" width="${w}" height="${h}"><circle cx="${hw}" cy="${hcy}" r="${hr}" fill="currentColor"/><line x1="${hw}" y1="${ny}" x2="${hw}" y2="${hy2}" stroke="currentColor" stroke-width="1.8"/><line x1="${hw-w*.42}" y1="${sy+h*.12}" x2="${hw+w*.42}" y2="${sy+h*.12}" stroke="currentColor" stroke-width="1.5"/><line x1="${hw}" y1="${hy2}" x2="${hw-w*.3}" y2="${fy}" stroke="currentColor" stroke-width="1.5"/><line x1="${hw}" y1="${hy2}" x2="${hw+w*.3}" y2="${fy}" stroke="currentColor" stroke-width="1.5"/></svg>`}
+
+// HERO POP
+!function(){const w=document.getElementById('heroPop'),g=document.createElement('div');g.className='pop-grid';
+for(let i=0;i<100;i++){const d=document.createElement('div');d.style.cssText=`color:${i<20?'var(--accent)':'#B8B3AB'};display:inline-block`;d.innerHTML=pSVG(18,32);g.appendChild(d)}
+w.appendChild(g)}();
+
+// SIM
+function updateSim(){const nD=+document.getElementById('simD').value,nE=+document.getElementById('simE').value;
+document.getElementById('simDV').textContent=nD;document.getElementById('simEV').textContent=nE;
+const dE=Math.round(nD*nE/100),dU=nD-dE,hE=Math.max(0,nE-dE),hU=Math.max(0,100-nD-hE);
+const pop=document.getElementById('simPop');pop.innerHTML='';
+const types=[];for(let i=0;i<dE;i++)types.push('var(--accent)');for(let i=0;i<dU;i++)types.push('var(--accent)');for(let i=0;i<hE;i++)types.push('var(--sage)');for(let i=0;i<hU;i++)types.push('#D4D0C8');
+types.forEach(c=>{const d=document.createElement('div');d.style.cssText=`color:${c};display:inline-block`;d.innerHTML=pSVG(15,28);pop.appendChild(d)});
+const prev=(nD).toFixed(0),rE=nE>0?(dE/nE*100).toFixed(1):'0.0',uN=100-nE,rU=uN>0?(dU/uN*100).toFixed(1):'0.0';
+const rr=parseFloat(rU)>0?(parseFloat(rE)/parseFloat(rU)).toFixed(2):'\u2014';
+const rd=(parseFloat(rE)-parseFloat(rU)).toFixed(1);
+document.getElementById('simStats').innerHTML=`<div class="stat-card"><div class="stat-num">${prev}%</div><div class="stat-label">Prevalence</div></div><div class="stat-card"><div class="stat-num">${rE}%</div><div class="stat-label">Risk (Exposed)</div></div><div class="stat-card"><div class="stat-num">${rU}%</div><div class="stat-label">Risk (Unexposed)</div></div><div class="stat-card"><div class="stat-num">${rr}</div><div class="stat-label">Risk Ratio</div></div><div class="stat-card"><div class="stat-num">${rd}%</div><div class="stat-label">Risk Difference</div></div>`}
+updateSim();
+
+// COMPONENT CAUSE MODEL — PERSON-BASED
+!function(){
+const causes = [
+  {id:'a',name:'Obesity',color:'#C15B2C'},
+  {id:'b',name:'No prev. care',color:'#5B7B6A'},
+  {id:'c',name:'Family history',color:'#6B7DB3'},
+  {id:'d',name:'Smoking',color:'#C4A35A'},
+  {id:'e',name:'Sedentary',color:'#9B6B9E'}
+];
+// Sufficient causes: different recipes for disease
+const sufficient = [
+  {causes:['a','b','c'], label:'Obesity + No care + Family hx'},
+  {causes:['a','c','d'], label:'Obesity + Family hx + Smoking'},
+  {causes:['b','d','e'], label:'No care + Smoking + Sedentary'}
+];
+// Three Farrlandians with different starting states
+const people = [
+  {name:'Person 1',present:{a:false,b:false,c:false,d:false,e:false}},
+  {name:'Person 2',present:{a:false,b:false,c:false,d:false,e:false}},
+  {name:'Person 3',present:{a:false,b:false,c:false,d:false,e:false}}
+];
+
+function checkDisease(p){
+  for(const sc of sufficient){
+    if(sc.causes.every(c=>p.present[c])) return sc;
+  }
+  return null;
+}
+
+function render(){
+  const wrap = document.getElementById('personCause');
+  wrap.innerHTML = '';
+  let totalDiseased = 0;
+
+  people.forEach((p,pi) => {
+    const diseaseResult = checkDisease(p);
+    const isDiseased = !!diseaseResult;
+    if(isDiseased) totalDiseased++;
+
+    const card = document.createElement('div');
+    card.style.cssText = 'display:flex;flex-direction:column;align-items:center;width:160px;gap:0.5rem';
+
+    // Person SVG — larger, with color indicating disease status
+    const personColor = isDiseased ? '#C15B2C' : '#B8B3AB';
+    const personDiv = document.createElement('div');
+    personDiv.style.cssText = 'position:relative;';
+    personDiv.innerHTML = `<svg viewBox="0 0 50 90" width="50" height="90">
+      <circle cx="25" cy="10" r="8" fill="${personColor}"/>
+      <line x1="25" y1="18" x2="25" y2="55" stroke="${personColor}" stroke-width="3"/>
+      <line x1="8" y1="35" x2="42" y2="35" stroke="${personColor}" stroke-width="2.5"/>
+      <line x1="25" y1="55" x2="12" y2="85" stroke="${personColor}" stroke-width="2.5"/>
+      <line x1="25" y1="55" x2="38" y2="85" stroke="${personColor}" stroke-width="2.5"/>
+      ${isDiseased ? '<text x="25" y="42" text-anchor="middle" font-size="14" font-weight="bold" fill="white">\u2716</text>' : ''}
+    </svg>`;
+    card.appendChild(personDiv);
+
+    // Person name
+    const nameEl = document.createElement('div');
+    nameEl.style.cssText = 'font-size:0.8rem;font-weight:600;color:'+(isDiseased?'#C15B2C':'#4A5568');
+    nameEl.textContent = p.name;
+    card.appendChild(nameEl);
+
+    // Cause toggles — small colored dots you click
+    const toggleWrap = document.createElement('div');
+    toggleWrap.style.cssText = 'display:flex;flex-wrap:wrap;gap:4px;justify-content:center;margin:0.3rem 0';
+
+    causes.forEach(c => {
+      const dot = document.createElement('div');
+      const isOn = p.present[c.id];
+      dot.style.cssText = `width:20px;height:20px;border-radius:50%;cursor:pointer;transition:all 0.2s;background:${c.color};opacity:${isOn?'1':'0.2'};transform:scale(${isOn?'1':'0.75'});border:2px solid ${isOn?c.color:'transparent'}`;
+      dot.title = c.name + (isOn ? ' (present \u2713)' : ' (absent \u2013 click to add)');
+      dot.addEventListener('click', () => { p.present[c.id] = !p.present[c.id]; render(); });
+      dot.addEventListener('mouseenter', () => { dot.style.transform = 'scale(1.15)'; });
+      dot.addEventListener('mouseleave', () => { dot.style.transform = isOn ? 'scale(1)' : 'scale(0.75)'; });
+      toggleWrap.appendChild(dot);
+    });
+    card.appendChild(toggleWrap);
+
+    // Present causes listed
+    const presentList = causes.filter(c => p.present[c.id]);
+    if(presentList.length > 0){
+      const listEl = document.createElement('div');
+      listEl.style.cssText = 'font-size:0.68rem;color:#8B8680;text-align:center;line-height:1.4;min-height:2em';
+      listEl.textContent = presentList.map(c => c.name).join(', ');
+      card.appendChild(listEl);
+    } else {
+      const listEl = document.createElement('div');
+      listEl.style.cssText = 'font-size:0.68rem;color:#D8D3CA;text-align:center;min-height:2em';
+      listEl.textContent = 'No causes present';
+      card.appendChild(listEl);
+    }
+
+    // Disease status badge
+    const badge = document.createElement('div');
+    if(isDiseased){
+      badge.style.cssText = 'font-size:0.72rem;font-weight:600;padding:0.3rem 0.7rem;border-radius:20px;background:#C15B2C;color:white;text-align:center';
+      badge.textContent = '\u26A0 Diseased';
+    } else {
+      badge.style.cssText = 'font-size:0.72rem;font-weight:500;padding:0.3rem 0.7rem;border-radius:20px;background:#F3F0E8;color:#8B8680;text-align:center';
+      badge.textContent = 'Healthy';
+    }
+    card.appendChild(badge);
+
+    // Which sufficient cause was triggered
+    if(isDiseased && diseaseResult){
+      const scLabel = document.createElement('div');
+      scLabel.style.cssText = 'font-size:0.65rem;color:#C15B2C;text-align:center;margin-top:0.2rem;line-height:1.3';
+      scLabel.textContent = 'via: ' + diseaseResult.label;
+      card.appendChild(scLabel);
+    }
+
+    wrap.appendChild(card);
+  });
+
+  // Summary text
+  const exp = document.getElementById('mExp');
+  if(totalDiseased === 0){
+    exp.innerHTML = 'No one is diseased yet. Click the colored dots beneath each person to add component causes. Disease occurs when all causes in a sufficient cause are present in the same individual.';
+  } else if(totalDiseased === 1){
+    exp.innerHTML = '<strong style="color:#C15B2C">1 of 3 Farrlandians has disease.</strong> Their component causes completed a sufficient cause. Notice that different people can get the same disease through different causal pathways.';
+  } else {
+    exp.innerHTML = '<strong style="color:#C15B2C">' + totalDiseased + ' of 3 Farrlandians have disease.</strong> Each may have become diseased through a different sufficient cause \u2014 a different combination of component causes.';
+  }
+}
+render();
+}();
+
+// SEVEN STEPS
+const SD=[{n:1,t:"Define the population of interest",ch:"Chapter 2",c:'<p>Whose health are we studying? Populations are defined by eligibility criteria. They can be dynamic or stationary.</p><div class="key-concept"><strong>Key concept:</strong> We study collections of eligible person-time, not just people.</div>'},{n:2,t:"Measure exposures and health indicators",ch:"Chapter 3",c:'<p>Health indicators can be binary, ordinal, or continuous. Measurement validity and reliability determine the quality of everything that follows.</p><div class="key-concept"><strong>Key concept:</strong> Validity is capturing what we intend. Reliability is consistency. One without the other is insufficient.</div>'},{n:3,t:"Take a sample",ch:"Chapters 4\u20135",c:'<p>Representative samples describe populations. Purposive samples maximize comparability. Study designs emerge from the logic of sampling.</p><div class="key-concept"><strong>Key concept:</strong> Study designs are not labels to memorize. They follow from how we take a sample to answer our question.</div>'},{n:4,t:"Estimate measures of association",ch:"Chapter 6",c:'<p>Risk ratios, odds ratios, rate ratios, and risk differences each quantify the exposure-outcome relationship differently.</p><div class="key-concept"><strong>Key concept:</strong> A point estimate without a confidence interval is a claim without a warranty.</div>'},{n:5,t:"Evaluate whether the association is causal",ch:"Chapters 7\u201310",c:'<p>Non-comparability arises through chance, measurement error, selection, and confounding. We address it through randomization, matching, stratification, and causal diagrams.</p><div class="key-concept"><strong>Key concept:</strong> A cause is one marble in a jar. Disease occurs only when a sufficient cause is filled.</div>'},{n:6,t:"Assess causes working together",ch:"Chapter 11",c:'<p>When two exposures are component causes in the same sufficient cause, they interact. Interaction depends on scale \u2014 additive vs. multiplicative.</p><div class="key-concept"><strong>Key concept:</strong> If two causes share a jar, addressing only one may be less effective than expected.</div>'},{n:7,t:"Assess whether results matter beyond the study sample",ch:"Chapter 12",c:'<p>External validity depends on the distribution of component causes across populations. This is where the consequentialist argument is tested.</p><div class="key-concept"><strong>Key concept:</strong> There is not one causal effect for all populations. The effect is shaped by context.</div>'}];
+!function(){const g=document.getElementById('sGrid');let act=null;
+SD.forEach((s,i)=>{const c=document.createElement('div');c.className='step-card';
+c.innerHTML=`<div class="step-num">${s.n}</div><div><div class="step-title">${s.t}</div><div class="step-chapter">${s.ch}</div></div><div class="step-arrow">&#9654;</div>`;
+c.addEventListener('click',()=>{const cs=document.querySelectorAll('.step-card'),d=document.getElementById('sDet');
+if(act===i){cs[i].classList.remove('active');d.classList.remove('visible');act=null;return}
+cs.forEach(x=>x.classList.remove('active'));cs[i].classList.add('active');
+document.getElementById('sT').textContent=`Step ${s.n}: ${s.t}`;document.getElementById('sM').textContent=s.ch;document.getElementById('sC').innerHTML=s.c;d.classList.add('visible');act=i});g.appendChild(c)})}();
+
+// BUILDER
+const BD=[{q:"What population?",h:"Define by geography, time, or characteristics.",t:"text",p:"e.g., Adults 18\u201365 in St. Louis County",l:"Population"},{q:"What health indicator?",h:"What outcome to understand or prevent?",t:"text",p:"e.g., New Type 2 diabetes diagnoses",l:"Health Indicator"},{q:"What exposure?",h:"The factor whose causal effect you want to estimate.",t:"text",p:"e.g., Proximity to fast food outlets",l:"Exposure"},{q:"What study design?",h:"Each answers a different question.",t:"options",o:["Cross-sectional: snapshot at one time","Cohort: follow forward in time","Case-control: compare exposure histories"],l:"Study Design"},{q:"Sources of non-comparability?",h:"Factors differing between groups that could cause the outcome.",t:"textarea",p:"e.g., Income, physical activity, healthcare access",l:"Threats"},{q:"How to address non-comparability?",h:"Primary strategy.",t:"options",o:["Randomization","Matching","Stratification","Statistical adjustment"],l:"Strategy"},{q:"Who else does this matter for?",h:"Where would the result hold? Where might it not?",t:"textarea",p:"e.g., May not apply in rural populations...",l:"External Validity"}];
+let cBS=0;const ans=new Array(BD.length).fill('');
+function rB(){const p=document.getElementById('bProg');p.innerHTML='';BD.forEach((_,i)=>{const d=document.createElement('div');d.className='progress-dot'+(i===cBS?' active':'')+(i<cBS?' completed':'');d.onclick=()=>{if(i<=cBS){cBS=i;rB()}};p.appendChild(d)});
+const c=document.getElementById('bSteps');c.innerHTML='';const s=BD[cBS];let ih='';
+if(s.t==='text')ih=`<input type="text" class="builder-input" placeholder="${s.p}" value="${ans[cBS]}" oninput="ans[${cBS}]=this.value">`;
+else if(s.t==='textarea')ih=`<textarea class="builder-input" placeholder="${s.p}" oninput="ans[${cBS}]=this.value">${ans[cBS]}</textarea>`;
+else{ih='<div class="builder-options">';s.o.forEach((o,j)=>{ih+=`<div class="builder-option${ans[cBS]===o?' selected':''}" onclick="sO(${cBS},${j})">${o}</div>`});ih+='</div>'}
+const d=document.createElement('div');d.style.animation='fadeUp 0.5s ease';
+d.innerHTML=`<div class="builder-question">${s.q}</div><div class="builder-hint">${s.h}</div>${ih}<div class="builder-nav"><button class="btn btn-secondary btn-sm" onclick="pB()" ${cBS===0?'style="visibility:hidden"':''}>Back</button><button class="btn btn-primary btn-sm" onclick="nB()">${cBS===BD.length-1?'See Your Study':'Next'}</button></div>`;
+c.appendChild(d);document.getElementById('bSum').classList.remove('visible')}
+function sO(a,b){ans[a]=BD[a].o[b];rB()}
+function nB(){if(cBS<BD.length-1){cBS++;rB()}else{document.getElementById('bSteps').innerHTML='';document.getElementById('bProg').innerHTML='';const s=document.getElementById('bSum'),c=document.getElementById('bSumC');let h='<h4>Your Study of Consequence</h4>';BD.forEach((d,i)=>{h+=`<div class="summary-row"><div class="summary-label">${d.l}</div><div class="summary-value">${ans[i]||'<em style="color:var(--muted)">Not specified</em>'}</div></div>`});c.innerHTML=h;s.classList.add('visible')}}
+function pB(){if(cBS>0){cBS--;rB()}}
+function resetB(){cBS=0;ans.fill('');rB()}
+rB();
+document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click',e=>{e.preventDefault();document.querySelector(a.getAttribute('href')).scrollIntoView({behavior:'smooth'})})});
+</script>
+</body>
+</html>

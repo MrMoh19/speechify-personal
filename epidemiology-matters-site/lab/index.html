@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light only">
+<title>Causal Thinking Lab | Epidemiology Matters</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{color-scheme:light only}
+body{font-family:'DM Sans',-apple-system,sans-serif;background:#FAF8F4;color:#2C1810;-webkit-font-smoothing:antialiased}
+
+.header{border-bottom:1px solid #D8D3CA;padding:10px 20px;display:flex;justify-content:space-between;align-items:center;background:rgba(250,248,244,0.95);position:sticky;top:0;z-index:10;backdrop-filter:blur(8px)}
+.header-title{font-family:'Instrument Serif',Georgia,serif;font-size:16px;color:#2C1810}
+.header-title em{color:#C15B2C;font-style:italic}
+.header-sub{font-size:12px;color:#8B8680;margin-left:8px}
+.header-authors{font-size:11px;color:#8B8680}
+
+.main{max-width:1140px;margin:0 auto;padding:16px}
+
+/* PRESETS */
+.presets{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px;align-items:center}
+.presets-label{font-size:11px;font-weight:600;color:#8B8680;margin-right:4px;letter-spacing:0.08em;text-transform:uppercase}
+.preset-btn{font-family:inherit;font-size:11px;padding:5px 10px;border-radius:4px;cursor:pointer;border:1px solid #D8D3CA;background:white;color:#4A5568;font-weight:500;transition:all 0.2s}
+.preset-btn:hover{border-color:#C15B2C;color:#C15B2C}
+.preset-btn.active{border-color:#C15B2C;background:#FFF5EF;color:#C15B2C;font-weight:600}
+
+/* LAYOUT */
+.layout{display:grid;grid-template-columns:220px 1fr 260px;gap:16px;align-items:start}
+@media(max-width:900px){.layout{grid-template-columns:1fr;}}
+
+/* PANELS */
+.panel{background:white;border:1px solid #D8D3CA;border-radius:8px;padding:14px}
+.panel-label{font-size:10px;font-weight:600;letter-spacing:0.1em;color:#C15B2C;margin-bottom:10px;text-transform:uppercase}
+.panel-divider{border-top:1px solid #D8D3CA;margin:10px 0;padding-top:10px}
+.panel-sub{font-size:10px;font-weight:600;color:#C15B2C;margin-bottom:6px;text-transform:uppercase;letter-spacing:0.1em}
+
+/* SLIDERS */
+.slider-group{margin-bottom:12px}
+.slider-header{display:flex;justify-content:space-between;margin-bottom:3px}
+.slider-label{font-size:12px;font-weight:500;color:#4A5568}
+.slider-value{font-size:12px;font-weight:600;color:#C15B2C;font-family:'Courier New',monospace}
+.slider-input{width:100%;accent-color:#C15B2C;cursor:pointer;height:4px}
+
+/* TABS */
+.tabs{display:flex;gap:6px;margin-bottom:10px}
+.tab-btn{font-family:inherit;font-size:11px;padding:5px 12px;border-radius:4px;cursor:pointer;border:1px solid #D8D3CA;background:white;color:#4A5568;font-weight:400;transition:all 0.2s}
+.tab-btn.active{border-color:#C15B2C;background:#FFF5EF;color:#C15B2C;font-weight:600}
+
+/* GRID */
+.pop-grid{display:flex;flex-wrap:wrap;gap:2px;justify-content:center;padding:8px 0;min-height:200px}
+.strata-wrap{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
+.stratum{flex:1 1 180px;max-width:280px}
+.stratum-label{font-size:11px;font-weight:600;color:#4A5568;text-align:center;margin-bottom:6px;padding:3px 6px;background:#F3F0E8;border-radius:4px}
+.stratum-grid{display:flex;flex-wrap:wrap;gap:2px;justify-content:center}
+
+/* LEGEND */
+.legend{display:flex;gap:12px;margin-bottom:8px;font-size:10px;color:#4A5568;flex-wrap:wrap}
+.legend-item{display:flex;align-items:center;gap:3px}
+
+/* DAG */
+.dag-wrap{display:flex;justify-content:center;padding:16px 0}
+
+/* ESTIMATES */
+.est-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px}
+.est-card{background:#FAF8F4;border-radius:6px;padding:10px;text-align:center}
+.est-card.adj{background:#E8F0EB}
+.est-num{font-size:22px;font-weight:600;font-family:'Courier New',monospace;color:#2C1810}
+.est-card.adj .est-num{color:#5B7B6A}
+.est-label{font-size:9px;color:#8B8680;margin-top:2px}
+.est-true{background:#FAF8F4;border-radius:6px;padding:8px;text-align:center;margin-bottom:8px}
+.est-true-num{font-size:14px;font-weight:600;font-family:'Courier New',monospace;color:#C15B2C}
+.bias-alert{background:#FFF5EF;border-radius:6px;padding:6px;font-size:11px;color:#C15B2C;font-weight:600;text-align:center;margin-bottom:8px}
+.est-detail{font-size:10px;color:#8B8680;line-height:1.6}
+
+/* INTERPRETATION */
+.interp-panel{background:white;border:1px solid #D8D3CA;border-radius:8px;padding:14px;border-left:3px solid #5B7B6A}
+.interp-label{font-size:10px;font-weight:600;letter-spacing:0.1em;color:#5B7B6A;margin-bottom:6px;text-transform:uppercase}
+.interp-text{font-size:12px;line-height:1.7;color:#4A5568}
+
+/* TABLE TOGGLE */
+.toggle-btn{font-family:inherit;font-size:10px;color:#8B8680;background:none;border:none;cursor:pointer;text-decoration:underline;margin-top:6px}
+.table-display{margin-top:6px;font-size:10px;font-family:'Courier New',monospace;color:#4A5568;line-height:1.6;background:#FAF8F4;padding:6px;border-radius:4px}
+
+/* FOOTER */
+.footer{text-align:center;margin-top:32px;padding-top:16px;border-top:1px solid #D8D3CA}
+.footer-title{font-family:'Instrument Serif',Georgia,serif;font-size:14px;color:#2C1810}
+.footer-title em{color:#C15B2C}
+.footer-sub{font-size:11px;color:#8B8680;margin-top:3px}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <span class="header-title">Epidemiology <em>Matters</em></span>
+    <span class="header-sub">Causal Thinking Lab</span>
+  </div>
+  <div class="header-authors">Keyes &middot; Abba-Aji &middot; Galea</div>
+</div>
+
+<div class="main">
+  <div class="presets" id="presetBar"></div>
+  <div class="layout">
+    <div id="leftPanel"></div>
+    <div id="centerPanel"></div>
+    <div id="rightPanel"></div>
+  </div>
+  <div class="footer">
+    <div class="footer-title">Epidemiology <em>Matters</em></div>
+    <div class="footer-sub">Keyes &middot; Abba-Aji &middot; Galea &middot; Oxford University Press</div>
+  </div>
+</div>
+
+<script>
+// ============================================
+// STATE
+// ============================================
+const PRESETS = {
+  clean: { label:"No Bias (True Effect)", baseRisk:0.10, expPrev:0.50, trueRR:2.0, confPrev:0.30, confToExp:0, confToOut:0, expMeasError:0, outMeasError:0, selectionBias:0 },
+  confounding: { label:"Classic Confounding", baseRisk:0.08, expPrev:0.40, trueRR:1.0, confPrev:0.35, confToExp:0.8, confToOut:0.9, expMeasError:0, outMeasError:0, selectionBias:0 },
+  simpson: { label:"Simpson\u2019s Paradox", baseRisk:0.05, expPrev:0.50, trueRR:0.7, confPrev:0.50, confToExp:0.95, confToOut:1.5, expMeasError:0, outMeasError:0, selectionBias:0 },
+  measurement: { label:"Measurement Error", baseRisk:0.10, expPrev:0.50, trueRR:2.0, confPrev:0.30, confToExp:0, confToOut:0, expMeasError:0.7, outMeasError:0.5, selectionBias:0 },
+  selection: { label:"Selection Bias", baseRisk:0.10, expPrev:0.50, trueRR:1.5, confPrev:0.30, confToExp:0, confToOut:0, expMeasError:0, outMeasError:0, selectionBias:0.8 }
+};
+
+let state = { n:400, ...PRESETS.clean };
+let view = "grid";
+let activePreset = "clean";
+let showTable = false;
+
+// Seeded RNG
+function mulberry32(a){return function(){let t=a+=0x6D2B79F5;t=Math.imul(t^t>>>15,t|1);t^=t+Math.imul(t^t>>>7,t|61);return((t^t>>>14)>>>0)/4294967296}}
+
+function generatePop(){
+  const rng = mulberry32(42);
+  const p = [];
+  for(let i=0;i<state.n;i++){
+    const hasConf = rng() < state.confPrev;
+    let expProb = state.expPrev;
+    if(hasConf) expProb = Math.min(1, expProb*(1+state.confToExp));
+    else expProb = Math.max(0, expProb*(1-state.confToExp*0.3));
+    const isExp = rng() < expProb;
+    let disProb = state.baseRisk;
+    if(isExp) disProb *= state.trueRR;
+    if(hasConf) disProb *= (1+state.confToOut);
+    disProb = Math.min(0.95, Math.max(0.01, disProb));
+    let mExp = isExp, mDis = rng() < disProb;
+    if(state.expMeasError > 0 && rng() < state.expMeasError*0.3) mExp = !mExp;
+    if(state.outMeasError > 0 && rng() < state.outMeasError*0.2) mDis = !mDis;
+    let sel = true;
+    if(state.selectionBias > 0){
+      let sp = 0.9;
+      if(isExp && mDis) sp -= state.selectionBias*0.4;
+      if(!isExp && !mDis) sp -= state.selectionBias*0.2;
+      sel = rng() < sp;
+    }
+    p.push({confounder:hasConf, exposed:mExp, diseased:mDis, selected:sel});
+  }
+  return p;
+}
+
+function computeEst(pop){
+  const s = pop.filter(p=>p.selected);
+  const eD=s.filter(p=>p.exposed&&p.diseased).length;
+  const eN=s.filter(p=>p.exposed&&!p.diseased).length;
+  const uD=s.filter(p=>!p.exposed&&p.diseased).length;
+  const uN=s.filter(p=>!p.exposed&&!p.diseased).length;
+  const rE=eD+eN>0?eD/(eD+eN):0, rU=uD+uN>0?uD/(uD+uN):0;
+  const crudeRR=rU>0?rE/rU:null, crudeRD=rE-rU;
+
+  const strata=[true,false].map(cv=>{
+    const st=s.filter(p=>p.confounder===cv);
+    const a=st.filter(p=>p.exposed&&p.diseased).length;
+    const b=st.filter(p=>p.exposed&&!p.diseased).length;
+    const c=st.filter(p=>!p.exposed&&p.diseased).length;
+    const d=st.filter(p=>!p.exposed&&!p.diseased).length;
+    const re=a+b>0?a/(a+b):0, ru=c+d>0?c/(c+d):0;
+    return {confValue:cv, riskExp:re, riskUnexp:ru, rr:ru>0?re/ru:null, n:st.length};
+  });
+
+  const totalN=strata.reduce((s,x)=>s+x.n,0);
+  const adjRR=totalN>0?strata.reduce((s,x)=>s+(x.rr||0)*(x.n/totalN),0):null;
+
+  return {riskExp:rE, riskUnexp:rU, crudeRR, crudeRD, strata, adjRR, n:s.length, eD, eN, uD, uN};
+}
+
+function getInterp(est){
+  if(!est.crudeRR) return "Insufficient data.";
+  const bias = est.adjRR ? Math.abs(est.crudeRR - est.adjRR) : 0;
+  const conf = state.confToExp>0.1 && state.confToOut>0.1;
+  const meas = state.expMeasError>0.1 || state.outMeasError>0.1;
+  const sel = state.selectionBias>0.1;
+  let t = "";
+  if(est.crudeRR>1.05) t+=`The crude estimate suggests that exposed individuals have ${est.crudeRR.toFixed(2)} times the risk of disease compared with unexposed. `;
+  else if(est.crudeRR<0.95) t+=`The crude estimate suggests a protective association (RR = ${est.crudeRR.toFixed(2)}). `;
+  else t+=`The crude estimate suggests little association (RR = ${est.crudeRR.toFixed(2)}). `;
+
+  if(conf && bias>0.15){
+    t+=`After stratifying by the confounder, the association ${est.adjRR<est.crudeRR?"attenuates":"strengthens"} substantially (adjusted RR = ${est.adjRR.toFixed(2)}). This indicates non-comparability between exposed and unexposed groups. `;
+    if(Math.abs(state.trueRR-est.adjRR)<Math.abs(state.trueRR-est.crudeRR)) t+="The adjusted estimate is closer to the true causal effect. ";
+  } else if(conf) t+="After adjusting, the estimate changes modestly. ";
+
+  if(meas) t+="Measurement error may have further biased estimates, typically toward the null. ";
+  if(sel) t+="Selection bias may distort both crude and adjusted estimates. ";
+  if(!conf&&!meas&&!sel) t+="With no bias sources active, the crude estimate closely approximates the true causal effect. ";
+  return t;
+}
+
+// ============================================
+// RENDERING
+// ============================================
+function slider(id, label, val, min, max, step, fmt){
+  const display = fmt ? fmt(val) : val.toFixed(2);
+  return `<div class="slider-group">
+    <div class="slider-header"><span class="slider-label">${label}</span><span class="slider-value">${display}</span></div>
+    <input class="slider-input" type="range" min="${min}" max="${max}" step="${step}" value="${val}" oninput="updateParam('${id}',parseFloat(this.value))">
+  </div>`;
+}
+
+function dotSVG(diseased, exposed){
+  const fill = diseased ? "#C15B2C" : "#E8F0EB";
+  const stroke = exposed ? "#2C1810" : "#B8B3AB";
+  return `<svg width="9" height="9"><circle cx="4.5" cy="4.5" r="3.8" fill="${fill}" stroke="${stroke}" stroke-width="1"/></svg>`;
+}
+
+function renderAll(){
+  const pop = generatePop();
+  const est = computeEst(pop);
+  const interp = getInterp(est);
+  const sel = pop.filter(p=>p.selected);
+
+  // PRESETS
+  document.getElementById('presetBar').innerHTML = `<span class="presets-label">Scenarios:</span>` +
+    Object.entries(PRESETS).map(([k,v])=>`<button class="preset-btn${activePreset===k?' active':''}" onclick="applyPreset('${k}')">${v.label}</button>`).join('');
+
+  // LEFT
+  document.getElementById('leftPanel').innerHTML = `<div class="panel">
+    <div class="panel-label">Build the World</div>
+    ${slider('n','Sample size',state.n,100,2000,100,v=>v.toString())}
+    ${slider('baseRisk','Baseline risk',state.baseRisk,0.01,0.5,0.01,v=>(v*100).toFixed(0)+'%')}
+    <div class="panel-divider"><div class="panel-sub">Exposure</div></div>
+    ${slider('expPrev','Prevalence',state.expPrev,0.1,0.9,0.01,v=>(v*100).toFixed(0)+'%')}
+    ${slider('trueRR','True causal RR',state.trueRR,0.3,5.0,0.1,v=>v.toFixed(1))}
+    <div class="panel-divider"><div class="panel-sub">Confounder</div></div>
+    ${slider('confPrev','Prevalence',state.confPrev,0,0.8,0.01,v=>(v*100).toFixed(0)+'%')}
+    ${slider('confToExp','Strength \u2192 Exposure',state.confToExp,0,1.5,0.05,v=>v.toFixed(2))}
+    ${slider('confToOut','Strength \u2192 Outcome',state.confToOut,0,2.0,0.05,v=>v.toFixed(2))}
+    <div class="panel-divider"><div class="panel-sub">Bias Sources</div></div>
+    ${slider('expMeasError','Meas. error (exposure)',state.expMeasError,0,1,0.05,v=>v>0?(v*100).toFixed(0)+'%':'None')}
+    ${slider('outMeasError','Meas. error (outcome)',state.outMeasError,0,1,0.05,v=>v>0?(v*100).toFixed(0)+'%':'None')}
+    ${slider('selectionBias','Selection bias',state.selectionBias,0,1,0.05,v=>v>0?(v*100).toFixed(0)+'%':'None')}
+  </div>`;
+
+  // CENTER
+  const legendHTML = `<div class="legend">
+    <span class="legend-item"><svg width="10" height="10"><circle cx="5" cy="5" r="4" fill="#C15B2C" stroke="#2C1810" stroke-width="1"/></svg> Diseased+Exposed</span>
+    <span class="legend-item"><svg width="10" height="10"><circle cx="5" cy="5" r="4" fill="#C15B2C" stroke="#B8B3AB" stroke-width="1"/></svg> Diseased+Unexposed</span>
+    <span class="legend-item"><svg width="10" height="10"><circle cx="5" cy="5" r="4" fill="#E8F0EB" stroke="#2C1810" stroke-width="1"/></svg> Healthy+Exposed</span>
+    <span class="legend-item"><svg width="10" height="10"><circle cx="5" cy="5" r="4" fill="#E8F0EB" stroke="#B8B3AB" stroke-width="1"/></svg> Healthy+Unexposed</span>
+  </div>`;
+
+  let centerContent = '';
+  if(view==='grid'){
+    const dots = sel.slice(0,500).map(p=>dotSVG(p.diseased,p.exposed)).join('');
+    centerContent = `${legendHTML}<div class="pop-grid">${dots}</div>${sel.length>500?'<div style="font-size:10px;color:#8B8680;text-align:center">Showing 500 of '+sel.length+'</div>':''}`;
+  } else if(view==='stratified'){
+    const withC = sel.filter(p=>p.confounder);
+    const withoutC = sel.filter(p=>!p.confounder);
+    centerContent = `${legendHTML}<div class="strata-wrap">
+      <div class="stratum"><div class="stratum-label">Confounder Present (n=${withC.length})</div>
+        <div class="stratum-grid">${withC.slice(0,250).map(p=>dotSVG(p.diseased,p.exposed)).join('')}</div></div>
+      <div class="stratum"><div class="stratum-label">Confounder Absent (n=${withoutC.length})</div>
+        <div class="stratum-grid">${withoutC.slice(0,250).map(p=>dotSVG(p.diseased,p.exposed)).join('')}</div></div>
+    </div>`;
+  } else if(view==='dag'){
+    const ceW = Math.max(1, state.confToExp*4);
+    const coW = Math.max(1, state.confToOut*4);
+    const teW = Math.max(1.5, Math.abs(state.trueRR-1)*5);
+    const ceO = state.confToExp>0?0.7:0.15;
+    const coO = state.confToOut>0?0.7:0.15;
+    centerContent = `<div class="dag-wrap"><svg viewBox="0 0 360 180" width="360" height="180">
+      <defs><marker id="ah" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#4A5568"/></marker>
+      <marker id="ahA" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#C15B2C"/></marker></defs>
+      <circle cx="180" cy="30" r="24" fill="#F3F0E8" stroke="#D8D3CA" stroke-width="1.5"/>
+      <text x="180" y="34" text-anchor="middle" font-size="11" font-weight="600" fill="#4A5568" font-family="DM Sans,sans-serif">Confounder</text>
+      <circle cx="60" cy="140" r="24" fill="#F3F0E8" stroke="#C15B2C" stroke-width="1.5"/>
+      <text x="60" y="144" text-anchor="middle" font-size="11" font-weight="600" fill="#C15B2C" font-family="DM Sans,sans-serif">Exposure</text>
+      <circle cx="300" cy="140" r="24" fill="#F3F0E8" stroke="#C15B2C" stroke-width="1.5"/>
+      <text x="300" y="144" text-anchor="middle" font-size="11" font-weight="600" fill="#C15B2C" font-family="DM Sans,sans-serif">Disease</text>
+      <line x1="160" y1="48" x2="82" y2="122" stroke="#4A5568" stroke-width="${ceW}" opacity="${ceO}" marker-end="url(#ah)"/>
+      <line x1="200" y1="48" x2="278" y2="122" stroke="#4A5568" stroke-width="${coW}" opacity="${coO}" marker-end="url(#ah)"/>
+      <line x1="84" y1="140" x2="276" y2="140" stroke="#C15B2C" stroke-width="${teW}" opacity="0.8" marker-end="url(#ahA)"/>
+    </svg></div>`;
+  }
+
+  document.getElementById('centerPanel').innerHTML = `
+    <div class="tabs">
+      <button class="tab-btn${view==='grid'?' active':''}" onclick="setView('grid')">Population</button>
+      <button class="tab-btn${view==='stratified'?' active':''}" onclick="setView('stratified')">Stratified</button>
+      <button class="tab-btn${view==='dag'?' active':''}" onclick="setView('dag')">DAG</button>
+    </div>
+    <div class="panel" style="min-height:280px">${centerContent}</div>`;
+
+  // RIGHT
+  const biasAmt = est.crudeRR && est.adjRR ? Math.abs(est.crudeRR - est.adjRR) : 0;
+  const biasHTML = biasAmt > 0.1 ? `<div class="bias-alert">Bias detected: ${est.crudeRR>est.adjRR?'+':''}${(est.crudeRR-est.adjRR).toFixed(2)}</div>` : '';
+
+  const tableHTML = showTable ? `<div class="table-display">
+    <div style="font-weight:600;margin-bottom:3px">Crude 2\u00d72:</div>
+    <div>Exp+Dis: ${est.eD} &nbsp; Exp+Hlth: ${est.eN}</div>
+    <div>Unx+Dis: ${est.uD} &nbsp; Unx+Hlth: ${est.uN}</div>
+  </div>` : '';
+
+  document.getElementById('rightPanel').innerHTML = `
+    <div class="panel">
+      <div class="panel-label">Estimates</div>
+      <div class="est-grid">
+        <div class="est-card"><div class="est-num">${est.crudeRR?est.crudeRR.toFixed(2):'\u2014'}</div><div class="est-label">Crude RR</div></div>
+        <div class="est-card adj"><div class="est-num">${est.adjRR?est.adjRR.toFixed(2):'\u2014'}</div><div class="est-label">Adjusted RR</div></div>
+      </div>
+      <div class="est-true"><div class="est-true-num">${state.trueRR.toFixed(2)}</div><div class="est-label">True Causal RR</div></div>
+      ${biasHTML}
+      <div class="est-detail">
+        Risk (Exposed): ${(est.riskExp*100).toFixed(1)}%<br>
+        Risk (Unexposed): ${(est.riskUnexp*100).toFixed(1)}%<br>
+        Risk Difference: ${(est.crudeRD*100).toFixed(1)}%<br>
+        n (selected): ${est.n}
+      </div>
+      <button class="toggle-btn" onclick="toggleTable()">${showTable?'Hide':'Show'} 2\u00d72 table</button>
+      ${tableHTML}
+    </div>
+    <div class="interp-panel" style="margin-top:12px">
+      <div class="interp-label">Interpretation</div>
+      <p class="interp-text">${interp}</p>
+    </div>`;
+}
+
+// ============================================
+// HANDLERS
+// ============================================
+function updateParam(key, val){
+  if(key==='n') state.n = val;
+  else state[key] = val;
+  activePreset = '';
+  renderAll();
+}
+
+function applyPreset(key){
+  activePreset = key;
+  state = { n: state.n, ...PRESETS[key] };
+  renderAll();
+}
+
+function setView(v){ view = v; renderAll(); }
+function toggleTable(){ showTable = !showTable; renderAll(); }
+
+// INIT
+renderAll();
+</script>
+</body>
+</html>
