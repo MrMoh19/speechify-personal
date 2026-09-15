@@ -14,7 +14,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Approve Zana Kennedy's accommodated exam request in the Disability Resources portal (notice 9:27 AM, copied to Ans)
 
 ### This week
-- [ ] Notify Alex Hinnen (ahinnen@parthenonmgmt.com, cc Jaimie) of the discussant change BEFORE Thu Sep 17 — he is out Sep 18 and 21-25; pair with confirming Salma Abdalla's ISTSS registration
+- [ ] SEND NOW: reply-all on Alex Hinnen's "Action Required" thread with all symposium changes (paste-ready delivered ~1:55 PM; Alex asked ASAP at 1:42, Jaimie told him you'd be in touch; he is in office only through Thursday)
 - [ ] Sandro-fy Courtney Babcock's opening remarks for Leading with Listening by end of week (draft in her email + Box; Sandro hands off to Charlie White, then Matt Kreuter)
 - [ ] Send Kirsten Jacobsen the meeting-times reply from Outlook (paste-ready draft emailed ~1 PM: Wed 11:15 AM-1:15 PM or Thu 1-2 PM — check the day on the first window before sending)
 - [ ] TFRH white paper: upload assigned section first draft by Sun Sep 20; review sections 1-6 and bring section-7 ideas before the Sep 25 meeting (Morven's minutes, Sep 14)
@@ -24,11 +24,11 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] JOTS revision (ms 1390286, "Validating Posttraumatic Stress, Depression, and Anxiety Screening Among Conflict-Affected IDPs in Nigeria"): minor revisions due in 22 days from Sep 15 reminder (~Oct 7); revised files + author response letter via the Wiley submission portal — plan around ISTSS week
 - [ ] Epi Matters 2e response letter: DRAFT READY in Drive ("Epi Matters 2e — Response to Reviews (draft)") — Mohammed reviews/edits, circulates to Kerry + Sandro for one round, then to Emma; also answers Kerry's process question
 - [ ] PLOS Mental Health: action needed on PMEN-D-26-00318 (reminder Sep 14) and four pending editor invitations (PMEN-D-26-00483, -00492, -00497, -00507) awaiting accept/decline
-- [ ] Reconnect Google Calendar connector (Settings → Connectors → Google Calendar; pick abbaaji189@gmail.com at the account chooser)
 - [ ] Publish Outlook calendar as ICS and subscribe in Google Calendar
 
 ## Done
 
+- [x] 2026-09-15 — Google Calendar connector reconnected (abbaaji189@gmail.com verified); Outlook ICS feed still pending
 - [x] 2026-09-15 — Salma nudge SENT from Outlook 9:48 AM (registration + slides + headline numbers, to s.abdalla@wustl.edu)
 - [x] 2026-09-15 — Becky Light's Epi in Action rubric request answered (per Mohammed)
 - [x] 2026-09-15 — Sarah Moreland-Russell's slide request (guest lecture, 12:36 PM) answered same day (per Mohammed)
