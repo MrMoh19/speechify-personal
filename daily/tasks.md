@@ -15,7 +15,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 ### This week
 - [ ] Notify Alex Hinnen (ahinnen@parthenonmgmt.com, cc Jaimie) of the discussant change BEFORE Thu Sep 17 — he is out Sep 18 and 21-25; pair with confirming Salma Abdalla's ISTSS registration
 - [ ] Sandro-fy Courtney Babcock's opening remarks for Leading with Listening by end of week (draft in her email + Box; Sandro hands off to Charlie White, then Matt Kreuter)
-- [ ] Give Kirsten Jacobsen meeting times for the Galea books event (she'll fold in Amanda Rhodes's schedule; AJ Short orders once specifics are set)
+- [ ] Send Kirsten Jacobsen the meeting-times reply from Outlook (paste-ready draft emailed ~1 PM: Wed 11:15 AM-1:15 PM or Thu 1-2 PM — check the day on the first window before sending)
 - [ ] TFRH white paper: upload assigned section first draft by Sun Sep 20; review sections 1-6 and bring section-7 ideas before the Sep 25 meeting (Morven's minutes, Sep 14)
 - [ ] Collect slides from all four presenters for Nuha by Mon Sep 21 (sweep reminds Fri and Sun if missing)
 
