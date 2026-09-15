@@ -8,7 +8,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Send Nuha the symposium abstract + four paper summaries (promised "by tomorrow" = today; fill the three bracketed spots in discussant-packet.md first)
 - [ ] Decide Aanya Pandey's Applied Learning Lab request — she submitted partial work in class, asks to complete and resubmit; lab grades were released 11:42 AM, so the ruling is now visible to her (Sep 14 evening)
 - [ ] Send the ANCHOR-MH welcome (reply-all to Ross + Brady Heward) from Outlook, then forward Brady the concept note and minutes (paste-ready draft emailed ~1:20 PM)
-- [ ] ANCHOR concept note v2: recover Dr. Ojo's comments from the ORIGINAL docx (Word comments embedded; Mohammed to Open with Google Docs in Drive, or forward Ojo's email) → integrate into v2 → then Box Upload New Version and recirculate
+- [ ] ANCHOR concept note v2 FINAL DELIVERED (staggered design + all three Ojo inputs integrated) — replace the Box copy (Upload New Version) and the Drive copy, then recirculate to Ross, Heward, Abiso, Musami, Ojo
 - [ ] Send the RA group-training email (Parth o.parth, Ellie e.i.solomon, Gabriel Estrada egabriel, + Zoe) — fill Zoe's address and the day options (Fri Sep 18 / Mon Sep 21); citation-exercise documents go out AFTER the session; this answers Ellie's follow-up too
 - [ ] Approve Zana Kennedy's accommodated exam request in the Disability Resources portal (notice 9:27 AM, copied to Ans)
 
