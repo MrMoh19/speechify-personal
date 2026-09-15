@@ -4,22 +4,32 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Open
 
-- [ ] Send Nuha the symposium abstract + four paper summaries (promised "by tomorrow" = Sep 15; fill the three bracketed spots in discussant-packet.md first)
-- [ ] Notify Alex Hinnen (ahinnen@parthenonmgmt.com, cc Jaimie) of discussant change BEFORE Thu Sep 17 (he is out Sep 18, 21-25)
+### Today (Tue Sep 15)
+- [ ] Send Nuha the symposium abstract + four paper summaries (promised "by tomorrow" = today; fill the three bracketed spots in discussant-packet.md first)
+- [ ] Reply Becky Light: answer key/rubric for the Epi in Action assignment (asked Sep 14; students are raising it in office hours)
+- [ ] Decide Aanya Pandey's Applied Learning Lab request — she submitted partial work in class, asks to complete and resubmit now that the answer key is out (Sep 14 evening)
+
+### This week
+- [ ] Notify Alex Hinnen (ahinnen@parthenonmgmt.com, cc Jaimie) of the discussant change BEFORE Thu Sep 17 — he is out Sep 18 and 21-25; pair with confirming Salma Abdalla's ISTSS registration
+- [ ] Sandro-fy Courtney Babcock's opening remarks for Leading with Listening by end of week (draft in her email + Box; Sandro hands off to Charlie White, then Matt Kreuter)
+- [ ] Give Kirsten Jacobsen meeting times for the Galea books event (she'll fold in Amanda Rhodes's schedule; AJ Short orders once specifics are set)
+- [ ] TFRH white paper: upload assigned section first draft by Sun Sep 20; review sections 1-6 and bring section-7 ideas before the Sep 25 meeting (Morven's minutes, Sep 14)
 - [ ] Collect slides from all four presenters for Nuha by Mon Sep 21 (sweep reminds Fri and Sun if missing)
+
+### Standing
 - [ ] Epi Matters 2e response letter: DRAFT READY in Drive ("Epi Matters 2e — Response to Reviews (draft)") — Mohammed reviews/edits, circulates to Kerry + Sandro for one round, then to Emma; also answers Kerry's process question
-- [ ] Confirm Salma Abdalla has registered for ISTSS — program office (Alex Hinnen, Sep 9) flagged her and Sandro as unregistered presenters
-- [ ] Notify Alex Hinnen (ahinnen@parthenonmgmt.com) of the discussant change once confirmed — BEFORE Thursday Sep 17: he is out of office Sep 18 and 21-25
 - [ ] PLOS Mental Health: action needed on PMEN-D-26-00318 (reminder Sep 14) and four pending editor invitations (PMEN-D-26-00483, -00492, -00497, -00507) awaiting accept/decline
 - [ ] Reconnect Google Calendar connector (Settings → Connectors → Google Calendar; pick abbaaji189@gmail.com at the account chooser)
 - [ ] Publish Outlook calendar as ICS and subscribe in Google Calendar
-- [ ] When a discussant accepts: notify Alex Hinnen + send discussant packet; fill the three bracketed spots in discussant-packet.md
 
 ## Done
 
+- [x] 2026-09-15 — Nickerson acknowledged the release warmly ("No problem – wishing you all the best for the symposium"); chair contingency closed, nothing owed
+- [x] 2026-09-15 — Jaimie welcomed Nuha on the acceptance thread ("This is wonderful news!!"); ISTSS discussant fully settled
 - [x] 2026-09-14 — NUHA ALSHABANI CONFIRMED AS DISCUSSANT; acceptance reply sent with Jaimie cc'd
 - [x] 2026-09-14 — Nickerson released (her thread, cc Jaimie) before Sydney morning
 - [x] 2026-09-14 — Nickerson invitation sent, Jaimie cc'd; she backed it on-thread within two minutes
+- [x] 2026-09-14 — Jennifer Layden accepted the PHS1000 guest-lecture invitation ("Delighted to!")
 - [x] 2026-09-14 — Gavin meeting held; aligned on all items; Paper 2 outline shared with him (edit access) and emailed
 - [x] 2026-09-14 — Zara's Days Inn booking covered (per Mohammed)
 - [x] 2026-09-14 — Answered Jaimie's presentation-length question (12 min in a 14-min slot)
