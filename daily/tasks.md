@@ -6,6 +6,8 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ### Today (Tue Sep 15)
 - [ ] Send Nuha the symposium abstract + four paper summaries (promised "by tomorrow" = today; fill the three bracketed spots in discussant-packet.md first)
+- [ ] Send the Tueth Keeney waiver nudge from Outlook (paste-ready draft emailed 9:40 AM; two weeks since the Aug 31 letter language; if silent past Thursday, go direct to Melanie)
+- [ ] Send the Salma nudge from Outlook (paste-ready draft emailed 9:40 AM; registration by Thursday + slides and headline numbers by Mon Sep 21)
 - [ ] Reply Becky Light: answer key/rubric for the Epi in Action assignment (asked Sep 14; students are raising it in office hours)
 - [ ] Decide Aanya Pandey's Applied Learning Lab request — she submitted partial work in class, asks to complete and resubmit now that the answer key is out (Sep 14 evening)
 
