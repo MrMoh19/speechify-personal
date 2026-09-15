@@ -17,6 +17,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Collect slides from all four presenters for Nuha by Mon Sep 21 (sweep reminds Fri and Sun if missing)
 
 ### Standing
+- [ ] JOTS revision (ms 1390286, "Validating Posttraumatic Stress, Depression, and Anxiety Screening Among Conflict-Affected IDPs in Nigeria"): minor revisions due in 22 days from Sep 15 reminder (~Oct 7); revised files + author response letter via the Wiley submission portal — plan around ISTSS week
 - [ ] Epi Matters 2e response letter: DRAFT READY in Drive ("Epi Matters 2e — Response to Reviews (draft)") — Mohammed reviews/edits, circulates to Kerry + Sandro for one round, then to Emma; also answers Kerry's process question
 - [ ] PLOS Mental Health: action needed on PMEN-D-26-00318 (reminder Sep 14) and four pending editor invitations (PMEN-D-26-00483, -00492, -00497, -00507) awaiting accept/decline
 - [ ] Reconnect Google Calendar connector (Settings → Connectors → Google Calendar; pick abbaaji189@gmail.com at the account chooser)
