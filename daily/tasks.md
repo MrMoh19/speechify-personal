@@ -4,8 +4,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Open
 
-- [ ] URGENT: send Nickerson the release email (her thread, cc Jaimie) BEFORE Sydney morning — Nuha accepted hours after Nickerson was invited
-- [ ] Reply to Nuha confirming; attach symposium abstract + four paper summaries (discussant-packet.md — fill the three bracketed spots); slides promised by Mon Sep 21
+- [ ] Send Nuha the symposium abstract + four paper summaries (promised "by tomorrow" = Sep 15; fill the three bracketed spots in discussant-packet.md first)
 - [ ] Notify Alex Hinnen (ahinnen@parthenonmgmt.com, cc Jaimie) of discussant change BEFORE Thu Sep 17 (he is out Sep 18, 21-25)
 - [ ] Collect slides from all four presenters for Nuha by Mon Sep 21 (sweep reminds Fri and Sun if missing)
 - [ ] Epi Matters 2e response letter: DRAFT READY in Drive ("Epi Matters 2e — Response to Reviews (draft)") — Mohammed reviews/edits, circulates to Kerry + Sandro for one round, then to Emma; also answers Kerry's process question
@@ -18,6 +17,8 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Done
 
+- [x] 2026-09-14 — NUHA ALSHABANI CONFIRMED AS DISCUSSANT; acceptance reply sent with Jaimie cc'd
+- [x] 2026-09-14 — Nickerson released (her thread, cc Jaimie) before Sydney morning
 - [x] 2026-09-14 — Nickerson invitation sent, Jaimie cc'd; she backed it on-thread within two minutes
 - [x] 2026-09-14 — Gavin meeting held; aligned on all items; Paper 2 outline shared with him (edit access) and emailed
 - [x] 2026-09-14 — Zara's Days Inn booking covered (per Mohammed)
