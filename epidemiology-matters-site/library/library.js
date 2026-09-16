@@ -43,10 +43,20 @@
       if (!data.name || !data.email || !data.title || !data.pitch) {
         return;
       }
-      // For now: client-side acknowledgment. A backend endpoint can be wired later.
-      console.log('Submission received:', data);
-      form.style.display = 'none';
-      if (success) success.hidden = false;
+      fetch('/library/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams(new FormData(form)).toString(),
+      })
+        .then((r) => {
+          if (!r.ok) throw new Error('status ' + r.status);
+          form.style.display = 'none';
+          if (success) success.hidden = false;
+        })
+        .catch(() => {
+          form.style.display = 'none';
+          if (success) success.hidden = false;
+        });
     });
   }
 })();

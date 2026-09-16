@@ -26,20 +26,4 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "camera=(), microphone=(), geolocation=()"
 
-# Pretty URLs (optional)
-[[redirects]]
-  from = "/instructors"
-  to = "/instructors.html"
-  status = 200
-
-[[redirects]]
-  from = "/privacy"
-  to = "/privacy.html"
-  status = 200
-
-[[redirects]]
-  from = "/terms"
-  to = "/terms.html"
-  status = 200
-
 # Netlify automatically serves /404.html for unmatched paths.

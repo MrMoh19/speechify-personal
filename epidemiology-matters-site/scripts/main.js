@@ -25,14 +25,44 @@
     }
   }
 
-  // ---------- Email signup (client-side only) ----------
-  var notifyBtn = document.getElementById('notifyBtn');
-  var emailInput = document.getElementById('emailInput');
-  if (notifyBtn) {
-    notifyBtn.addEventListener('click', function () {
-      if (emailInput) emailInput.value = '';
-      window.alert('Thank you! We will keep you updated.');
+  // ---------- Email signup (Netlify Forms) ----------
+  var signupForm = document.getElementById('signupForm');
+  if (signupForm) {
+    signupForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var btn = document.getElementById('notifyBtn');
+      var msg = document.getElementById('signupMsg');
+      if (btn) btn.disabled = true;
+      fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams(new FormData(signupForm)).toString(),
+      })
+        .then(function (r) {
+          if (!r.ok) throw new Error('status ' + r.status);
+          signupForm.querySelector('[name=email]').value = '';
+          if (msg) { msg.textContent = 'Thank you \u2014 you\u2019re on the list. We\u2019ll write when there\u2019s something worth reporting.'; msg.hidden = false; }
+        })
+        .catch(function () {
+          if (msg) { msg.textContent = 'Something went wrong sending that. Please try again in a moment.'; msg.hidden = false; }
+        })
+        .finally(function () { if (btn) btn.disabled = false; });
     });
+  }
+
+  // ---------- Scroll reveals ----------
+  if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    var rvEls = document.querySelectorAll('main .section-head, main .feed-card, main .trio__card, main .tool-row, main .cbox, main .author-card');
+    rvEls.forEach(function (el, i) {
+      el.classList.add('rv');
+      el.style.transitionDelay = (Math.min(i % 3, 2) * 70) + 'ms';
+    });
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) { en.target.classList.add('is-in'); io.unobserve(en.target); }
+      });
+    }, { rootMargin: '0px 0px -50px 0px' });
+    rvEls.forEach(function (el) { io.observe(el); });
   }
 
   // ---------- Mobile nav toggle ----------

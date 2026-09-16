@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page Not Found | Epidemiology Matters</title>
+  <meta name="robots" content="noindex" />
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter+Tight:wght@500;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles/main.css" />
+  <style>
+    .nf-wrap{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:var(--space-6) var(--space-4);}
+    .nf-fig{width:44px;color:var(--signal);margin-bottom:var(--space-4);}
+    .nf-code{font-family:var(--font-display,'Oswald',sans-serif);font-weight:700;font-size:clamp(4rem,12vw,7rem);line-height:1;color:var(--ink);}
+    .nf-title{font-family:var(--font-display,'Oswald',sans-serif);font-weight:600;text-transform:uppercase;letter-spacing:0.04em;font-size:1.4rem;margin-top:var(--space-2);}
+    .nf-desc{font-family:var(--font-serif,'Source Serif 4',serif);max-width:420px;color:var(--ink-2);line-height:1.7;margin:var(--space-3) auto var(--space-5);}
+    .nf-links{display:flex;gap:var(--space-3);flex-wrap:wrap;justify-content:center;margin-top:var(--space-4);}
+    .nf-links a{font-family:var(--font-mono,'JetBrains Mono',monospace);font-size:var(--text-xs,0.75rem);text-transform:uppercase;letter-spacing:0.14em;color:var(--ink-mute);text-decoration:none;}
+    .nf-links a:hover{color:var(--signal);}
+  </style>
+</head>
+<body>
+  <div class="nf-wrap">
+    <svg class="nf-fig" viewBox="0 0 48 96" aria-hidden="true">
+      <circle cx="24" cy="9" r="7" fill="currentColor"/>
+      <path d="M 14 19 L 19 17 L 29 17 L 34 19 L 39 30 L 41 48 L 37 49 L 35 30 L 33 50 L 31 92 L 27 92 L 25 58 L 23 58 L 21 92 L 17 92 L 15 50 L 13 30 L 11 49 L 7 48 L 9 30 Z" fill="currentColor"/>
+    </svg>
+    <div class="nf-code">404</div>
+    <div class="nf-title">Lost to Follow-Up</div>
+    <p class="nf-desc">This page could not be located in the census of Farrlandia. It may have emigrated, or it may never have existed &mdash; a reminder that missing data still tells a story.</p>
+    <a href="/" class="btn btn--signal">Return to the population <span class="arrow"></span></a>
+    <div class="nf-links">
+      <a href="/lab/">Causal Lab</a>
+      <a href="/explore/">Companion</a>
+      <a href="/farrlandia/">Farrlandia</a>
+      <a href="/library/">Library</a>
+    </div>
+  </div>
+</body>
+</html>

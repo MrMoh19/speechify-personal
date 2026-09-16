@@ -1866,3 +1866,9 @@ a.feed-card:hover .feed-card__foot::after { transform: translateX(4px); }
 .legal h1 { margin-top: var(--space-3); margin-bottom: var(--space-2); }
 .legal h2 { font-family: var(--font-sub); font-size: var(--text-lg); text-transform: uppercase; letter-spacing: 0.06em; margin-top: var(--space-7); margin-bottom: var(--space-2); }
 .legal p { margin-bottom: var(--space-3); }
+
+
+/* ---------- Scroll reveals (added in merge) ---------- */
+.rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+.rv.is-in{opacity:1;transform:none}
+@media (prefers-reduced-motion: reduce){.rv{opacity:1;transform:none;transition:none}}
