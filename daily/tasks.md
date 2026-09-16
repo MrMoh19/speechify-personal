@@ -27,6 +27,11 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] AI and Public Health Survey: one-page concept note before the Oct 1, 1 PM call with Layden + Brownson (adoption-study framing; Shah tiers; sanctioned vs actual use)
 - [ ] DDOH Viewpoint with Jay Shaw (JAMA Health Forum, with Sandro): Jay's revised outline due back this week — review and begin draft
 
+### Portfolio (tracked; work as directed)
+- [ ] AI & Digital Innovation in PH Curriculum (MPH): kick-off held; course concept is the next deliverable
+- [ ] N-MIND: readiness forms back from FNPH sites + ethics submissions; workbook v0.3 build (imported notes in projects/n-mind/)
+- [ ] PHS1000 teaching: Tue/Thu sessions; team meeting Thursdays (relocated this week per AJ)
+
 ### Standing
 - [ ] JOTS revision (ms 1390286, IDP validation paper): minor revisions due ~Oct 7; response plan circulates after ISTSS
 - [ ] Epi Matters 2e response letter: draft in Drive awaits review, then Kerry + Sandro, then Emma (on today's Sandro agenda)
