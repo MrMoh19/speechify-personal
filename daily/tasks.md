@@ -6,7 +6,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ### Today (Wed Sep 16)
 - [ ] Send Nuha the symposium abstract + four paper summaries — the packet needs only your trauma-saturation sentences, the rest is assembled
-- [ ] Sandro meeting today: weekly update docx v2 delivered ~10:20 AM in his Aug table format (WHO row solo, AI survey + DDOH rows filled; one bracket left: lecture date/format) — drop into the Box weekly folder
+- [ ] Sandro meeting today: use v4 docx (~11:30 AM) — NEW structure Active/On hold/Projects/Training, ANCHOR removed; one bracket left (lecture date/format). Friday system live: question round Fri 12:37 PM, compile-and-deliver Fri 5:23 PM (unfailing), source of truth projects/sandro-weekly/rows.json
 - [ ] Send the Grace Jiang holding reply from Outlook (paste-ready draft delivered ~8:55 AM; full introductions after the conference)
 - [ ] WHO Bulletin R&R (BLT/2026/296735, "Commercial Determinants of Armed Conflict and the Global Arms Industry", PMAC2027; coauthors Galea, Bath, Barberia): 8 editorial-committee points + external reviews in the author area; revised 3000-word Policy & Practice ms + point-by-point + highlighted changes DUE ~OCT 1 (four weeks from the Sep 3 decision) for the CDoH theme issue — Mohammed doing the revision himself; Claude to build the response scaffold
 
