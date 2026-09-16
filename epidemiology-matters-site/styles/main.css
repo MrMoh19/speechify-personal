@@ -1872,3 +1872,26 @@ a.feed-card:hover .feed-card__foot::after { transform: translateX(4px); }
 .rv{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 .rv.is-in{opacity:1;transform:none}
 @media (prefers-reduced-motion: reduce){.rv{opacity:1;transform:none;transition:none}}
+
+
+/* ---------- Bulletin rotator (added) ---------- */
+.bulletin{background:var(--ink);border-bottom:1px solid var(--ink)}
+.bulletin__inner{display:flex;align-items:center;gap:var(--space-4);padding-top:10px;padding-bottom:10px;min-height:46px}
+.bulletin__label{font-family:'JetBrains Mono',monospace;font-size:0.62rem;letter-spacing:0.18em;text-transform:uppercase;color:#e8776b;flex:0 0 auto;display:flex;align-items:center;gap:8px}
+.bulletin__label::before{content:'';width:6px;height:6px;border-radius:50%;background:currentColor;animation:bpulse 2s ease-in-out infinite}
+@keyframes bpulse{0%,100%{opacity:1}50%{opacity:.3}}
+.bulletin__track{position:relative;flex:1;height:1.5em;min-width:0}
+.bulletin__item{position:absolute;inset:0;display:flex;align-items:center;font-family:'Source Serif 4',serif;font-size:0.92rem;line-height:1.35;color:#fff;text-decoration:none;opacity:0;transform:translateY(7px);transition:opacity .5s ease,transform .5s ease;pointer-events:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bulletin__item strong{font-weight:600}
+.bulletin__item:hover{text-decoration:underline;text-underline-offset:3px}
+.bulletin__item.is-on{opacity:1;transform:none;pointer-events:auto}
+.bulletin__dots{display:flex;gap:6px;flex:0 0 auto}
+.bulletin__dot{width:8px;height:8px;border-radius:50%;border:1px solid rgba(255,255,255,.45);background:transparent;padding:0;cursor:pointer}
+.bulletin__dot.is-on{background:#cb493c;border-color:#cb493c}
+@media(max-width:720px){.bulletin__track{height:2.9em}.bulletin__item{white-space:normal;font-size:0.8rem;-webkit-line-clamp:2}.bulletin__label{display:none}}
+@media (prefers-reduced-motion: reduce){.bulletin__item{transition:none}.bulletin__label::before{animation:none}}
+
+/* ---------- Farrlandia map plate (added) ---------- */
+.farr-map{max-width:470px;margin:var(--space-6) auto;padding:12px 12px 10px;background:#fff;border:1px solid var(--rule);box-shadow:0 10px 30px rgba(10,10,10,.06)}
+.farr-map svg{display:block;width:100%;height:auto}
+.farr-map figcaption{font-family:'Source Serif 4',serif;font-style:italic;font-size:0.8rem;color:var(--ink-mute);text-align:center;margin-top:10px;line-height:1.55}

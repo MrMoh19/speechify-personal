@@ -89,3 +89,35 @@
     });
   });
 })();
+
+// ---------- Bulletin rotator ----------
+(function () {
+  'use strict';
+  var items = document.querySelectorAll('.bulletin__item');
+  var dotsWrap = document.querySelector('.bulletin__dots');
+  if (!items.length || !dotsWrap) return;
+  var idx = 0, timer = null;
+  var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  items.forEach(function (_, i) {
+    var d = document.createElement('button');
+    d.className = 'bulletin__dot' + (i === 0 ? ' is-on' : '');
+    d.setAttribute('aria-label', 'Show bulletin item ' + (i + 1));
+    d.addEventListener('click', function () { show(i); restart(); });
+    dotsWrap.appendChild(d);
+  });
+  var dots = dotsWrap.querySelectorAll('.bulletin__dot');
+  function show(i) {
+    idx = i;
+    items.forEach(function (el, j) { el.classList.toggle('is-on', j === i); });
+    dots.forEach(function (el, j) { el.classList.toggle('is-on', j === i); });
+  }
+  function restart() {
+    if (timer) clearInterval(timer);
+    timer = null;
+    if (!reduced) timer = setInterval(function () { show((idx + 1) % items.length); }, 7000);
+  }
+  var bar = document.querySelector('.bulletin');
+  bar.addEventListener('mouseenter', function () { if (timer) { clearInterval(timer); timer = null; } });
+  bar.addEventListener('mouseleave', restart);
+  restart();
+})();

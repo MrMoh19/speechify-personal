@@ -48,6 +48,20 @@
     </div>
   </header>
 
+  <!-- ============================ BULLETIN ============================ -->
+  <aside class="bulletin" aria-label="Announcements">
+    <div class="container bulletin__inner">
+      <span class="bulletin__label">Bulletin</span>
+      <div class="bulletin__track">
+        <a class="bulletin__item is-on" href="farrlandia/index.html"><em>&ldquo;The death rate is a fact; anything beyond this is an inference.&rdquo;</em>&nbsp;&mdash;&nbsp;William Farr, 1807&ndash;1883</a>
+        <a class="bulletin__item" href="library/articles/table-2-fallacy/index.html">New in the Library: <strong>The Table 2 Fallacy</strong> &mdash; the first article of the journal</a>
+        <a class="bulletin__item" href="#challenge">The <strong>Farrlandia Challenge</strong> opens for registration Fall 2028 &mdash; teams of 3&ndash;5, free to enter</a>
+        <a class="bulletin__item" href="#signup"><strong>Epidemiology Matters</strong>, second edition &mdash; coming 2028 from Oxford University Press</a>
+      </div>
+      <div class="bulletin__dots" aria-hidden="false"></div>
+    </div>
+  </aside>
+
   <main id="main">
     <!-- ==================== MANIFESTO HERO (the landing) ==================== -->
     <section class="lede-hero" aria-labelledby="ledeTitle">
@@ -300,6 +314,99 @@
             <p class="section-head__lede">An inter-school competition for public health students. Investigate an outbreak in Farrlandia. Identify causes. Propose interventions. Compete against teams from schools across the country.</p>
           </div>
         </div>
+        <figure class="farr-map">
+          <svg viewBox="0 0 520 600" role="img" aria-label="An engraved-style map of the Isle of Farrlandia, the book's teaching population, with an outbreak cluster marked at Port Snow">
+          <!-- plate frame -->
+          <rect x="4" y="4" width="512" height="592" fill="var(--paper)" stroke="#0a0a0a" stroke-width="1.5"/>
+          <rect x="13" y="13" width="494" height="574" fill="none" stroke="#d9e0e6" stroke-width="1"/>
+          <!-- graticule -->
+          <g stroke="#f0f3f6" stroke-width="0.8">
+            <line x1="96" y1="14" x2="96" y2="586"/><line x1="178" y1="14" x2="178" y2="586"/><line x1="260" y1="14" x2="260" y2="586"/><line x1="342" y1="14" x2="342" y2="586"/><line x1="424" y1="14" x2="424" y2="586"/>
+            <line x1="14" y1="120" x2="506" y2="120"/><line x1="14" y1="215" x2="506" y2="215"/><line x1="14" y1="310" x2="506" y2="310"/><line x1="14" y1="405" x2="506" y2="405"/><line x1="14" y1="500" x2="506" y2="500"/>
+          </g>
+          <!-- sea marks -->
+          <g stroke="#d9e0e6" stroke-width="1" stroke-linecap="round">
+            <path d="M40 200 q7 -5 14 0" fill="none"/><path d="M56 214 q7 -5 14 0" fill="none"/>
+            <path d="M448 480 q7 -5 14 0" fill="none"/><path d="M462 464 q7 -5 14 0" fill="none"/>
+            <path d="M60 520 q7 -5 14 0" fill="none"/><path d="M440 180 q7 -5 14 0" fill="none"/>
+          </g>
+          <!-- island shadow -->
+          <path d="M155 206 C193 165 252 154 302 168 C352 181 401 204 416 253 C431 302 421 352 391 391 C406 406 401 431 381 441 C351 456 331 441 311 461 C281 491 231 486 196 466 C156 443 131 401 121 351 C111 301 117 245 155 206 Z" transform="translate(5,6)" fill="rgba(10,10,10,0.06)"/>
+          <!-- island -->
+          <path d="M150 200 C188 159 247 148 297 162 C347 175 396 198 411 247 C426 296 416 346 386 385 C401 400 396 425 376 435 C346 450 326 435 306 455 C276 485 226 480 191 460 C151 437 126 395 116 345 C106 295 112 239 150 200 Z" fill="#ecf0f3" stroke="#0a0a0a" stroke-width="1.6"/>
+          <!-- interior contours -->
+          <path d="M190 250 C220 220 280 212 320 228 C360 244 378 280 368 315 C358 350 320 372 275 368 C230 364 196 340 186 305 C179 282 180 262 190 250 Z" fill="none" stroke="#d9e0e6" stroke-width="1"/>
+          <path d="M225 275 C245 258 285 254 310 268 C335 282 342 305 334 326 C326 347 298 358 270 354 C242 350 222 332 219 310 C217 296 217 284 225 275 Z" fill="none" stroke="#d9e0e6" stroke-width="1"/>
+          <!-- lake -->
+          <path d="M252 300 C262 292 280 292 288 300 C296 308 294 320 284 326 C274 332 258 330 251 322 C245 315 246 306 252 300 Z" fill="#ffffff" stroke="#b8c2cc" stroke-width="1"/>
+          <text x="270" y="345" font-family="Source Serif 4,serif" font-size="9" font-style="italic" fill="#5b6066" text-anchor="middle">L. Graunt</text>
+          <!-- post roads -->
+          <g stroke="#b8c2cc" stroke-width="1.1" stroke-dasharray="4 4" fill="none">
+            <path d="M170 425 C200 390 225 330 258 302"/>
+            <path d="M258 302 C300 275 330 235 302 196"/>
+            <path d="M258 302 C310 300 360 300 392 296"/>
+            <path d="M258 302 C280 360 295 410 300 448"/>
+          </g>
+          <!-- settlements -->
+          <g font-family="Inter Tight,sans-serif" font-size="9.5" fill="#0a0a0a" font-weight="500">
+            <rect x="164" y="419" width="11" height="11" fill="#ffffff" stroke="#0a0a0a" stroke-width="1.2"/>
+            <text x="182" y="416" font-weight="600">Port Snow</text>
+            <circle cx="392" cy="296" r="4.5" fill="#ffffff" stroke="#0a0a0a" stroke-width="1.2"/>
+            <text x="352" y="284">Farr Harbour</text>
+            <circle cx="258" cy="302" r="4.5" fill="#ffffff" stroke="#0a0a0a" stroke-width="1.2"/>
+            <text x="215" y="292">Graunt Fields</text>
+            <circle cx="302" cy="196" r="4.5" fill="#ffffff" stroke="#0a0a0a" stroke-width="1.2"/>
+            <text x="313" y="192">Nightingale Point</text>
+            <circle cx="300" cy="448" r="4.5" fill="#ffffff" stroke="#0a0a0a" stroke-width="1.2"/>
+            <text x="312" y="453">Hill Crossing</text>
+          </g>
+          <!-- outbreak cluster at Port Snow -->
+          <g fill="#cb493c">
+            <circle cx="152" cy="408" r="3.2"/><circle cx="162" cy="398" r="3.2"/><circle cx="176" cy="404" r="3.2"/><circle cx="146" cy="422" r="3.2"/><circle cx="158" cy="432" r="3.2"/><circle cx="172" cy="440" r="3.2"/><circle cx="186" cy="432" r="3.2"/><circle cx="184" cy="418" r="3.2"/><circle cx="196" cy="425" r="3.2"/><circle cx="168" cy="416" r="3.2"/><circle cx="150" cy="437" r="3.2"/><circle cx="194" cy="444" r="3.2"/>
+          </g>
+          <!-- well residents -->
+          <g fill="#FFFFFF" stroke="#0a0a0a" stroke-width="1">
+            <circle cx="230" cy="240" r="3"/><circle cx="270" cy="225" r="3"/><circle cx="330" cy="250" r="3"/><circle cx="360" cy="320" r="3"/><circle cx="340" cy="360" r="3"/><circle cx="235" cy="390" r="3"/><circle cx="215" cy="345" r="3"/><circle cx="290" cy="380" r="3"/><circle cx="320" cy="415" r="3"/><circle cx="265" cy="430" r="3"/><circle cx="200" cy="290" r="3"/><circle cx="160" cy="310" r="3"/><circle cx="285" cy="180" r="3"/><circle cx="335 " cy="205" r="3"/>
+          </g>
+          <!-- title cartouche -->
+          <g>
+            <rect x="128" y="30" width="264" height="62" fill="#ffffff" stroke="#0a0a0a" stroke-width="1.3"/>
+            <rect x="133" y="35" width="254" height="52" fill="none" stroke="#d9e0e6" stroke-width="1"/>
+            <text x="260" y="50" font-family="Inter Tight,sans-serif" font-size="8" letter-spacing="3.5" fill="#5b6066" text-anchor="middle">THE ISLE OF</text>
+            <text x="260" y="72" font-family="Oswald,sans-serif" font-size="23" letter-spacing="5" fill="#0a0a0a" text-anchor="middle">FARRLANDIA</text>
+            <text x="260" y="84" font-family="Inter Tight,sans-serif" font-size="7.5" letter-spacing="2.5" fill="#cb493c" text-anchor="middle">POPULATION 1,000 &#8226; EVERY RESIDENT KNOWN</text>
+          </g>
+          <!-- compass rose -->
+          <g transform="translate(448,150)">
+            <circle r="17" fill="#ffffff" stroke="#0a0a0a" stroke-width="1"/>
+            <circle r="12" fill="none" stroke="#d9e0e6" stroke-width="0.8"/>
+            <path d="M0 -14 L3.5 0 L0 14 L-3.5 0 Z" fill="#0a0a0a"/>
+            <path d="M-14 0 L0 3.5 L14 0 L0 -3.5 Z" fill="#b8c2cc"/>
+            <path d="M0 -14 L3.5 0 L-3.5 0 Z" fill="#cb493c"/>
+            <text y="-22" font-family="Oswald,sans-serif" font-size="11" fill="#0a0a0a" text-anchor="middle">N</text>
+          </g>
+          <!-- scale bar -->
+          <g transform="translate(40,545)">
+            <rect x="0" y="0" width="30" height="5" fill="#0a0a0a"/>
+            <rect x="30" y="0" width="30" height="5" fill="#ffffff" stroke="#0a0a0a" stroke-width="0.8"/>
+            <rect x="60" y="0" width="30" height="5" fill="#0a0a0a"/>
+            <rect x="90" y="0" width="30" height="5" fill="#ffffff" stroke="#0a0a0a" stroke-width="0.8"/>
+            <text x="0" y="18" font-family="Inter Tight,sans-serif" font-size="8" fill="#5b6066">0</text>
+            <text x="120" y="18" font-family="Inter Tight,sans-serif" font-size="8" fill="#5b6066" text-anchor="end">10 leagues</text>
+          </g>
+          <!-- legend -->
+          <g transform="translate(322,516)">
+            <rect x="0" y="0" width="178" height="62" fill="#ffffff" stroke="#0a0a0a" stroke-width="1"/>
+            <circle cx="16" cy="16" r="3.4" fill="#cb493c"/>
+            <text x="28" y="19.5" font-family="Inter Tight,sans-serif" font-size="9" fill="#2a2a2a">reported case</text>
+            <circle cx="16" cy="33" r="3.2" fill="#FFFFFF" stroke="#0a0a0a" stroke-width="1"/>
+            <text x="28" y="36.5" font-family="Inter Tight,sans-serif" font-size="9" fill="#2a2a2a">resident, well</text>
+            <line x1="9" y1="49" x2="23" y2="49" stroke="#b8c2cc" stroke-width="1.2" stroke-dasharray="4 3"/>
+            <text x="28" y="52.5" font-family="Inter Tight,sans-serif" font-size="9" fill="#2a2a2a">post road</text>
+          </g>
+        </svg>
+          <figcaption>The Isle of Farrlandia &mdash; named for William Farr, founder of modern vital statistics. An outbreak at Port Snow opens the Challenge.</figcaption>
+        </figure>
         <div class="feat-grid">
           <div class="feat"><h4>4 Rounds, 4 Weeks</h4><p>Each round follows the seven-step framework: define, investigate, challenge, intervene.</p></div>
           <div class="feat"><h4>Real Tools</h4><p>Teams use the platform's interactive modules to analyze the Farrlandia dataset.</p></div>
