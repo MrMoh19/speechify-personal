@@ -4,45 +4,41 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Open
 
-### Today (Tue Sep 15)
-- [ ] Send Nuha the symposium abstract + four paper summaries (promised "by tomorrow" = today; fill the three bracketed spots in discussant-packet.md first)
-- [ ] Decide Aanya Pandey's Applied Learning Lab request — she submitted partial work in class, asks to complete and resubmit; lab grades were released 11:42 AM, so the ruling is now visible to her (Sep 14 evening)
-- [ ] Send the ANCHOR-MH welcome (reply-all to Ross + Brady Heward) from Outlook, then forward Brady the concept note and minutes (paste-ready draft emailed ~1:20 PM)
-- [ ] ANCHOR concept note v2 FINAL DELIVERED (staggered design + all three Ojo inputs integrated) — replace the Box copy (Upload New Version) and the Drive copy, then recirculate to Ross, Heward, Abiso, Musami, Ojo
-- [ ] Send the RA group-training email (Parth o.parth, Ellie e.i.solomon, Gabriel Estrada egabriel, + Zoe) — fill Zoe's address and the day options (Fri Sep 18 / Mon Sep 21); citation-exercise documents go out AFTER the session; this answers Ellie's follow-up too
-- [ ] Approve Zana Kennedy's accommodated exam request in the Disability Resources portal (notice 9:27 AM, copied to Ans)
+### Today (Wed Sep 16)
+- [ ] Send Nuha the symposium abstract + four paper summaries — promised Monday "by tomorrow", now a day past; the packet needs only your trauma-saturation sentences, the rest is assembled
+- [ ] Reply Grace Jiang (jziyi@wustl.edu) — she followed up on Tuesday's after-class chat; make the connections you offered (oral health + mental health people)
+- [ ] Fix the epi assignment distribution — E.A. Quinn flags it went out from LAST YEAR's portal (she received it), so this year's roster may not have; resend from the current portal
+- [ ] Decide Aanya Pandey's Applied Learning Lab request — grades are released, so the gap is visible to her (asked Sep 14 evening)
+- [ ] Approve Zana Kennedy's accommodated exam request in the Disability Resources portal (notice Sep 15, copied to Ans)
+- [ ] Send the ANCHOR-MH welcome (reply-all to Ross + Brady Heward) from Outlook if not yet sent (paste-ready draft in inbox since Tue ~1:20 PM)
+- [ ] ANCHOR concept note v2 FINAL: replace the Box copy (Upload New Version) and Drive copy if not yet done, then recirculate to Ross, Heward, Abiso, Musami, Ojo
+- [ ] Send the RA group-training email (Parth, Ellie, Gabriel Estrada, + Zoe) — fill Zoe's address and day options (Fri Sep 18 / Mon Sep 21); consider adding Grace Jiang if she fits the cohort
 
 ### This week
-- [ ] Sandro-fy Courtney Babcock's opening remarks for Leading with Listening by end of week (draft in her email + Box; Sandro hands off to Charlie White, then Matt Kreuter)
-- [ ] TFRH white paper: upload assigned section first draft by Sun Sep 20; review sections 1-6 and bring section-7 ideas before the Sep 25 meeting (Morven's minutes, Sep 14)
-- [ ] Collect slides from all four presenters for Nuha by Mon Sep 21 (sweep reminds Fri and Sun if missing)
+- [ ] Sandro-fy Courtney Babcock's opening remarks for Leading with Listening by FRIDAY (draft in her email + Box)
+- [ ] TFRH white paper: section first draft by Sun Sep 20; review sections 1-6 + section-7 ideas before the Sep 25 meeting
+- [ ] Collect slides from all four presenters for Nuha by Mon Sep 21 (sweep reminds Fri and Sun if missing); none received yet
+- [ ] Confirm Salma's ISTSS registration — still unconfirmed; she canceled the Mohammed + Salma catch-up Tue night ("School assembly"), so the email thread is the channel
+- [ ] Kirsten Jacobsen: awaiting her pick of Wed 11:15-1:15 or Thu 1-2 for the books meeting
+- [ ] Tueth Keeney: if Calvin/Melanie stay silent past TOMORROW (Thu), go direct to Melanie
 
 ### Standing
-- [ ] JOTS revision (ms 1390286, "Validating Posttraumatic Stress, Depression, and Anxiety Screening Among Conflict-Affected IDPs in Nigeria"): minor revisions due in 22 days from Sep 15 reminder (~Oct 7); revised files + author response letter via the Wiley submission portal — plan around ISTSS week
-- [ ] Epi Matters 2e response letter: DRAFT READY in Drive ("Epi Matters 2e — Response to Reviews (draft)") — Mohammed reviews/edits, circulates to Kerry + Sandro for one round, then to Emma; also answers Kerry's process question
-- [ ] PLOS Mental Health: action needed on PMEN-D-26-00318 (reminder Sep 14) and four pending editor invitations (PMEN-D-26-00483, -00492, -00497, -00507) awaiting accept/decline
-- [ ] Publish Outlook calendar as ICS and subscribe in Google Calendar
+- [ ] JOTS revision (ms 1390286, IDP validation paper): minor revisions due ~Oct 7; revised files + response letter via Wiley portal — plan around ISTSS week
+- [ ] Epi Matters 2e response letter: draft in Drive awaits review, then Kerry + Sandro, then Emma
+- [ ] PLOS Mental Health: PMEN-D-26-00318 action + four editor invitations pending
+- [ ] Publish Outlook calendar as ICS and subscribe in Google Calendar (connector is live; today's calendar is empty until this lands)
 
 ## Done
 
-- [x] 2026-09-15 — Alex Hinnen change-package reply SENT (Sandro out, Nuha in, Salma registration in motion); watch for his confirmation
-- [x] 2026-09-15 — Tueth Keeney waiver nudge SENT (watch for Calvin/Melanie; escalate to Melanie if silent past Thursday)
-- [x] 2026-09-15 — Kirsten Jacobsen meeting-times reply SENT (Wed 11:15-1:15 or Thu 1-2; awaiting her pick)
-- [x] 2026-09-15 — Google Calendar connector reconnected (abbaaji189@gmail.com verified); Outlook ICS feed still pending
-- [x] 2026-09-15 — Salma nudge SENT from Outlook 9:48 AM (registration + slides + headline numbers, to s.abdalla@wustl.edu)
-- [x] 2026-09-15 — Becky Light's Epi in Action rubric request answered (per Mohammed)
-- [x] 2026-09-15 — Sarah Moreland-Russell's slide request (guest lecture, 12:36 PM) answered same day (per Mohammed)
-- [x] 2026-09-15 — Nickerson acknowledged the release warmly ("No problem – wishing you all the best for the symposium"); chair contingency closed, nothing owed
-- [x] 2026-09-15 — Jaimie welcomed Nuha on the acceptance thread ("This is wonderful news!!"); ISTSS discussant fully settled
+- [x] 2026-09-15 — Angela Hobson's FRPHC scheduling poll: her 3:57 PM nudge was followed by the WhenAvailable signup confirmation at 4:05 PM (reads as completed)
+- [x] 2026-09-15 — Trey's person-months question answered by Ans; balcony signs hung by Yuxin (re-check Thursday)
+- [x] 2026-09-15 — ANCHOR concept note v2 built: staggered design + Ojo's three inputs integrated, de-attributed per Mohammed; file delivered
+- [x] 2026-09-15 — Alex Hinnen change-package reply SENT (Sandro out, Nuha in, Salma registration in motion); no pushback since
+- [x] 2026-09-15 — Tueth Keeney waiver nudge SENT; Kirsten meeting-times reply SENT; Salma nudge SENT (9:48 AM)
+- [x] 2026-09-15 — Google Calendar connector reconnected (abbaaji189@gmail.com verified)
+- [x] 2026-09-15 — Becky Light's rubric request and Sarah Moreland-Russell's slide request answered (per Mohammed)
+- [x] 2026-09-15 — Nickerson acknowledged the release warmly; Jaimie welcomed Nuha on-thread; ISTSS discussant fully settled
 - [x] 2026-09-14 — NUHA ALSHABANI CONFIRMED AS DISCUSSANT; acceptance reply sent with Jaimie cc'd
-- [x] 2026-09-14 — Nickerson released (her thread, cc Jaimie) before Sydney morning
-- [x] 2026-09-14 — Nickerson invitation sent, Jaimie cc'd; she backed it on-thread within two minutes
-- [x] 2026-09-14 — Jennifer Layden accepted the PHS1000 guest-lecture invitation ("Delighted to!")
-- [x] 2026-09-14 — Gavin meeting held; aligned on all items; Paper 2 outline shared with him (edit access) and emailed
-- [x] 2026-09-14 — Zara's Days Inn booking covered (per Mohammed)
-- [x] 2026-09-14 — Answered Jaimie's presentation-length question (12 min in a 14-min slot)
-- [x] 2026-09-13 — Reply to Jaimie sent (evidence: her response Sep 14, 6:22 AM CT)
-- [x] 2026-09-13 — Zara: Days Inn option confirmed with her (one night, Sep 14-15)
-- [x] 2026-09-13 — Discussant shortlist program-verified; outreach emails drafted; pushed
-- [x] 2026-09-13 — Outlook→Gmail forwarding live and verified; WUSTL label + filter + never-spam
+- [x] 2026-09-14 — Nickerson invited then released same day; Gavin meeting held, Paper 2 outline shared; Zara's booking covered; Jaimie's timing question answered
+- [x] 2026-09-13 — Reply to Jaimie sent; Zara's Days Inn confirmed; shortlist program-verified; Outlook→Gmail forwarding live
 - [x] 2026-09-11 — Alshabani invitation sent from Outlook
