@@ -6,7 +6,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ### Today (Wed Sep 16)
 - [ ] Send Nuha the symposium abstract + four paper summaries — the packet needs only your trauma-saturation sentences, the rest is assembled
-- [ ] Sandro meeting today: agenda + weekly update delivered ~8:55 AM (fill the two brackets: AI survey status lines, lecture date/format question)
+- [ ] Sandro meeting today: weekly update docx v2 delivered ~10:20 AM in his Aug table format (WHO row solo, AI survey + DDOH rows filled; one bracket left: lecture date/format) — drop into the Box weekly folder
 - [ ] Send the Grace Jiang holding reply from Outlook (paste-ready draft delivered ~8:55 AM; full introductions after the conference)
 - [ ] WHO Bulletin R&R (BLT/2026/296735, "Commercial Determinants of Armed Conflict and the Global Arms Industry", PMAC2027; coauthors Galea, Bath, Barberia): 8 editorial-committee points + external reviews in the author area; revised 3000-word Policy & Practice ms + point-by-point + highlighted changes DUE ~OCT 1 (four weeks from the Sep 3 decision) for the CDoH theme issue — settle division of labor with Sandro today; Claude to build the response scaffold
 
@@ -22,6 +22,10 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] RA group-training email (Parth, Ellie, Gabriel Estrada, + Zoe; Grace may fit the cohort) — resume when he says
 - [ ] Grace Jiang full introductions (oral health + mental health people) — after the conference; holding reply covers the interim
 - [ ] Yahoo → Gmail POP fetch — parked as convoluted for now
+
+### New this week (from Sandro-meeting prep)
+- [ ] AI and Public Health Survey: one-page concept note before the Oct 1, 1 PM call with Layden + Brownson (adoption-study framing; Shah tiers; sanctioned vs actual use)
+- [ ] DDOH Viewpoint with Jay Shaw (JAMA Health Forum, with Sandro): Jay's revised outline due back this week — review and begin draft
 
 ### Standing
 - [ ] JOTS revision (ms 1390286, IDP validation paper): minor revisions due ~Oct 7; response plan circulates after ISTSS
