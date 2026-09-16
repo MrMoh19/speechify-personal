@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Causal Thinking Lab | Epidemiology Matters</title>
+  <title>Privacy | Epidemiology Matters</title>
   <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,7 +12,6 @@
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to main content</a>
-
   <header class="topnav">
     <div class="topnav__inner">
       <a href="../index.html" class="wordmark" aria-label="Epidemiology Matters home">
@@ -21,111 +20,56 @@
           <path d="M 14 19 L 19 17 L 29 17 L 34 19 L 39 30 L 41 48 L 37 49 L 35 30 L 33 50 L 31 92 L 27 92 L 25 58 L 23 58 L 21 92 L 17 92 L 15 50 L 13 30 L 11 49 L 7 48 L 9 30 Z" fill="currentColor"/>
         </svg>
         Epidemiology<em>Matters</em>
-        <span class="wordmark__sub">Causal Thinking Lab</span>
       </a>
       <nav aria-label="Primary">
-        <ul class="topnav__links" id="navlinks">
+        <ul class="topnav__links">
           <li><a href="../index.html">Home</a></li>
-          <li><a href="index.html" aria-current="page">Causal Lab</a></li>
+          <li><a href="../lab/index.html">Causal Lab</a></li>
           <li><a href="../explore/index.html">Companion</a></li>
           <li><a href="../farrlandia/index.html">Farrlandia</a></li>
           <li><a href="../library/index.html">Library</a></li>
         </ul>
       </nav>
-      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navlinks">
-        <svg width="16" height="12" viewBox="0 0 16 12" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="0" y1="2" x2="16" y2="2"/><line x1="0" y1="6" x2="16" y2="6"/><line x1="0" y1="10" x2="16" y2="10"/></svg>
-      </button>
     </div>
   </header>
 
   <main id="main">
-    <section class="section section--sm">
-      <div class="container container--bleed">
-        <div class="mode-row" style="margin-bottom:var(--space-4);">
-          <div class="mode-toggle" role="group" aria-label="Reading level">
-            <button type="button" id="modePlain" class="mode-btn is-active" aria-pressed="true">Plain language</button>
-            <button type="button" id="modeTech" class="mode-btn" aria-pressed="false">Technical</button>
-          </div>
-          <span class="mode-hint" id="modeHint">Jargon-free. Flip to Technical for the epidemiology terms.</span>
-        </div>
-        <div id="presetBar" class="preset-bar">
-          <span class="preset-bar__label">Scenarios:</span>
-          <button class="preset-btn active" data-preset="clean">No Bias (True Effect)</button>
-          <button class="preset-btn" data-preset="confounding">Classic Confounding</button>
-          <button class="preset-btn" data-preset="simpson">Simpson's Paradox</button>
-          <button class="preset-btn" data-preset="measurement">Measurement Error</button>
-          <button class="preset-btn" data-preset="selection">Selection Bias</button>
-        </div>
+    <section class="section">
+      <div class="container container--prose legal">
+        <p class="eyebrow">Privacy</p>
+        <h1 style="font-family:var(--font-display);text-transform:uppercase;letter-spacing:0.02em;">Privacy Policy</h1>
+        <p class="muted" style="font-family:var(--font-mono);font-size:var(--text-xs);text-transform:uppercase;letter-spacing:0.14em;">Last updated: 2026</p>
 
-        <div class="lab-grid">
-          <!-- LEFT PANEL -->
-          <div class="lab-panel" id="leftPanel">
-            <div class="lab-panel__label">Build the World</div>
-            <div id="controls"></div>
-          </div>
+        <h2>What we collect</h2>
+        <p>Epidemiology Matters is a teaching companion. The interactive tools on this site — the Causal Thinking Lab, Farrlandia, and the homepage story — run entirely in your browser. The data you explore is generated locally on your own device and is never sent to us.</p>
 
-          <!-- CENTER PANEL -->
-          <div class="lab-panel" id="centerPanel">
-            <div class="tabs" role="tablist">
-              <button class="tab-btn is-active" data-view="grid">Population</button>
-              <button class="tab-btn" data-view="stratified">Stratified</button>
-              <button class="tab-btn" data-view="dag">DAG</button>
-            </div>
-            <div id="vizArea"></div>
-            <div class="legend" id="legend">
-              <span><span class="dot" style="background:var(--signal);box-shadow:0 0 0 2px var(--ink);"></span>Diseased+Exposed</span>
-              <span><span class="dot" style="background:var(--signal);box-shadow:0 0 0 2px var(--pop-grey-deep);"></span>Diseased+Unexposed</span>
-              <span><span class="dot" style="background:var(--pop-grey);box-shadow:0 0 0 2px var(--ink);"></span>Healthy+Exposed</span>
-              <span><span class="dot" style="background:var(--pop-grey);box-shadow:0 0 0 2px var(--pop-grey-deep);"></span>Healthy+Unexposed</span>
-            </div>
-          </div>
+        <h2>Email sign-ups</h2>
+        <p>If you join our launch list, we store only the email address you provide, and we use it only to tell you when the second edition and its tools become available. We do not sell or share it. You can ask to be removed at any time by replying to any message we send.</p>
 
-          <!-- RIGHT PANEL -->
-          <div class="lab-panel" id="rightPanel">
-            <div class="lab-panel__label">Estimates</div>
-            <div class="stat-grid" style="grid-template-columns:1fr 1fr;">
-              <div class="stat"><div class="stat__num" id="crudeRR">—</div><div class="stat__label" id="crudeRRLabel">Crude RR</div></div>
-              <div class="stat stat--adj"><div class="stat__num stat__num--adj" id="adjRR">—</div><div class="stat__label" id="adjRRLabel">Adjusted RR</div></div>
-            </div>
-            <div class="stat-grid" style="margin-top:1px;">
-              <div class="stat"><div class="stat__num is-signal" id="trueRRDisplay">—</div><div class="stat__label" id="trueRRLabel">True Causal RR</div></div>
-            </div>
-            <div id="biasAlert"></div>
-            <div class="detail-stats" id="detailStats"></div>
-            <button class="toggle-btn" id="toggle22">Show 2×2 table</button>
-            <div id="table22" style="display:none;"></div>
+        <h2>Analytics</h2>
+        <p>We may use privacy-respecting, aggregate analytics to understand which pages are useful. These do not identify individual visitors.</p>
 
-            <div class="interp">
-              <div class="interp__label" style="color:var(--signal-deep);">Interpretation</div>
-              <div class="interp__text" id="labInterp"></div>
-            </div>
-          </div>
-        </div>
+        <h2>Contact</h2>
+        <p>Questions about privacy can be directed to the authors through their institutional pages linked on the home page.</p>
+
+        <p style="margin-top:var(--space-6);"><a class="link" href="../index.html">&larr; Back to home</a></p>
       </div>
     </section>
   </main>
 
-  <footer class="sitefoot" style="margin-top:var(--space-6);">
+  <footer class="sitefoot">
     <div class="container">
-      <div class="sitefoot__sig">
-        <svg viewBox="0 0 48 96" aria-hidden="true">
-          <circle cx="24" cy="9" r="7" fill="currentColor"/>
-          <path d="M 14 19 L 19 17 L 29 17 L 34 19 L 39 30 L 41 48 L 37 49 L 35 30 L 33 50 L 31 92 L 27 92 L 25 58 L 23 58 L 21 92 L 17 92 L 15 50 L 13 30 L 11 49 L 7 48 L 9 30 Z" fill="currentColor"/>
-        </svg>
-        <span>Epidemiology Matters</span>
-      </div>
-      <div class="sitefoot__copy" style="margin-top:var(--space-4);">
-        <span>Keyes · Abba-Aji · Galea · Oxford University Press</span>
+      <div class="sitefoot__copy">
+        <span>Keyes &middot; Abba-Aji &middot; Galea &middot; Oxford University Press &middot; &copy; 2026</span>
+        <span><a href="index.html">Privacy</a> &middot; <a href="../terms/index.html">Terms</a></span>
       </div>
     </div>
   </footer>
-
-  <script src="../scripts/lab.js"></script>
 <script data-pplx-inline-edit>
 (function () {
   if (window === window.top) return;
 
-  const allowedParentOrigins = ["https://www.perplexity.ai","https://perplexity.ai","https://testing.perplexity.ai","https://staging.perplexity.ai","https://*.preview.i.perplexity.ai","http://localhost:3000","http://127.0.0.1:3000","http://localhost:5173","http://127.0.0.1:5173"];
+  const allowedParentOrigins = ["https://www.perplexity.ai","https://perplexity.ai","https://testing.perplexity.ai","https://staging.perplexity.ai","https://*.preview.i.perplexity.ai","http://perplexity.localhost","http://localhost:1420","http://127.0.0.1:1420","http://localhost:3000","http://127.0.0.1:3000","http://localhost:5173","http://127.0.0.1:5173"];
   const MAX_FONT_BYTES = 500 * 1024;
   const MAX_TOTAL_FONT_BYTES = 2 * 1024 * 1024;
   let scrollForwarding = false;
@@ -447,6 +391,7 @@
     handleCaptureRequest(event);
   });
 })();
+
 
 </script></body>
 </html>

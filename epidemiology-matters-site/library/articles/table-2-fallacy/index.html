@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Table 2 Fallacy — Epidemiology Matters Journal</title>
+  <meta name="description" content="A demonstrator article on the Table 2 fallacy: why secondary coefficients in adjusted regressions almost never mean what we want them to mean. With interactive DAGs and a live regression table." />
+  <meta name="author" content="Mohammed Abba-Aji" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="The Table 2 Fallacy — Epidemiology Matters" />
+  <meta property="og:description" content="Why we keep misreading the second row of every regression table — and how DAGs fix it." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://epidemiologymatters.com/journal/table-2-fallacy/" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="The Table 2 Fallacy" />
+  <meta name="twitter:description" content="An interactive walk-through of Westreich & Greenland's classic critique of adjusted regression tables." />
+
+  <link rel="icon" type="image/svg+xml" href="../../../assets/favicon.svg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:ital,wght@0,400;0,500;0,600;1,400;1,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="../../../styles/main.css" />
+  <link rel="stylesheet" href="../../../styles/article.css" />
+</head>
+<body class="article">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ============================ NAV ============================ -->
+  <header class="topnav">
+    <div class="topnav__inner">
+      <a href="../../../index.html" class="wordmark" aria-label="Epidemiology Matters home">
+        <svg class="wordmark__sig" viewBox="0 0 48 96" aria-hidden="true">
+          <circle cx="24" cy="9" r="7" fill="currentColor"/>
+          <path d="M 14 19 L 19 17 L 29 17 L 34 19 L 39 30 L 41 48 L 37 49 L 35 30 L 33 50 L 31 92 L 27 92 L 25 58 L 23 58 L 21 92 L 17 92 L 15 50 L 13 30 L 11 49 L 7 48 L 9 30 Z" fill="currentColor"/>
+        </svg>
+        Epidemiology<em>Matters</em>
+        <span class="wordmark__sub">Library · Articles</span>
+      </a>
+      <nav aria-label="Primary">
+        <ul class="topnav__links" id="navlinks">
+          <li><a href="../../../index.html">Home</a></li>
+          <li><a href="../../../lab/index.html">Causal Lab</a></li>
+          <li><a href="../../../explore/index.html">Companion</a></li>
+          <li><a href="../../../farrlandia/index.html">Farrlandia</a></li>
+          <li><a href="../../index.html" aria-current="page">Library</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navlinks">
+        <svg width="16" height="12" viewBox="0 0 16 12" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="0" y1="2" x2="16" y2="2"/><line x1="0" y1="6" x2="16" y2="6"/><line x1="0" y1="10" x2="16" y2="10"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============================ COVER ============================ -->
+    <section class="article__cover">
+      <div class="article__cover-inner">
+        <div class="article__breadcrumb">
+          <a href="../../../index.html">Home</a>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+          <a href="../../index.html">Library</a>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+          <a href="../../index.html#articles">Articles</a>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+          <span>Causal inference</span>
+        </div>
+
+        <div class="article__topic"><span class="dot"></span>Causal inference · Issue 01</div>
+
+        <h1 class="article__title">The Table 2 fallacy, <em>or</em> why the second row of every regression almost never means what we want it to mean</h1>
+
+        <p class="article__lede">A single multivariable regression looks like it gives you many causal effects for the price of one. It does not. Here is the bias, drawn out — and a way to read tables that makes it visible.</p>
+
+        <div class="article__meta">
+          <div class="article__meta-block">
+            <span class="label">Author</span>
+            <strong>Mohammed Abba-Aji</strong>
+          </div>
+          <div class="article__meta-block">
+            <span class="label">Reviewed by</span>
+            <strong>Katherine M. Keyes</strong>
+          </div>
+          <div class="article__meta-block">
+            <span class="label">Published</span>
+            <strong>April 30, 2026</strong>
+          </div>
+          <div class="article__meta-block">
+            <span class="label">Reading time</span>
+            <strong>14 min</strong>
+          </div>
+          <div class="article__meta-block">
+            <span class="label">Companion to</span>
+            <strong><a href="../../../index.html#steps">Step 5 · Causal inference</a></strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ BODY ============================ -->
+    <article class="article__body">
+
+      <p>You run a regression. You list your exposure of interest, you list your covariates, you fit the model, and out comes a tidy table with a coefficient for every variable. The exposure has its row. Age has a row. Sex, smoking status, comorbidities — each gets a row, each gets a number, each gets a confidence interval and a star or two.</p>
+
+      <p>The temptation, almost universal, is to read the whole column as if every row were the causal effect of that variable on the outcome. The exposure was adjusted for the covariates, so why would the covariates not be adjusted for the exposure? Why would they be different in kind?</p>
+
+      <p>This is the <strong>Table 2 fallacy</strong>, named by Westreich and Greenland in 2013 for the place it most often hides<a class="fn" data-fn="1">1</a>: in the second numbered table of a paper, where the “fully adjusted” model lives. The argument is short, and once you have seen it you will see it everywhere.</p>
+
+      <aside class="aside">
+        <span class="label">In one line</span>
+        <p>A regression coefficient for a variable is the effect of that variable <em>conditional on every other variable in the model</em> — and that conditioning set is almost never the right one for any single covariate.</p>
+      </aside>
+
+      <h2>The setup</h2>
+
+      <p>Suppose we want to estimate the effect of <strong>HIV infection</strong> on the risk of <strong>stroke</strong>, using observational cohort data. We know — or assume — that smoking is associated with both (it makes HIV-positive people more likely to be smokers, and it raises stroke risk independently). We adjust for smoking. We also adjust for age, because older participants are both more likely to have been HIV-positive long enough for sequelae and more likely to stroke.</p>
+
+      <p>The DAG below is the canonical Westreich–Greenland example. <strong>HIV</strong> is the exposure. <strong>Stroke</strong> is the outcome. <strong>Smoking</strong> sits between HIV (which, plausibly, raises smoking via the social patterning of HIV in the cohort) and stroke. <strong>Age</strong> is a confounder of the HIV → stroke effect, and also of smoking → stroke.</p>
+
+      <figure class="figure" id="fig-dag">
+        <span class="figure__label">Figure 1 · interactive</span>
+        <div class="dag" data-component="dag" aria-label="Directed acyclic graph showing the causal structure of HIV, smoking, and stroke">
+          <!-- DAG SVG injected by article.js -->
+        </div>
+        <div class="dag-legend">
+          <span class="dag-legend__item"><span class="dag-legend__swatch dag-legend__swatch--exposure"></span>Exposure</span>
+          <span class="dag-legend__item"><span class="dag-legend__swatch dag-legend__swatch--outcome"></span>Outcome</span>
+          <span class="dag-legend__item"><span class="dag-legend__swatch dag-legend__swatch--adjusted"></span>Adjusted (conditioned on)</span>
+          <span class="dag-legend__item"><span class="dag-legend__swatch dag-legend__swatch--unmeasured"></span>Unmeasured</span>
+        </div>
+        <figcaption class="figure__caption">
+          <strong>Click a covariate</strong> to toggle whether it is adjusted for. Watch how the open and blocked paths between HIV and stroke change. <strong>Smoking</strong> is a mediator of the HIV → stroke effect; adjusting for it removes part of the very effect we want to measure.
+        </figcaption>
+      </figure>
+
+      <div class="try">
+        <strong>Try this →</strong> Toggle <em>smoking</em> off (unadjusted), then back on (adjusted). Notice that adjusting closes the path through smoking — but that path was part of the total effect of HIV on stroke. The “adjusted” HIV coefficient now estimates only the <em>direct</em> effect of HIV on stroke, not the total. That is fine if a direct effect is what you wanted. It is a problem if you write up the number and call it “the effect of HIV on stroke.”
+      </div>
+
+      <h2>Two coefficients, two estimands</h2>
+
+      <p>Now look at the smoking row of the same regression. The smoking coefficient is the effect of smoking on stroke, conditional on HIV and age. But the right adjustment set for the <em>smoking → stroke</em> effect is not the same as the right adjustment set for the <em>HIV → stroke</em> effect. For smoking, HIV is a cause of the exposure (smoking), not a confounder; conditioning on HIV is unnecessary at best, and — if HIV affects stroke through unmeasured pathways shared with smoking — actively introduces collider bias<a class="fn" data-fn="2">2</a>.</p>
+
+      <p>So the same model, in the same column of the same table, is producing one number that is (let’s say) a reasonable estimate of one effect, and another number that is an estimate of nothing in particular. The reader has no way to tell them apart.</p>
+
+      <figure class="figure" id="fig-regtable">
+        <span class="figure__label">Figure 2 · interactive</span>
+
+        <div class="controls" data-component="regcontrols">
+          <div class="ctrl">
+            <div class="ctrl-row"><span>True HIV → stroke effect (β<sub>HIV</sub>)</span><span class="ctrl-val" id="val-bhiv">0.40</span></div>
+            <input type="range" id="ctrl-bhiv" min="0" max="0.8" step="0.05" value="0.4" />
+          </div>
+          <div class="ctrl">
+            <div class="ctrl-row"><span>HIV → smoking pathway strength</span><span class="ctrl-val" id="val-hivsmk">0.30</span></div>
+            <input type="range" id="ctrl-hivsmk" min="0" max="0.8" step="0.05" value="0.3" />
+          </div>
+          <div class="ctrl">
+            <div class="ctrl-row"><span>Unmeasured U (HIV–stroke shared cause)</span><span class="ctrl-val" id="val-u">0.00</span></div>
+            <input type="range" id="ctrl-u" min="0" max="0.5" step="0.05" value="0" />
+          </div>
+        </div>
+
+        <div class="regtable-wrap">
+        <table class="regtable" aria-label="Adjusted regression of stroke on HIV, smoking, and age">
+          <thead>
+            <tr>
+              <th scope="col">Variable</th>
+              <th scope="col" class="num">β̂</th>
+              <th scope="col" class="num">95% CI</th>
+              <th scope="col">Reads as…</th>
+            </tr>
+          </thead>
+          <tbody id="regtable-body">
+            <!-- rows injected by article.js -->
+          </tbody>
+        </table>
+        </div>
+
+        <p class="regtable__footer">Simulated coefficients from a linear-probability model fit on 5,000 synthetic observations. The true HIV → stroke total effect is shown above; the table reports what the regression returns and what — in epidemiologic terms — that returned number actually estimates.</p>
+        <figcaption class="figure__caption">
+          <strong>Adjust the sliders</strong> and watch the smoking row drift. The HIV row is reasonably stable when unmeasured U is zero; the smoking and age rows are <em>not</em> what they look like, even when the model is correct for HIV.
+        </figcaption>
+      </figure>
+
+      <div class="try">
+        <strong>Try this →</strong> Push <em>Unmeasured U</em> up. Now even the HIV row is biased — because we omitted a confounder. None of the rows are guaranteed to be unbiased simultaneously. That is the point.
+      </div>
+
+      <h2>What the textbook gets right, and what it can’t</h2>
+
+      <p>Most epidemiology textbooks teach you to draw a DAG, identify confounders for the exposure–outcome relationship, and adjust for them. We do this in <em>Epidemiology Matters</em>. What is harder to convey on a page — and what the Table 2 fallacy turns on — is that <strong>the right adjustment set is a property of an exposure–outcome <em>pair</em>, not of the data</strong>. A regression conditions on every covariate at once. Each coefficient inherits an adjustment set whether or not that set was chosen for it.</p>
+
+      <p>The standard fix, when authors think about it at all, is a footnote: “Coefficients for covariates should not be interpreted causally.” Westreich and Greenland call this the table’s fig leaf. Readers ignore it. Reviewers ignore it. The number is on the page, and the number gets cited.</p>
+
+      <h2>Walk through the bias</h2>
+
+      <p>The scrollytelling figure below builds the bias one step at a time. Scroll the panel on the right; the DAG on the left updates to show the path being created or blocked at each step.</p>
+
+      <!-- Scrollytelling -->
+      <section class="scrolly" data-component="scrolly" aria-label="Step-by-step walkthrough of the Table 2 fallacy">
+        <div class="scrolly__sticky">
+          <div class="dag" id="scrolly-dag" aria-hidden="true">
+            <!-- DAG SVG injected by article.js -->
+          </div>
+        </div>
+        <div class="scrolly__steps">
+          <div class="scrolly__step is-active" data-step="1">
+            <h4>Step 1 · The question</h4>
+            <p>We want the total effect of HIV on stroke. That is one well-defined quantity: how much would population stroke risk change if HIV prevalence changed?</p>
+          </div>
+          <div class="scrolly__step" data-step="2">
+            <h4>Step 2 · Identify confounders</h4>
+            <p>Age confounds the HIV → stroke relationship. We adjust. Good.</p>
+          </div>
+          <div class="scrolly__step" data-step="3">
+            <h4>Step 3 · Add a mediator by mistake</h4>
+            <p>Smoking lies on a path from HIV to stroke. Adjusting for it removes part of the HIV effect we wanted to estimate. The HIV coefficient is no longer the total effect — it is a controlled direct effect.</p>
+          </div>
+          <div class="scrolly__step" data-step="4">
+            <h4>Step 4 · Read the smoking row</h4>
+            <p>The smoking coefficient is the effect of smoking on stroke, conditional on HIV and age. But HIV is upstream of smoking. Adjusting for it doesn’t help; it can hurt.</p>
+          </div>
+          <div class="scrolly__step" data-step="5">
+            <h4>Step 5 · The fallacy</h4>
+            <p>Reporting both rows as if they were causal effects is the Table 2 fallacy. They are answers to different questions, fit by the same model, presented as if they were equivalent.</p>
+          </div>
+          <div class="scrolly__step" data-step="6">
+            <h4>Step 6 · The fix</h4>
+            <p>State your estimand. Pick the adjustment set for <em>that</em> estimand. If you want effects for several exposures, run several models — or fit one model and report only the row you can defend.</p>
+          </div>
+        </div>
+      </section>
+
+      <h2>What to do instead</h2>
+
+      <p>The remedy is unglamorous and well known: be explicit about the estimand, draw the DAG, and pick the minimum sufficient adjustment set for the <em>specific</em> exposure–outcome pair you care about. If you want effects for multiple exposures, fit multiple models — one per estimand — each with its own adjustment set. Or fit one model and report only the row whose interpretation you can actually defend, with the rest as <em>nuisance</em> parameters explicitly labeled as such<a class="fn" data-fn="3">3</a>.</p>
+
+      <p>This is more work than printing one fully-adjusted table. It also turns out, in practice, to clarify what the analysis is for. Many studies that present six causal-looking coefficients are really designed for one. The fallacy hides that fact from the reader and, often, from the author.</p>
+
+      <aside class="aside">
+        <span class="label">For instructors</span>
+        <p>This article is designed to be assignable in one sitting alongside chapter 5 of <em>Epidemiology Matters</em> (causal inference). The interactive figures are reusable: the DAG component takes a JSON spec, the regression-table component takes a structural model. We will publish both as standalone teaching tools in the coming months.</p>
+      </aside>
+
+      <h2>Citation</h2>
+
+      <div class="citation">
+        <span class="label">Cite this article</span>
+        <button class="copy-btn" type="button" id="citeCopy" data-clipboard="Abba-Aji M. The Table 2 fallacy: why secondary regression coefficients almost never mean what we want them to mean. Epidemiology Matters Journal. 2026;1(1). https://epidemiologymatters.com/journal/table-2-fallacy/">Copy</button>
+        <span>Abba-Aji M. The Table 2 fallacy: why secondary regression coefficients almost never mean what we want them to mean. <em>Epidemiology Matters Journal</em>. 2026;1(1). https://epidemiologymatters.com/journal/table-2-fallacy/</span>
+      </div>
+
+    </article>
+
+    <!-- ============================ REFERENCES ============================ -->
+    <section class="refs">
+      <div class="refs__inner">
+        <h2>References &amp; footnotes</h2>
+        <ol>
+          <li>Westreich D, Greenland S. The Table 2 fallacy: presenting and interpreting confounder and modifier coefficients. <em>American Journal of Epidemiology</em>. 2013;177(4):292–298. <a href="https://academic.oup.com/aje/article/177/4/292/147738" target="_blank" rel="noopener">academic.oup.com/aje/article/177/4/292</a></li>
+          <li>Greenland S, Pearl J, Robins JM. Causal diagrams for epidemiologic research. <em>Epidemiology</em>. 1999;10(1):37–48.</li>
+          <li>Bandoli G, Palmsten K, Forbess Smith CJ, Chambers CD. A review of systemic corticosteroid use in pregnancy and the risk of select pregnancy and birth outcomes. <em>Rheumatic Disease Clinics</em>. 2017;43(3):489–502. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6103824/" target="_blank" rel="noopener">pmc.ncbi.nlm.nih.gov/PMC6103824</a></li>
+          <li>Textor J, van der Zander B, Gilthorpe MS, Liśkiewicz M, Ellison GTH. Robust causal inference using directed acyclic graphs: the R package <code>dagitty</code>. <em>International Journal of Epidemiology</em>. 2016;45(6):1887–1894. <a href="https://dagitty.net/learn/graphs/table2-fallacy.html" target="_blank" rel="noopener">dagitty.net</a></li>
+          <li>Hernán MA, Robins JM. <em>Causal Inference: What If</em>. Boca Raton: Chapman &amp; Hall/CRC; 2020.</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============================ EXERCISES ============================ -->
+    <section class="exercises">
+      <div class="exercises__inner">
+        <h2>Exercises</h2>
+        <p class="exercises__lede">Three short questions to work through before your next regression. Click to reveal a model answer.</p>
+
+        <div class="exercise">
+          <button class="exercise__q" type="button">
+            <span><span class="num">01</span>You read a paper that adjusts for hypertension when estimating the effect of physical activity on cardiovascular mortality. The paper reports both the activity coefficient and the hypertension coefficient as “adjusted effects.” What is the problem?</span>
+            <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="exercise__a"><div class="exercise__a-inner">
+            <p>Hypertension is plausibly a mediator of the activity → mortality effect (activity lowers blood pressure, which lowers mortality). Adjusting for it removes part of the effect of activity, so the activity coefficient is a controlled direct effect, not a total effect. The hypertension coefficient, meanwhile, is conditioned on activity — which is upstream of hypertension — and so its adjustment set is wrong for a hypertension → mortality estimand. Both rows look comparable in the table; neither answers the question the abstract claims to answer.</p>
+          </div></div>
+        </div>
+
+        <div class="exercise">
+          <button class="exercise__q" type="button">
+            <span><span class="num">02</span>You are reviewing a manuscript that fits one regression and discusses every coefficient as a causal effect. What two changes would you ask the authors to make?</span>
+            <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="exercise__a"><div class="exercise__a-inner">
+            <p>(1) State the primary estimand and report only the coefficient that estimates it; label the rest explicitly as nuisance parameters not to be interpreted causally. (2) If the authors want effects for several exposures, ask them to draw a DAG, identify the adjustment set for each exposure–outcome pair, and fit a separate model per estimand.</p>
+          </div></div>
+        </div>
+
+        <div class="exercise">
+          <button class="exercise__q" type="button">
+            <span><span class="num">03</span>Under what conditions <em>can</em> you read every row of an adjusted regression as a causal effect?</span>
+            <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="exercise__a"><div class="exercise__a-inner">
+            <p>Essentially never, in practice. The minimum sufficient adjustment set would have to be identical for every variable in the model, which requires a very particular DAG (for example, all covariates being independent direct causes of the outcome with no shared causes among them). When this holds it should be argued for explicitly. Westreich and Greenland’s point is that authors almost never check, and readers almost never demand it.</p>
+          </div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ FOOTER CTA ============================ -->
+    <section class="article-footer">
+      <div class="article-footer__inner">
+        <h3>Read more in the journal</h3>
+        <p>The <em>Epidemiology Matters Journal</em> publishes short, interactive articles on epidemiologic methods, written and reviewed by working epidemiologists. New issues quarterly.</p>
+        <a class="cta" href="../index.html">See all articles
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <a href="../../../index.html" class="wordmark" aria-label="Epidemiology Matters home">
+        <svg class="wordmark__sig" viewBox="0 0 48 96" aria-hidden="true">
+          <circle cx="24" cy="9" r="7" fill="currentColor"/>
+          <path d="M 14 19 L 19 17 L 29 17 L 34 19 L 39 30 L 41 48 L 37 49 L 35 30 L 33 50 L 31 92 L 27 92 L 25 58 L 23 58 L 21 92 L 17 92 L 15 50 L 13 30 L 11 49 L 7 48 L 9 30 Z" fill="currentColor"/>
+        </svg>
+        Epidemiology<em>Matters</em>
+      </a>
+      <p class="site-footer__authors">Keyes · Abba-Aji · Galea · Oxford University Press</p>
+    </div>
+  </footer>
+
+  <script src="../../../scripts/main.js"></script>
+  <script src="../../../scripts/article.js"></script>
+<script data-pplx-inline-edit>
+(function () {
+  if (window === window.top) return;
+
+  const allowedParentOrigins = ["https://www.perplexity.ai","https://perplexity.ai","https://testing.perplexity.ai","https://staging.perplexity.ai","https://*.preview.i.perplexity.ai","http://localhost:3000","http://127.0.0.1:3000","http://localhost:5173","http://127.0.0.1:5173"];
+  const MAX_FONT_BYTES = 500 * 1024;
+  const MAX_TOTAL_FONT_BYTES = 2 * 1024 * 1024;
+  let scrollForwarding = false;
+  let scrollRaf = 0;
+  let trustedTopOrigin = null;
+
+  // Allow entries like "https://*.preview.i.perplexity.ai" — the wildcard
+  // matches a single DNS label (no dots), so "https://*.foo" cannot stretch
+  // across multiple labels.
+  function matchesAllowedOrigin(origin) {
+    if (!origin) return false;
+    for (const entry of allowedParentOrigins) {
+      if (!entry.includes("*")) {
+        if (entry === origin) return true;
+        continue;
+      }
+      const pattern = new RegExp(
+        "^" +
+          entry.replace(/[.+?^${}()|[\]\\]/g, "\\$&").replace(/\*/g, "[^.]+") +
+          "$",
+      );
+      if (pattern.test(origin)) return true;
+    }
+    return false;
+  }
+
+  // Trust decision: when the sender is same-origin-visible (event.origin is a
+  // real origin like https://www.perplexity.ai) we trust event.origin directly.
+  // When event.origin is "null" (opaque broker srcdoc), we fall back to the
+  // broker's stamped `parentOrigin` to identify the top window. The fallback
+  // is claim-only — we rely on the browser's native `targetOrigin` enforcement
+  // on the response path (see postToTrustedTop) to ensure replies can't be
+  // delivered to anyone but the actual top window of that claimed origin.
+  function getTrustedParentOrigin(event) {
+    const forwardedParentOrigin =
+      typeof event.data.parentOrigin === "string" ? event.data.parentOrigin : null;
+    const parentOrigin = event.origin === "null" ? forwardedParentOrigin : event.origin;
+    return matchesAllowedOrigin(parentOrigin) ? parentOrigin : null;
+  }
+
+  // All responses go to window.top with targetOrigin = the allowlisted origin.
+  // An attacker that iframes us inside their own null-origin broker can claim
+  // any parentOrigin they like, but the browser will drop the reply whenever
+  // the real top's origin doesn't match — so the screenshot never leaves.
+  function postToTrustedTop(message) {
+    if (!trustedTopOrigin) return;
+    try {
+      window.top.postMessage(message, trustedTopOrigin);
+    } catch (_error) {}
+  }
+
+  function inlineAll(original, clone) {
+    if (original.nodeType !== 1 || clone.nodeType !== 1) return;
+
+    try {
+      const computedStyle = getComputedStyle(original);
+      // cssText on a computed style is the serialized declaration in modern
+      // Chromium/Safari — a single read beats enumerating ~400 longhand
+      // properties. Firefox returns "" here, so we fall back on empty.
+      const serialized = computedStyle.cssText;
+      if (serialized) {
+        clone.style.cssText = serialized;
+      } else {
+        const parts = new Array(computedStyle.length);
+        for (let index = 0; index < computedStyle.length; index += 1) {
+          const property = computedStyle[index];
+          parts[index] = `${property}:${computedStyle.getPropertyValue(property)};`;
+        }
+        clone.style.cssText = parts.join("");
+      }
+    } catch (_error) {}
+
+    const originalChildren = original.children;
+    const clonedChildren = clone.children;
+    for (
+      let index = 0;
+      index < originalChildren.length && index < clonedChildren.length;
+      index += 1
+    ) {
+      inlineAll(originalChildren[index], clonedChildren[index]);
+    }
+  }
+
+  function extractFontUrl(srcValue) {
+    const matches = [
+      ...srcValue.matchAll(
+        /url\(["']?([^"')]+)["']?\)(?:\s*format\(["']?([^"')]+)["']?\))?/gi,
+      ),
+    ];
+    if (matches.length === 0) return null;
+    const woff2 = matches.find((m) => m[2] && m[2].toLowerCase().includes("woff2"));
+    if (woff2) return woff2[1];
+    const woff = matches.find((m) => m[2] && m[2].toLowerCase().includes("woff"));
+    if (woff) return woff[1];
+    return matches[0][1];
+  }
+
+  // Cache resolved font URL -> data URI across captures. Fonts on a page
+  // essentially never change, and a batch run emits multiple captures back to
+  // back — without this we'd refetch + re-base64 every time.
+  const fontDataUriCache = new Map();
+  const SRC_DECLARATION_RE = /src\s*:\s*[^;}]+/i;
+
+  async function fetchAsDataUri(url) {
+    if (fontDataUriCache.has(url)) return fontDataUriCache.get(url);
+    let dataUri = null;
+    try {
+      const response = await fetch(url, { mode: "cors", credentials: "omit" });
+      if (response.ok) {
+        const blob = await response.blob();
+        if (blob.size <= MAX_FONT_BYTES) {
+          dataUri = await new Promise((resolve) => {
+            const reader = new FileReader();
+            reader.onloadend = () =>
+              resolve(typeof reader.result === "string" ? reader.result : null);
+            reader.onerror = () => resolve(null);
+            reader.readAsDataURL(blob);
+          });
+        }
+      }
+    } catch (_error) {
+      dataUri = null;
+    }
+    fontDataUriCache.set(url, dataUri);
+    return dataUri;
+  }
+
+  function collectFontFaceRuleTexts() {
+    const rules = [];
+    for (const sheet of document.styleSheets) {
+      let cssRules;
+      try {
+        cssRules = sheet.cssRules;
+      } catch (_error) {
+        continue;
+      }
+      if (!cssRules) continue;
+      for (const rule of cssRules) {
+        const cssText = rule.cssText || "";
+        if (cssText.startsWith("@font-face")) rules.push(cssText);
+      }
+    }
+    return rules;
+  }
+
+  async function buildInlinedFontCss() {
+    const ruleTexts = collectFontFaceRuleTexts();
+    if (ruleTexts.length === 0) return null;
+
+    const resolved = ruleTexts.map((cssText) => {
+      if (!SRC_DECLARATION_RE.test(cssText)) return null;
+      const srcMatch = cssText.match(/src\s*:\s*([^;}]+)[;}]/i);
+      if (!srcMatch) return null;
+      const url = extractFontUrl(srcMatch[1]);
+      if (!url) return null;
+      try {
+        return { cssText, url: new URL(url, document.baseURI).href };
+      } catch (_error) {
+        return null;
+      }
+    });
+
+    const dataUris = await Promise.all(
+      resolved.map((entry) => (entry ? fetchAsDataUri(entry.url) : Promise.resolve(null))),
+    );
+
+    const inlined = [];
+    let totalBytes = 0;
+    for (let index = 0; index < resolved.length; index += 1) {
+      const entry = resolved[index];
+      const dataUri = dataUris[index];
+      if (!entry || !dataUri) continue;
+      const approxBytes = dataUri.length * 0.75;
+      if (totalBytes + approxBytes > MAX_TOTAL_FONT_BYTES) break;
+      totalBytes += approxBytes;
+      inlined.push(entry.cssText.replace(SRC_DECLARATION_RE, `src: url("${dataUri}")`));
+    }
+    return inlined.length > 0 ? inlined.join("\n") : null;
+  }
+
+  function stripExternal(clone) {
+    const images = clone.querySelectorAll("img");
+    for (let index = 0; index < images.length; index += 1) {
+      const src = images[index].getAttribute("src");
+      if (src && !src.startsWith("data:")) images[index].removeAttribute("src");
+    }
+
+    const elements = clone.querySelectorAll("*");
+    for (let index = 0; index < elements.length; index += 1) {
+      const style = elements[index].style.cssText;
+      if (style && style.includes("url(")) {
+        elements[index].style.cssText = style.replace(
+          /url\(["']?(?!data:)[^)"']*["']?\)/gi,
+          "none",
+        );
+      }
+    }
+  }
+
+  function emitScroll() {
+    scrollRaf = 0;
+    if (!scrollForwarding) return;
+    postToTrustedTop({
+      type: "INLINE_EDIT_SCROLL",
+      scrollX: window.scrollX,
+      scrollY: window.scrollY,
+    });
+  }
+
+  window.addEventListener(
+    "scroll",
+    function () {
+      if (!scrollForwarding || scrollRaf) return;
+      scrollRaf = requestAnimationFrame(emitScroll);
+    },
+    { passive: true, capture: true },
+  );
+
+  async function handleCaptureRequest(event) {
+    const requestId = event.data.requestId;
+    const scrollX = window.scrollX;
+    const scrollY = window.scrollY;
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+
+    function postResult(dataUrl) {
+      postToTrustedTop({
+        type: "INLINE_EDIT_SCREENSHOT_RESULT",
+        requestId,
+        dataUrl,
+        scrollX,
+        scrollY,
+      });
+    }
+
+    try {
+      // Wait for any pending web fonts to resolve so both inline metrics and
+      // the @font-face inlining below see the same loaded faces.
+      if (document.fonts && document.fonts.ready) {
+        try {
+          await document.fonts.ready;
+        } catch (_error) {}
+      }
+
+      const clone = document.documentElement.cloneNode(true);
+      inlineAll(document.documentElement, clone);
+
+      const removedNodes = clone.querySelectorAll("script,link[rel=\"stylesheet\"],style");
+      for (let index = 0; index < removedNodes.length; index += 1) {
+        removedNodes[index].remove();
+      }
+
+      stripExternal(clone);
+
+      // Re-embed web fonts as data-URI @font-face rules so the SVG rasterizer
+      // can resolve them — external font URLs aren't fetched during
+      // foreignObject rendering, which would otherwise force a fallback face
+      // and change text metrics.
+      const inlinedFontCss = await buildInlinedFontCss();
+      if (inlinedFontCss) {
+        const styleEl = document.createElement("style");
+        styleEl.textContent = inlinedFontCss;
+        const head = clone.querySelector("head");
+        if (head) head.appendChild(styleEl);
+        else clone.insertBefore(styleEl, clone.firstChild);
+      }
+
+      const html = new XMLSerializer().serializeToString(clone);
+      const svg =
+        `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}">` +
+        '<foreignObject width="100%" height="100%">' +
+        `<div xmlns="http://www.w3.org/1999/xhtml" style="width:${width}px;height:${height}px;overflow:hidden">` +
+        `<div style="position:relative;left:-${scrollX}px;top:-${scrollY}px">` +
+        html +
+        "</div></div></foreignObject></svg>";
+      const svgUrl = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`;
+      const image = new Image();
+      image.onload = function () {
+        const canvas = document.createElement("canvas");
+        canvas.width = width;
+        canvas.height = height;
+        canvas.getContext("2d").drawImage(image, 0, 0);
+        postResult(canvas.toDataURL("image/png"));
+      };
+      image.onerror = function () {
+        postResult(null);
+      };
+      image.src = svgUrl;
+    } catch (_error) {
+      postResult(null);
+    }
+  }
+
+  window.addEventListener("message", function (event) {
+    if (!event.data) return;
+    // Only accept messages from the direct parent frame. Blocks sibling /
+    // unrelated-window postMessage senders that could otherwise reach us.
+    if (event.source !== window.parent) return;
+
+    const trustedParentOrigin = getTrustedParentOrigin(event);
+    if (!trustedParentOrigin) return;
+    trustedTopOrigin = trustedParentOrigin;
+
+    if (event.data.type === "INLINE_EDIT_SCROLL_START") {
+      scrollForwarding = true;
+      emitScroll();
+      return;
+    }
+
+    if (event.data.type === "INLINE_EDIT_SCROLL_STOP") {
+      scrollForwarding = false;
+      if (scrollRaf) cancelAnimationFrame(scrollRaf);
+      scrollRaf = 0;
+      return;
+    }
+
+    if (event.data.type !== "INLINE_EDIT_CAPTURE_REQUEST") return;
+
+    handleCaptureRequest(event);
+  });
+})();
+
+</script></body>
+</html>
