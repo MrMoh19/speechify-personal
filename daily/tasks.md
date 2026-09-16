@@ -13,8 +13,8 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 ### This week
 - [ ] Sandro-fy Courtney Babcock's opening remarks for Leading with Listening by FRIDAY (draft in her email + Box)
 - [ ] TFRH white paper: section first draft by Sun Sep 20; review sections 1-6 + section-7 ideas before the Sep 25 meeting
-- [ ] Collect slides from all four presenters for Nuha by Mon Sep 21 (sweep reminds Fri and Sun if missing); none received yet
-- [ ] Confirm Salma's ISTSS registration — still unconfirmed; her catch-up with Mohammed was canceled, so the email thread is the channel
+- [ ] Collect slides for Nuha by Mon Sep 21 — GRADUS IN (Sep 16, 3:40 PM, also awaiting Mohammed's content review); Abdalla, Abba-Aji, Ojo outstanding (sweep reminds Fri and Sun)
+- [ ] Confirm Salma's ISTSS registration — still unconfirmed and silent since Tuesday's email; also owes her slide deck
 - [ ] Kirsten Jacobsen: awaiting her pick of Wed 11:15-1:15 or Thu 1-2 for the books meeting
 - [ ] Tueth Keeney: if Calvin/Melanie stay silent past TOMORROW (Thu), go direct to Melanie
 
@@ -26,6 +26,10 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 ### New this week (from Sandro-meeting prep)
 - [ ] AI and Public Health Survey: one-page concept note before the Oct 1, 1 PM call with Layden + Brownson (adoption-study framing; Shah tiers; sanctioned vs actual use)
 - [ ] DDOH Viewpoint with Jay Shaw (JAMA Health Forum, with Sandro): Jay's revised outline due back this week — review and begin draft
+- [ ] Review Jaimie's ISTSS slides ("make sure they are saying everything you want me to say", Sep 16) — doubles as deck 1/4 for Nuha
+- [ ] Reply Brady Heward: 30-minute ANCHOR call, week of Sep 28 (his warm reply Sep 16)
+- [ ] Reply Kevin Cai with the 3+2 MPH contact
+- [ ] Daniel Gunderson DR accommodated-exam request (Ans copied; same flow as Zana's)
 
 ### Portfolio (tracked; work as directed)
 - [ ] AI & Digital Innovation in PH Curriculum (MPH): kick-off held; course concept is the next deliverable
@@ -40,6 +44,8 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Done
 
+- [x] 2026-09-16 — PROGRAM OFFICE CONFIRMED the discussant change ("this change has been made" — Alex, 11:34 AM); Nuha replied graciously on-thread; ISTSS program formally updated
+- [x] 2026-09-16 — Sarah Moreland-Russell thanked him for the slides; Trey closed warmly; Dima's makeup submitted; Gavin recurring meeting + room booked through Dec 14
 - [x] 2026-09-16 — Epi assignment resent from the current portal (per Mohammed; Quinn's flag closed)
 - [x] 2026-09-16 — Aanya's resubmission ruling and Zana Kennedy's DR approval handled by Ans
 - [x] 2026-09-16 — ANCHOR complete: welcome to Ross + Brady sent, concept note v2 in Box and Drive, recirculated to the group
