@@ -27,6 +27,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Epi Matters 2e response letter: draft in Drive awaits review, then Kerry + Sandro, then Emma
 - [ ] PLOS Mental Health: PMEN-D-26-00318 action + four editor invitations pending
 - [ ] Publish Outlook calendar as ICS and subscribe in Google Calendar (connector is live; today's calendar is empty until this lands)
+- [ ] Yahoo → Gmail: add ABBAAJI189@yahoo.com under Gmail "Check mail from other accounts" (POP pop.mail.yahoo.com:995 SSL, Yahoo APP password, label "Yahoo") — sweeps pick it up automatically once flowing
 
 ## Done
 
