@@ -8,7 +8,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Send Nuha the symposium abstract + four paper summaries — the packet needs only your trauma-saturation sentences, the rest is assembled
 - [ ] Sandro meeting today: weekly update docx v2 delivered ~10:20 AM in his Aug table format (WHO row solo, AI survey + DDOH rows filled; one bracket left: lecture date/format) — drop into the Box weekly folder
 - [ ] Send the Grace Jiang holding reply from Outlook (paste-ready draft delivered ~8:55 AM; full introductions after the conference)
-- [ ] WHO Bulletin R&R (BLT/2026/296735, "Commercial Determinants of Armed Conflict and the Global Arms Industry", PMAC2027; coauthors Galea, Bath, Barberia): 8 editorial-committee points + external reviews in the author area; revised 3000-word Policy & Practice ms + point-by-point + highlighted changes DUE ~OCT 1 (four weeks from the Sep 3 decision) for the CDoH theme issue — settle division of labor with Sandro today; Claude to build the response scaffold
+- [ ] WHO Bulletin R&R (BLT/2026/296735, "Commercial Determinants of Armed Conflict and the Global Arms Industry", PMAC2027; coauthors Galea, Bath, Barberia): 8 editorial-committee points + external reviews in the author area; revised 3000-word Policy & Practice ms + point-by-point + highlighted changes DUE ~OCT 1 (four weeks from the Sep 3 decision) for the CDoH theme issue — Mohammed doing the revision himself; Claude to build the response scaffold
 
 ### This week
 - [ ] Sandro-fy Courtney Babcock's opening remarks for Leading with Listening by FRIDAY (draft in her email + Box)
