@@ -4,19 +4,20 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Open
 
-### Today (Wed Sep 16)
-- [ ] Send Nuha the symposium abstract + four paper summaries — the packet needs only your trauma-saturation sentences, the rest is assembled
-- [ ] Sandro meeting today: use v4 docx (~11:30 AM) — NEW structure Active/On hold/Projects/Training, ANCHOR removed; one bracket left (lecture date/format). Friday system live: question round Fri 12:37 PM, compile-and-deliver Fri 5:23 PM (unfailing), source of truth projects/sandro-weekly/rows.json
-- [ ] Send the Grace Jiang holding reply from Outlook (paste-ready draft delivered ~8:55 AM; full introductions after the conference)
+### Today (Thu Sep 17)
+- [ ] Send Nuha the symposium abstract + four paper summaries — the packet needs only your trauma-saturation sentences, the rest is assembled (overdue since Mon; travel is next week)
+- [ ] Review Jaimie's ISTSS slides ("make sure they are saying everything you want me to say") — doubles as deck 1/4 for Nuha
+- [ ] Tueth Keeney checkpoint is TODAY: no reply from Calvin since Tuesday's nudge — if the day ends silent, go direct to Melanie
+- [ ] DR accommodated-exam approvals ×2 in the portal: Daniel Gunderson + Nadia McDonald (new Wed night; Ans copied on both)
+- [ ] Send the Grace Jiang holding reply from Outlook (paste-ready draft delivered Wed; full introductions after the conference)
 - [ ] WHO Bulletin R&R (BLT/2026/296735, "Commercial Determinants of Armed Conflict and the Global Arms Industry", PMAC2027; coauthors Galea, Bath, Barberia): 8 editorial-committee points + external reviews in the author area; revised 3000-word Policy & Practice ms + point-by-point + highlighted changes DUE ~OCT 1 (four weeks from the Sep 3 decision) for the CDoH theme issue — Mohammed doing the revision himself; Claude to build the response scaffold
 
 ### This week
-- [ ] Sandro-fy Courtney Babcock's opening remarks for Leading with Listening by FRIDAY (draft in her email + Box)
+- [ ] Sandro-fy Courtney Babcock's opening remarks for Leading with Listening by FRIDAY — tomorrow; the event is confirmed for Wed Sep 23, 9 AM CT (draft in her email + Box)
 - [ ] TFRH white paper: section first draft by Sun Sep 20; review sections 1-6 + section-7 ideas before the Sep 25 meeting
 - [ ] Collect slides for Nuha by Mon Sep 21 — GRADUS IN (Sep 16, 3:40 PM, also awaiting Mohammed's content review); Abdalla, Abba-Aji, Ojo outstanding (sweep reminds Fri and Sun)
 - [ ] Confirm Salma's ISTSS registration — still unconfirmed and silent since Tuesday's email; also owes her slide deck
-- [ ] Kirsten Jacobsen: awaiting her pick of Wed 11:15-1:15 or Thu 1-2 for the books meeting
-- [ ] Tueth Keeney: if Calvin/Melanie stay silent past TOMORROW (Thu), go direct to Melanie
+- [ ] Kirsten Jacobsen: awaiting her pick — the Thu 1-2 window is today and she hasn't written; if it passes, offer fresh times
 
 ### Pinned (parked by Mohammed, Sep 16)
 - [ ] RA group-training email (Parth, Ellie, Gabriel Estrada, + Zoe; Grace may fit the cohort) — resume when he says
@@ -26,10 +27,8 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 ### New this week (from Sandro-meeting prep)
 - [ ] AI and Public Health Survey: one-page concept note before the Oct 1, 1 PM call with Layden + Brownson (adoption-study framing; Shah tiers; sanctioned vs actual use)
 - [ ] DDOH Viewpoint with Jay Shaw (JAMA Health Forum, with Sandro): Jay's revised outline due back this week — review and begin draft
-- [ ] Review Jaimie's ISTSS slides ("make sure they are saying everything you want me to say", Sep 16) — doubles as deck 1/4 for Nuha
 - [ ] Reply Brady Heward: 30-minute ANCHOR call, week of Sep 28 (his warm reply Sep 16)
 - [ ] Reply Kevin Cai with the 3+2 MPH contact
-- [ ] Daniel Gunderson DR accommodated-exam request (Ans copied; same flow as Zana's)
 
 ### Portfolio (tracked; work as directed)
 - [ ] AI & Digital Innovation in PH Curriculum (MPH): kick-off held; course concept is the next deliverable
@@ -41,9 +40,13 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Epi Matters 2e response letter: draft in Drive awaits review, then Kerry + Sandro, then Emma (on today's Sandro agenda)
 - [ ] PLOS Mental Health: PMEN-D-26-00318 action + four editor invitations pending
 - [ ] Publish Outlook calendar as ICS and subscribe in Google Calendar (connector is live; calendar is empty until this lands)
+- [ ] Sandro weekly automation: Friday question round 12:37 PM + unfailing compile-and-deliver 5:23 PM (source of truth projects/sandro-weekly/rows.json; first firing tomorrow)
 
 ## Done
 
+- [x] 2026-09-17 — PLOS One WITHDREW the PONE-D-26-38405 reviewer invitation (stunting AARR paper) — "your comments will no longer be required"; nothing owed
+- [x] 2026-09-16 — Epi Toolkit grading cleared by Ans on-thread: GTAs may grade and release; bonus scored 6/5 — nothing waits on Mohammed; PaperCut IT case opened and resolved the same evening; Ans arranging the November Zoom guest-lecturer mechanics test with Becky
+- [x] 2026-09-16 — Sandro meeting agenda + weekly update v4 delivered in the new Active/On hold/Projects/Training structure; Friday automation deployed
 - [x] 2026-09-16 — PROGRAM OFFICE CONFIRMED the discussant change ("this change has been made" — Alex, 11:34 AM); Nuha replied graciously on-thread; ISTSS program formally updated
 - [x] 2026-09-16 — Sarah Moreland-Russell thanked him for the slides; Trey closed warmly; Dima's makeup submitted; Gavin recurring meeting + room booked through Dec 14
 - [x] 2026-09-16 — Epi assignment resent from the current portal (per Mohammed; Quinn's flag closed)
