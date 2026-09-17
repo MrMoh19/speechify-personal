@@ -36,6 +36,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] PHS1000 teaching: Tue/Thu sessions; team meeting Thursdays (relocated this week per AJ)
 
 ### Standing
+- [ ] TOKEN-SAVER through Sun Sep 20 (Fable at 92%): morning brief paused (Sunday sweep re-enables it for Monday); evening sweep lean, no Saturday runs; Sandro Friday pair lean but unfailing; no artifacts, renders, or proactive work until Monday unless Mohammed asks
 - [ ] JOTS revision (ms 1390286, IDP validation paper): minor revisions due ~Oct 7; response plan circulates after ISTSS
 - [ ] Epi Matters 2e response letter: draft in Drive awaits review, then Kerry + Sandro, then Emma (on today's Sandro agenda)
 - [ ] PLOS Mental Health: PMEN-D-26-00318 action + four editor invitations pending
