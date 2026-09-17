@@ -6,8 +6,10 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ### Today (Thu Sep 17)
 - [ ] Send Nuha the symposium abstract + four paper summaries — the packet needs only your trauma-saturation sentences, the rest is assembled (overdue since Mon; travel is next week)
-- [ ] Review Jaimie's ISTSS slides ("make sure they are saying everything you want me to say") — doubles as deck 1/4 for Nuha
-- [ ] Tueth Keeney checkpoint is TODAY: no reply from Calvin since Tuesday's nudge — if the day ends silent, go direct to Melanie
+- [ ] Acknowledge Tina Litteken (Brentwood Travel): ISTSS return flight now departs EARLIER; she and the dean's office await receipt (draft delivered Thu sweep)
+- [ ] Salma's R+R (trauma x socioeconomic stressors paper): favorable decision; Sandro signed off with the Bursky affiliation fix; Mohammed's edit pass on her attached version is the open step
+- [ ] Tueth Keeney: Thursday line passed silent — send the Melanie escalation from Outlook (draft delivered Thu sweep)
+- [ ] Student replies: guest-speaker reflection question (Brigette Davis?); Jolaade's Nigerian research project interest
 - [ ] DR accommodated-exam approvals ×2 in the portal: Daniel Gunderson + Nadia McDonald (new Wed night; Ans copied on both)
 - [ ] Send the Grace Jiang holding reply from Outlook (paste-ready draft delivered Wed; full introductions after the conference)
 - [ ] WHO Bulletin R&R (BLT/2026/296735, "Commercial Determinants of Armed Conflict and the Global Arms Industry", PMAC2027; coauthors Galea, Bath, Barberia): 8 editorial-committee points + external reviews in the author area; revised 3000-word Policy & Practice ms + point-by-point + highlighted changes DUE ~OCT 1 (four weeks from the Sep 3 decision) for the CDoH theme issue — Mohammed doing the revision himself; Claude to build the response scaffold
@@ -17,7 +19,6 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] TFRH white paper: section first draft by Sun Sep 20; review sections 1-6 + section-7 ideas before the Sep 25 meeting
 - [ ] Collect slides for Nuha by Mon Sep 21 — GRADUS IN (Sep 16, 3:40 PM, also awaiting Mohammed's content review); Abdalla, Abba-Aji, Ojo outstanding (sweep reminds Fri and Sun)
 - [ ] Confirm Salma's ISTSS registration — still unconfirmed and silent since Tuesday's email; also owes her slide deck
-- [ ] Kirsten Jacobsen: awaiting her pick — the Thu 1-2 window is today and she hasn't written; if it passes, offer fresh times
 
 ### Pinned (parked by Mohammed, Sep 16)
 - [ ] RA group-training email (Parth, Ellie, Gabriel Estrada, + Zoe; Grace may fit the cohort) — resume when he says
@@ -44,6 +45,8 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Sandro weekly automation: Friday question round 12:37 PM + unfailing compile-and-deliver 5:23 PM (source of truth projects/sandro-weekly/rows.json; first firing tomorrow)
 
 ## Done
+
+- [x] 2026-09-17 — Jaimie's slides reviewed and returned (his reply 3:33 PM; her "Thank you very much!!"); Kirsten scheduled the Foundations book-event Zoom (with Amanda's team + Ans) — her pick landed; Becky's slides request answered
 
 - [x] 2026-09-17 — PLOS One WITHDREW the PONE-D-26-38405 reviewer invitation (stunting AARR paper) — "your comments will no longer be required"; nothing owed
 - [x] 2026-09-16 — Epi Toolkit grading cleared by Ans on-thread: GTAs may grade and release; bonus scored 6/5 — nothing waits on Mohammed; PaperCut IT case opened and resolved the same evening; Ans arranging the November Zoom guest-lecturer mechanics test with Becky
