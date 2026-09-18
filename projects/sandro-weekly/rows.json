@@ -1,40 +1,181 @@
 {
-  "title_date": "16 September 2026",
-  "excluded_from_sandro": ["ANCHOR-MH Nigeria", "PLOS Mental Health editor queue", "N-MIND"],
+  "title_date": "18 September 2026",
+  "excluded_from_sandro": [
+    "ANCHOR-MH Nigeria",
+    "PLOS Mental Health editor queue",
+    "N-MIND"
+  ],
   "active": [
-    {"ms": "MaRVIN 1 — Validation of Mental Health Screening Instruments in Nigerian Populations", "stage": "Minor revisions received (Sep 15)", "journal": "Journal of Traumatic Stress", "next": "Point-by-point response; circulate to co-authors after ISTSS", "due": "~Oct 7"},
-    {"ms": "Commercial Determinants of Armed Conflict", "stage": "Revise & resubmit received (Sep 3); committee deems the paper important", "journal": "WHO Bulletin", "next": "Build point-by-point response and revise (8 committee points; Table 1 out; attribution request overruled); circulate to co-authors before resubmission", "due": "~Oct 1 (CDoH theme issue)"},
-    {"ms": "Digital Environments as Health Environments: Reframing Digital Health for Population Health", "stage": "Revise & resubmit received (Sep 17); two external reviews", "journal": "SSM-Population Health", "next": "Revise per reviewers (study-selection/method transparency, justification of the five domains and mechanisms, non-US/LMIC evidence, concrete measures and study designs, governance tensions and feasibility, reference cleanup); point-by-point response", "due": "Oct 8, 2026"},
-    {"ms": "MaRVIN Burden paper — Trauma, Displacement, and Common Mental Disorders in Populations Exposed to Ongoing High-Prevalence Violence", "stage": "With co-authors", "journal": "JAMA NO / BMJ Global Health", "next": "Nudge co-authors", "due": ""},
-    {"ms": "MaRVIN Stress/Trauma — Trauma-Stress Interactions and Mental Health Outcomes in Nigeria", "stage": "Draft 1", "journal": "Social Science & Medicine", "next": "Finalize draft", "due": ""},
-    {"ms": "MaRVIN Expanded validation (population-level validation of PCL-5, PHQ-9, GAD-7)", "stage": "Phase 2 outline shared with Gavin (Sep 14); aligned at meeting", "journal": "TBD", "next": "Begin drafting per outline", "due": ""},
-    {"ms": "MaRVIN TMDS instrument", "stage": "Outline 3", "journal": "TBD", "next": "Reframe intro; reproduce Outline 3", "due": ""},
-    {"ms": "Digital Determinants of Health Viewpoint (with Jay Shaw)", "stage": "Outline with Jay Shaw; revised outline due back this week", "journal": "JAMA Health Forum", "next": "Review revised outline; draft", "due": ""}
+    {
+      "ms": "MaRVIN 1 — Validation of Mental Health Screening Instruments in Nigerian Populations",
+      "stage": "Minor revisions received (Sep 15)",
+      "journal": "Journal of Traumatic Stress",
+      "next": "Point-by-point response; circulate to co-authors after ISTSS",
+      "due": "~Oct 7"
+    },
+    {
+      "ms": "Commercial Determinants of Armed Conflict",
+      "stage": "Revise & resubmit received (Sep 3); committee deems the paper important",
+      "journal": "WHO Bulletin",
+      "next": "Build point-by-point response and revise (8 committee points; Table 1 out; attribution request overruled); circulate to co-authors before resubmission",
+      "due": "~Oct 1 (CDoH theme issue)"
+    },
+    {
+      "ms": "Digital Environments as Health Environments: Reframing Digital Health for Population Health",
+      "stage": "Under review",
+      "journal": "SSM-Population Health",
+      "next": "Await response",
+      "due": ""
+    },
+    {
+      "ms": "MaRVIN Burden paper — Trauma, Displacement, and Common Mental Disorders in Populations Exposed to Ongoing High-Prevalence Violence",
+      "stage": "With co-authors",
+      "journal": "JAMA NO / BMJ Global Health",
+      "next": "Nudge co-authors",
+      "due": ""
+    },
+    {
+      "ms": "MaRVIN Stress/Trauma — Trauma-Stress Interactions and Mental Health Outcomes in Nigeria",
+      "stage": "Draft 1",
+      "journal": "Social Science & Medicine",
+      "next": "Finalize draft",
+      "due": ""
+    },
+    {
+      "ms": "MaRVIN Expanded validation (population-level validation of PCL-5, PHQ-9, GAD-7)",
+      "stage": "Phase 2 outline shared with Gavin (Sep 14); aligned at meeting",
+      "journal": "TBD",
+      "next": "Begin drafting per outline",
+      "due": ""
+    },
+    {
+      "ms": "MaRVIN TMDS instrument",
+      "stage": "Outline 3",
+      "journal": "TBD",
+      "next": "Reframe intro; reproduce Outline 3",
+      "due": ""
+    },
+    {
+      "ms": "Digital Determinants of Health Viewpoint (with Jay Shaw)",
+      "stage": "Outline with Jay Shaw; revised outline due back this week",
+      "journal": "JAMA Health Forum",
+      "next": "Review revised outline; draft",
+      "due": ""
+    }
   ],
   "on_hold": [
-    {"ms": "Modelling the Role of Serious Mental Illness in Interpersonal Gun Violence: A Population Health Perspective", "stage": "Revise & resubmit", "journal": "SSM-Population Health", "next": "Redo analysis"},
-    {"ms": "Trends in Undiagnosed Hypertension Among US Adults, 1999-2000 Through 2017-2018 (NHANES)", "stage": "Outline 2", "journal": "TBD", "next": "Pending active items; RA support onboarding for citations"},
-    {"ms": "Sociodemographic Differences in Undiagnosed, Untreated and Uncontrolled Hypertension Among US Adults (NHANES)", "stage": "Outline 2", "journal": "TBD", "next": "Pending active items"},
-    {"ms": "PHC Mental Healthcare Services Readiness Assessment", "stage": "Concept note", "journal": "TBD", "next": "Discuss scope; revise concept note"},
-    {"ms": "Psychological Distress (Gavin)", "stage": "Outline 2", "journal": "TBD", "next": "Revise concept note"},
-    {"ms": "Mental Health Indicators and Gun Purchase Intentions", "stage": "With Salma", "journal": "SSM-Mental Health", "next": "Send to co-authors"},
-    {"ms": "Trends and Sociodemographic Predictors in Cannabis Positivity Among Adolescent Homicide Decedents, 2009-2022", "stage": "Outline 3 refining", "journal": "JAMA Pediatrics / Psychiatry", "next": "Send to Sandro"},
-    {"ms": "Impact of Cannabis Retail Legalization on Cannabis Positivity Among Adolescent Homicide Decedents, 2009-2022", "stage": "Outline 2 refining", "journal": "JAMA Pediatrics / Psychiatry", "next": "Outline 3"},
-    {"ms": "Food Insecurity and Mental Health (Bella)", "stage": "Outline 2", "journal": "TBD", "next": "Intro to Epi study; Outline 3"}
+    {
+      "ms": "Modelling the Role of Serious Mental Illness in Interpersonal Gun Violence: A Population Health Perspective",
+      "stage": "Revise & resubmit",
+      "journal": "SSM-Population Health",
+      "next": "Redo analysis"
+    },
+    {
+      "ms": "Trends in Undiagnosed Hypertension Among US Adults, 1999-2000 Through 2017-2018 (NHANES)",
+      "stage": "Outline 2",
+      "journal": "TBD",
+      "next": "Pending active items; RA support onboarding for citations"
+    },
+    {
+      "ms": "Sociodemographic Differences in Undiagnosed, Untreated and Uncontrolled Hypertension Among US Adults (NHANES)",
+      "stage": "Outline 2",
+      "journal": "TBD",
+      "next": "Pending active items"
+    },
+    {
+      "ms": "PHC Mental Healthcare Services Readiness Assessment",
+      "stage": "Concept note",
+      "journal": "TBD",
+      "next": "Discuss scope; revise concept note"
+    },
+    {
+      "ms": "Psychological Distress (Gavin)",
+      "stage": "Outline 2",
+      "journal": "TBD",
+      "next": "Revise concept note"
+    },
+    {
+      "ms": "Mental Health Indicators and Gun Purchase Intentions",
+      "stage": "With Salma",
+      "journal": "SSM-Mental Health",
+      "next": "Send to co-authors"
+    },
+    {
+      "ms": "Trends and Sociodemographic Predictors in Cannabis Positivity Among Adolescent Homicide Decedents, 2009-2022",
+      "stage": "Outline 3 refining",
+      "journal": "JAMA Pediatrics / Psychiatry",
+      "next": "Send to Sandro"
+    },
+    {
+      "ms": "Impact of Cannabis Retail Legalization on Cannabis Positivity Among Adolescent Homicide Decedents, 2009-2022",
+      "stage": "Outline 2 refining",
+      "journal": "JAMA Pediatrics / Psychiatry",
+      "next": "Outline 3"
+    },
+    {
+      "ms": "Food Insecurity and Mental Health (Bella)",
+      "stage": "Outline 2",
+      "journal": "TBD",
+      "next": "Intro to Epi study; Outline 3"
+    }
   ],
   "projects": [
-    {"name": "AI and Public Health Survey", "update": "National survey of AI in public health practice; leading with Brownson's support, Jen Layden joined. Framed as an adoption study: individual use mapped to Shah's three tiers with a sanctioned / tolerated / unsanctioned item, ASTHO challenge categories, local health departments included", "next": "One-page concept note ahead of the Oct 1, 1 PM call with Layden and Brownson"},
-    {"name": "Annual PH&S Lecture and book event", "update": "PH&S confirms funding for 100 copies; School covers 100; AJ Short orders once specifics set", "next": "Logistics meeting with Kirsten + Amanda's team this week; [date and format]"},
-    {"name": "ISTSS Symposium", "update": "Discussant resolved: Nuha Alshabani (Albany) accepted; program office processed the change; Salma's registration pending", "next": "Slides to discussant by Sep 21; final prep; travel next week"},
-    {"name": "Epidemiology Matters", "update": "Four external reviews received; response letter drafted in the Zimmerman format", "next": "One round with Kerry + Sandro, then to Emma; settle the infectious disease chapter answer"},
-    {"name": "St. Louis SHINE Survey", "update": "NORC sent incentive proposal; Morven following up; no meeting needed this week", "next": "Pilot data collection"},
-    {"name": "MaRVIN dissertation on primary care implementation in Nigeria", "update": "Saidat and Jaimie shaping dissertation", "next": "Committee; timelines"},
-    {"name": "MaRVIN Second Wave", "update": "Met with AFENET; participant recruitment and cost", "next": "Awaiting budget / revisions"},
-    {"name": "Rural Health Task Force", "update": "White paper drafting underway; writing assignments distributed", "next": "Section first draft due Sep 20; reconvene Sep 25"},
-    {"name": "AI & Digital Innovation in Public Health Curriculum (MPH)", "update": "Kick-off meeting held", "next": "Course concept"},
-    {"name": "Lancet Global Gun Violence Commission", "update": "Working-group synthesis completed", "next": "Awaiting further instruction"}
+    {
+      "name": "AI and Public Health Survey",
+      "update": "National survey of AI in public health practice; leading with Brownson's support, Jen Layden joined. Framed as an adoption study: individual use mapped to Shah's three tiers with a sanctioned / tolerated / unsanctioned item, ASTHO challenge categories, local health departments included",
+      "next": "One-page concept note ahead of the Oct 1, 1 PM call with Layden and Brownson"
+    },
+    {
+      "name": "Annual PH&S Lecture and book event",
+      "update": "PH&S confirms funding for 100 copies; School covers 100; AJ Short orders once specifics set",
+      "next": "Logistics meeting with Kirsten + Amanda's team this week; [date and format]"
+    },
+    {
+      "name": "ISTSS Symposium",
+      "update": "Discussant resolved: Nuha Alshabani (Albany) accepted; program office processed the change; Salma's registration pending",
+      "next": "Slides to discussant by Sep 21; final prep; travel next week"
+    },
+    {
+      "name": "Epidemiology Matters",
+      "update": "Four external reviews received; response letter drafted in the Zimmerman format",
+      "next": "One round with Kerry + Sandro, then to Emma; settle the infectious disease chapter answer"
+    },
+    {
+      "name": "St. Louis SHINE Survey",
+      "update": "NORC sent incentive proposal; Morven following up; no meeting needed this week",
+      "next": "Pilot data collection"
+    },
+    {
+      "name": "MaRVIN dissertation on primary care implementation in Nigeria",
+      "update": "Saidat and Jaimie shaping dissertation",
+      "next": "Committee; timelines"
+    },
+    {
+      "name": "MaRVIN Second Wave",
+      "update": "Met with AFENET; participant recruitment and cost",
+      "next": "Awaiting budget / revisions"
+    },
+    {
+      "name": "Rural Health Task Force",
+      "update": "White paper drafting underway; writing assignments distributed",
+      "next": "Section first draft due Sep 20; reconvene Sep 25"
+    },
+    {
+      "name": "AI & Digital Innovation in Public Health Curriculum (MPH)",
+      "update": "Kick-off meeting held",
+      "next": "Course concept"
+    },
+    {
+      "name": "Lancet Global Gun Violence Commission",
+      "update": "Working-group synthesis completed",
+      "next": "Awaiting further instruction"
+    }
   ],
   "training": [
-    {"name": "Teaching with AI series (Eddie Watson, FRPHC course developer team)", "status": "First session attended; four one-hour sessions to follow this academic year", "next": "Dates set (Hobson, Sep 17): Oct 6 2-4, Oct 20 1-3, Oct 23 9-11, Oct 28 2-4, Nov 20 10-12, Dec 4 10-12; Tish sending hybrid invites"}
+    {
+      "name": "Teaching with AI series (Eddie Watson, FRPHC course developer team)",
+      "status": "First session attended; four one-hour sessions to follow this academic year",
+      "next": "Scheduling poll completed; sessions land on calendar"
+    }
   ]
 }
