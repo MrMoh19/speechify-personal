@@ -18,11 +18,11 @@ cheap. Looking for things is not.
 the weekend). Mohammed's word, 2026-09-18. This cuts a sweep from roughly 7k to roughly 3k
 by dropping Redfin, UFC, newsletters and retail mail that carry no label.
 
-  *The blind spot this creates:* mail sent straight to abbaaji189@gmail.com never gets
-  Label_3, because the label marks Outlook-forwarded WUSTL mail. Anything genuinely personal
-  or from a collaborator writing to the Gmail address falls outside the sweep. The Sunday
-  sweep therefore adds one cheap second pass, `-label:Label_3 -category:promotions
-  -category:social is:unread newer_than:7d`, metadata view only, to catch what the week missed.
+  *The blind spot this creates, accepted knowingly:* mail sent straight to
+  abbaaji189@gmail.com never gets Label_3, because the label marks Outlook-forwarded WUSTL
+  mail. Anything from a collaborator writing to the Gmail address falls outside the sweep and
+  will not be caught. Mohammed weighed this on 2026-09-18 and declined a second unlabeled
+  pass, so no sweep covers it. Mail to the personal address is his to watch.
 
 **2. Never search for a file that can be named.** A Drive file ID or link costs about 0.5k
 and goes straight to the content; a search for the same file costs 4-8k per attempt and can
