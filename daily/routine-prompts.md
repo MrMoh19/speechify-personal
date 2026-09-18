@@ -1,4 +1,6 @@
-# Routine prompt replacements — pending
+# Routine prompt replacements — APPLIED 2026-09-18 ~5:26 PM CT
+
+Both prompts were applied verbatim via update_trigger from session_01PPwbUUWpfmtc9VHJ6fxbgv during the Friday compile run. The morning brief remains disabled until the Sunday sweep re-enables it. The open question below (dropping the daily render) still awaits Mohammed.
 
 The evening sweep and morning brief need their prompts scoped to Label_3 per Mohammed's
 Sept 18 token policy. A routine's instructions can only be edited from the session it fires
