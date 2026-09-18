@@ -38,6 +38,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] FRPHC course-developer sessions scheduled (Hobson, Thu): Oct 6 2-4, Oct 20 1-3, Oct 23 9-11, Oct 28 2-4, Nov 20 10-12, Dec 4 10-12; hybrid, Tish sending invites — no reply needed unless a date fails
 
 ### Standing
+- [ ] TOKEN POLICY (his word, Sep 18): sweeps are scoped to `label:Label_3 -category:promotions -category:social newer_than:1d`; the Sunday sweep adds one cheap unlabeled pass so personal-address mail is not lost. Full rules, per-run budgets and measured costs in `daily/token-policy.md`
 - [ ] REVISION ORDER (his word, Sep 17): ISTSS first, then JOTS (~Oct 7), then WHO Bulletin (~Oct 1), then SSM-PH (extension to 9 Nov requested)
 - [ ] Travel on the Google calendar: return flight WN 2209 Sat Sep 26, SAT 6:45 AM to STL 8:50 AM, and the ISTSS block Sep 23-26 at the Marriott Rivercenter. OUTBOUND FLIGHT STILL MISSING — no itinerary for it anywhere in Gmail; add it once he forwards Brentwood's original booking. The calendar's time zone is New York, so Central events display an hour late until he asks for the switch
 - [ ] TOKEN-SAVER through Sun Sep 20 (Fable at 92%): morning brief paused (Sunday sweep re-enables it for Monday); evening sweep lean, no Saturday runs; Sandro Friday pair lean but unfailing; no artifacts, renders, or proactive work until Monday unless Mohammed asks
