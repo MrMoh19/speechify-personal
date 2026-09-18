@@ -70,6 +70,32 @@ ask rather than quietly spend.
 - **Anything Mohammed asked for directly.** Token-saver governs Claude's own initiative, not
   his instructions.
 
+## Real usage data, 2026-09-18 16:14 UTC
+
+From Mohammed's own usage report, not estimates.
+
+Plan meters, all account-level (not per session):
+
+| Meter | Reading | Resets |
+|---|---:|---|
+| session (rolling 5-hour) | 4% | same day 2:10 PM CT |
+| weekly_all | 51% | Sat 4:00 PM CT |
+| weekly_scoped (model family) | 97% | Sat 4:00 PM CT |
+
+The binding constraint is the scoped weekly cap on one model family, not the
+overall allowance. A session on a model outside that family draws on the 51%
+bucket instead. `/model` costs nothing.
+
+Session block for one Opus 5 session: 136 input tokens, 311 output, 15.1M cache
+read, 598k cache write, $15.88, one minute of API time. Almost everything sent
+was conversation being re-read. That ratio is the case for short sessions and
+fresh-session routines, in his own numbers.
+
+Local `/usage` figures come from session history on that machine only. His
+routines run in remote sessions, so the Loops breakdown shows nothing (0
+requests in 24h, 1 in 7d). Measure routine cost from the plan meters before and
+after a firing, not from the local breakdown.
+
 ## Measured reference costs
 
 From the 2026-09-18 session, for planning:
