@@ -22,10 +22,10 @@
     },
     {
       "ms": "Digital Environments as Health Environments: Reframing Digital Health for Population Health",
-      "stage": "Under review",
+      "stage": "Revise & resubmit received (Sep 17); two external reviews",
       "journal": "SSM-Population Health",
-      "next": "Await response",
-      "due": ""
+      "next": "Revise per reviewers (study-selection/method transparency, justification of the five domains and mechanisms, non-US/LMIC evidence, concrete measures and study designs, governance tensions and feasibility, reference cleanup); point-by-point response",
+      "due": "Oct 8, 2026"
     },
     {
       "ms": "MaRVIN Burden paper — Trauma, Displacement, and Common Mental Disorders in Populations Exposed to Ongoing High-Prevalence Violence",
@@ -175,7 +175,7 @@
     {
       "name": "Teaching with AI series (Eddie Watson, FRPHC course developer team)",
       "status": "First session attended; four one-hour sessions to follow this academic year",
-      "next": "Scheduling poll completed; sessions land on calendar"
+      "next": "Dates set (Hobson, Sep 17): Oct 6 2-4, Oct 20 1-3, Oct 23 9-11, Oct 28 2-4, Nov 20 10-12, Dec 4 10-12; Tish sending hybrid invites"
     }
   ]
 }
