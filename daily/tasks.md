@@ -6,7 +6,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ### Today (Thu Sep 17)
 - [ ] Send Nuha the symposium abstract + four paper summaries — the packet needs only your trauma-saturation sentences, the rest is assembled (overdue since Mon; travel is next week)
-- [ ] Salma's R+R (trauma x socioeconomic stressors paper): favorable decision; Sandro signed off with the Bursky affiliation fix; Mohammed's edit pass on her attached version is the open step. CO-AUTHOR ONLY (his word, Sep 17) — no Sandro row, and the Friday round does not ask about it
+  - Claude cannot reach the saturation analysis: Drive holds MaRVIN Papers 1 (validation), 2 (structure/invariance/norms) and 3 (TMDS-9) only; nothing on trauma saturation is in Drive or Box, and the Gmail connector cannot open attachments. The nearest source is Salma's NPJ MH manuscript "Trauma, stressors, and mental health outcomes_091726.docx" on the R+R thread. Put a copy in Drive or Box, or send the ISTSS abstract, and Claude can draft the sentences
 - [ ] Send the Nigeria-project four their reply from Outlook (Ziah Adediran, Jolaade Bada, Ebube Okereke, Raqeebah Sowemimo; paste-ready draft delivered Thu evening) — offers a group meeting the week of Sep 28, fill day, time and place
 - [ ] DR accommodated-exam approvals ×4 in the portal: Daniel Gunderson + Nadia McDonald (Wed night) and Jessy Young + Sophia Saadi (new Thu 12:07-12:18 PM; the Young notice arrived twice); Ans copied on all
 - [ ] Send the Grace Jiang holding reply from Outlook (revised draft delivered Thu evening; it now asks her what she wants from each introduction, so the introductions write themselves after the conference). Her ask: she is a PUBHLTHSOC1000 student whose prior work was with cleft-palate families on stigma and community reintegration (hospital and Tibet volunteering, documentary, interviews, photo exhibition, papers); she wants to carry it into oral health and mental health at WashU and is taking up your offer to connect her with people. No deadline attached
@@ -49,6 +49,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Done
 
+- [x] 2026-09-18 — Salma's NPJ Mental Health R+R closed: Mohammed sent edits and interpretation notes Thu 6:46 PM; Salma replied Fri 9:27 AM ("Great points. We will incorporate before submitting"). Co-author only; no Sandro row
 - [x] 2026-09-17 — Evelyn Wang's reply SENT by Mohammed (guest-speaker reflection confirmed; the risk-factor / policy-evaluation answer went with it)
 - [x] 2026-09-17 — Tina Litteken (Brentwood Travel) answered by Mohammed; the earlier ISTSS return (WN 2209, Sep 26, SAT 6:45 AM to STL 8:50 AM) is acknowledged and now on the Google calendar with the Sep 23-26 conference block
 - [x] 2026-09-17 — Jaimie's slides reviewed and returned (his reply 3:33 PM; her "Thank you very much!!"); Kirsten scheduled the Foundations book-event Zoom (with Amanda's team + Ans) — her pick landed; Becky's slides request answered
