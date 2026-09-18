@@ -8,10 +8,12 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Send Nuha the symposium abstract + four paper summaries — the packet needs only your trauma-saturation sentences, the rest is assembled (overdue since Mon; travel is next week)
 - [ ] Acknowledge Tina Litteken (Brentwood Travel): ISTSS return flight now departs EARLIER; she and the dean's office await receipt (draft delivered Thu sweep)
 - [ ] Salma's R+R (trauma x socioeconomic stressors paper): favorable decision; Sandro signed off with the Bursky affiliation fix; Mohammed's edit pass on her attached version is the open step
+  - Open question for the Friday round: which Sandro row this paper is — it is not the "MaRVIN Stress/Trauma" row as currently staged (Draft 1, SS&M), so the row needs your word before the compile
 - [ ] Tueth Keeney: Thursday line passed silent — send the Melanie escalation from Outlook (draft delivered Thu sweep)
 - [ ] Student replies: guest-speaker reflection question (Brigette Davis?); Jolaade's Nigerian research project interest
-- [ ] DR accommodated-exam approvals ×2 in the portal: Daniel Gunderson + Nadia McDonald (new Wed night; Ans copied on both)
+- [ ] DR accommodated-exam approvals ×4 in the portal: Daniel Gunderson + Nadia McDonald (Wed night) and Jessy Young + Sophia Saadi (new Thu 12:07-12:18 PM; the Young notice arrived twice); Ans copied on all
 - [ ] Send the Grace Jiang holding reply from Outlook (paste-ready draft delivered Wed; full introductions after the conference)
+- [ ] SSM-Population Health R&R, NEW Thu 1:04 PM (SSMPH-D-26-00361, "Digital Environments as Health Environments"): reconsider-after-revision on two external reviews, RESUBMIT BY OCT 8. Reviewers ask for the search/selection method behind the cited evidence, a justification for the five domains and five mechanisms, non-US/European (LMIC) evidence, concrete variables and study designs for the research section, the governance tensions (speech, privacy vs public health's own data use) and feasibility, positive as well as harmful pathways, and a reference cleanup. Rows.json moved from Under review to R&R — Claude to build the point-by-point scaffold on your word
 - [ ] WHO Bulletin R&R (BLT/2026/296735, "Commercial Determinants of Armed Conflict and the Global Arms Industry", PMAC2027; coauthors Galea, Bath, Barberia): 8 editorial-committee points + external reviews in the author area; revised 3000-word Policy & Practice ms + point-by-point + highlighted changes DUE ~OCT 1 (four weeks from the Sep 3 decision) for the CDoH theme issue — Mohammed doing the revision himself; Claude to build the response scaffold
 
 ### This week
@@ -35,6 +37,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] AI & Digital Innovation in PH Curriculum (MPH): kick-off held; course concept is the next deliverable
 - [ ] N-MIND: readiness forms back from FNPH sites + ethics submissions; workbook v0.3 build (imported notes in projects/n-mind/)
 - [ ] PHS1000 teaching: Tue/Thu sessions; team meeting Thursdays (relocated this week per AJ)
+- [ ] FRPHC course-developer sessions scheduled (Hobson, Thu): Oct 6 2-4, Oct 20 1-3, Oct 23 9-11, Oct 28 2-4, Nov 20 10-12, Dec 4 10-12; hybrid, Tish sending invites — no reply needed unless a date fails
 
 ### Standing
 - [ ] TOKEN-SAVER through Sun Sep 20 (Fable at 92%): morning brief paused (Sunday sweep re-enables it for Monday); evening sweep lean, no Saturday runs; Sandro Friday pair lean but unfailing; no artifacts, renders, or proactive work until Monday unless Mohammed asks
