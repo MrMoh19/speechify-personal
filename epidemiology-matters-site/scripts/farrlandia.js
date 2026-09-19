@@ -1,6 +1,6 @@
 /* ============================================================
    Farrlandia — The People of Farrlandia
-   1,000 individuals generated client-side (mulberry32 seed 42).
+   A 1,000-person simple random sample of the 10,000-person Farrlandia Census (see scripts/farr-data.js).
    Columns: [id, age, sex, dist, ses, smoke, poll, diet, inact, alc, iso, cvd, dep, lc, py]
    ============================================================ */
 (function () {

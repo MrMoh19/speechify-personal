@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Farrlandia Census | Epidemiology Matters</title>
+  <meta name="description" content="Download the 10,000-person Farrlandia Census: a simulated population with a documented causal structure, ready for R, Stata, SPSS, SAS, or Python. Companion dataset to Epidemiology Matters." />
+  <link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter+Tight:wght@500;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../styles/main.css" />
+  <style>
+    .census-hero{border-bottom:1px solid var(--rule);padding:var(--space-7) var(--space-5) var(--space-6);}
+    .census-hero .container{max-width:880px;}
+    .census-dl{display:flex;gap:var(--space-3);flex-wrap:wrap;align-items:center;margin-top:var(--space-5);}
+    .census-meta{font-family:'JetBrains Mono',monospace;font-size:0.68rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-mute);}
+    .vartable{width:100%;border-collapse:collapse;font-size:0.85rem;margin-top:var(--space-4);}
+    .vartable th{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:0.05em;font-size:0.75rem;text-align:left;border-bottom:2px solid var(--ink);padding:8px 10px;}
+    .vartable td{border-bottom:1px solid var(--rule);padding:8px 10px;vertical-align:top;line-height:1.5;}
+    .vartable td:first-child{font-family:'JetBrains Mono',monospace;font-size:0.75rem;white-space:nowrap;color:var(--signal-deep);}
+    .vartable td:nth-child(2){font-family:'JetBrains Mono',monospace;font-size:0.72rem;color:var(--ink-mute);white-space:nowrap;}
+    .vartable td:nth-child(3){font-family:'Source Serif 4',serif;color:var(--ink-2);}
+    .code-tabs{display:flex;gap:6px;margin-top:var(--space-4);flex-wrap:wrap;}
+    .code-tab{font-family:'JetBrains Mono',monospace;font-size:0.68rem;letter-spacing:0.08em;text-transform:uppercase;padding:6px 12px;border:1px solid var(--rule);background:none;cursor:pointer;color:var(--ink-mute);}
+    .code-tab.is-active{border-color:var(--signal);color:var(--signal);}
+    .code-block{background:var(--ink);color:#e8e8e6;font-family:'JetBrains Mono',monospace;font-size:0.78rem;line-height:1.7;padding:var(--space-4);overflow-x:auto;margin-top:8px;display:none;}
+    .code-block.is-on{display:block;}
+    .lesson{border:1px solid var(--rule);border-left:3px solid var(--signal);padding:var(--space-4);margin-top:var(--space-3);}
+    .lesson h4{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:0.04em;font-size:0.9rem;margin:0 0 6px;}
+    .lesson p{font-family:'Source Serif 4',serif;font-size:0.88rem;line-height:1.65;color:var(--ink-2);margin:0;}
+    .lesson .nums{font-family:'JetBrains Mono',monospace;font-size:0.72rem;color:var(--signal-deep);display:block;margin-top:8px;}
+    details.truth{margin-top:var(--space-5);border:1px solid var(--rule);}
+    details.truth summary{cursor:pointer;padding:var(--space-4);font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:0.05em;font-size:0.9rem;}
+    details.truth .truth-body{padding:0 var(--space-4) var(--space-4);}
+    .overflow-x{overflow-x:auto;}
+  </style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Epidemiology Matters","item":"https://epidemiologymatters.com/"},{"@type":"ListItem","position":2,"name":"Explore Farrlandia","item":"https://epidemiologymatters.com/farrlandia/"},{"@type":"ListItem","position":3,"name":"The Farrlandia Census","item":"https://epidemiologymatters.com/farrlandia/census/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"The Farrlandia Census","description":"A simulated population of 10,000 residents with a documented causal structure, built as the companion teaching dataset to Epidemiology Matters (Keyes, Abba-Aji & Galea, Oxford University Press). Includes demographics, exposures, biomarkers, and health outcomes with deliberate confounding, effect-measure modification, and selection structures.","url":"https://epidemiologymatters.com/farrlandia/census/","creator":[{"@type":"Person","name":"Katherine M. Keyes"},{"@type":"Person","name":"Mohammed Abba-Aji"},{"@type":"Person","name":"Sandro Galea"}],"distribution":[{"@type":"DataDownload","encodingFormat":"text/csv","contentUrl":"https://epidemiologymatters.com/farrlandia/census/farrlandia-census.csv"}]}</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="topnav">
+    <div class="topnav__inner">
+      <a href="../../index.html" class="wordmark" aria-label="Epidemiology Matters home">
+        <svg class="wordmark__sig" viewBox="0 0 48 96" aria-hidden="true">
+          <circle cx="24" cy="9" r="7" fill="currentColor"/>
+          <path d="M 14 19 L 19 17 L 29 17 L 34 19 L 39 30 L 41 48 L 37 49 L 35 30 L 33 50 L 31 92 L 27 92 L 25 58 L 23 58 L 21 92 L 17 92 L 15 50 L 13 30 L 11 49 L 7 48 L 9 30 Z" fill="currentColor"/>
+        </svg>
+        Epidemiology<em>Matters</em>
+        <span class="wordmark__sub">The Census</span>
+      </a>
+      <nav aria-label="Primary">
+        <ul class="topnav__links" id="navlinks">
+          <li><a href="../../index.html">Home</a></li>
+          <li><a href="../../lab/index.html">Causal Lab</a></li>
+          <li><a href="../../explore/index.html">Companion</a></li>
+          <li><a href="../index.html" aria-current="page">Farrlandia</a></li>
+          <li><a href="../../library/index.html">Library</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navlinks">
+        <svg width="16" height="12" viewBox="0 0 16 12" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="0" y1="2" x2="16" y2="2"/><line x1="0" y1="6" x2="16" y2="6"/><line x1="0" y1="10" x2="16" y2="10"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="census-hero">
+      <div class="container">
+        <p class="eyebrow">The dataset behind everything</p>
+        <h1 class="section-head__title" style="border:0;">The Farrlandia Census</h1>
+        <p class="lede" style="margin-top:var(--space-3);max-width:640px;">All 10,000 residents of Farrlandia, enumerated: demographics, exposures, biomarkers, and health outcomes, generated from a documented causal structure so every association in the data has a knowable truth behind it. The <a href="../index.html">interactive explorer</a> shows a 1,000-person simple random sample of this census &mdash; Step&nbsp;3 of the seven-step framework, made literal. Analyze the full census in whatever software you have.</p>
+        <div class="census-dl">
+          <a class="btn btn--signal" href="farrlandia-census.csv" download>Download the census (CSV) <span class="arrow"></span></a>
+          <span class="census-meta">10,000 rows &middot; 24 variables &middot; 0.8&nbsp;MB &middot; opens in R, Stata, SPSS, SAS, Python, jamovi, Excel</span>
+        </div>
+        <div class="code-tabs" role="tablist">
+          <button class="code-tab is-active" data-lang="r">R</button>
+          <button class="code-tab" data-lang="stata">Stata</button>
+          <button class="code-tab" data-lang="python">Python</button>
+          <button class="code-tab" data-lang="spss">SPSS</button>
+        </div>
+        <pre class="code-block is-on" data-lang="r">farr &lt;- read.csv("https://epidemiologymatters.com/farrlandia/census/farrlandia-census.csv")
+table(farr$smoking, farr$lung_cancer)
+prop.table(table(farr$cvd))</pre>
+        <pre class="code-block" data-lang="stata">import delimited "https://epidemiologymatters.com/farrlandia/census/farrlandia-census.csv", clear
+tab smoking lung_cancer, row
+cs cvd heavy_alcohol</pre>
+        <pre class="code-block" data-lang="python">import pandas as pd
+farr = pd.read_csv("https://epidemiologymatters.com/farrlandia/census/farrlandia-census.csv")
+pd.crosstab(farr.smoking, farr.lung_cancer, normalize="index")</pre>
+        <pre class="code-block" data-lang="spss">GET DATA /TYPE=TXT /FILE="farrlandia-census.csv" /DELIMITERS="," /FIRSTCASE=2.
+* Download the file first, then point FILE= at it.
+CROSSTABS /TABLES=smoking BY lung_cancer /CELLS=ROW.</pre>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container" style="max-width:880px;">
+        <div class="section-head">
+          <div><p class="section-head__num">Codebook</p></div>
+          <div>
+            <h2 class="section-head__title">The 24 Variables</h2>
+            <p class="section-head__lede">Binary variables are coded 1 = yes, 0 = no. There are no missing values &mdash; this is a census, and every resident answered every question. (Real data will never be this kind to you. That is also a lesson.)</p>
+          </div>
+        </div>
+        <div class="overflow-x">
+        <table class="vartable">
+          <thead><tr><th>Variable</th><th>Type</th><th>Description</th></tr></thead>
+          <tbody>
+            <tr><td>id</td><td>integer</td><td>Resident identifier (10001&ndash;99998).</td></tr>
+            <tr><td>age</td><td>years</td><td>Age at census, 18&ndash;79.</td></tr>
+            <tr><td>sex</td><td>female / male</td><td>Sex.</td></tr>
+            <tr><td>district</td><td>text</td><td>Residential district: Snow (industrial), Nightingale, Hill, Doll, Rose (most affluent).</td></tr>
+            <tr><td>ses</td><td>1&ndash;5</td><td>Socioeconomic position, 1 = lowest, 5 = highest.</td></tr>
+            <tr><td>education</td><td>text</td><td>Highest education: primary, secondary, tertiary.</td></tr>
+            <tr><td>insured</td><td>0/1</td><td>Has health insurance.</td></tr>
+            <tr><td>smoking</td><td>0/1</td><td>Current smoker.</td></tr>
+            <tr><td>pack_years</td><td>continuous</td><td>Cumulative smoking dose; 0 for non-smokers.</td></tr>
+            <tr><td>air_pollution</td><td>0/1</td><td>High residential air-pollution exposure (concentrated in Snow and Hill).</td></tr>
+            <tr><td>poor_diet</td><td>0/1</td><td>Diet quality below recommended.</td></tr>
+            <tr><td>physical_inactivity</td><td>0/1</td><td>Below activity guidelines.</td></tr>
+            <tr><td>heavy_alcohol</td><td>0/1</td><td>Heavy episodic drinking (more common under 40).</td></tr>
+            <tr><td>social_isolation</td><td>0/1</td><td>Socially isolated.</td></tr>
+            <tr><td>bmi</td><td>kg/m&sup2;</td><td>Body mass index.</td></tr>
+            <tr><td>systolic_bp</td><td>mmHg</td><td>Systolic blood pressure.</td></tr>
+            <tr><td>family_history_cvd</td><td>0/1</td><td>First-degree family history of cardiovascular disease.</td></tr>
+            <tr><td>cvd</td><td>0/1</td><td>Prevalent cardiovascular disease (&asymp;7%).</td></tr>
+            <tr><td>depression</td><td>0/1</td><td>Prevalent depression (&asymp;10%).</td></tr>
+            <tr><td>lung_cancer</td><td>0/1</td><td>Lung cancer, ever diagnosed (&asymp;3%).</td></tr>
+            <tr><td>type2_diabetes</td><td>0/1</td><td>Prevalent type 2 diabetes (&asymp;9%).</td></tr>
+            <tr><td>injury_past_year</td><td>0/1</td><td>Injury requiring medical attention, past year (&asymp;11%).</td></tr>
+            <tr><td>clinic_visit_past_year</td><td>0/1</td><td>Attended the Farrlandia clinic in the past year (&asymp;36%). Handle with care &mdash; see Lesson D.</td></tr>
+            <tr><td>followup_years</td><td>years</td><td>Person-years of follow-up in the Farrlandia cohort, 4.0&ndash;10.0.</td></tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="border-top:1px solid var(--rule);">
+      <div class="container" style="max-width:880px;">
+        <div class="section-head">
+          <div><p class="section-head__num">For instructors</p></div>
+          <div>
+            <h2 class="section-head__title">Four Lessons Are Buried in the Data</h2>
+            <p class="section-head__lede">The census was generated from a known causal structure, so these findings are guaranteed to be there when your students go looking. Assign the question; the data will keep its side of the bargain.</p>
+          </div>
+        </div>
+        <div class="lesson">
+          <h4>A &middot; Confounding</h4>
+          <p>Smoking is associated with cardiovascular disease &mdash; but smoking is also patterned by age and socioeconomic position, which shape CVD on their own. Have students compare crude and adjusted estimates and say what changed, and why.</p>
+        </div>
+        <div class="lesson">
+          <h4>B &middot; A masked effect</h4>
+          <p>Crudely, heavy drinkers have the same CVD risk as everyone else. Stratify by age and the harm appears. The trick: heavy drinking is concentrated in the young, whose baseline risk is low. Confounding does not always exaggerate &mdash; sometimes it hides.</p>
+        </div>
+        <div class="lesson">
+          <h4>C &middot; Interaction</h4>
+          <p>The effect of smoking on lung cancer is roughly twice as large among residents with high air-pollution exposure as among those without. Two component causes completing the same sufficient cause &mdash; Chapter 11, in the data.</p>
+        </div>
+        <div class="lesson">
+          <h4>D &middot; Selection (Berkson&rsquo;s bias)</h4>
+          <p>Restrict any analysis to clinic attendees and strange things happen: type 2 diabetes appears to <em>protect</em> against depression, an association that does not exist in the full census. Clinic attendance is a collider &mdash; both conditions bring people through its doors.</p>
+        </div>
+        <details class="truth">
+          <summary>Instructor&rsquo;s answer key &mdash; expected values (spoilers)</summary>
+          <div class="truth-body">
+            <p class="lede" style="font-size:0.9rem;">Values your students should approximately reproduce (risk ratios; Mantel-Haenszel for adjusted):</p>
+            <div class="overflow-x">
+            <table class="vartable">
+              <thead><tr><th>Lesson</th><th>Analysis</th><th>Expected</th></tr></thead>
+              <tbody>
+                <tr><td>A</td><td>Smoking &rarr; CVD, crude / age-adjusted</td><td>&asymp;2.1 / &asymp;2.0</td></tr>
+                <tr><td>B</td><td>Heavy alcohol &rarr; CVD, crude / age-adjusted</td><td>&asymp;1.0 / &asymp;1.6</td></tr>
+                <tr><td>C</td><td>Smoking &rarr; lung cancer, RR by pollution stratum</td><td>&asymp;5 (low) vs &asymp;10 (high)</td></tr>
+                <tr><td>D</td><td>Diabetes &rarr; depression, full census / clinic only</td><td>&asymp;0.9 / &asymp;0.5</td></tr>
+              </tbody>
+            </table>
+            </div>
+            <p class="lede" style="font-size:0.85rem;margin-top:var(--space-3);">The census is simulated (fixed seed, generator documented in the site repository), so these values are stable across downloads. Sampling variability applies only to subsamples your students draw themselves.</p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section class="section" style="border-top:1px solid var(--rule);">
+      <div class="container" style="max-width:880px;">
+        <div class="section-head">
+          <div><p class="section-head__num">Provenance</p></div>
+          <div>
+            <h2 class="section-head__title">Where This Data Comes From</h2>
+            <p class="section-head__lede">Farrlandia is simulated. Every resident was generated from a documented data-generating process with a fixed random seed, which is exactly the point: unlike real data, the truth behind every association is knowable, so methods can be tested against it. No real people are described by this dataset. Use it freely in courses, workshops, and problem sets, with attribution to <em>Epidemiology Matters</em> (Keyes, Abba-Aji &amp; Galea, Oxford University Press).</p>
+          </div>
+        </div>
+        <div class="cta-row">
+          <a href="../index.html" class="btn">Explore the 1,000-person sample <span class="arrow"></span></a>
+          <a href="../../library/index.html" class="btn">Browse the Library</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="sitefoot" style="margin-top:var(--space-6);">
+    <div class="container">
+      <div class="sitefoot__sig">
+        <svg viewBox="0 0 48 96" aria-hidden="true">
+          <circle cx="24" cy="9" r="7" fill="currentColor"/>
+          <path d="M 14 19 L 19 17 L 29 17 L 34 19 L 39 30 L 41 48 L 37 49 L 35 30 L 33 50 L 31 92 L 27 92 L 25 58 L 23 58 L 21 92 L 17 92 L 15 50 L 13 30 L 11 49 L 7 48 L 9 30 Z" fill="currentColor"/>
+        </svg>
+        <span>Epidemiology Matters</span>
+      </div>
+      <div class="sitefoot__copy" style="margin-top:var(--space-4);">
+        <span>Keyes &middot; Abba-Aji &middot; Galea &middot; Oxford University Press</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelectorAll('.code-tab').forEach(function (t) {
+      t.addEventListener('click', function () {
+        document.querySelectorAll('.code-tab').forEach(function (x) { x.classList.toggle('is-active', x === t); });
+        document.querySelectorAll('.code-block').forEach(function (b) { b.classList.toggle('is-on', b.dataset.lang === t.dataset.lang); });
+      });
+    });
+    var toggle = document.querySelector('.nav-toggle');
+    var links = document.getElementById('navlinks');
+    if (toggle && links) toggle.addEventListener('click', function () {
+      var open = links.classList.toggle('is-open');
+      toggle.setAttribute('aria-expanded', String(open));
+    });
+  </script>
+<script src="../../scripts/search.js" defer></script>
+</body>
+</html>
