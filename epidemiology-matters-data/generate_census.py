@@ -15,6 +15,13 @@ Built-in lessons (verified by the validation report this script prints):
   D. Selection (Berkson's bias): among clinic attendees, type 2 diabetes
      falsely appears to protect against depression, because attendance is
      a collider (disease -> attendance <- depression).
+  E. Structure & place: Hill district hosts the colliery; coal-mine work
+     and Hill residence drive respiratory infection, so place and
+     occupation - not chance - pattern disease.
+  F. A true null, for now: District Snow's poorest households draw water
+     from the Snow Pump. The pump is currently clean: analyses against it
+     should find nothing. (An outbreak switch exists for the Challenge -
+     see OUTBREAK below.)
 
 Reproducible: fixed seed. Do not edit the CSV by hand; edit this script.
 """
@@ -67,6 +74,36 @@ def generate():
 
         insured = 1 if rng.random() < logistic(0.3 + 0.55 * (ses - 3)) else 0
 
+        # ---- structure: occupation & water source ----
+        # Hill hosts the colliery; Snow the factories and the Snow Pump.
+        r2 = rng.random()
+        if age >= 65 and r2 < 0.85:
+            occ = "retired"
+        elif age < 23 and r2 < 0.5:
+            occ = "student"
+        elif rng.random() < (0.10 if low_ses else 0.04):
+            occ = "unemployed"
+        elif dist == 3 and rng.random() < (0.30 if (not female and edu != "tertiary") else 0.05):
+            occ = "coal miner"
+        elif dist == 1 and rng.random() < (0.34 if edu != "tertiary" else 0.08):
+            occ = "factory worker"
+        elif dist == 2 and rng.random() < 0.20:
+            occ = "farmhand"
+        elif edu == "tertiary" or ses >= 4:
+            occ = "office worker"
+        else:
+            occ = "service worker"
+        miner = 1 if occ == "coal miner" else 0
+        manual = 1 if occ in ("coal miner", "factory worker", "farmhand") else 0
+
+        if dist == 1:
+            p_pump = 0.75 if low_ses else (0.40 if ses == 3 else 0.15)
+        elif dist == 3:
+            p_pump = 0.10
+        else:
+            p_pump = 0.04
+        water = "snow pump" if rng.random() < p_pump else "municipal"
+
         # ---- exposures ----
         smoking = 1 if rng.random() < logistic(-1.15 + (0.7 if low_ses else 0)
                                                - (0.5 if ses >= 4 else 0)
@@ -113,8 +150,17 @@ def generate():
         t2d = 1 if rng.random() < logistic(t2d_l) else 0
 
         inj_l = (-2.65 + 0.85 * alc + (0.5 if age < 30 else 0)
-                 + (0.4 if age >= 70 else 0) + (0.3 if not female else 0))
+                 + (0.4 if age >= 70 else 0) + (0.3 if not female else 0)
+                 + 0.5 * manual)
         inj = 1 if rng.random() < logistic(inj_l) else 0
+
+        # Respiratory infection: the colliery's ambient dust burdens all of
+        # Hill; mine work itself is the strongest driver. The Snow Pump has
+        # NO effect here - the well is clean (Lesson F).
+        resp_l = (-2.15 + 1.2 * miner + (0.5 if dist == 3 else 0)
+                  + 0.5 * poll + 0.45 * smoking + (0.4 if age > 65 else 0)
+                  + (0.25 if low_ses else 0))
+        resp = 1 if rng.random() < logistic(resp_l) else 0
 
         somatic = 1 if (cvd or lc or t2d) else 0
         visit_l = (-2.5 + 2.3 * somatic + 2.3 * dep + 1.2 * insured
@@ -125,11 +171,13 @@ def generate():
 
         rows.append(dict(
             id=pid, age=age, female=female, district=dist, ses=ses, education=edu,
-            insured=insured, smoking=smoking, pack_years=pack_years,
+            occupation=occ, water_source=water, insured=insured,
+            smoking=smoking, pack_years=pack_years,
             air_pollution=poll, poor_diet=diet, physical_inactivity=inact,
             heavy_alcohol=alc, social_isolation=iso, bmi=bmi, systolic_bp=sbp,
             family_history_cvd=famhx, cvd=cvd, depression=dep, lung_cancer=lc,
-            type2_diabetes=t2d, injury_past_year=inj, clinic_visit_past_year=visit,
+            type2_diabetes=t2d, resp_infection_past_year=resp,
+            injury_past_year=inj, clinic_visit_past_year=visit,
             followup_years=followup,
         ))
     return rows, random.Random(SEED + 1)
@@ -190,15 +238,35 @@ def report(rows):
     attendees = [r for r in rows if r["clinic_visit_past_year"] == 1]
     print(f"  RR, whole population   {rr(rows, 'type2_diabetes', 'depression'):.2f}")
     print(f"  RR, clinic attendees   {rr(attendees, 'type2_diabetes', 'depression'):.2f}")
+    print("--- Lesson E: place & occupation -> respiratory infection ---")
+    for d in range(1, 6):
+        s = [r for r in rows if r["district"] == d]
+        print(f"  {DISTRICTS[d]:12s} prevalence {prev(s, 'resp_infection_past_year'):5.1f}%")
+    miners = [r for r in rows if r["occupation"] == "coal miner"]
+    print(f"  coal miners (n={len(miners)}) prevalence {prev(miners, 'resp_infection_past_year'):.1f}%")
+    non = [r for r in rows if r["occupation"] != "coal miner"]
+    print(f"  miner vs non-miner RR  {(prev(miners,'resp_infection_past_year')/prev(non,'resp_infection_past_year')):.2f}")
+    print("--- Lesson F: the Snow Pump is clean (true nulls) ---")
+    pump = [r for r in rows if r["water_source"] == "snow pump"]
+    muni = [r for r in rows if r["water_source"] == "municipal"]
+    print(f"  pump users n={len(pump)} ({100*len(pump)/len(rows):.1f}%)")
+    for o in ["resp_infection_past_year", "cvd", "depression"]:
+        print(f"  pump vs municipal RR, {o}: {(prev(pump,o)/prev(muni,o)):.2f}")
+    pump_flag = lambda r: 1 if r["water_source"] == "snow pump" else 0
+    for r_ in rows: r_["_pump"] = pump_flag(r_)
+    strat = lambda r: (r["ses"] <= 2, r["district"], r["age"] // 20)
+    print(f"  pump -> CVD, SES/district/age-adjusted MH RR: {mh_rr(rows, '_pump', 'cvd', strat):.2f}  (the pump is acquitted)")
 
 
 # ---------- outputs ----------
 
-CSV_COLS = ["id", "age", "sex", "district", "ses", "education", "insured",
+CSV_COLS = ["id", "age", "sex", "district", "ses", "education", "occupation",
+            "water_source", "insured",
             "smoking", "pack_years", "air_pollution", "poor_diet",
             "physical_inactivity", "heavy_alcohol", "social_isolation",
             "bmi", "systolic_bp", "family_history_cvd",
             "cvd", "depression", "lung_cancer", "type2_diabetes",
+            "resp_infection_past_year",
             "injury_past_year", "clinic_visit_past_year", "followup_years"]
 
 
@@ -210,11 +278,13 @@ def write_csv(rows):
         for r in rows:
             w.writerow([
                 r["id"], r["age"], "female" if r["female"] else "male",
-                DISTRICTS[r["district"]], r["ses"], r["education"], r["insured"],
+                DISTRICTS[r["district"]], r["ses"], r["education"],
+                r["occupation"], r["water_source"], r["insured"],
                 r["smoking"], r["pack_years"], r["air_pollution"], r["poor_diet"],
                 r["physical_inactivity"], r["heavy_alcohol"], r["social_isolation"],
                 r["bmi"], r["systolic_bp"], r["family_history_cvd"],
                 r["cvd"], r["depression"], r["lung_cancer"], r["type2_diabetes"],
+                r["resp_infection_past_year"],
                 r["injury_past_year"], r["clinic_visit_past_year"], r["followup_years"],
             ])
     print(f"wrote {CSV_OUT} ({os.path.getsize(CSV_OUT)} bytes)")
@@ -241,8 +311,53 @@ def write_sample_js(rows, sampler):
           f"lc {prev(sample,'lung_cancer'):.1f}%  smoking {prev(sample,'smoking'):.1f}%")
 
 
+# ---------- The Challenge outbreak (disabled by default) ----------
+# When OUTBREAK is True, the Snow Pump is contaminated and an outbreak
+# line list is written alongside the census. The census itself is NOT
+# changed - the outbreak is a separate event dataset for the Farrlandia
+# Challenge. Attack is concentrated among pump users, with household /
+# neighbourhood spillover in Snow and sporadic background cases.
+OUTBREAK = False
+OUTBREAK_OUT = os.path.join(SITE, "farrlandia", "census", "snow-pump-outbreak.csv")
+
+
+def write_outbreak(rows, path=None):
+    orng = random.Random(SEED + 7)
+    path = path or OUTBREAK_OUT
+    cases = []
+    for r in rows:
+        if r["water_source"] == "snow pump":
+            p = 0.38
+        elif r["district"] == 1:
+            p = 0.06
+        else:
+            p = 0.012
+        if orng.random() >= p:
+            continue
+        if r["water_source"] == "snow pump":
+            onset = max(1, min(42, int(orng.gauss(13, 5))))
+        else:
+            onset = max(1, min(42, int(orng.gauss(19, 8))))
+        severe = 1 if orng.random() < logistic(-2.6 + 0.03 * (r["age"] - 40)
+                                               + 0.5 * (r["ses"] <= 2)) else 0
+        cases.append([r["id"], r["age"], "female" if r["female"] else "male",
+                      DISTRICTS[r["district"]], r["ses"], r["water_source"],
+                      onset, severe])
+    with open(path, "w", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["id", "age", "sex", "district", "ses", "water_source",
+                    "onset_day", "severe"])
+        w.writerows(cases)
+    n_pump = sum(1 for r in rows if r["water_source"] == "snow pump")
+    n_case_pump = sum(1 for c in cases if c[5] == "snow pump")
+    print(f"outbreak: {len(cases)} cases; attack rate pump {100*n_case_pump/n_pump:.1f}% "
+          f"vs other {100*(len(cases)-n_case_pump)/(len(rows)-n_pump):.1f}%; wrote {path}")
+
+
 if __name__ == "__main__":
     rows, sampler = generate()
     report(rows)
     write_csv(rows)
     write_sample_js(rows, sampler)
+    if OUTBREAK:
+        write_outbreak(rows)

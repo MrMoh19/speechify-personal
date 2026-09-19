@@ -74,7 +74,7 @@
         <p class="lede" style="margin-top:var(--space-3);max-width:640px;">All 10,000 residents of Farrlandia, enumerated: demographics, exposures, biomarkers, and health outcomes, generated from a documented causal structure so every association in the data has a knowable truth behind it. The <a href="../index.html">interactive explorer</a> shows a 1,000-person simple random sample of this census &mdash; Step&nbsp;3 of the seven-step framework, made literal. Analyze the full census in whatever software you have.</p>
         <div class="census-dl">
           <a class="btn btn--signal" href="farrlandia-census.csv" download>Download the census (CSV) <span class="arrow"></span></a>
-          <span class="census-meta">10,000 rows &middot; 24 variables &middot; 0.8&nbsp;MB &middot; opens in R, Stata, SPSS, SAS, Python, jamovi, Excel</span>
+          <span class="census-meta">10,000 rows &middot; 27 variables &middot; 1.0&nbsp;MB &middot; opens in R, Stata, SPSS, SAS, Python, jamovi, Excel</span>
         </div>
         <div class="code-tabs" role="tablist">
           <button class="code-tab is-active" data-lang="r">R</button>
@@ -102,7 +102,7 @@ CROSSTABS /TABLES=smoking BY lung_cancer /CELLS=ROW.</pre>
         <div class="section-head">
           <div><p class="section-head__num">Codebook</p></div>
           <div>
-            <h2 class="section-head__title">The 24 Variables</h2>
+            <h2 class="section-head__title">The 27 Variables</h2>
             <p class="section-head__lede">Binary variables are coded 1 = yes, 0 = no. There are no missing values &mdash; this is a census, and every resident answered every question. (Real data will never be this kind to you. That is also a lesson.)</p>
           </div>
         </div>
@@ -116,6 +116,8 @@ CROSSTABS /TABLES=smoking BY lung_cancer /CELLS=ROW.</pre>
             <tr><td>district</td><td>text</td><td>Residential district: Snow (industrial), Nightingale, Hill, Doll, Rose (most affluent).</td></tr>
             <tr><td>ses</td><td>1&ndash;5</td><td>Socioeconomic position, 1 = lowest, 5 = highest.</td></tr>
             <tr><td>education</td><td>text</td><td>Highest education: primary, secondary, tertiary.</td></tr>
+            <tr><td>occupation</td><td>text</td><td>Coal miner (Hill Colliery), factory worker (Snow), farmhand, service worker, office worker, student, retired, unemployed.</td></tr>
+            <tr><td>water_source</td><td>text</td><td>Household water: &ldquo;snow pump&rdquo; (the old pump serving District Snow&rsquo;s poorest streets) or &ldquo;municipal&rdquo;.</td></tr>
             <tr><td>insured</td><td>0/1</td><td>Has health insurance.</td></tr>
             <tr><td>smoking</td><td>0/1</td><td>Current smoker.</td></tr>
             <tr><td>pack_years</td><td>continuous</td><td>Cumulative smoking dose; 0 for non-smokers.</td></tr>
@@ -130,7 +132,8 @@ CROSSTABS /TABLES=smoking BY lung_cancer /CELLS=ROW.</pre>
             <tr><td>cvd</td><td>0/1</td><td>Prevalent cardiovascular disease (&asymp;7%).</td></tr>
             <tr><td>depression</td><td>0/1</td><td>Prevalent depression (&asymp;10%).</td></tr>
             <tr><td>lung_cancer</td><td>0/1</td><td>Lung cancer, ever diagnosed (&asymp;3%).</td></tr>
-            <tr><td>type2_diabetes</td><td>0/1</td><td>Prevalent type 2 diabetes (&asymp;9%).</td></tr>
+            <tr><td>type2_diabetes</td><td>0/1</td><td>Prevalent type 2 diabetes (&asymp;8%).</td></tr>
+            <tr><td>resp_infection_past_year</td><td>0/1</td><td>Respiratory tract infection, past year (&asymp;18% overall; markedly higher in Hill &mdash; see Lesson E).</td></tr>
             <tr><td>injury_past_year</td><td>0/1</td><td>Injury requiring medical attention, past year (&asymp;11%).</td></tr>
             <tr><td>clinic_visit_past_year</td><td>0/1</td><td>Attended the Farrlandia clinic in the past year (&asymp;36%). Handle with care &mdash; see Lesson D.</td></tr>
             <tr><td>followup_years</td><td>years</td><td>Person-years of follow-up in the Farrlandia cohort, 4.0&ndash;10.0.</td></tr>
@@ -145,8 +148,8 @@ CROSSTABS /TABLES=smoking BY lung_cancer /CELLS=ROW.</pre>
         <div class="section-head">
           <div><p class="section-head__num">For instructors</p></div>
           <div>
-            <h2 class="section-head__title">Four Lessons Are Buried in the Data</h2>
-            <p class="section-head__lede">The census was generated from a known causal structure, so these findings are guaranteed to be there when your students go looking. Assign the question; the data will keep its side of the bargain.</p>
+            <h2 class="section-head__title">Six Lessons Are Buried in the Data</h2>
+            <p class="section-head__lede">The census was generated from a known causal structure, so these findings are guaranteed to be there when your students go looking. Assign the question; the data will keep its side of the bargain. (Census v1.1 &mdash; adds occupation, water source, and respiratory infection.)</p>
           </div>
         </div>
         <div class="lesson">
@@ -165,6 +168,14 @@ CROSSTABS /TABLES=smoking BY lung_cancer /CELLS=ROW.</pre>
           <h4>D &middot; Selection (Berkson&rsquo;s bias)</h4>
           <p>Restrict any analysis to clinic attendees and strange things happen: type 2 diabetes appears to <em>protect</em> against depression, an association that does not exist in the full census. Clinic attendance is a collider &mdash; both conditions bring people through its doors.</p>
         </div>
+        <div class="lesson">
+          <h4>E &middot; Structure and place</h4>
+          <p>Respiratory infection runs at roughly 17% in four districts &mdash; and 29% in Hill, home of the Hill Colliery. Miners themselves carry the heaviest burden. Disease here is patterned by geography and occupation, not chance: ask students what a &ldquo;district effect&rdquo; is actually made of.</p>
+        </div>
+        <div class="lesson">
+          <h4>F &middot; An innocent suspect</h4>
+          <p>District Snow&rsquo;s poorest households draw water from the old Snow Pump. Crudely, pump users have more CVD &mdash; but the pump is causally inert: its users are simply poorer. Adjust for socioeconomic position and district, and the pump is acquitted. Not every accused exposure is guilty; John Snow would want the analysis done properly.</p>
+        </div>
         <details class="truth">
           <summary>Instructor&rsquo;s answer key &mdash; expected values (spoilers)</summary>
           <div class="truth-body">
@@ -177,6 +188,8 @@ CROSSTABS /TABLES=smoking BY lung_cancer /CELLS=ROW.</pre>
                 <tr><td>B</td><td>Heavy alcohol &rarr; CVD, crude / age-adjusted</td><td>&asymp;1.0 / &asymp;1.6</td></tr>
                 <tr><td>C</td><td>Smoking &rarr; lung cancer, RR by pollution stratum</td><td>&asymp;5 (low) vs &asymp;10 (high)</td></tr>
                 <tr><td>D</td><td>Diabetes &rarr; depression, full census / clinic only</td><td>&asymp;0.9 / &asymp;0.5</td></tr>
+                <tr><td>E</td><td>Respiratory infection: Hill vs other districts; miners vs non-miners</td><td>&asymp;29% vs &asymp;17%; RR &asymp;2.9</td></tr>
+                <tr><td>F</td><td>Snow Pump &rarr; CVD, crude / SES-district-age adjusted</td><td>&asymp;1.3 / &asymp;1.1</td></tr>
               </tbody>
             </table>
             </div>

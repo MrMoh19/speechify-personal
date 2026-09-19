@@ -24,7 +24,7 @@
     { t: 'Seven Steps for an Epidemiology of Consequence', u: 'explore/index.html#steps', d: 'The framework the whole book is built on: from defining a population to external validity.', k: 'seven steps framework population sample associations causality interaction external validity' },
     { t: 'Study Design Builder', u: 'explore/index.html#builder', d: 'Walk through all seven steps to design your own epidemiologic study.', k: 'study design builder walkthrough' },
     { t: 'Explore Farrlandia', u: 'farrlandia/index.html', d: 'The living population: a 1,000-person sample of the Census, explorable person by person.', k: 'farrlandia dataset population data people sample filter stratify william farr' },
-    { t: 'The Farrlandia Census (download)', u: 'farrlandia/census/index.html', d: 'All 10,000 residents as CSV, with codebook and instructor lessons. Ready for R, Stata, SPSS, SAS, Python.', k: 'census download csv data 10000 codebook dictionary variables r stata spss sas python berkson confounding interaction' },
+    { t: 'The Farrlandia Census (download)', u: 'farrlandia/census/index.html', d: 'All 10,000 residents as CSV: 27 variables, codebook, and six instructor lessons. Ready for R, Stata, SPSS, SAS, Python.', k: 'census download csv data 10000 codebook dictionary variables r stata spss sas python berkson confounding interaction coal mine colliery snow pump water occupation respiratory' },
     { t: 'Library — Articles & Media', u: 'library/index.html', d: 'Long-form pieces, animations, and infographics that extend the book. Submit your own.', k: 'library articles media journal videos submit' },
     { t: 'The Table 2 Fallacy', u: 'library/articles/table-2-fallacy/index.html', d: 'Why the second row of every regression almost never means what we want it to mean.', k: 'table 2 fallacy regression coefficients covariates adjustment article causal inference westreich greenland' },
     { t: 'Video: Confounding (EP 01)', u: 'library/index.html#media', d: 'Animated walkthrough: how a third variable inflates a crude risk ratio.', k: 'video animation confounding stratification media' },
@@ -48,7 +48,7 @@
     + '.emsearch-btn:hover{border-color:var(--signal,#cb493c);color:var(--signal,#cb493c)}'
     + '.emsearch-btn svg{flex:0 0 auto}'
     + '.emsearch-kbd{border:1px solid var(--rule,#e5e8ed);border-radius:3px;padding:1px 4px;font-size:0.58rem}'
-    + '@media(max-width:1320px){.emsearch-kbd{display:none}}@media(max-width:1180px){.emsearch-word{display:none}.emsearch-btn{padding:6px 8px}}'
+    + '@media(max-width:1320px){.emsearch-kbd{display:none}}@media(max-width:1400px){.emsearch-word{display:none}.emsearch-btn{padding:6px 8px}}'
     + '.emsearch-overlay{position:fixed;inset:0;z-index:300;background:rgba(10,10,10,.45);display:none;align-items:flex-start;justify-content:center;padding:12vh 16px 16px}'
     + '.emsearch-overlay.is-open{display:flex}'
     + '.emsearch-panel{width:100%;max-width:560px;background:#fff;border:1px solid var(--rule,#e5e8ed);box-shadow:0 24px 64px rgba(10,10,10,.25)}'
