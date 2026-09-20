@@ -22,8 +22,10 @@ local strata   strata               // state strata (1 benue ... 7 sokoto); use 
 local psu      cluster_id           // community cluster ID
 local covars   age_years i.gender i.education_level i.state_cat
 
-* Study 3 is the five conflict-affected states: drop Ogun (strata==5)
-drop if `strata' == 5
+* Primary sample: all six states (Ogun = non-conflict comparison state).
+* Sensitivity: five conflict-affected states only — set the local below to 1.
+local five_state_only 0
+if `five_state_only' drop if `strata' == 5
 
 *--- 1. Outcomes and design ----------------------------------------------------
 gen byte ptsd = `pcl'  >= 38 if !missing(`pcl')
