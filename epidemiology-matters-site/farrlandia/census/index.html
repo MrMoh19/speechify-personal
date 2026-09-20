@@ -71,10 +71,10 @@
       <div class="container">
         <p class="eyebrow">The dataset behind everything</p>
         <h1 class="section-head__title" style="border:0;">The Farrlandia Census</h1>
-        <p class="lede" style="margin-top:var(--space-3);max-width:640px;">All 10,000 residents of Farrlandia, enumerated: demographics, exposures, biomarkers, and health outcomes, generated from a documented causal structure so every association in the data has a knowable truth behind it. The <a href="../index.html">interactive explorer</a> shows a 1,000-person simple random sample of this census &mdash; Step&nbsp;3 of the seven-step framework, made literal. Analyze the full census in whatever software you have.</p>
+        <p class="lede" style="margin-top:var(--space-3);max-width:640px;">Farrlandia, counted in full: 10,000 residents with their demographics, exposures, biomarkers, and health outcomes. We built the census from a documented causal structure, so you can run any analysis and then check your answer against the process that produced the data. The <a href="../index.html">interactive explorer</a> draws a 1,000-person random sample from this census, the same move Step&nbsp;3 of the framework asks of every study. Download the full file and analyze it in whatever software you have.</p>
         <div class="census-dl">
           <a class="btn btn--signal" href="farrlandia-census.csv" download>Download the census (CSV) <span class="arrow"></span></a>
-          <span class="census-meta">10,000 rows &middot; 27 variables &middot; 1.0&nbsp;MB &middot; opens in R, Stata, SPSS, SAS, Python, jamovi, Excel</span>
+          <span class="census-meta">10,000 rows &middot; 30 variables &middot; 1.1&nbsp;MB &middot; opens in R, Stata, SPSS, SAS, Python, jamovi, Excel</span>
         </div>
         <div class="code-tabs" role="tablist">
           <button class="code-tab is-active" data-lang="r">R</button>
@@ -102,8 +102,8 @@ CROSSTABS /TABLES=smoking BY lung_cancer /CELLS=ROW.</pre>
         <div class="section-head">
           <div><p class="section-head__num">Codebook</p></div>
           <div>
-            <h2 class="section-head__title">The 27 Variables</h2>
-            <p class="section-head__lede">Binary variables are coded 1 = yes, 0 = no. There are no missing values &mdash; this is a census, and every resident answered every question. (Real data will never be this kind to you. That is also a lesson.)</p>
+            <h2 class="section-head__title">The 30 Variables</h2>
+            <p class="section-head__lede">Binary variables are coded 1 = yes, 0 = no. There are no missing values: this is a census, and every resident answered every question. Real data will never be this kind to you, and that is also a lesson.</p>
           </div>
         </div>
         <div class="overflow-x">
@@ -118,6 +118,7 @@ CROSSTABS /TABLES=smoking BY lung_cancer /CELLS=ROW.</pre>
             <tr><td>education</td><td>text</td><td>Highest education: primary, secondary, tertiary.</td></tr>
             <tr><td>occupation</td><td>text</td><td>Coal miner (Hill Colliery), factory worker (Snow), farmhand, service worker, office worker, student, retired, unemployed.</td></tr>
             <tr><td>water_source</td><td>text</td><td>Household water: &ldquo;snow pump&rdquo; (the old pump serving District Snow&rsquo;s poorest streets) or &ldquo;municipal&rdquo;.</td></tr>
+            <tr><td>laid_off_factory</td><td>0/1</td><td>Lost their job when the Vulcan Works in Snow closed, two years before the census.</td></tr>
             <tr><td>insured</td><td>0/1</td><td>Has health insurance.</td></tr>
             <tr><td>smoking</td><td>0/1</td><td>Current smoker.</td></tr>
             <tr><td>pack_years</td><td>continuous</td><td>Cumulative smoking dose; 0 for non-smokers.</td></tr>
@@ -130,12 +131,14 @@ CROSSTABS /TABLES=smoking BY lung_cancer /CELLS=ROW.</pre>
             <tr><td>systolic_bp</td><td>mmHg</td><td>Systolic blood pressure.</td></tr>
             <tr><td>family_history_cvd</td><td>0/1</td><td>First-degree family history of cardiovascular disease.</td></tr>
             <tr><td>cvd</td><td>0/1</td><td>Prevalent cardiovascular disease (&asymp;7%).</td></tr>
-            <tr><td>depression</td><td>0/1</td><td>Prevalent depression (&asymp;10%).</td></tr>
+            <tr><td>depression</td><td>0/1</td><td>Prevalent depression (&asymp;9%).</td></tr>
+            <tr><td>depression_2yr_ago</td><td>0/1</td><td>Depression two years before the census, before the Vulcan Works closed.</td></tr>
             <tr><td>lung_cancer</td><td>0/1</td><td>Lung cancer, ever diagnosed (&asymp;3%).</td></tr>
             <tr><td>type2_diabetes</td><td>0/1</td><td>Prevalent type 2 diabetes (&asymp;8%).</td></tr>
-            <tr><td>resp_infection_past_year</td><td>0/1</td><td>Respiratory tract infection, past year (&asymp;18% overall; markedly higher in Hill &mdash; see Lesson E).</td></tr>
+            <tr><td>type2_diabetes_diagnosed</td><td>0/1</td><td>Diabetes that a clinician has actually diagnosed. Compare with the row above before trusting any surveillance figure.</td></tr>
+            <tr><td>resp_infection_past_year</td><td>0/1</td><td>Respiratory tract infection, past year (&asymp;18% overall; markedly higher in Hill; see Lesson E).</td></tr>
             <tr><td>injury_past_year</td><td>0/1</td><td>Injury requiring medical attention, past year (&asymp;11%).</td></tr>
-            <tr><td>clinic_visit_past_year</td><td>0/1</td><td>Attended the Farrlandia clinic in the past year (&asymp;36%). Handle with care &mdash; see Lesson D.</td></tr>
+            <tr><td>clinic_visit_past_year</td><td>0/1</td><td>Attended the Farrlandia clinic in the past year (&asymp;36%). Handle with care; see Lesson D.</td></tr>
             <tr><td>followup_years</td><td>years</td><td>Person-years of follow-up in the Farrlandia cohort, 4.0&ndash;10.0.</td></tr>
           </tbody>
         </table>
@@ -148,48 +151,58 @@ CROSSTABS /TABLES=smoking BY lung_cancer /CELLS=ROW.</pre>
         <div class="section-head">
           <div><p class="section-head__num">For instructors</p></div>
           <div>
-            <h2 class="section-head__title">Six Lessons Are Buried in the Data</h2>
-            <p class="section-head__lede">The census was generated from a known causal structure, so these findings are guaranteed to be there when your students go looking. Assign the question; the data will keep its side of the bargain. (Census v1.1 &mdash; adds occupation, water source, and respiratory infection.)</p>
+            <h2 class="section-head__title">Eight Lessons Are Buried in the Data</h2>
+            <p class="section-head__lede">We generated the census from a known causal structure, so these findings are waiting in the data when your students go looking. Assign the question; the data will hold up its end. Census v1.2 adds the Vulcan Works closure, the Nightingale Clinic, and diagnosed diabetes.</p>
           </div>
         </div>
         <div class="lesson">
           <h4>A &middot; Confounding</h4>
-          <p>Smoking is associated with cardiovascular disease &mdash; but smoking is also patterned by age and socioeconomic position, which shape CVD on their own. Have students compare crude and adjusted estimates and say what changed, and why.</p>
+          <p>Smoking is associated with cardiovascular disease, but smoking is also patterned by age and socioeconomic position, and both shape CVD on their own. Have students compare crude and adjusted estimates and explain what changed.</p>
         </div>
         <div class="lesson">
           <h4>B &middot; A masked effect</h4>
-          <p>Crudely, heavy drinkers have the same CVD risk as everyone else. Stratify by age and the harm appears. The trick: heavy drinking is concentrated in the young, whose baseline risk is low. Confounding does not always exaggerate &mdash; sometimes it hides.</p>
+          <p>Crudely, heavy drinkers have the same CVD risk as everyone else. Stratify by age and the harm appears. The trick: heavy drinking is concentrated in the young, whose baseline risk is low. Confounding hid the harm here rather than inventing one.</p>
         </div>
         <div class="lesson">
           <h4>C &middot; Interaction</h4>
-          <p>The effect of smoking on lung cancer is roughly twice as large among residents with high air-pollution exposure as among those without. Two component causes completing the same sufficient cause &mdash; Chapter 11, in the data.</p>
+          <p>The effect of smoking on lung cancer is roughly twice as large among residents with high air-pollution exposure as among those without. Two component causes are completing the same sufficient cause, which is Chapter 11 working in the data.</p>
         </div>
         <div class="lesson">
           <h4>D &middot; Selection (Berkson&rsquo;s bias)</h4>
-          <p>Restrict any analysis to clinic attendees and strange things happen: type 2 diabetes appears to <em>protect</em> against depression, an association that does not exist in the full census. Clinic attendance is a collider &mdash; both conditions bring people through its doors.</p>
+          <p>Restrict any analysis to clinic attendees and strange things happen: type 2 diabetes appears to <em>protect</em> against depression, an association that does not exist in the full census. Clinic attendance is a collider: both conditions bring people through its doors.</p>
         </div>
         <div class="lesson">
           <h4>E &middot; Structure and place</h4>
-          <p>Respiratory infection runs at roughly 17% in four districts &mdash; and 29% in Hill, home of the Hill Colliery. Miners themselves carry the heaviest burden. Disease here is patterned by geography and occupation, not chance: ask students what a &ldquo;district effect&rdquo; is actually made of.</p>
+          <p>Respiratory infection runs between 15% and 19% in four districts, and 28% in Hill, home of the Hill Colliery. Miners carry the heaviest burden. Geography and occupation pattern disease here, not chance: ask students what a &ldquo;district effect&rdquo; is actually made of.</p>
         </div>
         <div class="lesson">
           <h4>F &middot; An innocent suspect</h4>
-          <p>District Snow&rsquo;s poorest households draw water from the old Snow Pump. Crudely, pump users have more CVD &mdash; but the pump is causally inert: its users are simply poorer. Adjust for socioeconomic position and district, and the pump is acquitted. Not every accused exposure is guilty; John Snow would want the analysis done properly.</p>
+          <p>District Snow&rsquo;s poorest households draw water from the old Snow Pump. Crudely, pump users have more CVD, but the pump is causally inert: its users are simply poorer. Adjust for socioeconomic position, district, and age, and the pump is acquitted. Not every accused exposure is guilty; John Snow would want the analysis done properly.</p>
+        </div>
+        <div class="lesson">
+          <h4>G &middot; A natural experiment</h4>
+          <p>The Vulcan Works in Snow closed two years before the census. Depression among the workers it laid off rose from 12% to 24%; among the workers it kept, nothing moved. The depression_2yr_ago column lets students build the two-by-two themselves and estimate the cost of job loss as a difference in differences.</p>
+        </div>
+        <div class="lesson">
+          <h4>H &middot; The clinic that made a district sicker on paper</h4>
+          <p>The Nightingale Clinic opened eighteen months before the census, and diagnosed diabetes in Nightingale now runs half again higher than anywhere else. True prevalence is flat across districts. The clinic created no disease; it found what the dispensaries were missing. Ask students which of the two numbers the health ministry will see.</p>
         </div>
         <details class="truth">
-          <summary>Instructor&rsquo;s answer key &mdash; expected values (spoilers)</summary>
+          <summary>Instructor&rsquo;s answer key: expected values (spoilers)</summary>
           <div class="truth-body">
             <p class="lede" style="font-size:0.9rem;">Values your students should approximately reproduce (risk ratios; Mantel-Haenszel for adjusted):</p>
             <div class="overflow-x">
             <table class="vartable">
               <thead><tr><th>Lesson</th><th>Analysis</th><th>Expected</th></tr></thead>
               <tbody>
-                <tr><td>A</td><td>Smoking &rarr; CVD, crude / age-adjusted</td><td>&asymp;2.1 / &asymp;2.0</td></tr>
-                <tr><td>B</td><td>Heavy alcohol &rarr; CVD, crude / age-adjusted</td><td>&asymp;1.0 / &asymp;1.6</td></tr>
-                <tr><td>C</td><td>Smoking &rarr; lung cancer, RR by pollution stratum</td><td>&asymp;5 (low) vs &asymp;10 (high)</td></tr>
+                <tr><td>A</td><td>Smoking &rarr; CVD, crude / age-adjusted</td><td>&asymp;2.4 / &asymp;2.3</td></tr>
+                <tr><td>B</td><td>Heavy alcohol &rarr; CVD, crude / age-adjusted</td><td>&asymp;0.9 / &asymp;1.5</td></tr>
+                <tr><td>C</td><td>Smoking &rarr; lung cancer, RR by pollution stratum</td><td>&asymp;3 (low) vs &asymp;9 (high)</td></tr>
                 <tr><td>D</td><td>Diabetes &rarr; depression, full census / clinic only</td><td>&asymp;0.9 / &asymp;0.5</td></tr>
-                <tr><td>E</td><td>Respiratory infection: Hill vs other districts; miners vs non-miners</td><td>&asymp;29% vs &asymp;17%; RR &asymp;2.9</td></tr>
-                <tr><td>F</td><td>Snow Pump &rarr; CVD, crude / SES-district-age adjusted</td><td>&asymp;1.3 / &asymp;1.1</td></tr>
+                <tr><td>E</td><td>Respiratory infection: Hill vs other districts; miners vs non-miners</td><td>&asymp;28% vs 15&ndash;19%; RR &asymp;2.7</td></tr>
+                <tr><td>F</td><td>Snow Pump &rarr; CVD, crude / SES-district-age adjusted</td><td>&asymp;1.5 / &asymp;1.0</td></tr>
+                <tr><td>G</td><td>Depression, laid off vs kept on, before and after the closure</td><td>DiD &asymp;+13 pp</td></tr>
+                <tr><td>H</td><td>Diagnosed diabetes, Nightingale vs elsewhere (true prevalence flat)</td><td>&asymp;6% vs &asymp;4%</td></tr>
               </tbody>
             </table>
             </div>
@@ -205,7 +218,7 @@ CROSSTABS /TABLES=smoking BY lung_cancer /CELLS=ROW.</pre>
           <div><p class="section-head__num">Provenance</p></div>
           <div>
             <h2 class="section-head__title">Where This Data Comes From</h2>
-            <p class="section-head__lede">Farrlandia is simulated. Every resident was generated from a documented data-generating process with a fixed random seed, which is exactly the point: unlike real data, the truth behind every association is knowable, so methods can be tested against it. No real people are described by this dataset. Use it freely in courses, workshops, and problem sets, with attribution to <em>Epidemiology Matters</em> (Keyes, Abba-Aji &amp; Galea, Oxford University Press).</p>
+            <p class="section-head__lede">Farrlandia is simulated. We generated every resident from a documented data-generating process with a fixed random seed, so no real person appears in this file and any answer the data gives can be checked against the code that produced it. Use the census freely in courses, workshops, and problem sets, with attribution to <em>Epidemiology Matters</em> (Keyes, Abba-Aji &amp; Galea, Oxford University Press).</p>
           </div>
         </div>
         <div class="cta-row">

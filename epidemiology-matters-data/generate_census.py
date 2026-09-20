@@ -22,6 +22,15 @@ Built-in lessons (verified by the validation report this script prints):
      from the Snow Pump. The pump is currently clean: analyses against it
      should find nothing. (An outbreak switch exists for the Challenge -
      see OUTBREAK below.)
+  G. Natural experiment: the Vulcan Works in Snow closed two years before
+     the census. Workers who lost their jobs report far more depression
+     now than before the closure; workers the plant kept do not. The
+     depression_2yr_ago column supports a difference-in-differences
+     comparison.
+  H. Ascertainment: the Nightingale Clinic opened eighteen months before
+     the census. True diabetes prevalence is flat across districts, but
+     diagnosed diabetes runs higher in Nightingale because more residents
+     now sit in front of a clinician.
 
 Reproducible: fixed seed. Do not edit the CSV by hand; edit this script.
 """
@@ -31,7 +40,7 @@ import math
 import random
 import os
 
-SEED = 20280401
+SEED = 20280402
 N = 10000
 SAMPLE_N = 1000
 
@@ -104,6 +113,14 @@ def generate():
             p_pump = 0.04
         water = "snow pump" if rng.random() < p_pump else "municipal"
 
+        # The Vulcan Works closed two years before the census. Some of its
+        # workforce was kept on at the remaining Snow plants; the rest were
+        # laid off and are now unemployed or in service work.
+        laid = 0
+        if dist == 1 and 25 <= age <= 64:
+            if occ in ("unemployed", "service worker") and rng.random() < 0.45:
+                laid = 1
+
         # ---- exposures ----
         smoking = 1 if rng.random() < logistic(-1.15 + (0.7 if low_ses else 0)
                                                - (0.5 if ses >= 4 else 0)
@@ -137,8 +154,11 @@ def generate():
                  + 0.020 * (sbp - 120) + 0.03 * (bmi - 26.5) + 0.65 * famhx)
         cvd = 1 if rng.random() < logistic(cvd_l) else 0
 
-        dep_l = (-2.85 + 1.0 * iso + (0.5 if low_ses else 0) + 0.4 * female
-                 + 0.3 * alc - 0.012 * (age - 40))
+        dep_pre_l = (-2.95 + 1.0 * iso + (0.5 if low_ses else 0) + 0.4 * female
+                     + 0.3 * alc - 0.012 * (age - 42))
+        dep_pre = 1 if rng.random() < logistic(dep_pre_l) else 0
+        dep_l = (-3.3 + 0.9 * iso + (0.45 if low_ses else 0) + 0.35 * female
+                 + 0.3 * alc - 0.012 * (age - 40) + 1.7 * dep_pre + 0.95 * laid)
         dep = 1 if rng.random() < logistic(dep_l) else 0
 
         lc_l = (-5.35 + 0.9 * smoking + 0.030 * pack_years + 0.5 * poll
@@ -163,20 +183,29 @@ def generate():
         resp = 1 if rng.random() < logistic(resp_l) else 0
 
         somatic = 1 if (cvd or lc or t2d) else 0
+        # The Nightingale Clinic opened eighteen months before the census,
+        # so Nightingale residents get through a clinic door more often.
         visit_l = (-2.5 + 2.3 * somatic + 2.3 * dep + 1.2 * insured
+                   + (0.9 if dist == 2 else 0)
                    + (0.35 if age > 60 else 0) + 0.25 * female + 0.5 * inj)
         visit = 1 if rng.random() < logistic(visit_l) else 0
+        # Diabetes is diagnosed when someone is seen, and the new
+        # Nightingale Clinic runs screening the older dispensaries do not.
+        t2d_dx = 1 if (t2d and rng.random() < ((0.85 if dist == 2 else 0.5) if visit else 0.18)) else 0
 
         followup = round(4 + rng.random() * 6, 1)   # 4.0 .. 10.0 person-years
 
         rows.append(dict(
             id=pid, age=age, female=female, district=dist, ses=ses, education=edu,
-            occupation=occ, water_source=water, insured=insured,
+            occupation=occ, water_source=water, laid_off_factory=laid,
+            insured=insured,
             smoking=smoking, pack_years=pack_years,
             air_pollution=poll, poor_diet=diet, physical_inactivity=inact,
             heavy_alcohol=alc, social_isolation=iso, bmi=bmi, systolic_bp=sbp,
-            family_history_cvd=famhx, cvd=cvd, depression=dep, lung_cancer=lc,
-            type2_diabetes=t2d, resp_infection_past_year=resp,
+            family_history_cvd=famhx, cvd=cvd, depression=dep,
+            depression_2yr_ago=dep_pre, lung_cancer=lc,
+            type2_diabetes=t2d, type2_diabetes_diagnosed=t2d_dx,
+            resp_infection_past_year=resp,
             injury_past_year=inj, clinic_visit_past_year=visit,
             followup_years=followup,
         ))
@@ -252,20 +281,33 @@ def report(rows):
     print(f"  pump users n={len(pump)} ({100*len(pump)/len(rows):.1f}%)")
     for o in ["resp_infection_past_year", "cvd", "depression"]:
         print(f"  pump vs municipal RR, {o}: {(prev(pump,o)/prev(muni,o)):.2f}")
+    print("--- Lesson G: the Vulcan Works closure (difference-in-differences) ---")
+    laid_g = [r for r in rows if r["laid_off_factory"] == 1]
+    kept_g = [r for r in rows if r["district"] == 1 and r["occupation"] == "factory worker"]
+    lp, lc_ = prev(laid_g, "depression_2yr_ago"), prev(laid_g, "depression")
+    kp, kc = prev(kept_g, "depression_2yr_ago"), prev(kept_g, "depression")
+    print(f"  laid off  (n={len(laid_g)}): depression {lp:.1f}% before, {lc_:.1f}% now")
+    print(f"  kept on   (n={len(kept_g)}): depression {kp:.1f}% before, {kc:.1f}% now")
+    print(f"  difference-in-differences: {(lc_-lp)-(kc-kp):+.1f} pp")
+    print("--- Lesson H: the Nightingale Clinic (ascertainment) ---")
+    for d in range(1, 6):
+        s = [r for r in rows if r["district"] == d]
+        print(f"  {DISTRICTS[d]:12s} true T2D {prev(s,'type2_diabetes'):5.1f}%   diagnosed {prev(s,'type2_diabetes_diagnosed'):5.1f}%   clinic visits {prev(s,'clinic_visit_past_year'):5.1f}%")
     pump_flag = lambda r: 1 if r["water_source"] == "snow pump" else 0
     for r_ in rows: r_["_pump"] = pump_flag(r_)
-    strat = lambda r: (r["ses"] <= 2, r["district"], r["age"] // 20)
+    strat = lambda r: (r["ses"], r["district"], r["age"] // 12)
     print(f"  pump -> CVD, SES/district/age-adjusted MH RR: {mh_rr(rows, '_pump', 'cvd', strat):.2f}  (the pump is acquitted)")
 
 
 # ---------- outputs ----------
 
 CSV_COLS = ["id", "age", "sex", "district", "ses", "education", "occupation",
-            "water_source", "insured",
+            "water_source", "laid_off_factory", "insured",
             "smoking", "pack_years", "air_pollution", "poor_diet",
             "physical_inactivity", "heavy_alcohol", "social_isolation",
             "bmi", "systolic_bp", "family_history_cvd",
-            "cvd", "depression", "lung_cancer", "type2_diabetes",
+            "cvd", "depression", "depression_2yr_ago", "lung_cancer",
+            "type2_diabetes", "type2_diabetes_diagnosed",
             "resp_infection_past_year",
             "injury_past_year", "clinic_visit_past_year", "followup_years"]
 
@@ -279,11 +321,12 @@ def write_csv(rows):
             w.writerow([
                 r["id"], r["age"], "female" if r["female"] else "male",
                 DISTRICTS[r["district"]], r["ses"], r["education"],
-                r["occupation"], r["water_source"], r["insured"],
+                r["occupation"], r["water_source"], r["laid_off_factory"], r["insured"],
                 r["smoking"], r["pack_years"], r["air_pollution"], r["poor_diet"],
                 r["physical_inactivity"], r["heavy_alcohol"], r["social_isolation"],
                 r["bmi"], r["systolic_bp"], r["family_history_cvd"],
-                r["cvd"], r["depression"], r["lung_cancer"], r["type2_diabetes"],
+                r["cvd"], r["depression"], r["depression_2yr_ago"], r["lung_cancer"],
+                r["type2_diabetes"], r["type2_diabetes_diagnosed"],
                 r["resp_infection_past_year"],
                 r["injury_past_year"], r["clinic_visit_past_year"], r["followup_years"],
             ])
