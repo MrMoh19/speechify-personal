@@ -1,6 +1,6 @@
 # Study 3 (Chapter 4) — Updated Analysis and Approach
 
-Trauma saturation and differential stress sensitivity. Definitive run 20 September 2026 in Stata 19.5 on `Marvin_1_Feb_2026_cleaned.dta` (six states, Ogun included), via `marvin_stress_trauma.do`. The earlier Python run on the Box extract (`analysis.py`, `results.json`) is superseded but agrees on every pattern.
+Trauma saturation and differential stress sensitivity. Definitive run 20 September 2026 (refusal-corrected trauma count) in Stata 19.5 on `Marvin_1_Feb_2026_cleaned.dta` (six states, Ogun included), via `marvin_stress_trauma.do`. The earlier Python run on the Box extract (`analysis.py`, `results.json`) is superseded but agrees on every pattern.
 
 ## What changed in the approach, and why
 
@@ -16,27 +16,27 @@ The original specification tested trauma × stressor interactions with trauma in
 
 ## Definitive results (six states)
 
-N=1,766 (unadjusted models), N=1,739 (adjusted; 27 lost to covariate missingness); 572 PSUs, 6 strata. Stressor count mean 2.05, SD 1.65.
+N=1,729 (unadjusted models), N=1,706 (adjusted); 565/558 PSUs, 6 strata. Thirty-seven respondents who declined the trauma items are excluded (recoded from zero to missing; verified against the item-level data — see the hygiene block in the do-file). Stressor count mean 2.05, SD 1.65.
 
 **Secondary (categorical, unadjusted): per-stressor IRR (95% CI)**
 
 | Trauma | PTSD | Depression | Anxiety |
 |---|---|---|---|
-| 0 events | 1.73 (1.37–2.18) | 1.53 (1.18–1.98) | 1.52 (1.22–1.89) |
+| 0 events | 1.97 (1.53–2.54) | 1.83 (1.46–2.30) | 1.71 (1.35–2.17) |
 | 1–2 | 1.26 (1.06–1.50) | 1.27 (1.11–1.45) | 1.15 (1.01–1.31) |
 | 3–4 | 1.03 (0.87–1.21) | 0.95 (0.81–1.12) | 0.86 (0.75–0.99) |
 | 5+ | 0.92 (0.83–1.03) | 0.99 (0.90–1.09) | 1.03 (0.95–1.13) |
-| Interaction F(3,564), p | 8.77, <0.0001 | 5.92, 0.0006 | 7.30, 0.0001 |
+| Interaction F(3,557), p | 11.41, <0.0001 | 11.29, <0.0001 | 9.09, <0.0001 |
 
-**Primary (adjusted, spline trauma × stressors): interaction Wald F(2,558), p** — PTSD 7.08, 0.0009; depression 6.81, 0.0012; anxiety 5.73, 0.0034.
+**Primary (adjusted, spline trauma × stressors): interaction Wald F(2,551), p** — PTSD 5.97, 0.0027; depression 9.91, 0.0001; anxiety 5.99, 0.0027.
 
-**Sensitivity**: PCL-5≥33 p=0.0001; PHQ-9≥15 p<0.0001; GAD-7≥7 p<0.0001; continuous PCL-5 p<0.0001, PHQ-9 p=0.0001, GAD-7 p<0.0001. The interaction survives every threshold and the continuous scores.
+**Sensitivity**: PCL-5≥33 p=0.0002; PHQ-9≥15 p=0.0001; GAD-7≥7 p<0.0001; continuous PCL-5 p<0.0001, PHQ-9 p=0.0001, GAD-7 p<0.0001. The interaction survives every threshold and the continuous scores.
 
 **Additive scale (margins contrast, stressors 4 vs 0):**
-- Zero events: PTSD +21.9 pp (95% CI 7.7–36.1, p=0.002); depression +21.9 pp (8.1–35.8, p=0.002); anxiety +16.6 pp (3.3–29.9, p=0.014).
-- Five events: PTSD −3.0 pp (−19.5 to +13.6, p=0.72); depression +2.8 pp (−9.3 to +14.8, p=0.65); anxiety −4.4 pp (−15.9 to +7.1, p=0.45). Null in all three.
+- Zero events: PTSD +21.8 pp (95% CI 7.2–36.5, p=0.004); depression +24.1 pp (10.5–37.6, p=0.001); anxiety +17.8 pp (3.9–31.6, p=0.012).
+- Five events: PTSD −2.5 pp (−18.3 to +13.4, p=0.76); depression +3.5 pp (−7.7 to +14.6, p=0.54); anxiety −4.0 pp (−15.1 to +7.1, p=0.48). Null in all three.
 
-**Predicted prevalence (adjusted):** at zero events, PTSD rises from 7.3% (2.0–12.6) with no stressors to 29.2% (16.5–41.8) at four; at five events it sits at 42.0% (20.4–63.5) with no stressors and 39.0% (28.0–50.0) at four — high and flat. Depression: 6.9%→28.9% at zero events; 36.3%→39.0% at five. Anxiety: 8.0%→24.6% at zero events; 40.8%→36.4% at five.
+**Predicted prevalence (adjusted):** at zero events, PTSD rises from 6.5% (1.1–12.0) with no stressors to 28.4% (15.4–41.3) at four; at five events it sits at 40.9% (20.3–61.4) with no stressors and 38.4% (27.4–49.3) at four — high and flat. Depression: 5.4%→29.4% at zero events; 35.3%→38.7% at five. Anxiety: 7.1%→24.9% at zero events; 40.2%→36.2% at five.
 
 Caution on the trauma=7 grid rows: the log-link model predicts values near or above 1 there (e.g., PTSD 1.01 at zero stressors), which is the known ceiling artifact of Poisson-for-prevalence at extreme covariate values, not a finding. Report the surface up to five events in the paper and note in a footnote that predictions beyond that are unstable (only ~60 respondents have 6+ events).
 
@@ -53,17 +53,17 @@ Caution on the trauma=7 grid rows: the log-link model predicts values near or ab
 
 ## Results paragraphs (drop-in)
 
-> Stressor effects depended on trauma exposure for all three outcomes. Among respondents reporting no traumatic events, each additional socioeconomic stressor was associated with a 73% higher prevalence of probable PTSD (IRR 1.73, 95% CI 1.37–2.18); among those reporting five or more events, the association was null (IRR 0.92, 95% CI 0.83–1.03; interaction p<0.0001). Depression (1.53, 1.18–1.98, falling to 0.99, 0.90–1.09; p=0.0006) and anxiety (1.52, 1.22–1.89, falling to 1.03, 0.95–1.13; p=0.0001) followed the same pattern. The continuous specification told the same story without the categories: in adjusted models with trauma as a restricted cubic spline, the trauma × stressor interaction held for PTSD (p=0.0009), depression (p=0.0012), and anxiety (p=0.0034), and survived alternative case thresholds and continuous symptom scores (all p≤0.0001).
+> Stressor effects depended on trauma exposure for all three outcomes. Among respondents reporting no traumatic events, each additional socioeconomic stressor was associated with a 97% higher prevalence of probable PTSD (IRR 1.97, 95% CI 1.53–2.54); among those reporting five or more events, the association was null (IRR 0.92, 95% CI 0.83–1.03; interaction p<0.0001). Depression (1.83, 1.46–2.30, falling to 0.99, 0.90–1.09; p<0.0001) and anxiety (1.71, 1.35–2.17, falling to 1.03, 0.95–1.13; p<0.0001) followed the same pattern. The continuous specification told the same story without the categories: in adjusted models with trauma as a restricted cubic spline, the trauma × stressor interaction held for PTSD (p=0.0027), depression (p=0.0001), and anxiety (p=0.0027), and survived alternative case thresholds and continuous symptom scores (all p≤0.0002).
 >
-> The absolute differences carry the public health point. At zero traumatic events, moving from zero to four stressors was associated with a 21.9 percentage-point rise in adjusted PTSD prevalence (95% CI 7.7–36.1), from 7.3% to 29.2%. At five events, the same contrast produced no rise (−3.0 points, 95% CI −19.5 to +13.6) against a prevalence near 40% at every stressor level. Depression and anxiety showed the same contrast: a 21.9-point and a 16.6-point rise respectively at zero events, and null differences at five. Respondents with extensive trauma histories, therefore, carried the highest symptom burden regardless of socioeconomic stress, while those without trauma histories carried a burden that tracked it steeply.
+> The absolute differences carry the public health point. At zero traumatic events, moving from zero to four stressors was associated with a 21.8 percentage-point rise in adjusted PTSD prevalence (95% CI 7.2–36.5), from 6.5% to 28.4%. At five events, the same contrast produced no rise (−2.5 points, 95% CI −18.3 to +13.4) against a prevalence near 40% at every stressor level. Depression and anxiety showed the same contrast: a 24.1-point and a 17.8-point rise respectively at zero events, and null differences at five. Respondents with extensive trauma histories, therefore, carried the highest symptom burden regardless of socioeconomic stress, while those without trauma histories carried a burden that tracked it steeply.
 
 ## Abstract (drop-in; update Methods sentence if you keep the five-state framing instead)
 
 > **Background:** Whether daily socioeconomic stressors and trauma exposure combine additively in shaping mental health, or whether trauma modifies stress sensitivity, remains unresolved in conflict settings. We tested whether trauma exposure modifies the association between socioeconomic stressors and mental health outcomes in Nigeria.
 >
-> **Methods:** We analyzed data from 1,766 adults in six Nigerian states — five conflict-affected (Benue, Borno, Enugu, Rivers, Sokoto) and one non-conflict comparison state (Ogun) — sampled through stratified multi-stage cluster sampling between January and March 2024. Outcomes were probable PTSD (PCL-5≥38), depression (PHQ-9≥10), and anxiety (GAD-7≥10). We fit Poisson models with trauma exposure as a restricted cubic spline (0–12 events), a trauma × stressor interaction, adjustment for age, gender, education, and state, and design-based variance estimation (state strata, 572 community clusters), and we estimated absolute prevalence differences at fixed trauma levels. Sensitivity analyses varied case thresholds and modeled continuous symptom scores.
+> **Methods:** We analyzed data from 1,729 adults in six Nigerian states — five conflict-affected (Benue, Borno, Enugu, Rivers, Sokoto) and one non-conflict comparison state (Ogun) — sampled through stratified multi-stage cluster sampling between January and March 2024. Outcomes were probable PTSD (PCL-5≥38), depression (PHQ-9≥10), and anxiety (GAD-7≥10). We fit Poisson models with trauma exposure as a restricted cubic spline (0–12 events), a trauma × stressor interaction, adjustment for age, gender, education, and state, and design-based variance estimation (state strata, 565 community clusters), and we estimated absolute prevalence differences at fixed trauma levels. Sensitivity analyses varied case thresholds and modeled continuous symptom scores.
 >
-> **Results:** Stressor–symptom associations weakened monotonically with trauma exposure (interaction p<0.0001 for PTSD, p=0.0006 for depression, p=0.0001 for anxiety). Among adults without trauma exposure, each additional stressor was associated with an IRR of 1.73 (95% CI 1.37–2.18) for PTSD; among those with five or more events, 0.92 (0.83–1.03). On the absolute scale, four additional stressors were associated with a 21.9 percentage-point rise in PTSD prevalence at zero events (7.3% to 29.2%) and no rise at five events, where prevalence stayed near 40% regardless of stressor level. Depression and anxiety followed the same pattern, and the interaction held across alternative thresholds and continuous scores.
+> **Results:** Stressor–symptom associations weakened monotonically with trauma exposure (interaction p<0.0001 for all three outcomes). Among adults without trauma exposure, each additional stressor was associated with an IRR of 1.97 (95% CI 1.53–2.54) for PTSD; among those with five or more events, 0.92 (0.83–1.03). On the absolute scale, four additional stressors were associated with a 21.8 percentage-point rise in PTSD prevalence at zero events (6.5% to 28.4%) and no rise at five events, where prevalence stayed near 40% regardless of stressor level. Depression and anxiety followed the same pattern, and the interaction held across alternative thresholds and continuous scores.
 >
 > **Interpretation:** Symptom burden among adults with extensive trauma exposure was high at every level of socioeconomic stress, and the stress–symptom gradient was concentrated among those with limited exposure. These findings argue against universal psychosocial programming and for matching interventions to trauma history: stress-focused support where stress sensitivity is retained, trauma-focused therapies where exposure is extensive.
 
