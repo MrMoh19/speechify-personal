@@ -18,8 +18,8 @@ local pcl      pcl5_total
 local phq      phq9_total
 local gad      gad7_total
 local wt       sampling_weight
-local strata   strata               // merged.dta: numeric, labeled (1 benue ... 7 sokoto)
-local psu      psu_id               // if not found: try `psu` (check: describe psu*)
+local strata   strata               // state strata (1 benue ... 7 sokoto); use strata2 for state-x-setting
+local psu      cluster_id           // community cluster ID
 local covars   age_years i.gender i.education_level i.state
 
 * Study 3 is the five conflict-affected states: drop Ogun (strata==5)
@@ -33,6 +33,8 @@ gen byte ptsd33 = `pcl' >= 33 if !missing(`pcl')
 gen byte dep15  = `phq' >= 15 if !missing(`phq')
 gen byte anx7   = `gad' >= 7  if !missing(`gad')
 
+capture confirm variable `wt'
+if _rc gen `wt' = 1                  // equal weights if none in merged.dta
 svyset `psu' [pweight=`wt'], strata(`strata') vce(linearized) singleunit(scaled)
 
 *--- 2. Restricted cubic spline for trauma, knots at 0, 2, 5 -------------------
@@ -41,19 +43,13 @@ svyset `psu' [pweight=`wt'], strata(`strata') vce(linearized) singleunit(scaled)
 gen double tr_s1 = (max(`trauma',0)^3 - max(`trauma'-2,0)^3*(5/3) ///
                     + max(`trauma'-5,0)^3*(2/3)) / 25
 
-* Center stress for the categorical replication
+* stress_c and trauma_cat (0/1-2/3-4/5+) already exist in merged.dta;
+* re-center stress_c after dropping Ogun so it is centered on the analytic sample
 quietly summarize `stress'
+capture drop stress_c
 gen double stress_c = `stress' - r(mean)
 local smean = r(mean)
 local ssd   = r(sd)
-
-* Trauma categories for replication of the original specification
-gen byte trauma_cat = 0 if `trauma'==0
-replace  trauma_cat = 1 if inrange(`trauma',1,2)
-replace  trauma_cat = 2 if inrange(`trauma',3,4)
-replace  trauma_cat = 3 if `trauma'>=5 & !missing(`trauma')
-label define tcat 0 "0" 1 "1-2" 2 "3-4" 3 "5+"
-label values trauma_cat tcat
 
 *--- 3. Replication: original categorical specification (unadjusted) -----------
 foreach y in ptsd dep anx {
