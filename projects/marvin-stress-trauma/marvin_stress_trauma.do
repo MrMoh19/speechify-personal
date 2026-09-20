@@ -55,8 +55,16 @@ svyset `psu' [pweight=`wt'], strata(`strata') vce(linearized) singleunit(scaled)
 gen double tr_s1 = (max(`trauma',0)^3 - max(`trauma'-2,0)^3*(5/3) ///
                     + max(`trauma'-5,0)^3*(2/3)) / 25
 
-* stress_c and trauma_cat (0/1-2/3-4/5+) already exist in merged.dta;
-* re-center stress_c after dropping Ogun so it is centered on the analytic sample
+* Rebuild trauma_cat from the corrected count (dataset version predates the refusal fix)
+capture drop trauma_cat
+gen trauma_cat = 0 if `trauma'==0
+replace trauma_cat = 1 if inrange(`trauma',1,2)
+replace trauma_cat = 2 if inrange(`trauma',3,4)
+replace trauma_cat = 3 if `trauma'>=5 & !missing(`trauma')
+label define traumcat2 0 "None" 1 "1-2 events" 2 "3-4 events" 3 "5+ events", replace
+label values trauma_cat traumcat2
+
+* re-center stress_c on the analytic sample
 quietly summarize `stress'
 capture drop stress_c
 gen double stress_c = `stress' - r(mean)
