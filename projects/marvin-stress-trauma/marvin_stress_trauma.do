@@ -20,7 +20,7 @@ local gad      gad7_total
 local wt       sampling_weight
 local strata   strata               // state strata (1 benue ... 7 sokoto); use strata2 for state-x-setting
 local psu      cluster_id           // community cluster ID
-local covars   age_years i.gender i.education_level i.state
+local covars   age_years i.gender i.education_level i.state_cat
 
 * Study 3 is the five conflict-affected states: drop Ogun (strata==5)
 drop if `strata' == 5
@@ -56,12 +56,9 @@ foreach y in ptsd dep anx {
     di as result _n "=== Replication (categorical, unadjusted): `y' ==="
     svy: poisson `y' i.trauma_cat##c.stress_c, irr
     * Stressor IRR within each trauma stratum
-    margins trauma_cat, dydx(stress_c) predict(xb) post
-    * (exponentiate: lincom-style; simpler readout below)
-    estimates restore .
-    quietly svy: poisson `y' i.trauma_cat##c.stress_c
     forvalues k = 0/3 {
-        lincom stress_c + `k'.trauma_cat#c.stress_c, irr
+        if `k'==0 lincom stress_c, irr
+        else      lincom stress_c + `k'.trauma_cat#c.stress_c, irr
     }
     testparm i.trauma_cat#c.stress_c        // interaction block
 }
