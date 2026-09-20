@@ -20,7 +20,7 @@ local gad      gad7_total
 local wt       sampling_weight
 local strata   strata               // state strata (1 benue ... 7 sokoto); use strata2 for state-x-setting
 local psu      cluster_id           // community cluster ID
-local covars   age_years i.gender i.education_level i.state_cat
+local covars   age i.gender i.education_level i.state_cat
 
 * Primary sample: all six states (Ogun = non-conflict comparison state).
 * Sensitivity: five conflict-affected states only — set the local below to 1.
