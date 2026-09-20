@@ -27,6 +27,16 @@ local covars   age i.gender i.education_level i.state_cat
 local five_state_only 0
 if `five_state_only' drop if `strata' == 5
 
+* Trauma count hygiene: pure refusals are missing, not zero
+egen tt_check = rowtotal(traumatic_eventsNaturaldisaste traumatic_eventsLifethreatenin ///
+    traumatic_eventsSevereHumanSu traumatic_eventsOtherverystre traumatic_eventsFireorexplosi ///
+    traumatic_eventsTransportation traumatic_eventsSeriousacciden traumatic_eventsExposuretoat ///
+    traumatic_eventsPhysicalassaul traumatic_eventsAssaultwitha traumatic_eventsSexualassault ///
+    traumatic_eventsExposuretoarm)
+assert tt_check == `trauma'
+replace `trauma' = . if traumatic_eventsPrefernottoa==1 & traumatic_eventsNoneoftheabo==0 & tt_check==0
+drop tt_check
+
 *--- 1. Outcomes and design ----------------------------------------------------
 gen byte ptsd = `pcl'  >= 38 if !missing(`pcl')
 gen byte dep  = `phq'  >= 10 if !missing(`phq')
