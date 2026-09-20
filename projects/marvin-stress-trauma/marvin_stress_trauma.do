@@ -1,6 +1,6 @@
 ********************************************************************************
 * Study 3 (Chapter 4) - Trauma saturation, updated analysis
-* Run on: /Users/mohammedabba-aji/Downloads/_Sorted/Spreadsheets & Data/merged.dta
+* Data: Marvin_1_Feb_2026_cleaned.dta (six states, Ogun = non-conflict comparison)
 * Mirrors projects/marvin-stress-trauma/analysis.py (Python port run 20 Sep 2026
 * on the Box collaboration extract). Rename variables in the locals below to
 * match merged.dta before running.
@@ -9,7 +9,9 @@
 version 19.5
 clear all
 set more off
-use "/Users/mohammedabba-aji/Downloads/_Sorted/Spreadsheets & Data/merged.dta", clear
+capture log close
+log using "/Users/mohammedabba-aji/Downloads/_Sorted/Spreadsheets & Data/study3_trauma_saturation.log", replace text
+use "/Users/mohammedabba-aji/Downloads/_Sorted/Spreadsheets & Data/Marvin_1_Feb_2026_cleaned.dta", clear
 
 *--- 0. Map variable names here (edit to match merged.dta) --------------------
 local trauma   trauma_total          // total traumatic events, 0-12
@@ -20,7 +22,7 @@ local gad      gad7_total
 local wt       sampling_weight
 local strata   strata               // state strata (1 benue ... 7 sokoto); use strata2 for state-x-setting
 local psu      cluster_id           // community cluster ID
-local covars   age i.gender i.education_level i.state_cat
+local covars   age i.gender i.education i.state_cat
 
 * Primary sample: all six states (Ogun = non-conflict comparison state).
 * Sensitivity: five conflict-affected states only — set the local below to 1.
@@ -125,3 +127,5 @@ foreach y in `pcl' `phq' `gad' {
 
 *--- 7. Per-SD stressor effect (for cross-scale comparability) -----------------
 di as result _n "Stressor mean = `smean', SD = `ssd'; multiply log-IRRs by `ssd' for per-SD."
+
+log close
