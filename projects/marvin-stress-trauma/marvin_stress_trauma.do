@@ -18,9 +18,12 @@ local pcl      pcl5_total
 local phq      phq9_total
 local gad      gad7_total
 local wt       sampling_weight
-local strata   state_strata
-local psu      psu_id
+local strata   strata               // merged.dta: numeric, labeled (1 benue ... 7 sokoto)
+local psu      psu_id               // if not found: try `psu` (check: describe psu*)
 local covars   age_years i.gender i.education_level i.state
+
+* Study 3 is the five conflict-affected states: drop Ogun (strata==5)
+drop if `strata' == 5
 
 *--- 1. Outcomes and design ----------------------------------------------------
 gen byte ptsd = `pcl'  >= 38 if !missing(`pcl')
