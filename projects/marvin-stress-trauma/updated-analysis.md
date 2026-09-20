@@ -1,6 +1,6 @@
 # Study 3 (Chapter 4) — Updated Analysis and Approach
 
-Trauma Saturation and Differential Stress Sensitivity. Re-analysis run 20 September 2026 from `marvin_collab_data` (Box, MARVIN collaboration folder). Script: `analysis.py`; full estimates: `results.json`.
+Trauma Saturation and Differential Stress Sensitivity. Re-analysis run 20 September 2026 from the Box collaboration extract (`marvin_collab_data`); the definitive run belongs on `merged.dta` (local Mac) via `marvin_stress_trauma.do`. Script: `analysis.py`; full estimates: `results.json`.
 
 ## What changed in the approach, and why
 
