@@ -15,9 +15,18 @@ function divider(cur, notes){ const s = base(notes);
 
 // 1 Title
 let s = base("Thank the chair. One sentence: this talk asks whether trauma changes what everyday stress does to mental health, using population data from Nigeria.");
-s.addText("Trauma Saturation and\nDifferential Stress Sensitivity", { x:0.8, y:1.7, w:8.4, h:1.5, fontFace:F, fontSize:34, color:BLK, isTextBox:true, margin:0, align:"center" });
-s.addText("Evidence from six Nigerian states", { x:0.8, y:3.15, w:8.4, h:0.5, fontFace:F, fontSize:18, color:BLK, isTextBox:true, margin:0, align:"center" });
-s.addText("Mohammed Abba-Aji  ·  Washington University in St. Louis  ·  ISTSS 2026", { x:0.8, y:3.85, w:8.4, h:0.4, fontFace:F, fontSize:14, color:GRAY, isTextBox:true, margin:0, align:"center" });
+s.addText("When More Trauma Means Less Stress Sensitivity", { x:0.7, y:1.5, w:8.6, h:0.9, fontFace:F, fontSize:30, color:BLK, isTextBox:true, margin:0, align:"center" });
+s.addText("Evidence for a Trauma Saturation Effect Among\nViolence-Exposed Populations in Nigeria", { x:0.8, y:2.45, w:8.4, h:0.9, fontFace:F, fontSize:18, color:BLK, isTextBox:true, margin:0, align:"center" });
+s.addText("Mohammed Abba-Aji  ·  Washington University in St. Louis", { x:0.8, y:3.6, w:8.4, h:0.4, fontFace:F, fontSize:14, color:GRAY, isTextBox:true, margin:0, align:"center" });
+s.addText("ISTSS 42nd Annual Meeting  ·  San Antonio, TX  ·  September 24, 2026", { x:0.8, y:4.05, w:8.4, h:0.4, fontFace:F, fontSize:12, color:GRAY, isTextBox:true, margin:0, align:"center" });
+
+// CME disclosure (required by Amedco)
+s = base("Read once, briefly: no financial relationships to disclose.");
+title(s, "Financial disclosure");
+body(s, [
+ { text:"In the past 24 months, I, Mohammed Abba-Aji, have not had financial relationships with any ineligible companies." },
+ { text:"No discussion of unapproved uses of pharmaceuticals or devices." },
+], { size:18 });
 
 // 2 Divider
 divider(0, "Roadmap: background, methods, results, discussion. We are here.");
