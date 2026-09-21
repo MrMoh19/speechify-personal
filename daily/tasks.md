@@ -4,7 +4,15 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Open
 
-### Today (Thu Sep 17)
+### Today (Mon Sep 21)
+- [ ] TFRH methods section (landscape assessment) into the draft white paper — DUE TODAY; Morven asked Fri + Sat, no reply on-thread
+- [ ] ISTSS materials day: your deck + trauma-saturation sentences for Nuha; send the Salma and Ojo reminders (drafts in Sunday's sweep email); Salma's registration
+- [ ] JOTS returned to draft: 7,532 words vs 7,500 cap (refs + tables included) — trim 32 words, resubmit in the Wiley dashboard
+- [ ] BMJ climate-issue opinion piece (with Nason Maani): editor's light edits attached; Nason asks for your first pass, then iterate
+- [ ] PLOS Mental Health: NEW invitation to handle PMEN-D-26-00493 (community-based process evaluation) — accept/decline; GDS-5 (00318) action reminder re-sent; PLOS One EMBRACING invite re-sent
+- [ ] Gavin at 10 AM (he accepted the lab-involvement invite; prep sheet on the Friday Updates thread)
+
+### Carried from last week (unverified sends)
 - [ ] Send Nuha the symposium abstract + four paper summaries — the packet needs only your trauma-saturation sentences, the rest is assembled (overdue since Mon; travel is next week)
   - Claude cannot reach the saturation analysis: Drive holds MaRVIN Papers 1 (validation), 2 (structure/invariance/norms) and 3 (TMDS-9) only; nothing on trauma saturation is in Drive or Box, and the Gmail connector cannot open attachments. The nearest source is Salma's NPJ MH manuscript "Trauma, stressors, and mental health outcomes_091726.docx" on the R+R thread. Put a copy in Drive or Box, or send the ISTSS abstract, and Claude can draft the sentences
 - [ ] Send the Nigeria-project four their reply from Outlook (Ziah Adediran, Jolaade Bada, Ebube Okereke, Raqeebah Sowemimo; paste-ready draft delivered Thu evening) — offers a group meeting the week of Sep 28, fill day, time and place
@@ -44,7 +52,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] REVISION ORDER (his word, Sep 17): ISTSS first, then JOTS (~Oct 7), then WHO Bulletin (~Oct 1), then SSM-PH (extension to 9 Nov requested)
 - [ ] Travel on the Google calendar: return flight WN 2209 Sat Sep 26, SAT 6:45 AM to STL 8:50 AM, and the ISTSS block Sep 23-26 at the Marriott Rivercenter. OUTBOUND FLIGHT STILL MISSING — no itinerary for it anywhere in Gmail; add it once he forwards Brentwood's original booking. The calendar's time zone is New York, so Central events display an hour late until he asks for the switch
 - [ ] TOKEN-SAVER through Sun Sep 20 (Fable at 92%): morning brief paused (Sunday sweep re-enables it for Monday); evening sweep lean, no Saturday runs; Sandro Friday pair lean but unfailing; no artifacts, renders, or proactive work until Monday unless Mohammed asks
-- [ ] JOTS: revised manuscript SUBMITTED Sat Sep 19 (two weeks ahead of ~Oct 7) — await decision
+- [ ] JOTS: revised ms submitted Sat, RETURNED TO DRAFT Mon over the word cap — see Today
 - [ ] Epi Matters 2e response letter: draft in Drive awaits review, then Kerry + Sandro, then Emma (on today's Sandro agenda)
 - [ ] PLOS Mental Health: PMEN-D-26-00318 action + four editor invitations pending
 - [ ] Publish Outlook calendar as ICS and subscribe in Google Calendar (connector is live; calendar is empty until this lands)
@@ -52,6 +60,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Done
 
+- [x] 2026-09-21 — Epi Toolkit fully graded (Becky); only Justin Valentin outstanding (out ill) and Ans is handling; Gavin swapped invites himself for today's 10 AM
 - [x] 2026-09-20 — SANDRO ON THE WEEKLY: "supremely helpful so I am very encouraging of the weekly report!" — reviewed carefully; suggested prioritizing the review; Friday system validated
 - [x] 2026-09-19 — JOTS revised IDP validation manuscript SUBMITTED; Springer confirms the eight-country trauma/stressors manuscript submitted (Salma lead)
 - [x] 2026-09-18 — Courtney's Leading with Listening remarks sent to Sandro (Mohammed's pass in); Sandro returned edits same evening — Courtney owns the file now
