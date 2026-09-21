@@ -7,7 +7,11 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 ### Today (Mon Sep 21)
 - [ ] TFRH methods section (landscape assessment) into the draft white paper — DUE TODAY; Morven asked Fri + Sat, no reply on-thread
 - [ ] ISTSS materials day: your deck + trauma-saturation sentences for Nuha; send the Salma and Ojo reminders (drafts in Sunday's sweep email); Salma's registration
-- [ ] JOTS returned to draft: 7,532 words vs 7,500 cap (refs + tables included) — trim 32 words, resubmit in the Wiley dashboard
+- [ ] JTS URGENT: EIC Denise Sloan says the revision's response document answers the statistical editor's PRIOR-round comments, not the latest (her email Mon 8:50 AM, co-authors cc'd; Jaimie also flagged it). The 12:37 PM resubmission fixed the word cap but may carry the old doc — verify in the Wiley dashboard, upload the correct point-by-point, reply to Sloan (draft delivered Mon sweep)
+- [ ] DDOH Viewpoint: Jay's revised framing arrived Mon PM; Sandro replied with suggestions on the file — Mohammed's read is the open step
+- [ ] Tue: Amanda weekly at 12:30 (accepted) · HCC Convening dinner (guest bios from Mary Claire — skim) · SPH events meeting 1 PM (cc'd) · pack for Wed travel
+- [ ] Reply Bella Gomez: two-line hold on the MaRVIN food-insecurity ms until after the conference
+- [ ] DR: Kareena Sundaram accommodated-exam request (Ans forwarded to Emma; portal click may still need an instructor)
 - [ ] BMJ climate-issue opinion piece (with Nason Maani): editor's light edits attached; Nason asks for your first pass, then iterate
 - [ ] PLOS Mental Health: NEW invitation to handle PMEN-D-26-00493 (community-based process evaluation) — accept/decline; GDS-5 (00318) action reminder re-sent; PLOS One EMBRACING invite re-sent
 - [ ] Gavin at 10 AM (he accepted the lab-involvement invite; prep sheet on the Friday Updates thread)
@@ -60,6 +64,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Done
 
+- [x] 2026-09-21 — JOTS word-cap trim resubmitted 12:37 PM (response-doc question now supersedes); PHS1000 exam mechanics settled by Ans/Emma/Ray; book order recalculated by AJ with TAs included; Amanda accepted the 12:30 weekly
 - [x] 2026-09-21 — Epi Toolkit fully graded (Becky); only Justin Valentin outstanding (out ill) and Ans is handling; Gavin swapped invites himself for today's 10 AM
 - [x] 2026-09-20 — SANDRO ON THE WEEKLY: "supremely helpful so I am very encouraging of the weekly report!" — reviewed carefully; suggested prioritizing the review; Friday system validated
 - [x] 2026-09-19 — JOTS revised IDP validation manuscript SUBMITTED; Springer confirms the eight-country trauma/stressors manuscript submitted (Salma lead)
