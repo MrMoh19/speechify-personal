@@ -57,10 +57,10 @@ big(s, "Does trauma change what stress does?");
 divider(1, "Methods: the sample you have already met, then measures, then the model.");
 
 // 8 Methods: sample
-s = base("The MaRVIN sample Salma presented: 1,774 adults surveyed January to March 2024; 1,729 answered the trauma inventory and enter this analysis. Six states: five conflict-affected — Benue, Borno, Enugu, Rivers, Sokoto — plus Ogun as a non-conflict comparison, which anchors the low end of the trauma gradient. Stratified multi-stage cluster design, 565 community clusters, community and IDP-camp settings. All analyses honor the design: state strata, community clusters, linearized variances.");
+s = base("The MaRVIN sample Salma presented: 1,774 adults surveyed May to October 2025; 1,729 answered the trauma inventory and enter this analysis. Six states: five conflict-affected — Benue, Borno, Enugu, Rivers, Sokoto — plus Ogun as a non-conflict comparison, which anchors the low end of the trauma gradient. Stratified multi-stage cluster design, 565 community clusters, community and IDP-camp settings. All analyses honor the design: state strata, community clusters, linearized variances.");
 title(s, "Sample");
 body(s, [
- { text:"1,729 adults, January–March 2024 (of the 1,774 in the previous talk)" },
+ { text:"1,729 adults, May–October 2025 (of the 1,774 in the previous talk)" },
  { text:"Five conflict-affected states + Ogun (non-conflict comparison)" },
  { text:"Stratified multi-stage cluster design; 565 communities" },
  { text:"Community and displacement-camp settings" },
