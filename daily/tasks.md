@@ -14,9 +14,11 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] WHO Bulletin R&R (BLT/2026/296735, "Commercial Determinants of Armed Conflict and the Global Arms Industry", PMAC2027; coauthors Galea, Bath, Barberia): 8 editorial-committee points + external reviews in the author area; revised 3000-word Policy & Practice ms + point-by-point + highlighted changes DUE ~OCT 1 (four weeks from the Sep 3 decision) for the CDoH theme issue — Mohammed doing the revision himself; Claude to build the response scaffold
 
 ### This week
-- [ ] Sandro-fy Courtney Babcock's opening remarks for Leading with Listening by FRIDAY — tomorrow; the event is confirmed for Wed Sep 23, 9 AM CT (draft in her email + Box)
-- [ ] TFRH white paper: section first draft by Sun Sep 20; review sections 1-6 + section-7 ideas before the Sep 25 meeting
-- [ ] Collect slides for Nuha by Mon Sep 21 — GRADUS IN (Sep 16, 3:40 PM, also awaiting Mohammed's content review); Abdalla, Abba-Aji, Ojo outstanding (sweep reminds Fri and Sun)
+- [ ] TFRH white paper: METHODS SECTION (landscape assessment) DUE MON SEP 21 — Morven asked Fri and again Sat; no reply on-thread yet; review sections 1-6 before the Sep 25 meeting
+- [ ] Collect slides for Nuha by Mon Sep 21 — Gradus IN; Abdalla, Abba-Aji, Ojo outstanding (reminder drafts for Salma + Ojo delivered Sun evening; his own deck is on him)
+- [ ] Gavin meeting Mon 10 AM — his prep sheet arrived Sun evening on the Friday Updates thread
+- [ ] ANCHOR call: Dave Ross proposes Fri Oct 2, 8-11 AM MT (9-12 CT), else Khrystyna schedules week of Oct 5 — reply with a window
+- [ ] PLOS One reviewer invitation (PONE-D-25-24045R1, EMBRACING migrant self-care protocol, from Fatma Ahmed) — accept or decline
 - [ ] Confirm Salma's ISTSS registration — still unconfirmed and silent since Tuesday's email; also owes her slide deck
 
 ### Pinned (parked by Mohammed, Sep 16)
@@ -42,7 +44,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] REVISION ORDER (his word, Sep 17): ISTSS first, then JOTS (~Oct 7), then WHO Bulletin (~Oct 1), then SSM-PH (extension to 9 Nov requested)
 - [ ] Travel on the Google calendar: return flight WN 2209 Sat Sep 26, SAT 6:45 AM to STL 8:50 AM, and the ISTSS block Sep 23-26 at the Marriott Rivercenter. OUTBOUND FLIGHT STILL MISSING — no itinerary for it anywhere in Gmail; add it once he forwards Brentwood's original booking. The calendar's time zone is New York, so Central events display an hour late until he asks for the switch
 - [ ] TOKEN-SAVER through Sun Sep 20 (Fable at 92%): morning brief paused (Sunday sweep re-enables it for Monday); evening sweep lean, no Saturday runs; Sandro Friday pair lean but unfailing; no artifacts, renders, or proactive work until Monday unless Mohammed asks
-- [ ] JOTS revision (ms 1390286, IDP validation paper): minor revisions due ~Oct 7; response plan circulates after ISTSS
+- [ ] JOTS: revised manuscript SUBMITTED Sat Sep 19 (two weeks ahead of ~Oct 7) — await decision
 - [ ] Epi Matters 2e response letter: draft in Drive awaits review, then Kerry + Sandro, then Emma (on today's Sandro agenda)
 - [ ] PLOS Mental Health: PMEN-D-26-00318 action + four editor invitations pending
 - [ ] Publish Outlook calendar as ICS and subscribe in Google Calendar (connector is live; calendar is empty until this lands)
@@ -50,6 +52,9 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Done
 
+- [x] 2026-09-20 — SANDRO ON THE WEEKLY: "supremely helpful so I am very encouraging of the weekly report!" — reviewed carefully; suggested prioritizing the review; Friday system validated
+- [x] 2026-09-19 — JOTS revised IDP validation manuscript SUBMITTED; Springer confirms the eight-country trauma/stressors manuscript submitted (Salma lead)
+- [x] 2026-09-18 — Courtney's Leading with Listening remarks sent to Sandro (Mohammed's pass in); Sandro returned edits same evening — Courtney owns the file now
 - [x] 2026-09-18 — Salma's NPJ Mental Health R+R closed: Mohammed sent edits and interpretation notes Thu 6:46 PM; Salma replied Fri 9:27 AM ("Great points. We will incorporate before submitting"). Co-author only; no Sandro row
 - [x] 2026-09-17 — Evelyn Wang's reply SENT by Mohammed (guest-speaker reflection confirmed; the risk-factor / policy-evaluation answer went with it)
 - [x] 2026-09-17 — Tina Litteken (Brentwood Travel) answered by Mohammed; the earlier ISTSS return (WN 2209, Sep 26, SAT 6:45 AM to STL 8:50 AM) is acknowledged and now on the Google calendar with the Sep 23-26 conference block
