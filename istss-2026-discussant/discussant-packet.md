@@ -21,11 +21,11 @@ Validation of the three screens among 205 adults in two IDP camps in Abuja, tran
 
 **2. Prevalence and Predictors of PTSD, Depression, and Anxiety Among Persons Exposed to Diverse Forms of Armed Violence Across Six Nigerian States: A Cross-Zonal Epidemiological Study**
 *Salma Abdalla (Washington University in St. Louis) · 2:03–2:17 PM*
-The instruments deployed at scale: 1,774 conflict-affected adults across states in all six geopolitical zones, spanning distinct forms of armed violence. Headline prevalence and predictor estimates: [fill from Salma's slides].
+The instruments deployed at scale: 1,774 conflict-affected adults across states in all six geopolitical zones, spanning distinct forms of armed violence. Survey-adjusted prevalence: PTSD 18.5%, depression 21.0%, anxiety 20.7%; nearly one in three met criteria for at least one condition, with 28-fold variation across states. Each additional traumatic event carried 14-15% higher prevalence of every condition, and current IDP camp residence carried 1.9- to 2.9-fold higher prevalence after adjustment for trauma, with exceptional community-level clustering (ICCs 0.49-0.86).
 
 **3. When More Trauma Means Less Stress Sensitivity: Evidence for a Trauma Saturation Effect Among Violence-Exposed Populations in Nigeria**
 *Mohammed Abba-Aji (Washington University in St. Louis) · 2:17–2:31 PM*
-[Two to three sentences from Mohammed's slides: the saturation finding, the analytic approach, and what it implies for dose-response assumptions in trauma epidemiology.]
+Using the six-state MaRVIN sample, this paper shows that the association between socioeconomic stressors and mental health is concentrated among adults with little or no trauma exposure: the per-stressor PTSD prevalence ratio is 1.97 among the unexposed and null among those with five or more event types, with the interaction below 0.0001 across PTSD, depression, and anxiety. Trauma was modeled continuously with restricted cubic splines, and the pattern held on the absolute scale and across alternative thresholds and continuous scores, challenging simple dose-response assumptions and arguing for matching psychosocial interventions to trauma history.
 
 **4. From Evidence to Action: Translating MaRVIN Study Findings Into Policy Implementation Under Nigeria's 2021 Mental Health Act**
 *Tunde MasseyFerguson Ojo (Federal Ministry of Health and Social Welfare, Nigeria) · 2:31–2:45 PM*
