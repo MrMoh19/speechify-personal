@@ -4,7 +4,15 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Open
 
-### Today (Mon Sep 21)
+### Today (Tue Sep 22) — last day before San Antonio
+- [ ] JTS: reply to Denise Sloan + replace the response document (drafts delivered Mon sweep) — the resubmission stays in question until the correct point-by-point is up
+- [ ] LAST CALL decks + registration: Salma and Dr. Ojo (reminder drafts in Sunday's sweep email); your own deck + Nuha's saturation sentences fly with you tomorrow
+- [ ] DDOH: read Jay's revised framing + Sandro's suggestions (both on the thread since Mon evening)
+- [ ] PLOS MH: SECOND new handling invitation PMEN-D-26-00510 (postnatal MH, SARS-CoV-2 waves) — now two invites (with 00493) + the 00318 action open
+- [ ] Emma Davies asks (to you + Ans): official rubric for Leadership Perspective #1? points off for word count?
+- [ ] Tonight: HCC Convening dinner (skim Mary Claire's bio packet); Amanda at 12:30; pack — Marriott check-in instructions are in the inbox
+
+### Yesterday (Mon Sep 21)
 - [ ] TFRH methods section (landscape assessment) into the draft white paper — DUE TODAY; Morven asked Fri + Sat, no reply on-thread
 - [ ] ISTSS materials day: your deck + trauma-saturation sentences for Nuha; send the Salma and Ojo reminders (drafts in Sunday's sweep email); Salma's registration
 - [ ] JTS URGENT: EIC Denise Sloan says the revision's response document answers the statistical editor's PRIOR-round comments, not the latest (her email Mon 8:50 AM, co-authors cc'd; Jaimie also flagged it). The 12:37 PM resubmission fixed the word cap but may carry the old doc — verify in the Wiley dashboard, upload the correct point-by-point, reply to Sloan (draft delivered Mon sweep)
@@ -64,6 +72,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Done
 
+- [x] 2026-09-22 — Book order SETTLED: 220 copies, cost split (Amanda + AJ, TAs included); Ans cleared the overnight student mail (Sophia's word-count worry, Kareena's WashU Miracle share) and sent the midterm review guide; Zoom guest-lecture test moved to Sep 29 (Ans under the weather from his shots; Becky obliged)
 - [x] 2026-09-21 — JOTS word-cap trim resubmitted 12:37 PM (response-doc question now supersedes); PHS1000 exam mechanics settled by Ans/Emma/Ray; book order recalculated by AJ with TAs included; Amanda accepted the 12:30 weekly
 - [x] 2026-09-21 — Epi Toolkit fully graded (Becky); only Justin Valentin outstanding (out ill) and Ans is handling; Gavin swapped invites himself for today's 10 AM
 - [x] 2026-09-20 — SANDRO ON THE WEEKLY: "supremely helpful so I am very encouraging of the weekly report!" — reviewed carefully; suggested prioritizing the review; Friday system validated
