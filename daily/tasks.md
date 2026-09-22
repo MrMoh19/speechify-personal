@@ -49,7 +49,8 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 ### New this week (from Sandro-meeting prep)
 - [ ] AI and Public Health Survey: one-page concept note before the Oct 1, 1 PM call with Layden + Brownson (adoption-study framing; Shah tiers; sanctioned vs actual use)
 - [ ] DDOH Viewpoint with Jay Shaw (JAMA Health Forum, with Sandro): Jay's revised outline due back this week — review and begin draft
-- [ ] Reply Brady Heward: 30-minute ANCHOR call, week of Sep 28 (his warm reply Sep 16)
+- [ ] ANCHOR call SCHEDULED: Fri Oct 2, 9-10 AM CT (invite from Khrystyna, with Dave Ross + Brady Heward) — accept the invite
+- [ ] TFRH: mark Virtual/absent on the Sep 25 lunch spreadsheet (he's at ISTSS); Kirsten wants finalized fall syllabi by Mon Sep 28 (PHS1000, with Ans)
 - [ ] Reply Kevin Cai with the 3+2 MPH contact
 
 ### Portfolio (tracked; work as directed)
@@ -71,6 +72,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Done
 
+- [x] 2026-09-22 — Epi Matters letter WITH KERRY: Sandro sent the joint letter Tue evening; next move is hers. PHS1000 self-ran: Ans covered Yuxin's absence, Parth takes Libby's community Sep 29, Becky finished Epi grading
 - [x] 2026-09-22 — JTS CLOSED (his word): replied to Sloan, response document replaced, RESUBMITTED; SALMA IS REGISTERED for ISTSS; Emma's rubric question needs no action; packing done
 - [x] 2026-09-22 — Book order SETTLED: 220 copies, cost split (Amanda + AJ, TAs included); Ans cleared the overnight student mail (Sophia's word-count worry, Kareena's WashU Miracle share) and sent the midterm review guide; Zoom guest-lecture test moved to Sep 29 (Ans under the weather from his shots; Becky obliged)
 - [x] 2026-09-21 — JOTS word-cap trim resubmitted 12:37 PM (response-doc question now supersedes); PHS1000 exam mechanics settled by Ans/Emma/Ray; book order recalculated by AJ with TAs included; Amanda accepted the 12:30 weekly
