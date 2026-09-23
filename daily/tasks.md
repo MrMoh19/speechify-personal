@@ -4,7 +4,13 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Open
 
-### Today (Wed Sep 23) — ISTSS day 1, San Antonio
+### Today (Thu Sep 24) — ISTSS symposium day
+- [ ] Give Jaimie the in-press citation for her CV — need author byline order confirmed first (acceptance thread cc's Waziri, Abdalla, Galea, you, Ojo, Adeoye, Magaji, Veka, Yahya KT; sequence unknown)
+- [ ] Nigeria-project four (Jolaade, Ebube, Ziah, Raqeebah) want lunch/coffee once you're back — propose a day/time
+- [ ] ISTSS sent a password-reset notice Wed PM — confirm it was you, else change the password
+- [ ] New invite: FARM Food Futures Forum dinner, Missouri Botanical Garden, Tue Oct 13 — decide once back
+
+### Wednesday (Sep 23) carryover
 - [ ] JTS ACCEPTED overnight (ms 1390286, the IDP validation paper — the one you present tomorrow); Wiley admin rides with it: ACTION REQUIRED confirm corresponding author; open-access order submitted; invoice attached — handle from your phone when convenient
 - [ ] Symposium TOMORROW 1:45 PM Salon C (you present Paper 3 at 2:17): final deck pass tonight; send Nuha whatever materials are ready TODAY; Salma + Ojo decks still out
 - [ ] DDOH: Jay supports Sandro's changes and will produce a draft unless you have further comments — a one-line reply either way closes your step
@@ -43,6 +49,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Done
 
+- [x] 2026-09-23 — JTS acceptance CONFIRMED STANDING: a same-day "recall" notice was only Kinkini withdrawing her own duplicate internal reply, not Wiley retracting anything; Jaimie and AFENET co-authors already congratulating on-thread
 - [x] 2026-09-23 — JTS ACCEPTED FOR PUBLICATION (ms 1390286, IDP validation paper; co-authors cc'd) and moved into production; OA order submitted. DDOH: Jay endorsed Sandro's changes, drafting next. Salma canceled the travel-week catch-up; Ans fielding DR (Pendleton) + UGTA meetings + exam shells
 - [x] 2026-09-22 — Epi Matters letter WITH KERRY: Sandro sent the joint letter Tue evening; next move is hers. PHS1000 self-ran: Ans covered Yuxin's absence, Parth takes Libby's community Sep 29, Becky finished Epi grading
 - [x] 2026-09-22 — JTS CLOSED (his word): replied to Sloan, response document replaced, RESUBMITTED; SALMA IS REGISTERED for ISTSS; Emma's rubric question needs no action; packing done
