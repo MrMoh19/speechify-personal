@@ -4,54 +4,26 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Open
 
-### Today (Tue Sep 22) — FLYING TONIGHT, not Wednesday
-- [ ] TRAVEL (his word, Sep 22): flight departs 8:30 PM tonight; leave the HCC dinner venue by 7 PM; ~20-minute ride to the airport; carry-on only, no checked luggage. Packing DONE
-- [ ] Sandro at 12:30 (replaces Amanda's weekly at that slot)
-- [ ] Decks still out: Salma + Dr. Ojo (reminder drafts in Sunday's sweep email); your own deck + Nuha's saturation sentences fly with you
-- [ ] DDOH: read Jay's revised framing + Sandro's suggestions (both on the thread since Mon evening)
-- [ ] PLOS MH: two handling invites (00493, 00510) + the 00318 action open
+### Today (Wed Sep 23) — ISTSS day 1, San Antonio
+- [ ] JTS ACCEPTED overnight (ms 1390286, the IDP validation paper — the one you present tomorrow); Wiley admin rides with it: ACTION REQUIRED confirm corresponding author; open-access order submitted; invoice attached — handle from your phone when convenient
+- [ ] Symposium TOMORROW 1:45 PM Salon C (you present Paper 3 at 2:17): final deck pass tonight; send Nuha whatever materials are ready TODAY; Salma + Ojo decks still out
+- [ ] DDOH: Jay supports Sandro's changes and will produce a draft unless you have further comments — a one-line reply either way closes your step
+- [ ] Becker Library: account blocked over billed items — return or pay after the trip
+- [ ] PLOS queue: EMBRACING review (final reminder), two PMEN handling invites (00493, 00510), 00318 action
 
-### Yesterday (Mon Sep 21)
-- [ ] TFRH methods section (landscape assessment) into the draft white paper — DUE TODAY; Morven asked Fri + Sat, no reply on-thread
-- [ ] ISTSS materials day: your deck + trauma-saturation sentences for Nuha; send the Salma and Ojo reminders (drafts in Sunday's sweep email); Salma's registration
-- [ ] JTS URGENT: EIC Denise Sloan says the revision's response document answers the statistical editor's PRIOR-round comments, not the latest (her email Mon 8:50 AM, co-authors cc'd; Jaimie also flagged it). The 12:37 PM resubmission fixed the word cap but may carry the old doc — verify in the Wiley dashboard, upload the correct point-by-point, reply to Sloan (draft delivered Mon sweep)
-- [ ] DDOH Viewpoint: Jay's revised framing arrived Mon PM; Sandro replied with suggestions on the file — Mohammed's read is the open step
-- [ ] Tue: Amanda weekly at 12:30 (accepted) · HCC Convening dinner (guest bios from Mary Claire — skim) · SPH events meeting 1 PM (cc'd) · pack for Wed travel
-- [ ] Reply Bella Gomez: two-line hold on the MaRVIN food-insecurity ms until after the conference
-- [ ] DR: Kareena Sundaram accommodated-exam request (Ans forwarded to Emma; portal click may still need an instructor)
-- [ ] BMJ climate-issue opinion piece (with Nason Maani): editor's light edits attached; Nason asks for your first pass, then iterate
-- [ ] PLOS Mental Health: NEW invitation to handle PMEN-D-26-00493 (community-based process evaluation) — accept/decline; GDS-5 (00318) action reminder re-sent; PLOS One EMBRACING invite re-sent
-- [ ] Gavin at 10 AM (he accepted the lab-involvement invite; prep sheet on the Friday Updates thread)
-
-### Carried from last week (unverified sends)
-- [ ] Send Nuha the symposium abstract + four paper summaries — the packet needs only your trauma-saturation sentences, the rest is assembled (overdue since Mon; travel is next week)
-  - Claude cannot reach the saturation analysis: Drive holds MaRVIN Papers 1 (validation), 2 (structure/invariance/norms) and 3 (TMDS-9) only; nothing on trauma saturation is in Drive or Box, and the Gmail connector cannot open attachments. The nearest source is Salma's NPJ MH manuscript "Trauma, stressors, and mental health outcomes_091726.docx" on the R+R thread. Put a copy in Drive or Box, or send the ISTSS abstract, and Claude can draft the sentences
-- [ ] Send the Nigeria-project four their reply from Outlook (Ziah Adediran, Jolaade Bada, Ebube Okereke, Raqeebah Sowemimo; paste-ready draft delivered Thu evening) — offers a group meeting the week of Sep 28, fill day, time and place
-- [ ] DR accommodated-exam approvals ×4 in the portal: Daniel Gunderson + Nadia McDonald (Wed night) and Jessy Young + Sophia Saadi (new Thu 12:07-12:18 PM; the Young notice arrived twice); Ans copied on all
-- [ ] Send the Grace Jiang holding reply from Outlook (revised draft delivered Thu evening; it now asks her what she wants from each introduction, so the introductions write themselves after the conference). Her ask: she is a PUBHLTHSOC1000 student whose prior work was with cleft-palate families on stigma and community reintegration (hospital and Tibet volunteering, documentary, interviews, photo exhibition, papers); she wants to carry it into oral health and mental health at WashU and is taking up your offer to connect her with people. No deadline attached
-- [ ] SSM-Population Health R&R, NEW Thu 1:04 PM (SSMPH-D-26-00361, "Digital Environments as Health Environments"): reconsider-after-revision on two external reviews, RESUBMIT BY OCT 8. Reviewers ask for the search/selection method behind the cited evidence, a justification for the five domains and five mechanisms, non-US/European (LMIC) evidence, concrete variables and study designs for the research section, the governance tensions (speech, privacy vs public health's own data use) and feasibility, positive as well as harmful pathways, and a reference cleanup. Rows.json moved from Under review to R&R. EXTENSION REQUESTED to 9 Nov: paste-ready note to Chandola and Avendano delivered Thu evening, send through Editorial Manager. Scaffold waits on the extension answer and on the three revisions ahead of it
-- [ ] WHO Bulletin R&R (BLT/2026/296735, "Commercial Determinants of Armed Conflict and the Global Arms Industry", PMAC2027; coauthors Galea, Bath, Barberia): 8 editorial-committee points + external reviews in the author area; revised 3000-word Policy & Practice ms + point-by-point + highlighted changes DUE ~OCT 1 (four weeks from the Sep 3 decision) for the CDoH theme issue — Mohammed doing the revision himself; Claude to build the response scaffold
-
-### This week
-- [ ] TFRH white paper: METHODS SECTION (landscape assessment) DUE MON SEP 21 — Morven asked Fri and again Sat; no reply on-thread yet; review sections 1-6 before the Sep 25 meeting
-- [ ] Collect slides for Nuha by Mon Sep 21 — Gradus IN; Abdalla, Abba-Aji, Ojo outstanding (reminder drafts for Salma + Ojo delivered Sun evening; his own deck is on him)
-- [ ] Gavin meeting Mon 10 AM — his prep sheet arrived Sun evening on the Friday Updates thread
-- [ ] ANCHOR call: Dave Ross proposes Fri Oct 2, 8-11 AM MT (9-12 CT), else Khrystyna schedules week of Oct 5 — reply with a window
-- [ ] PLOS One reviewer invitation (PONE-D-25-24045R1, EMBRACING migrant self-care protocol, from Fatma Ahmed) — accept or decline
-- [ ] Confirm Salma's ISTSS registration — still unconfirmed and silent since Tuesday's email; also owes her slide deck
+### Back-home queue (from Sat Sep 26)
+- [ ] Short replies owed: Bella Gomez (MaRVIN food-insecurity hold), Kevin Cai (3+2 MPH contact), Grace Jiang holding reply, Nigeria-project four (drafts delivered earlier)
+- [ ] BMJ climate piece (with Nason Maani): your first pass on the editor's light edits — Nason is waiting
+- [ ] Kirsten: finalized fall syllabi by Mon Sep 28 (PHS1000, with Ans)
+- [ ] TFRH: meeting Sep 25 falls mid-conference (lunch sheet: mark Virtual/absent); methods-section status unverified — confirm with Morven
+- [ ] DR portal: verify no accommodated-exam approvals left hanging (Gunderson, McDonald, Young, Saadi, Pendleton — Ans/Emma have been fielding)
+- [ ] Deadlines: WHO Bulletin R&R ~Oct 1 · AI survey concept note before the Oct 1, 1 PM call · SSM-PH R&R Oct 8 (extension to Nov 9 requested) · ANCHOR call Fri Oct 2, 9-10 AM CT (accept invite)
 
 ### Pinned (parked by Mohammed, Sep 16)
 - [ ] Tueth Keeney waiver: the Melanie escalation is PAUSED on his word (Sep 17). Calvin has been silent since Tuesday's nudge; the draft is written and waits
 - [ ] RA group-training email (Parth, Ellie, Gabriel Estrada, + Zoe; Grace may fit the cohort) — resume when he says
 - [ ] Grace Jiang full introductions (oral health + mental health people) — after the conference; holding reply covers the interim
 - [ ] Yahoo → Gmail POP fetch — parked as convoluted for now
-
-### New this week (from Sandro-meeting prep)
-- [ ] AI and Public Health Survey: one-page concept note before the Oct 1, 1 PM call with Layden + Brownson (adoption-study framing; Shah tiers; sanctioned vs actual use)
-- [ ] DDOH Viewpoint with Jay Shaw (JAMA Health Forum, with Sandro): Jay's revised outline due back this week — review and begin draft
-- [ ] ANCHOR call SCHEDULED: Fri Oct 2, 9-10 AM CT (invite from Khrystyna, with Dave Ross + Brady Heward) — accept the invite
-- [ ] TFRH: mark Virtual/absent on the Sep 25 lunch spreadsheet (he's at ISTSS); Kirsten wants finalized fall syllabi by Mon Sep 28 (PHS1000, with Ans)
-- [ ] Reply Kevin Cai with the 3+2 MPH contact
 
 ### Portfolio (tracked; work as directed)
 - [ ] AI & Digital Innovation in PH Curriculum (MPH): kick-off held; course concept is the next deliverable
@@ -63,15 +35,15 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] TOKEN POLICY (his word, Sep 18): sweeps are scoped to `label:Label_3 -category:promotions -category:social newer_than:1d`, with NO second pass over unlabeled mail — he declined it, so mail sent straight to abbaaji189@gmail.com is outside every sweep and is his to watch. Full rules, per-run budgets and measured costs in `daily/token-policy.md`. ROUTINE PROMPTS NOT YET UPDATED: this session cannot edit them (instructions are editable only from session_01PPwbUUWpfmtc9VHJ6fxbgv, which the routines fire into) and delete-and-recreate would lose run history. Replacement text and the one-line ask are parked in `daily/routine-prompts.md`. Both routines read this ledger at fire time, so they see the rule meanwhile
 - [ ] REVISION ORDER (his word, Sep 17): ISTSS first, then JOTS (~Oct 7), then WHO Bulletin (~Oct 1), then SSM-PH (extension to 9 Nov requested)
 - [ ] Travel on the Google calendar: return flight WN 2209 Sat Sep 26, SAT 6:45 AM to STL 8:50 AM, and the ISTSS block Sep 23-26 at the Marriott Rivercenter. OUTBOUND FLIGHT STILL MISSING — no itinerary for it anywhere in Gmail; add it once he forwards Brentwood's original booking. The calendar's time zone is New York, so Central events display an hour late until he asks for the switch
-- [ ] TOKEN-SAVER through Sun Sep 20 (Fable at 92%): morning brief paused (Sunday sweep re-enables it for Monday); evening sweep lean, no Saturday runs; Sandro Friday pair lean but unfailing; no artifacts, renders, or proactive work until Monday unless Mohammed asks
-- [ ] JOTS: revised ms submitted Sat, RETURNED TO DRAFT Mon over the word cap — see Today
-- [ ] Epi Matters 2e response letter: draft in Drive awaits review, then Kerry + Sandro, then Emma (on today's Sandro agenda)
+- [ ] JTS/JOTS: ACCEPTED Sep 23; in production (Wiley admin in Today)
+- [ ] Epi Matters 2e response letter: with Kerry since Tue evening; then to Emma at OUP
 - [ ] PLOS Mental Health: PMEN-D-26-00318 action + four editor invitations pending
 - [ ] Publish Outlook calendar as ICS and subscribe in Google Calendar (connector is live; calendar is empty until this lands)
 - [ ] Sandro weekly automation: Friday question round 12:37 PM + unfailing compile-and-deliver 5:23 PM (source of truth projects/sandro-weekly/rows.json; first firing tomorrow)
 
 ## Done
 
+- [x] 2026-09-23 — JTS ACCEPTED FOR PUBLICATION (ms 1390286, IDP validation paper; co-authors cc'd) and moved into production; OA order submitted. DDOH: Jay endorsed Sandro's changes, drafting next. Salma canceled the travel-week catch-up; Ans fielding DR (Pendleton) + UGTA meetings + exam shells
 - [x] 2026-09-22 — Epi Matters letter WITH KERRY: Sandro sent the joint letter Tue evening; next move is hers. PHS1000 self-ran: Ans covered Yuxin's absence, Parth takes Libby's community Sep 29, Becky finished Epi grading
 - [x] 2026-09-22 — JTS CLOSED (his word): replied to Sloan, response document replaced, RESUBMITTED; SALMA IS REGISTERED for ISTSS; Emma's rubric question needs no action; packing done
 - [x] 2026-09-22 — Book order SETTLED: 220 copies, cost split (Amanda + AJ, TAs included); Ans cleared the overnight student mail (Sophia's word-count worry, Kareena's WashU Miracle share) and sent the midterm review guide; Zoom guest-lecture test moved to Sep 29 (Ans under the weather from his shots; Becky obliged)
