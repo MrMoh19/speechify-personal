@@ -128,4 +128,53 @@ foreach y in `pcl' `phq' `gad' {
 *--- 7. Per-SD stressor effect (for cross-scale comparability) -----------------
 di as result _n "Stressor mean = `smean', SD = `ssd'; multiply log-IRRs by `ssd' for per-SD."
 
+*--- Figure: per-stressor IRR along the trauma curve (run after PTSD model) ---
+capture frame drop splinefig
+frame create splinefig t irr lo hi
+forvalues i = 0/16 {
+    local t = `i'/2
+    local s1 = (max(`t',0)^3 - max(`t'-2,0)^3*(5/3) + max(`t'-5,0)^3*(2/3))/25
+    quietly lincom stressor_count + `t'*c.trauma_total#c.stressor_count ///
+        + `s1'*c.tr_s1#c.stressor_count
+    frame post splinefig (`t') (exp(r(estimate))) ///
+        (exp(r(estimate)-invttail(r(df),.025)*r(se))) ///
+        (exp(r(estimate)+invttail(r(df),.025)*r(se)))
+}
+frame splinefig {
+    gen cx=. 
+    gen cy=. 
+    gen cl=. 
+    gen ch=.
+    replace cx=0 in 1
+    replace cy=1.97 in 1
+    replace cl=1.53 in 1
+    replace ch=2.54 in 1
+    replace cx=1.5 in 2
+    replace cy=1.26 in 2
+    replace cl=1.06 in 2
+    replace ch=1.50 in 2
+    replace cx=3.5 in 3
+    replace cy=1.03 in 3
+    replace cl=0.87 in 3
+    replace ch=1.21 in 3
+    replace cx=5.5 in 4
+    replace cy=0.92 in 4
+    replace cl=0.83 in 4
+    replace ch=1.03 in 4
+    twoway (rarea lo hi t, color("62 111 165%18") lwidth(none)) ///
+           (line irr t, lcolor("30 58 92") lwidth(medthick)) ///
+           (rcap cl ch cx, lcolor("200 16 46") lwidth(medium)) ///
+           (scatter cy cx, mcolor("200 16 46") msize(medium) mlcolor(white) mlwidth(vthin)), ///
+        yline(1, lpattern(dash) lcolor(gs8)) ///
+        ytitle("Prevalence ratio per additional stressor (PTSD)") ///
+        xtitle("Traumatic event types (count)") ///
+        ylabel(0.75(0.25)2.5, angle(0) grid glcolor(gs15)) xlabel(0(1)8) ///
+        yscale(range(0.6 2.7)) ///
+        legend(order(2 "Spline estimate (adjusted), 95% CI" 4 "Categorical estimates (95% CI)") ///
+               position(1) ring(0) cols(1) region(lstyle(none))) ///
+        title("Stressor effect declines smoothly along the trauma curve", size(medium) position(11)) ///
+        graphregion(color(white)) plotregion(margin(small))
+    graph export "spline_effect_stata.png", width(2400) replace
+}
+
 log close
