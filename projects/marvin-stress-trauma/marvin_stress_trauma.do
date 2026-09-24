@@ -21,7 +21,7 @@ local phq      phq9_total
 local gad      gad7_total
 local wt       sampling_weight
 local strata   strata               // state strata (1 benue ... 7 sokoto); use strata2 for state-x-setting
-local psu      ward_id              // PSU = ward (conservative; subsumes community clustering)
+local psu      cluster_id           // community cluster ID
 local covars   age i.gender i.education i.state_cat
 
 * Primary sample: all six states (Ogun = non-conflict comparison state).
