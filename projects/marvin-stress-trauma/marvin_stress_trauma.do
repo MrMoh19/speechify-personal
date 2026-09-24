@@ -73,16 +73,27 @@ gen double stress_c = `stress' - r(mean)
 local smean = r(mean)
 local ssd   = r(sd)
 
-*--- 3. Replication: original categorical specification (unadjusted) -----------
+*--- 3. Secondary: categorical specification (adjusted; unadjusted = sensitivity)
 foreach y in ptsd dep anx {
     di as result _n "=== Replication (categorical, unadjusted): `y' ==="
-    svy: poisson `y' i.trauma_cat##c.stress_c, irr
+    svy: poisson `y' i.trauma_cat##c.stress_c `covars', irr
     * Stressor IRR within each trauma stratum
     forvalues k = 0/3 {
         if `k'==0 lincom stress_c, irr
         else      lincom stress_c + `k'.trauma_cat#c.stress_c, irr
     }
     testparm i.trauma_cat#c.stress_c        // interaction block
+}
+
+*--- 3b. Sensitivity: categorical, unadjusted (dissertation specification) -----
+foreach y in ptsd dep anx {
+    di as result _n "=== Categorical (unadjusted sensitivity): `y' ==="
+    quietly svy: poisson `y' i.trauma_cat##c.stress_c, irr
+    forvalues k = 0/3 {
+        if `k'==0 lincom stress_c, irr
+        else      lincom stress_c + `k'.trauma_cat#c.stress_c, irr
+    }
+    testparm i.trauma_cat#c.stress_c
 }
 
 *--- 4. Primary: continuous spline trauma x stress, adjusted -------------------
