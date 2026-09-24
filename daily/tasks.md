@@ -4,16 +4,13 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Open
 
-### Today (Thu Sep 24) — ISTSS symposium day
-- [ ] URGENT — Nuha has NO slides: she wrote at 1:23 AM, "I do not think I received slides yet for my discussant role. I'm happy to wing it but if you would like me to review slides ahead of time..." Symposium is 1:45 PM; send what you have now, or reply that she should wing it
-- [ ] Your presentation: 2:17-2:31 PM, Salon C — final deck check before 1:45
-- [ ] JTS Wiley admin: confirm corresponding author (ACTION REQUIRED click) — the accepted paper you present today
-- [ ] Give Jaimie the in-press citation for her CV — author byline order still unconfirmed (Waziri, Abdalla, Galea, you, Ojo, Adeoye, Magaji, Veka, Yahya KT; sequence unknown)
-- [ ] DDOH: one-line reply to Jay closes your step (he's ready to draft either way)
+### Today/Fri (Sep 24 evening → Fri Sep 25)
+- [ ] JTS Wiley admin: confirm corresponding author (ACTION REQUIRED click) — still no evidence it's done
+- [ ] Give Jaimie the in-press citation for her CV — author byline order still unconfirmed
+- [ ] Morven sent new OVCR data (WashU personnel on these projects) to fold into the TFRH landscape assessment — not urgent, he's marked Virtual/absent for tomorrow's TFRH meeting anyway
 - [ ] Nigeria-project four (Jolaade, Ebube, Ziah, Raqeebah) want lunch/coffee once you're back — propose a day/time
 - [ ] ISTSS password-reset notice (Wed PM) — confirm it was you, else change the password
 - [ ] PLOS queue: EMBRACING review (final reminder), two PMEN handling invites (00493, 00510), 00318 action
-- [ ] Salma's and Ojo's decks never arrived — no longer chaseable before showtime; note for the post-mortem
 - [ ] New invite: FARM Food Futures Forum dinner, Missouri Botanical Garden, Tue Oct 13 — decide once back
 - [ ] Becker Library account blocked over billed items — return or pay after the trip
 
@@ -41,6 +38,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Done
 
+- [x] 2026-09-24 — Mohammed self-managed at the conference: sent Ojo something on the "SLIDES" thread Wed night (Ojo: "Thanks for sharing"); closed the DDOH-adjacent BMJ climate piece with Nason ("first pass" sent, Nason: "have a wonderful conference"); Ans marked Kirsten's syllabi request done; Dean Galea meeting canceled (no action)
 - [x] 2026-09-23 — JTS acceptance CONFIRMED STANDING: a same-day "recall" notice was only Kinkini withdrawing her own duplicate internal reply, not Wiley retracting anything; Jaimie and AFENET co-authors already congratulating on-thread
 - [x] 2026-09-23 — JTS ACCEPTED FOR PUBLICATION (ms 1390286, IDP validation paper; co-authors cc'd) and moved into production; OA order submitted. DDOH: Jay endorsed Sandro's changes, drafting next. Salma canceled the travel-week catch-up; Ans fielding DR (Pendleton) + UGTA meetings + exam shells
 - [x] 2026-09-22 — Epi Matters letter WITH KERRY: Sandro sent the joint letter Tue evening; next move is hers. PHS1000 self-ran: Ans covered Yuxin's absence, Parth takes Libby's community Sep 29, Becky finished Epi grading
