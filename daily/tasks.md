@@ -5,25 +5,17 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 ## Open
 
 ### Today (Thu Sep 24) — ISTSS symposium day
-- [ ] Give Jaimie the in-press citation for her CV — need author byline order confirmed first (acceptance thread cc's Waziri, Abdalla, Galea, you, Ojo, Adeoye, Magaji, Veka, Yahya KT; sequence unknown)
+- [ ] URGENT — Nuha has NO slides: she wrote at 1:23 AM, "I do not think I received slides yet for my discussant role. I'm happy to wing it but if you would like me to review slides ahead of time..." Symposium is 1:45 PM; send what you have now, or reply that she should wing it
+- [ ] Your presentation: 2:17-2:31 PM, Salon C — final deck check before 1:45
+- [ ] JTS Wiley admin: confirm corresponding author (ACTION REQUIRED click) — the accepted paper you present today
+- [ ] Give Jaimie the in-press citation for her CV — author byline order still unconfirmed (Waziri, Abdalla, Galea, you, Ojo, Adeoye, Magaji, Veka, Yahya KT; sequence unknown)
+- [ ] DDOH: one-line reply to Jay closes your step (he's ready to draft either way)
 - [ ] Nigeria-project four (Jolaade, Ebube, Ziah, Raqeebah) want lunch/coffee once you're back — propose a day/time
-- [ ] ISTSS sent a password-reset notice Wed PM — confirm it was you, else change the password
-- [ ] New invite: FARM Food Futures Forum dinner, Missouri Botanical Garden, Tue Oct 13 — decide once back
-
-### Wednesday (Sep 23) carryover
-- [ ] JTS ACCEPTED overnight (ms 1390286, the IDP validation paper — the one you present tomorrow); Wiley admin rides with it: ACTION REQUIRED confirm corresponding author; open-access order submitted; invoice attached — handle from your phone when convenient
-- [ ] Symposium TOMORROW 1:45 PM Salon C (you present Paper 3 at 2:17): final deck pass tonight; send Nuha whatever materials are ready TODAY; Salma + Ojo decks still out
-- [ ] DDOH: Jay supports Sandro's changes and will produce a draft unless you have further comments — a one-line reply either way closes your step
-- [ ] Becker Library: account blocked over billed items — return or pay after the trip
+- [ ] ISTSS password-reset notice (Wed PM) — confirm it was you, else change the password
 - [ ] PLOS queue: EMBRACING review (final reminder), two PMEN handling invites (00493, 00510), 00318 action
-
-### Back-home queue (from Sat Sep 26)
-- [ ] Short replies owed: Bella Gomez (MaRVIN food-insecurity hold), Kevin Cai (3+2 MPH contact), Grace Jiang holding reply, Nigeria-project four (drafts delivered earlier)
-- [ ] BMJ climate piece (with Nason Maani): your first pass on the editor's light edits — Nason is waiting
-- [ ] Kirsten: finalized fall syllabi by Mon Sep 28 (PHS1000, with Ans)
-- [ ] TFRH: meeting Sep 25 falls mid-conference (lunch sheet: mark Virtual/absent); methods-section status unverified — confirm with Morven
-- [ ] DR portal: verify no accommodated-exam approvals left hanging (Gunderson, McDonald, Young, Saadi, Pendleton — Ans/Emma have been fielding)
-- [ ] Deadlines: WHO Bulletin R&R ~Oct 1 · AI survey concept note before the Oct 1, 1 PM call · SSM-PH R&R Oct 8 (extension to Nov 9 requested) · ANCHOR call Fri Oct 2, 9-10 AM CT (accept invite)
+- [ ] Salma's and Ojo's decks never arrived — no longer chaseable before showtime; note for the post-mortem
+- [ ] New invite: FARM Food Futures Forum dinner, Missouri Botanical Garden, Tue Oct 13 — decide once back
+- [ ] Becker Library account blocked over billed items — return or pay after the trip
 
 ### Pinned (parked by Mohammed, Sep 16)
 - [ ] Tueth Keeney waiver: the Melanie escalation is PAUSED on his word (Sep 17). Calvin has been silent since Tuesday's nudge; the draft is written and waits
