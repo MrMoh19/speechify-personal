@@ -16,7 +16,7 @@ The original specification tested trauma × stressor interactions with trauma in
 
 ## Definitive results (six states)
 
-N=1,729 (unadjusted models), N=1,706 (adjusted); 565/558 PSUs, 6 strata. Thirty-seven respondents who declined the trauma items are excluded (recoded from zero to missing; verified against the item-level data — see the hygiene block in the do-file). Stressor count mean 2.05, SD 1.65.
+N=1,729 (unadjusted models), N=1,706 (adjusted); 565/558 PSUs, 6 strata. Thirty-seven respondents who declined the trauma items are excluded (recoded from zero to missing; verified against the item-level data — see the hygiene block in the do-file). Stressor count mean 2.05, SD 1.65. Mean stressors rise with trauma exposure: 1.23 (SD 1.01) at no trauma, 1.89 (1.32) at 1–2 events, 3.28 (1.47) at 3–4, and 5.22 (2.35, range 0–10) at 5+ — the 5+ group has the LARGEST stressor variance, ruling out range restriction as an explanation for its null stressor effect. The no-trauma group's stressors max at 6, so predictions at six stressors for that group are edge-of-support.
 
 **Secondary (categorical, unadjusted): per-stressor IRR (95% CI)**
 
