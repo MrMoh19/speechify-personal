@@ -94,18 +94,18 @@ foreach y in ptsd dep anx {
 
     * Predicted prevalence surface: trauma {0 1 2 3 5 7} x stress {0 2 4 6}
     * tr_s1 at each trauma value (same formula as above):
-    * t=0:0  t=1:.04  t=2:.32  t=3:1.0133333  t=5:3.72  t=7:7.5466667
+    * t=0:0  t=1:.04  t=2:.32  t=3:1.0133333  t=5:3.2  t=7:5.6
     margins, at(`trauma'=0 tr_s1=0         `stress'=(0 2 4 6)) ///
              at(`trauma'=1 tr_s1=.04       `stress'=(0 2 4 6)) ///
              at(`trauma'=2 tr_s1=.32       `stress'=(0 2 4 6)) ///
              at(`trauma'=3 tr_s1=1.0133333 `stress'=(0 2 4 6)) ///
-             at(`trauma'=5 tr_s1=3.72      `stress'=(0 2 4 6)) ///
-             at(`trauma'=7 tr_s1=7.5466667 `stress'=(0 2 4 6)) ///
+             at(`trauma'=5 tr_s1=3.2      `stress'=(0 2 4 6)) ///
+             at(`trauma'=7 tr_s1=5.6 `stress'=(0 2 4 6)) ///
              vce(unconditional)
 
     * Additive-scale contrasts: stress 4 vs 0 at trauma 0 and trauma 5
     margins, at(`trauma'=0 tr_s1=0    `stress'=(0 4)) ///
-             at(`trauma'=5 tr_s1=3.72 `stress'=(0 4)) ///
+             at(`trauma'=5 tr_s1=3.2 `stress'=(0 4)) ///
              vce(unconditional) post
     lincom _b[2._at] - _b[1._at]     // RD, +4 stressors at trauma=0
     lincom _b[4._at] - _b[3._at]     // RD, +4 stressors at trauma=5
