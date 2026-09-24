@@ -60,7 +60,7 @@ The sample reflects the six zones. Mean age was 41; 55 percent were women. Quran
 
 **[Slide 15 · Results] Outcome Data: Prevalence**
 
-Design-adjusted prevalence was 18.5 percent for probable PTSD, 21 percent for depression, and 20.7 percent for anxiety: at least one adult in five met criteria for each condition, and 30.4 percent met criteria for at least one. Those of you who read the program will see slightly different figures there; the abstract carried preliminary estimates, and these are the final estimates from the fully cleaned sample. The conditions travel together: among people with any condition, more than a third met criteria for all three. The design effects, close to seven, are the first sign that the burden clusters by community.
+Prevalence was 18.5 percent for probable PTSD, 21 percent for depression, and 20.7 percent for anxiety. These are crude proportions; only the confidence intervals account for the clustered design. At that level, at least one adult in five met criteria for each condition, and 30.4 percent met criteria for at least one. Those of you who read the program will see slightly different figures there; the abstract carried preliminary estimates, and these are the final estimates from the fully cleaned sample. The conditions travel together: among people with any condition, more than a third met criteria for all three. The design effects, close to seven, are the first sign that the burden clusters by community.
 
 **[Slide 16 · Results] Outcome Data: Variation by State, Residence, and Trauma**
 
@@ -68,7 +68,7 @@ Before adjustment, the variation is striking. PTSD prevalence ranges from 1.5 pe
 
 **[Slide 17 · Results] Main Results: Adjusted Prevalence Ratios**
 
-Both do. In Model A, each additional traumatic event is associated with about 15 percent higher prevalence of each condition. In Model B, living in a camp is associated with roughly twice the prevalence of PTSD and depression and nearly three times the prevalence of anxiety, after accounting for trauma. The trauma estimates hardly move when camp residence enters the model. These are two separable pathways: what happened to people, and where they now live.
+Both do. In Model A, each additional traumatic event is associated with about 15 percent higher prevalence of each condition. In Model B, living in a camp is associated with roughly twice the prevalence of PTSD and depression and nearly three times the prevalence of anxiety, after accounting for trauma. The trauma estimates hardly move when camp residence enters the model. Note that it is these prevalence ratios, not the prevalences on the previous slides, that are adjusted. These are two separable pathways: what happened to people, and where they now live.
 
 **[Slide 18 · Results] Other Analyses: Interaction and Sensitivity**
 
@@ -154,9 +154,9 @@ Just over a quarter of people reported no traumatic event, about half reported o
 
 The two exposures are correlated. Mean stressor burden rises from about one at no trauma to about five at five or more events, which is why the interaction needs formal, adjusted testing. Note also the spread: the five-plus group has the widest stressor range in the sample, from zero to ten, so any null in that group is estimated over real variation, not a compressed range.
 
-**[Slide 16 · Results] Outcome Data: PTSD by Trauma Exposure**
+**[Slide 16 · Results] Outcome Data: PTSD by Trauma**
 
-First, the main effect, so the interaction has context. At zero stressors, adjusted PTSD prevalence rises from about 7 percent among people with no trauma to about 40 percent at five events. Trauma dominates the risk landscape. That part is expected. The question is what happens to the stress gradient along the way.
+First, the main effect, so the interaction has context. At zero stressors, model-predicted PTSD prevalence rises from about 7 percent among people with no trauma to about 40 percent at five events. Trauma dominates the risk landscape. These are predicted prevalences from the Poisson model using Stata's margins: each person's probability is predicted at a fixed trauma and stressor level, keeping their own age, gender, education, and state, and the predictions are averaged. That standardizes the comparison to the same covariate mix. The gradient itself is expected. The question is what happens to the stress gradient along the way.
 
 **[Slide 17 · Results] Main Results: Per-Stressor Prevalence Ratios**
 
@@ -168,11 +168,11 @@ This is the spline itself: the per-stressor prevalence ratio as a continuous fun
 
 **[Slide 19 · Results] Main Results: Absolute Scale**
 
-A sceptic would say the ratio fades only because people with heavy trauma already have high prevalence. So here is the same comparison in percentage points. Going from zero to four stressors adds about 22 points of PTSD prevalence among people with no trauma exposure, 24 points of depression, and 18 points of anxiety. Among people with five or more events, the same four stressors add nothing measurable to any of the three. The fading appears in percentage points too, so it is not an artifact of the ratio scale.
+A sceptic would say the ratio fades only because people with heavy trauma already have high prevalence. So here is the same comparison in percentage points, as differences in model-predicted prevalence estimated with margins contrasts. Going from zero to four stressors adds about 22 points of PTSD prevalence among people with no trauma exposure, 24 points of depression, and 18 points of anxiety. Among people with five or more events, the same four stressors add nothing measurable to any of the three. The fading appears in percentage points too, so it is not an artifact of the ratio scale.
 
 **[Slide 20 · Results] Main Results: Prevalence Curves**
 
-Here is the same result as prevalence. Each line is a level of trauma. The red line, no trauma exposure, rises from about 7 percent to 28 percent across four stressors and keeps climbing. Each step up in trauma rotates the line flatter, and at five or more events the line is high and does not rise with stress; if anything it drifts down. The gradient belongs to people with little trauma; the burden belongs to people with a lot. Depression and anxiety fan out the same way.
+Here is the same result as model-predicted prevalence. Each line is a level of trauma. The red line, no trauma exposure, rises from about 7 percent to 28 percent across four stressors and keeps climbing. Each step up in trauma rotates the line flatter, and at five or more events the line is high and does not rise with stress; if anything it drifts down. The gradient belongs to people with little trauma; the burden belongs to people with a lot. Depression and anxiety fan out the same way.
 
 **[Slide 21 · Results] Sensitivity Analyses**
 
@@ -206,6 +206,8 @@ Trauma changes what everyday stress does. The risk from each additional stressor
 
 ## Pocket Answers for Questions
 
+**What do you mean by adjusted prevalence?** In my talk it is model-predicted prevalence from Stata's margins: the predicted probability at a fixed trauma and stressor level, averaged over everyone's own age, gender, education, and state. It is marginal standardization, so the curves compare trauma levels at the same covariate mix. In Salma's talk the prevalence estimates are crude proportions; only the confidence intervals account for the design, and the adjusted quantities there are the prevalence ratios.
+
 **Isn't the fading ratio just high baseline risk?** That is why we report percentage points. Four stressors add 22 points among the unexposed and nothing measurable among the heavily exposed. A ratio can fade arithmetically; a risk difference cannot.
 
 **Did the bins create the shape?** That is why the primary model uses a spline. It was free to rise, stay flat, or fall. It fell, and it crosses the null at about four events.
@@ -218,4 +220,4 @@ Trauma changes what everyday stress does. The risk from each additional stressor
 
 **Why is the categorical estimate at zero trauma (1.97) above the spline curve (about 1.44)?** The categorical estimates are unadjusted; the spline is adjusted for age, gender, education, and state. Adjustment absorbs part of the effect at zero trauma. The shape is the same.
 
-**Is the GAD-7 valid here?** Jaimie's paper shows its discrimination is limited, so we read the anxiety results cautiously. The saturation pattern does not depend on anxiety; it is clearest for PTSD, which uses the best-validated instrument.
+**Is the GAD-7 valid here?** Jaimie's paper shows its discrimination is limited, so we read the anxiety results cautiously. The saturation pattern is clearest for PTSD, which uses the best-validated instrument.

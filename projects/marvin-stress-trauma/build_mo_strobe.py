@@ -36,6 +36,8 @@ bias = new_content_slide(pr, L_TC, "Bias", [
 ])
 set_title(S[14], "Statistical Analysis: Spline Model")
 set_title(S[15], "Statistical Analysis: Scales and Sensitivity")
+replace_in_shape(shape_by_id(S[15], 3), "absolute prevalence differences (margins)",
+                 "absolute differences in model-predicted prevalence (Stata margins: predictions at fixed trauma and stressor values, averaged over each participant's own covariates)")
 
 # ---- Results
 flow = flow_slide(pr, L_TO,
@@ -47,17 +49,24 @@ flow = flow_slide(pr, L_TO,
 set_title(S[17], "Descriptive Data: Exposures")
 stress = new_title_only_slide(pr, L_TO, "Descriptive Data: Stressors by Trauma Exposure")
 add_picture_fit(stress, FIG + "stressor_by_trauma.png")
-set_title(S[18], "Outcome Data: PTSD by Trauma Exposure")
+set_title(S[18], "Outcome Data: PTSD by Trauma")
 ch18 = [sh for sh in S[18].shapes if sh.has_chart][0].chart
 cd = CategoryChartData()
 cd.categories = list(ch18.plots[0].categories)
 cd.add_series(ch18.series[0].name, (6.6, 19.5, 39.6))
 ch18.replace_data(cd)
+_lab18 = shape_by_id(S[18], 500)
+_r = _lab18.text_frame.paragraphs[0].add_run()
+_r.text = "Model-predicted PTSD prevalence at zero stressors, standardized to sample covariates (Stata margins)"
+_r.font.size = Pt(13)
+_r.font.color.rgb = WHITE
 set_title(S[19], "Main Results: Per-Stressor Prevalence Ratios")
 spline = new_title_only_slide(pr, L_TO, "Main Results: Spline Estimate")
 add_picture_fit(spline, FIG + "spline_effect.png")
 
 set_title(S[20], "Main Results: Absolute Scale")
+set_run_text(shape_by_id(S[20], 401),
+             "Change in model-predicted prevalence, 0 → 4 stressors, percentage points (Stata margins; 95% CI)")
 # PTSD, five or more events: corrected point estimate -7.3 (CI -30.0 to +15.3); axis spans -20 to +40
 x0, per = 6.345, 0.14365
 dot, lab, whisk, capL, capR = (shape_by_id(S[20], i) for i in (432, 433, 429, 430, 431))
@@ -79,6 +88,7 @@ r.font.color.rgb = GREY
 
 set_title(S[21], "Main Results: Prevalence Curves")
 _lab = shape_with_text(S[21], "Prevalence (%) by stressor count")
+set_run_text(_lab, "Model-predicted prevalence (%) by stressor count, at four levels of trauma exposure (Stata margins)")
 _lab.top = Inches(1.62)
 _chart = [sh for sh in S[21].shapes if sh.has_chart][0]
 _chart.top = Inches(1.98)
@@ -139,11 +149,11 @@ NOTES = [
  "Of the 1,774 adults interviewed, 1,729 completed the trauma inventory and the outcome measures; 37 declined the trauma items and 8 lacked outcome or sampling data. Adjusted models include 1,706 people with complete covariates. This is a complete-case analysis.",
  "Just over a quarter of people reported no traumatic event, about half reported one or two, 13 percent three or four, and 5.5 percent five or more. The average person reported about two current stressors.",
  "The two exposures are correlated. Mean stressor burden rises from about one at no trauma to about five at five or more events, which is why the interaction needs formal, adjusted testing. Note also the spread: the five-plus group has the widest stressor range in the sample, from zero to ten, so any null in that group is estimated over real variation, not a compressed range.",
- "First, the main effect, so the interaction has context. At zero stressors, adjusted PTSD prevalence rises from about 7 percent among people with no trauma to about 40 percent at five events. Trauma dominates the risk landscape. That part is expected. The question is what happens to the stress gradient along the way.",
+ "First, the main effect, so the interaction has context. At zero stressors, model-predicted PTSD prevalence rises from about 7 percent among people with no trauma to about 40 percent at five events. Trauma dominates the risk landscape. These are predicted prevalences from the Poisson model using Stata's margins: each person's probability is predicted at a fixed trauma and stressor level, keeping their own age, gender, education, and state, and the predictions are averaged. That standardizes the comparison to the same covariate mix. The gradient itself is expected. The question is what happens to the stress gradient along the way.",
  "This is the central result. Each marker is the prevalence ratio for one additional daily stressor, with its confidence interval; the dashed line at 1 means no added risk. Start on the left. Among adults with no traumatic events, each added stressor nearly doubles the prevalence of probable PTSD, a ratio of 1.97. Depression, at 1.83, and anxiety, at 1.71, move with it. Now read to the right. At one to two events the ratios fall to between 1.15 and 1.27. At three to four events the intervals sit on the line, and at five or more events all three outcomes are at the null. The interaction is below 0.0001 for all three outcomes. The stressor gradient is steepest where trauma is lowest, which is the opposite of what sensitization predicts.",
  "This is the spline itself: the per-stressor prevalence ratio as a continuous function of the trauma count, with its confidence band. The curve was free to rise, stay flat, or fall. It falls smoothly and crosses the null at about four events. The red markers are the categorical estimates, and the two approaches agree on the shape. The spline interaction is significant for all three outcomes: p of 0.003 for PTSD, 0.0001 for depression, and 0.003 for anxiety.",
- "A sceptic would say the ratio fades only because people with heavy trauma already have high prevalence. So here is the same comparison in percentage points. Going from zero to four stressors adds about 22 points of PTSD prevalence among people with no trauma exposure, 24 points of depression, and 18 points of anxiety. Among people with five or more events, the same four stressors add nothing measurable to any of the three. The fading appears in percentage points too, so it is not an artifact of the ratio scale.",
- "Here is the same result as prevalence. Each line is a level of trauma. The red line, no trauma exposure, rises from about 7 percent to 28 percent across four stressors and keeps climbing. Each step up in trauma rotates the line flatter, and at five or more events the line is high and does not rise with stress; if anything it drifts down. The gradient belongs to people with little trauma; the burden belongs to people with a lot. Depression and anxiety fan out the same way.",
+ "A sceptic would say the ratio fades only because people with heavy trauma already have high prevalence. So here is the same comparison in percentage points, as differences in model-predicted prevalence estimated with margins contrasts. Going from zero to four stressors adds about 22 points of PTSD prevalence among people with no trauma exposure, 24 points of depression, and 18 points of anxiety. Among people with five or more events, the same four stressors add nothing measurable to any of the three. The fading appears in percentage points too, so it is not an artifact of the ratio scale.",
+ "Here is the same result as model-predicted prevalence. Each line is a level of trauma. The red line, no trauma exposure, rises from about 7 percent to 28 percent across four stressors and keeps climbing. Each step up in trauma rotates the line flatter, and at five or more events the line is high and does not rise with stress; if anything it drifts down. The gradient belongs to people with little trauma; the burden belongs to people with a lot. Depression and anxiety fan out the same way.",
  "We tried every route to an artifact we could think of. The pattern holds at alternative cut-points: PCL-5 at 33, PHQ-9 at 15, and GAD-7 at 7. It holds in continuous symptom scores, where there is no cut-point at all. The high-trauma group is not at a ceiling; its prevalence is between 30 and 40 percent, not near 100, and its confidence interval is narrow.",
  "To return to the objective: trauma does modify how daily stressors relate to all three outcomes. The interaction is significant for PTSD, depression, and anxiety, so the exposures do not simply add; that is hypothesis one. And the direction is negative: with no trauma, each stressor nearly doubles PTSD prevalence, and with five or more events it adds nothing; that is hypothesis two, saturation rather than sensitization.",
  "The change is graded, not a switch. Sensitivity is retained at one or two events, flattens at three or four, and is gone by five. One reading is that both older theories hold, at different levels of exposure.",

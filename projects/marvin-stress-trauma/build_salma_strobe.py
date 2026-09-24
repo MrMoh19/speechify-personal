@@ -34,6 +34,8 @@ bias = new_content_slide(pr, L_TC, "Bias", [
     "Selection into camps: Model B adjusts for trauma exposure; residual selection acknowledged",
 ])
 set_title(S[14], "Statistical Analysis")
+set_run_text(shape_with_text(S[14], "Multilevel models estimate"),
+             "Multilevel models estimate community clustering (ICCs) · Prevalence: crude proportions with design-based 95% CIs (Stata svy: proportion)")
 
 # ---- Results
 flow = flow_slide(pr, L_TO,
@@ -59,7 +61,11 @@ for i, (t, sz, b, c) in enumerate(lines):
     r.font.size = Pt(sz)
     r.font.bold = b
     r.font.color.rgb = c
+set_run_text(shape_with_text(S[18], "Survey-adjusted prevalence"),
+             "Prevalence, six states (bars: design-based 95% CI; Stata svy: proportion)")
 set_title(S[19], "Outcome Data: Variation by State, Residence, and Trauma")
+set_run_text(shape_with_text(S[19], "Survey-adjusted PTSD prevalence"),
+             "Unadjusted PTSD prevalence, three contrasts (depression and anxiety follow the same pattern)")
 set_title(S[20], "Main Results: Adjusted Prevalence Ratios")
 set_title(S[21], "Other Analyses: Interaction and Sensitivity")
 set_title(S[22], "Other Analyses: Clustering")
@@ -107,9 +113,9 @@ NOTES = [
  "We fit two models, each with one focal exposure. Model A asks about trauma: each additional event, adjusted for demographics and geography. Model B asks about camp residence and adds the trauma count to the adjustment, so the camp estimate is the camp's association over and above the events people report. Both are modified Poisson regressions giving prevalence ratios, with variances that respect the clustered design. Multilevel models estimate how much of the variation lies between communities.",
  "Of the 1,774 adults interviewed, 1,732 had complete outcome and covariate data and enter the adjusted models. This is a complete-case analysis; 42 people were excluded for missing data.",
  "The sample reflects the six zones. Mean age was 41; 55 percent were women. Quranic education is concentrated in Borno and Sokoto, and tertiary education in Enugu and Rivers. A quarter of participants lived in camps. Two thirds were moderately or severely food insecure. On average, people reported one and a half types of traumatic event, and 18 percent reported three or more.",
- "Design-adjusted prevalence was 18.5 percent for probable PTSD, 21 percent for depression, and 20.7 percent for anxiety: at least one adult in five met criteria for each condition, and 30.4 percent met criteria for at least one. Those of you who read the program will see slightly different figures there; the abstract carried preliminary estimates, and these are the final estimates from the fully cleaned sample. The conditions travel together: among people with any condition, more than a third met criteria for all three. The design effects, close to seven, are the first sign that the burden clusters by community.",
+ "Prevalence was 18.5 percent for probable PTSD, 21 percent for depression, and 20.7 percent for anxiety. These are crude proportions; only the confidence intervals account for the clustered design. At that level, at least one adult in five met criteria for each condition, and 30.4 percent met criteria for at least one. Those of you who read the program will see slightly different figures there; the abstract carried preliminary estimates, and these are the final estimates from the fully cleaned sample. The conditions travel together: among people with any condition, more than a third met criteria for all three. The design effects, close to seven, are the first sign that the burden clusters by community.",
  "Before adjustment, the variation is striking. PTSD prevalence ranges from 1.5 percent in Ogun to 42 percent in Benue, a 28-fold difference. Camp residents have about four times the prevalence of people living in communities: 40 percent against 11. And trauma shows a clear gradient: 8 percent among people with no traumatic events, 45 percent among those with five or more. The question is which of these survives adjustment.",
- "Both do. In Model A, each additional traumatic event is associated with about 15 percent higher prevalence of each condition. In Model B, living in a camp is associated with roughly twice the prevalence of PTSD and depression and nearly three times the prevalence of anxiety, after accounting for trauma. The trauma estimates hardly move when camp residence enters the model. These are two separable pathways: what happened to people, and where they now live.",
+ "Both do. In Model A, each additional traumatic event is associated with about 15 percent higher prevalence of each condition. In Model B, living in a camp is associated with roughly twice the prevalence of PTSD and depression and nearly three times the prevalence of anxiety, after accounting for trauma. The trauma estimates hardly move when camp residence enters the model. Note that it is these prevalence ratios, not the prevalences on the previous slides, that are adjusted. These are two separable pathways: what happened to people, and where they now live.",
  "Two further analyses. The association between trauma and outcomes is not the same everywhere. It is steepest in Enugu and Rivers, where exposure is lowest, and nearly flat in Borno, where exposure is highest. Keep that result in mind; my own paper begins there. The findings hold under post-stratification weights, the international PCL-5 threshold of 33, local government fixed effects, continuous scores, and multilevel models.",
  "The intraclass correlations are unusually high: 0.86 for PTSD before adjustment, and between 0.49 and 0.62 after full adjustment. After everything we can measure, about half of the remaining variation lies between communities, not between neighbours. The burden belongs to places as much as to people.",
  "To summarise the key results: at least one adult in five met criteria for each condition, and 30 percent for at least one. Camp residents carry about four times the PTSD burden of community residents, and that association holds after adjustment for trauma. And much of the variation lies between communities.",
