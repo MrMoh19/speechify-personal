@@ -102,7 +102,7 @@
   // ---- Simulation ----
   // Returns array of {C, E (true), Eobs, D (true), Dobs, selected}
   function simulate() {
-    var rng = mulberry32(20240601 + Math.round(state.expPrev * 100) + Math.round(state.confPrev * 100) * 7 +
+    var rng = mulberry32(20240558 + Math.round(state.expPrev * 100) + Math.round(state.confPrev * 100) * 7 +
       Math.round(state.confToExp * 100) * 13 + Math.round(state.confToOut * 100) * 17 +
       Math.round(state.trueRR * 10) * 19 + Math.round(state.baseRisk * 100) * 23 +
       Math.round(state.expMeasError * 100) * 29 + Math.round(state.outMeasError * 100) * 31 +
@@ -250,7 +250,11 @@
     var crudeS = isFinite(crude) ? crude.toFixed(2) : '—';
     var anyBias = state.confToExp > 0 || state.confToOut > 0 || state.expMeasError > 0 || state.outMeasError > 0 || state.selectionBias > 0;
     if (!anyBias) {
-      return 'The crude estimate suggests that exposed individuals have ' + crudeS + ' times the risk of disease compared with unexposed. With no bias sources active, the crude estimate closely approximates the true causal effect.';
+      var ratioT = crude / trueRR;
+      if (isFinite(crude) && ratioT > 0.85 && ratioT < 1.18) {
+        return 'The crude estimate is ' + crudeS + ', close to the true causal RR of ' + trueRR.toFixed(2) + '. No bias source is active; the remaining gap is sampling variability.';
+      }
+      return 'The crude estimate is ' + crudeS + ', while the true causal RR is ' + trueRR.toFixed(2) + '. No bias source is active, so the gap is sampling variability alone: a sample of ' + Math.round(state.n) + ' can land this far from the truth by chance. Increase the sample size and the estimate settles near the true value.';
     }
     var dom = '';
     if (state.confToExp > 0 && state.confToOut > 0) dom = 'confounding';
@@ -280,20 +284,24 @@
     var t = xTimes(trueRR);
     var anyBias = state.confToExp > 0 || state.confToOut > 0 || state.expMeasError > 0 || state.outMeasError > 0 || state.selectionBias > 0;
     if (!anyBias) {
-      return 'What you see is real. At first glance, exposed people have about <strong>' + c + '</strong> the risk — and because nothing is muddying the picture, that’s the honest answer. This is the rare clean case.';
+      var ratioP = crude / trueRR;
+      if (isFinite(crude) && ratioP > 0.85 && ratioP < 1.18) {
+        return 'Nothing is distorting this picture. Exposed people have about <strong>' + c + '</strong> the risk, close to the real effect of <strong>' + t + '</strong>. The small gap is chance.';
+      }
+      return 'Nothing is distorting this picture, yet the number still misses: you see <strong>' + c + '</strong> while the real effect is <strong>' + t + '</strong>. That gap is the luck of the draw in a sample of ' + Math.round(state.n) + ' people. Raise the sample size and watch the estimate settle toward the truth.';
     }
     var dom = '';
     if (state.confToExp > 0 && state.confToOut > 0) dom = 'confounding';
     else if (state.expMeasError > 0 || state.outMeasError > 0) dom = 'measurement';
     else if (state.selectionBias > 0) dom = 'selection';
     if (dom === 'confounding') {
-      return 'Careful — the first number lies. At a glance the risk looks like <strong>' + c + '</strong>, but the real effect is <strong>' + t + '</strong>. A hidden third thing is nudging both who gets exposed and who gets sick. Once we compare like with like, the estimate settles to about <strong>' + a + '</strong> — much closer to the truth.';
+      return 'The first number misleads. At a glance the risk looks like <strong>' + c + '</strong>, but the real effect is <strong>' + t + '</strong>. A hidden third factor nudges both who gets exposed and who gets sick. Compare like with like and the estimate settles to about <strong>' + a + '</strong>, much closer to the truth.';
     }
     if (dom === 'measurement') {
-      return 'Sloppy measurement is hiding the real story. The true effect is about <strong>' + t + '</strong>, but because we’re mislabelling who’s exposed or who’s sick, the number we see (<strong>' + c + '</strong>) gets dragged toward “no effect.” Better data would show a stronger signal.';
+      return 'Mismeasurement is hiding the effect. The true effect is about <strong>' + t + '</strong>, but mislabelling who is exposed or who is sick drags the number you see (<strong>' + c + '</strong>) toward no effect. Better measurement would show a stronger signal.';
     }
     if (dom === 'selection') {
-      return 'We’re only looking at a skewed slice of people, and that alone bends the answer. The real effect is <strong>' + t + '</strong>, but who ends up in the study depends on both their exposure and their health — so the <strong>' + c + '</strong> we observe is an artefact of who we let in.';
+      return 'We are only looking at a skewed slice of people, and that alone bends the answer. The real effect is <strong>' + t + '</strong>, but who ends up in the study depends on both exposure and health, so the <strong>' + c + '</strong> we observe reflects who we let in rather than what the exposure does.';
     }
     return 'Adjusting for the other factors shifts the answer from <strong>' + c + '</strong> to <strong>' + a + '</strong>.';
   }
