@@ -1,5 +1,5 @@
 {
-  "title_date": "18 September 2026",
+  "title_date": "25 September 2026",
   "excluded_from_sandro": [
     "ANCHOR-MH Nigeria",
     "PLOS Mental Health editor queue",
@@ -57,9 +57,9 @@
     },
     {
       "ms": "Digital Determinants of Health Viewpoint (with Jay Shaw)",
-      "stage": "Outline with Jay Shaw; revised outline due back this week",
+      "stage": "Revised outline in from Jay; Sandro reviewed with suggestions",
       "journal": "JAMA Health Forum",
-      "next": "Review revised outline; draft",
+      "next": "Draft next (Jay leading, per his Sep 24 note)",
       "due": ""
     }
   ],
@@ -128,17 +128,17 @@
     {
       "name": "Annual PH&S Lecture and book event",
       "update": "PH&S confirms funding for 100 copies; School covers 100; AJ Short orders once specifics set",
-      "next": "Logistics meeting with Kirsten + Amanda's team this week; [date and format]"
+      "next": "[date and format] bracket still open"
     },
     {
       "name": "ISTSS Symposium",
-      "update": "Discussant resolved: Nuha Alshabani (Albany) accepted; program office processed the change; Salma's registration pending",
-      "next": "Slides to discussant by Sep 21; final prep; travel next week"
+      "update": "Discussant resolved: Nuha Alshabani (Albany) accepted; program office processed the change",
+      "next": "Held Thu Sep 24, Salon C — Nuha discussed, Mohammed presented; closed"
     },
     {
       "name": "Epidemiology Matters",
       "update": "Four external reviews received; response letter drafted in the Zimmerman format",
-      "next": "One round with Kerry + Sandro, then to Emma; settle the infectious disease chapter answer"
+      "next": "Response letter with Kerry + Sandro (sent Sep 22); next to Emma at OUP"
     },
     {
       "name": "St. Louis SHINE Survey",
