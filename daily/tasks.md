@@ -4,15 +4,15 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Open
 
-### Today/Fri (Sep 24 evening → Fri Sep 25)
-- [ ] JTS Wiley admin: confirm corresponding author (ACTION REQUIRED click) — still no evidence it's done
+### Today (Fri Sep 25) — last full conference day, fly home Sat 6:45 AM
+- [ ] Reply Lindsey Z. (Stanford, lindseyz@stanford.edu) — "Wonderful to meet you at the Alamo" — a two-line reply closes it
+- [ ] JTS Wiley admin: confirm corresponding author (ACTION REQUIRED click) — still no evidence it's done, three days running
 - [ ] Give Jaimie the in-press citation for her CV — author byline order still unconfirmed
-- [ ] Morven sent new OVCR data (WashU personnel on these projects) to fold into the TFRH landscape assessment — not urgent, he's marked Virtual/absent for tomorrow's TFRH meeting anyway
-- [ ] Nigeria-project four (Jolaade, Ebube, Ziah, Raqeebah) want lunch/coffee once you're back — propose a day/time
 - [ ] ISTSS password-reset notice (Wed PM) — confirm it was you, else change the password
-- [ ] PLOS queue: EMBRACING review (final reminder), two PMEN handling invites (00493, 00510), 00318 action
-- [ ] New invite: FARM Food Futures Forum dinner, Missouri Botanical Garden, Tue Oct 13 — decide once back
-- [ ] Becker Library account blocked over billed items — return or pay after the trip
+- [ ] Morven's TFRH data + PLOS queue (EMBRACING review, two PMEN invites, 00318 action) — fine to hold for the flight home
+- [ ] Nigeria-project four want lunch/coffee — propose a day once back
+- [ ] New invite: FARM Food Futures Forum dinner, Tue Oct 13 — decide once back
+- [ ] Becker Library account blocked — handle after the trip
 
 ### Pinned (parked by Mohammed, Sep 16)
 - [ ] Tueth Keeney waiver: the Melanie escalation is PAUSED on his word (Sep 17). Calvin has been silent since Tuesday's nudge; the draft is written and waits
@@ -29,7 +29,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 ### Standing
 - [ ] TOKEN POLICY (his word, Sep 18): sweeps are scoped to `label:Label_3 -category:promotions -category:social newer_than:1d`, with NO second pass over unlabeled mail — he declined it, so mail sent straight to abbaaji189@gmail.com is outside every sweep and is his to watch. Full rules, per-run budgets and measured costs in `daily/token-policy.md`. ROUTINE PROMPTS NOT YET UPDATED: this session cannot edit them (instructions are editable only from session_01PPwbUUWpfmtc9VHJ6fxbgv, which the routines fire into) and delete-and-recreate would lose run history. Replacement text and the one-line ask are parked in `daily/routine-prompts.md`. Both routines read this ledger at fire time, so they see the rule meanwhile
 - [ ] REVISION ORDER (his word, Sep 17): ISTSS first, then JOTS (~Oct 7), then WHO Bulletin (~Oct 1), then SSM-PH (extension to 9 Nov requested)
-- [ ] Travel on the Google calendar: return flight WN 2209 Sat Sep 26, SAT 6:45 AM to STL 8:50 AM, and the ISTSS block Sep 23-26 at the Marriott Rivercenter. OUTBOUND FLIGHT STILL MISSING — no itinerary for it anywhere in Gmail; add it once he forwards Brentwood's original booking. The calendar's time zone is New York, so Central events display an hour late until he asks for the switch
+- [ ] Travel: return flight WN 2209 Sat Sep 26, 6:45 AM SAT to 8:50 AM STL, now its own confirmed calendar event (airline moved it earlier from 7:25/9:30, per Brentwood Travel). OUTBOUND FLIGHT STILL MISSING from the calendar — add once he forwards the original booking. Calendar time zone is New York, so Central events display an hour late until he asks for the switch
 - [ ] JTS/JOTS: ACCEPTED Sep 23; in production (Wiley admin in Today)
 - [ ] Epi Matters 2e response letter: with Kerry since Tue evening; then to Emma at OUP
 - [ ] PLOS Mental Health: PMEN-D-26-00318 action + four editor invitations pending
