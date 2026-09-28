@@ -4,15 +4,12 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Open
 
-### Today (Fri Sep 25) — last full conference day, fly home Sat 6:45 AM
-- [ ] Reply Lindsey Z. (Stanford, lindseyz@stanford.edu) — "Wonderful to meet you at the Alamo" — a two-line reply closes it
-- [ ] JTS Wiley admin: confirm corresponding author (ACTION REQUIRED click) — still no evidence it's done, three days running
-- [ ] Give Jaimie the in-press citation for her CV — author byline order still unconfirmed
-- [ ] ISTSS password-reset notice (Wed PM) — confirm it was you, else change the password
-- [ ] Morven's TFRH data + PLOS queue (EMBRACING review, two PMEN invites, 00318 action) — fine to hold for the flight home
-- [ ] Nigeria-project four want lunch/coffee — propose a day once back
-- [ ] New invite: FARM Food Futures Forum dinner, Tue Oct 13 — decide once back
-- [ ] Becker Library account blocked — handle after the trip
+### Today (Mon Sep 28) — back home
+- [ ] URGENT — PLOS Mental Health: 24-HOUR deadline notice (PMEN-D-26-00318, GDS-5 Ecuador) received 9:39 AM — respond today, this is the standing action item finally forcing the issue
+- [ ] Nikole Orlando's father is hospitalized; she missed the epidemiology assignment and wrote to you directly (1:32 AM) — a personal, compassionate reply is owed from you, not Ans
+- [ ] Ans is away for a conference from tomorrow afternoon (Sep 29) through Oct 6, with especially limited availability Sep 29-Oct 2 — expect more PHS1000 load to land on you this week
+- [ ] Second PLOS MH handling invitation, PMEN-D-26-00498 (self-compassion/PTSD) — the queue keeps growing
+- [ ] Still carried, no evidence of action: JTS Wiley corresponding-author click; Jaimie's citation (author order); ISTSS password confirm; reply to Lindsey (Stanford); Nigeria-four coffee day; FARM dinner RSVP (Oct 13); Becker Library; Morven's TFRH data
 
 ### Pinned (parked by Mohammed, Sep 16)
 - [ ] Tueth Keeney waiver: the Melanie escalation is PAUSED on his word (Sep 17). Calvin has been silent since Tuesday's nudge; the draft is written and waits
@@ -38,6 +35,10 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Done
 
+- [x] 2026-09-28 — BMJ climate piece CLOSED: Mohammed apologized for the delay and confirmed the revision himself (2:11 AM); Nason sent the final clean + tracked-changes files to editor Juliet; she replied "Fab, thanks very much!"
+- [x] 2026-09-27 — Epi Matters/OUP letter APPROVED: Kerry signed off with no changes; Sandro sent it to Emma at OUP (cc'd Dean's office); a planning meeting for next steps eyed for late October
+- [x] 2026-09-27 — Sandro acknowledged Mohammed's weekly update warmly ("Read and noted on all") and asked how ISTSS went
+- [x] 2026-09-27/28 — PHS1000 fully self-ran over the weekend: Ans handled an exam-accommodation request (family emergency, Irmina Mroz), attendance-entry fixes across several students, Lab II materials distribution, and posted his own travel notice — nothing needed Mohammed
 - [x] 2026-09-24 — Mohammed self-managed at the conference: sent Ojo something on the "SLIDES" thread Wed night (Ojo: "Thanks for sharing"); closed the DDOH-adjacent BMJ climate piece with Nason ("first pass" sent, Nason: "have a wonderful conference"); Ans marked Kirsten's syllabi request done; Dean Galea meeting canceled (no action)
 - [x] 2026-09-23 — JTS acceptance CONFIRMED STANDING: a same-day "recall" notice was only Kinkini withdrawing her own duplicate internal reply, not Wiley retracting anything; Jaimie and AFENET co-authors already congratulating on-thread
 - [x] 2026-09-23 — JTS ACCEPTED FOR PUBLICATION (ms 1390286, IDP validation paper; co-authors cc'd) and moved into production; OA order submitted. DDOH: Jay endorsed Sandro's changes, drafting next. Salma canceled the travel-week catch-up; Ans fielding DR (Pendleton) + UGTA meetings + exam shells
