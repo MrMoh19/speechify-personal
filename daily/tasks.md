@@ -8,6 +8,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] URGENT — PLOS Mental Health: 24-HOUR deadline notice (PMEN-D-26-00318, GDS-5 Ecuador) received 9:39 AM — respond today, this is the standing action item finally forcing the issue
 - [ ] Nikole Orlando's father is hospitalized; she missed the epidemiology assignment and wrote to you directly (1:32 AM) — a personal, compassionate reply is owed from you, not Ans
 - [ ] Ans is away for a conference from tomorrow afternoon (Sep 29) through Oct 6, with especially limited availability Sep 29-Oct 2 — expect more PHS1000 load to land on you this week
+- [ ] NEW — PH3 textbook (3rd edition, Springer) kickoff meeting Wed Sep 30, 12 PM CT / 1 PM ET: Sandro proposing a Hobson/Shultz/Abba-Aji/Galea author team; you confirmed attendance Sep 25; Maggie sent the Zoom link (check Outlook); David D'Addona recirculating 2nd-edition reviews beforehand; added to Google Calendar
 - [ ] Second PLOS MH handling invitation, PMEN-D-26-00498 (self-compassion/PTSD) — the queue keeps growing
 - [ ] Still carried, no evidence of action: JTS Wiley corresponding-author click; Jaimie's citation (author order); ISTSS password confirm; reply to Lindsey (Stanford); Nigeria-four coffee day; FARM dinner RSVP (Oct 13); Becker Library; Morven's TFRH data
 
@@ -18,6 +19,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Yahoo → Gmail POP fetch — parked as convoluted for now
 
 ### Portfolio (tracked; work as directed)
+- [ ] PH3 textbook, 3rd edition (Springer, David D'Addona): Sandro proposing a Hobson/Shultz/Abba-Aji/Galea author team; kickoff meeting Wed Sep 30, 12 PM CT — outline to be discussed there; no solo action item for you yet beyond attending
 - [ ] AI & Digital Innovation in PH Curriculum (MPH): kick-off held; course concept is the next deliverable
 - [ ] N-MIND: readiness forms back from FNPH sites + ethics submissions; workbook v0.3 build (imported notes in projects/n-mind/)
 - [ ] PHS1000 teaching: Tue/Thu sessions; team meeting Thursdays (relocated this week per AJ)
