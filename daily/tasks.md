@@ -5,7 +5,6 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 ## Open
 
 ### Today (Tue Sep 29)
-- [ ] OVERDUE — PLOS Mental Health: the 24-hour window on PMEN-D-26-00318 (GDS-5 Ecuador) given Monday 9:39 AM has now passed with no reply sent — third reminder since Sep 14
 - [ ] Ellie Solomon has written twice now (Sep 15, Sep 28 9:25 PM) asking to continue the conversation on your hypertension research — no reply sent either time
 - [ ] A third PLOS Mental Health ask joined the queue: reviewer invitation PONE-D-26-40308 (Oginni, Zambia stunting protocol), alongside handling invitation PMEN-D-26-00498
 - [ ] PH3 textbook: Sandro is finalizing the revised outline today to send to the group ahead of tomorrow's (Wed Sep 30, 12 PM CT) kickoff call — skim it when it lands; nothing else owed before then
@@ -39,6 +38,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Done
 
+- [x] 2026-09-29 — PLOS Mental Health PMEN-D-26-00318 CLOSED (his word): reviewers assigned directly in Editorial Manager before the Monday 9:39 AM window expired — done in the portal, so no email trail. Correction: the brief had miscounted the 24-hour window as already expired at delivery time (12:34 PM UTC = 7:34 AM CT, before the 9:39 AM CT deadline); flagged by Mohammed and fixed
 - [x] 2026-09-29 — Nikole Orlando CLOSED: Mohammed replied with understanding Sunday night; she thanked him Monday and submitted the assignment; a roster mix-up (Becky Light) meant Mohammed personally handed grading to Emma Davies
 - [x] 2026-09-29 — UTA - Ellie Solomon roster question closed: Mohammed confirmed to Kirsten that Ellie dropping the TA position is fine, no further action
 - [x] 2026-09-29 — PHS1000 midterm logistics (exam formatting, a DR accommodation, a paper copy for a student without a laptop, Canvas/Lockdown parameters) handled entirely by Ans, Emma Davies and Adjoa — nothing needed from Mohammed
