@@ -4,13 +4,14 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Open
 
-### Today (Tue Sep 29)
-- [ ] Ellie Solomon has written twice now (Sep 15, Sep 28 9:25 PM) asking to continue the conversation on your hypertension research — no reply sent either time
-- [ ] A third PLOS Mental Health ask joined the queue: reviewer invitation PONE-D-26-40308 (Oginni, Zambia stunting protocol), alongside handling invitation PMEN-D-26-00498
-- [ ] PH3 textbook: Sandro is finalizing the revised outline today to send to the group ahead of tomorrow's (Wed Sep 30, 12 PM CT) kickoff call — skim it when it lands; nothing else owed before then
-- [ ] An attorney you reached out to (Harris Beach Murtha) replied and is ready to schedule a call — reply when convenient; personal matter
-- [ ] Ans leaves for his own conference this afternoon through Oct 6, thinnest Sep 29-Oct 2 — expect more PHS1000 load to land on you this week
-- [ ] NEW — PH3 textbook (3rd edition, Springer) kickoff meeting Wed Sep 30, 12 PM CT / 1 PM ET: Sandro proposing a Hobson/Shultz/Abba-Aji/Galea author team; you confirmed attendance Sep 25; Maggie sent the Zoom link (check Outlook); David D'Addona recirculating 2nd-edition reviews beforehand; added to Google Calendar
+### Today (Wed Sep 30)
+- [ ] PH3 textbook kickoff call, 12 PM CT / 1 PM ET — Sandro promised a finalized outline "today" (Tue) for the group but nothing has landed as of this morning; attend regardless, Hobson and Sandro both called the working outline "fantastic" and "really great" this week
+- [ ] JTS/JOTS copy edit landed (Tara Pierson Hoey, manuscript 1390286): a tracked-changes Word doc is attached, return within 1 week (~by Oct 6) or propose your own deadline
+- [ ] PMEN-D-26-00318: four reviewers have now declined since Monday's assignment (three Tuesday evening, one this morning) — needs fresh reviewer invites in Editorial Manager
+- [ ] AJ Short is waiting on you to contact Dean Galea's office about streaming/recording his PHS1000 "Why Health" visit before she loops in A/V — you said yes Tuesday, the dean outreach itself hasn't gone out yet
+- [ ] Ellie Solomon's hypertension-research note is now two days unanswered
+- [ ] WashU/NORC SHINE survey check-in call today (Teams, Maddie Schoephoerster) — no time stated in the invite email itself, confirm so it isn't missed
+- [ ] PLOS queue still pending a decision: PMEN-D-26-00498 (self-compassion/PTSD) handling invite + PONE-D-26-40308 (Oginni, Zambia stunting) reviewer invite
 - [ ] Still carried, no evidence of action since San Antonio: JTS Wiley corresponding-author click; Jaimie's citation (author order); ISTSS password confirm; reply to Lindsey (Stanford); Nigeria-four coffee day; FARM dinner RSVP (Oct 13); Becker Library; Morven's TFRH data
 
 ### Pinned (parked by Mohammed, Sep 16)
@@ -20,7 +21,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Yahoo → Gmail POP fetch — parked as convoluted for now
 
 ### Portfolio (tracked; work as directed)
-- [ ] PH3 textbook, 3rd edition (Springer, David D'Addona): Sandro proposing a Hobson/Shultz/Abba-Aji/Galea author team; kickoff meeting Wed Sep 30, 12 PM CT — outline to be discussed there; no solo action item for you yet beyond attending
+- [ ] PH3 textbook, 3rd edition (Springer, David D'Addona): Sandro proposing a Hobson/Shultz/Abba-Aji/Galea author team; kickoff call today (Wed Sep 30, 12 PM CT) — outline discussed there; no solo action item for you yet beyond attending
 - [ ] AI & Digital Innovation in PH Curriculum (MPH): kick-off held; course concept is the next deliverable
 - [ ] N-MIND: readiness forms back from FNPH sites + ethics submissions; workbook v0.3 build (imported notes in projects/n-mind/)
 - [ ] PHS1000 teaching: Tue/Thu sessions; team meeting Thursdays (relocated this week per AJ)
@@ -30,7 +31,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] TOKEN POLICY (his word, Sep 18): sweeps are scoped to `label:Label_3 -category:promotions -category:social newer_than:1d`, with NO second pass over unlabeled mail — he declined it, so mail sent straight to abbaaji189@gmail.com is outside every sweep and is his to watch. Full rules, per-run budgets and measured costs in `daily/token-policy.md`. ROUTINE PROMPTS NOT YET UPDATED: this session cannot edit them (instructions are editable only from session_01PPwbUUWpfmtc9VHJ6fxbgv, which the routines fire into) and delete-and-recreate would lose run history. Replacement text and the one-line ask are parked in `daily/routine-prompts.md`. Both routines read this ledger at fire time, so they see the rule meanwhile
 - [ ] REVISION ORDER (his word, Sep 17): ISTSS first, then JOTS (~Oct 7), then WHO Bulletin (~Oct 1), then SSM-PH (extension to 9 Nov requested)
 - [ ] Travel: return flight WN 2209 Sat Sep 26, 6:45 AM SAT to 8:50 AM STL, now its own confirmed calendar event (airline moved it earlier from 7:25/9:30, per Brentwood Travel). OUTBOUND FLIGHT STILL MISSING from the calendar — add once he forwards the original booking. Calendar time zone is New York, so Central events display an hour late until he asks for the switch
-- [ ] JTS/JOTS: ACCEPTED Sep 23; in production (Wiley admin in Today)
+- [ ] JTS/JOTS: ACCEPTED Sep 23; in production, copy edit landed Sep 29 (return by ~Oct 6, in Today); Wiley corresponding-author click still in Today's carried list
 - [ ] Epi Matters 2e response letter: with Kerry since Tue evening; then to Emma at OUP
 - [ ] PLOS Mental Health: PMEN-D-26-00318 action + four editor invitations pending
 - [ ] Publish Outlook calendar as ICS and subscribe in Google Calendar (connector is live; calendar is empty until this lands)
@@ -38,6 +39,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Done
 
+- [x] 2026-09-30 — Attorney call (Harris Beach Murtha) took place as scheduled Tuesday 1 PM CT; a recap is in his mailbox, personal matter, no further ledger tracking unless he raises it again
 - [x] 2026-09-29 — PLOS Mental Health PMEN-D-26-00318 CLOSED (his word): reviewers assigned directly in Editorial Manager before the Monday 9:39 AM window expired — done in the portal, so no email trail. Correction: the brief had miscounted the 24-hour window as already expired at delivery time (12:34 PM UTC = 7:34 AM CT, before the 9:39 AM CT deadline); flagged by Mohammed and fixed
 - [x] 2026-09-29 — Nikole Orlando CLOSED: Mohammed replied with understanding Sunday night; she thanked him Monday and submitted the assignment; a roster mix-up (Becky Light) meant Mohammed personally handed grading to Emma Davies
 - [x] 2026-09-29 — UTA - Ellie Solomon roster question closed: Mohammed confirmed to Kirsten that Ellie dropping the TA position is fine, no further action
