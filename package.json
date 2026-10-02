@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "docx": "^9.7.2",
+    "docx": "^9.8.1",
     "playwright": "^1.63.0"
   }
 }
