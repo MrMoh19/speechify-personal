@@ -6,7 +6,6 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ### Today (Fri Oct 2)
 - [ ] Lorena call, 11 AM–12:30 PM CT: next-steps conversation on the CDoH paper, now that the resubmission itself is in — added to Google Calendar
-- [ ] AJ Short is still waiting on you to contact Dean Galea's office about streaming his PHS1000 "Why Health" visit before she loops in A/V — said yes Tuesday, outreach itself still hasn't gone out
 - [ ] Two collaborator notes are unanswered: Ellie Solomon's hypertension-research note and Bella Gomez's second follow-up on the MaRVIN manuscript (Yale, since Sep 21)
 - [ ] JTS/JOTS copy edit (Tara Pierson Hoey, manuscript 1390286): tracked-changes Word doc attached Sep 29, return within 1 week (~by Oct 6) or propose your own deadline
 - [ ] PLOS queue still pending a decision: PMEN-D-26-00498 (self-compassion/PTSD) handling invite + PONE-D-26-40308 (Oginni, Zambia stunting) reviewer invite, now on its second reminder
@@ -40,6 +39,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Done
 
+- [x] 2026-10-02 — Dean Galea outreach SENT: emailed Sandro directly (cc AJ) on streaming/recording the PHS1000 "Why Health" visit, plus a format idea — keep it like his past lectures, or a lecture (~1h45) with a moderated Q&A (~15 min, pre-submitted + live questions). Awaiting his call; AJ can now loop in A/V once he answers
 - [x] 2026-10-02 — WHO Bulletin CDoH resubmission (BLT/2026/296735) SUBMITTED and acknowledged by the journal, overnight Oct 1→2 — met the self-stated Oct 1 date; Lorena's 11 AM call today now covers next steps rather than the deadline itself
 - [x] 2026-10-02 — AI survey planning call held Oct 1 with Ross Brownson and Jennifer Layden: direction set (diffusion-of-innovation framework, standalone vs. PH WINS module), timeline through May; Mohammed's follow-ups carried to Today
 - [x] 2026-10-02 — A student's exam-access failure (Respondus/LockDown) resolved: Mohammed personally gave his phone number for a call; the student completed a paper version instead
