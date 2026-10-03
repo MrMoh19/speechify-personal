@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Farrlandia Challenge | Epidemiology Matters</title>
+  <meta name="description" content="Six levels, one outbreak. Investigate the Snow Pump outbreak in Farrlandia: build the epidemic curve, find the source, survive the confounding trap, and earn your rank." />
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter+Tight:wght@500;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles/main.css" />
+  <style>
+    .ch-wrap{max-width:860px;margin:0 auto;padding:var(--space-6) var(--space-4);}
+    .ch-letterhead{font-family:'JetBrains Mono',monospace;font-size:0.62rem;letter-spacing:0.22em;text-transform:uppercase;color:var(--ink-mute);display:flex;justify-content:space-between;border-bottom:2px solid var(--ink);padding-bottom:8px;margin-bottom:var(--space-5);}
+    .ch-letterhead .red{color:var(--signal);}
+    .ch-title{font-family:'Oswald',sans-serif;font-weight:700;text-transform:uppercase;font-size:clamp(1.8rem,5vw,2.8rem);line-height:1.05;margin:0 0 var(--space-3);}
+    .ch-lede{font-family:'Source Serif 4',serif;font-size:1rem;line-height:1.7;color:var(--ink-2);max-width:620px;}
+    .ch-map{margin-top:var(--space-5);border:1px solid var(--rule);}
+    .ch-level{display:flex;align-items:center;gap:var(--space-4);padding:14px var(--space-4);border-bottom:1px solid var(--rule);}
+    .ch-level:last-child{border-bottom:none;}
+    .ch-level__num{font-family:'Oswald',sans-serif;font-weight:700;font-size:1.3rem;width:2rem;color:var(--pop-grey-deep);}
+    .ch-level.is-open .ch-level__num{color:var(--signal);}
+    .ch-level.is-done .ch-level__num{color:var(--ink);}
+    .ch-level__name{flex:1;font-family:'Oswald',sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:0.04em;font-size:0.95rem;}
+    .ch-level__meta{font-family:'JetBrains Mono',monospace;font-size:0.68rem;color:var(--ink-mute);}
+    .ch-level .btn{padding:8px 16px;font-size:0.72rem;}
+    .ch-level.is-locked{opacity:0.45;}
+    .ch-stage{display:none;}
+    .ch-stage.is-on{display:block;}
+    .ch-home.is-off{display:none;}
+    .memo{border:1px solid var(--ink);padding:var(--space-4) var(--space-5);margin-bottom:var(--space-5);position:relative;background:var(--paper-sunk,#fafbfc);}
+    .memo__tag{position:absolute;top:-10px;left:16px;background:#fff;padding:0 8px;font-family:'JetBrains Mono',monospace;font-size:0.6rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--signal);}
+    .memo p{font-family:'Source Serif 4',serif;font-size:0.95rem;line-height:1.7;color:var(--ink-2);margin:0 0 8px;}
+    .memo p:last-child{margin-bottom:0;}
+    .ch-q{margin-top:var(--space-5);border-top:1px solid var(--rule);padding-top:var(--space-4);}
+    .ch-q__text{font-family:'Oswald',sans-serif;font-weight:600;font-size:1.05rem;margin-bottom:var(--space-3);}
+    .ch-input-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;}
+    .ch-num{font-family:'JetBrains Mono',monospace;font-size:1rem;padding:10px 14px;border:1px solid var(--ink);width:160px;background:#fff;}
+    .ch-choice{display:block;width:100%;text-align:left;font-family:'Source Serif 4',serif;font-size:0.95rem;padding:12px 16px;border:1px solid var(--rule);background:#fff;cursor:pointer;margin-bottom:8px;transition:border-color .15s;}
+    .ch-choice:hover{border-color:var(--signal);}
+    .ch-choice.is-wrong{border-color:var(--pop-grey-deep);color:var(--ink-mute);text-decoration:line-through;}
+    .ch-choice.is-right{border-color:var(--signal);color:var(--signal);font-weight:600;}
+    .ch-feedback{margin-top:10px;font-family:'Source Serif 4',serif;font-size:0.92rem;line-height:1.6;min-height:1.5em;}
+    .ch-feedback.ok{color:var(--signal);}
+    .ch-feedback.no{color:var(--ink-mute);}
+    .ch-hud{display:flex;justify-content:space-between;align-items:center;margin-bottom:var(--space-4);font-family:'JetBrains Mono',monospace;font-size:0.7rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--ink-mute);}
+    .ch-hud .score{color:var(--ink);}
+    .ch-hint{background:none;border:1px solid var(--rule);font-family:'JetBrains Mono',monospace;font-size:0.65rem;letter-spacing:0.1em;text-transform:uppercase;padding:6px 12px;cursor:pointer;color:var(--ink-mute);}
+    .ch-hint:hover{border-color:var(--signal);color:var(--signal);}
+    .ch-hint-text{display:none;margin-top:8px;font-family:'Source Serif 4',serif;font-style:italic;font-size:0.88rem;color:var(--ink-mute);}
+    .ch-hint-text.is-on{display:block;}
+    .ch-next{margin-top:var(--space-4);}
+    .ch-table{width:100%;border-collapse:collapse;font-size:0.9rem;margin:var(--space-3) 0;}
+    .ch-table th{font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:0.72rem;letter-spacing:0.06em;text-align:left;border-bottom:2px solid var(--ink);padding:7px 10px;}
+    .ch-table td{border-bottom:1px solid var(--rule);padding:7px 10px;font-family:'JetBrains Mono',monospace;font-size:0.82rem;}
+    .ch-table td:first-child{font-family:'Source Serif 4',serif;font-size:0.9rem;}
+    .ch-curve{width:100%;height:auto;display:block;margin:var(--space-3) 0;}
+    .cert{border:2px solid var(--ink);padding:var(--space-6);text-align:center;position:relative;}
+    .cert::before{content:'';position:absolute;inset:8px;border:1px solid var(--rule);pointer-events:none;}
+    .cert h2{font-family:'Oswald',sans-serif;font-weight:700;text-transform:uppercase;font-size:1.6rem;margin:4px 0;}
+    .cert .rank{color:var(--signal);font-size:2rem;}
+    .cert p{font-family:'Source Serif 4',serif;font-size:0.95rem;color:var(--ink-2);margin:6px 0;}
+    .cert .mono{font-family:'JetBrains Mono',monospace;font-size:0.7rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--ink-mute);}
+    .cert input{font-family:'Oswald',sans-serif;font-size:1.2rem;text-align:center;border:none;border-bottom:1px solid var(--ink);outline:none;padding:4px 10px;width:min(360px,80%);background:transparent;}
+    @media print{.topnav,.sitefoot,.ch-hud,.no-print{display:none !important;} body{background:#fff;}}
+  </style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Epidemiology Matters","item":"https://epidemiologymatters.com/"},{"@type":"ListItem","position":2,"name":"The Farrlandia Challenge","item":"https://epidemiologymatters.com/challenge/"}]}</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="topnav">
+    <div class="topnav__inner">
+      <a href="../index.html" class="wordmark" aria-label="Epidemiology Matters home">
+        <svg class="wordmark__sig" viewBox="0 0 48 96" aria-hidden="true">
+          <circle cx="24" cy="9" r="7" fill="currentColor"/>
+          <path d="M 14 19 L 19 17 L 29 17 L 34 19 L 39 30 L 41 48 L 37 49 L 35 30 L 33 50 L 31 92 L 27 92 L 25 58 L 23 58 L 21 92 L 17 92 L 15 50 L 13 30 L 11 49 L 7 48 L 9 30 Z" fill="currentColor"/>
+        </svg>
+        Epidemiology<em>Matters</em>
+        <span class="wordmark__sub">The Challenge</span>
+      </a>
+      <nav aria-label="Primary">
+        <ul class="topnav__links" id="navlinks">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../lab/index.html">Causal Lab</a></li>
+          <li><a href="../explore/index.html">Companion</a></li>
+          <li><a href="../farrlandia/index.html">Farrlandia</a></li>
+          <li><a href="../library/index.html">Library</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navlinks">
+        <svg width="16" height="12" viewBox="0 0 16 12" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="0" y1="2" x2="16" y2="2"/><line x1="0" y1="6" x2="16" y2="6"/><line x1="0" y1="10" x2="16" y2="10"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="ch-wrap">
+      <div class="ch-letterhead"><span>Farrlandia Ministry of Health &middot; Field Epidemiology Service</span><span class="red">Training exercise</span></div>
+
+      <div class="ch-home" id="chHome">
+        <h1 class="ch-title">The Farrlandia Challenge</h1>
+        <p class="ch-lede">An outbreak of acute gastrointestinal illness has struck Farrlandia: 726 cases in six weeks. You are the investigating officer. Six levels take you from the first alarm to the final report, and each one is scored. The inter-school competition opens in Fall 2028; these training levels are open now, to anyone.</p>
+        <p class="ch-lede" style="margin-top:10px;">Your progress saves in this browser. You will need nothing but arithmetic and judgement.</p>
+        <div class="ch-map" id="chMap"></div>
+      </div>
+
+      <div class="ch-stage" id="chStage"></div>
+    </div>
+  </main>
+
+  <footer class="sitefoot" style="margin-top:var(--space-6);">
+    <div class="container">
+      <div class="sitefoot__sig">
+        <svg viewBox="0 0 48 96" aria-hidden="true">
+          <circle cx="24" cy="9" r="7" fill="currentColor"/>
+          <path d="M 14 19 L 19 17 L 29 17 L 34 19 L 39 30 L 41 48 L 37 49 L 35 30 L 33 50 L 31 92 L 27 92 L 25 58 L 23 58 L 21 92 L 17 92 L 15 50 L 13 30 L 11 49 L 7 48 L 9 30 Z" fill="currentColor"/>
+        </svg>
+        <span>Epidemiology Matters</span>
+      </div>
+      <div class="sitefoot__copy" style="margin-top:var(--space-4);">
+        <span>Keyes &middot; Abba-Aji &middot; Galea &middot; Oxford University Press</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="challenge-data.js"></script>
+  <script src="challenge.js"></script>
+  <script src="../scripts/search.js" defer></script>
+</body>
+</html>
