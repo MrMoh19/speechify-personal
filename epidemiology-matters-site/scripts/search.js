@@ -15,8 +15,7 @@
   })();
 
   var INDEX = [
-    { t: 'Home', u: 'index.html', d: 'These people live in the same town. Why do some get sick?', k: 'homepage landing start town crowd residents' },
-    { t: 'Investigation No. 1', u: 'index.html#investigate', d: 'Count the town, choose a measure, make a comparison, report the finding. The first field exercise, computed live from the census sample.', k: 'investigation field notebook count measure compare report denominator risk ratio samuel okonkwo margaret croft amina yusuf' },
+    { t: 'Home', u: 'index.html', d: 'Almost everything you believe about your health began as a pattern in a population.', k: 'homepage landing start' },
     { t: 'Does Coffee Cause Heart Attacks?', u: 'index.html#hook', d: 'A 60-second playable story about confounding. No epi vocabulary required.', k: 'coffee hook puzzle confounding smoking play interactive' },
     { t: 'Causal Thinking Lab', u: 'lab/index.html', d: 'Build a world, add bias on purpose, watch estimates distort. Five classroom scenarios.', k: 'lab causal bias confounding simpson paradox measurement error selection scenarios plain language technical' },
     { t: 'Interactive Companion', u: 'explore/index.html', d: 'Prevalence, causation, the seven steps, and the study design builder.', k: 'explore companion tools interactive chapter' },
