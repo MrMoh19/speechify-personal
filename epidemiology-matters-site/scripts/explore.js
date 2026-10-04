@@ -346,6 +346,7 @@
   var toggle = document.querySelector('.nav-toggle');
   var links = document.getElementById('navlinks');
   if (toggle && links) {
+    toggle.dataset.emNavBound = '1';
     toggle.addEventListener('click', function () {
       var open = links.classList.toggle('is-open');
       toggle.setAttribute('aria-expanded', String(open));

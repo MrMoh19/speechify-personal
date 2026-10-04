@@ -173,3 +173,16 @@
     nav.insertBefore(li, ctaLi);
   }
 })();
+
+// ---------- Mobile nav toggle (pages without their own binding) ----------
+(function () {
+  'use strict';
+  var toggle = document.querySelector('.nav-toggle');
+  var links = document.getElementById('navlinks');
+  if (!toggle || !links || toggle.dataset.emNavBound) return;
+  toggle.dataset.emNavBound = '1';
+  toggle.addEventListener('click', function () {
+    var open = links.classList.toggle('is-open');
+    toggle.setAttribute('aria-expanded', String(open));
+  });
+})();
