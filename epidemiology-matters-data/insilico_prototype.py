@@ -2,8 +2,8 @@
 """
 Farrlandia in silico experiments: a working prototype.
 
-Two demonstrations, both run on the published census
-(epidemiology-matters-site/farrlandia/census/farrlandia-census.csv):
+Two demonstrations, both run on the published census and the published
+contact network (farrlandia-census.csv, farrlandia-contacts.csv):
 
   A. The trial nobody can run. Randomize smoking cessation among
      Farrlandia's smokers and follow them forward under the census's own
@@ -12,82 +12,32 @@ Two demonstrations, both run on the published census
      be set against the confounded observational contrast.
 
   B. The question a trial answers incompletely. An agent-based
-     SIR epidemic on a contact network (households, workplaces,
-     neighbourhoods). An individually randomized vaccine trial inside the
+     SIR epidemic on the census's household / workplace / community
+     network. An individually randomized vaccine trial inside the
      epidemic recovers the direct effect; only the two-world simulation
      reveals the indirect (herd) protection, which the trial-based
      projection misses.
 
-The CVD risk equation is copied from generate_census.py and must match it.
-Phase 0 of the roadmap moves these equations into a shared module so there
-is one source of truth.
+Risk equations come from farrlandia_dgp.py, the same module the census
+generator draws from, so simulation and census share one truth.
 
 Deterministic: every run of this script prints the same numbers.
 """
 
 import csv
-import math
 import os
 import random
 import statistics
 
+import farrlandia_dgp as dgp
+
 HERE = os.path.dirname(os.path.abspath(__file__))
-CENSUS = os.path.join(HERE, "..", "epidemiology-matters-site",
-                      "farrlandia", "census", "farrlandia-census.csv")
+CENSUS_DIR = os.path.join(HERE, "..", "epidemiology-matters-site",
+                          "farrlandia", "census")
+CENSUS = os.path.join(CENSUS_DIR, "farrlandia-census.csv")
+CONTACTS = os.path.join(CENSUS_DIR, "farrlandia-contacts.csv")
 
 PROTO_SEED = 20280701
-
-
-def logistic(x):
-    return 1.0 / (1.0 + math.exp(-x))
-
-
-def load_census():
-    with open(CENSUS, newline="") as f:
-        rows = []
-        for r in csv.DictReader(f):
-            rows.append(dict(
-                id=int(r["id"]),
-                age=int(r["age"]),
-                female=1 if r["sex"] == "female" else 0,
-                district=r["district"],
-                ses=int(r["ses"]),
-                occupation=r["occupation"],
-                smoking=int(r["smoking"]),
-                poll=int(r["air_pollution"]),
-                diet=int(r["poor_diet"]),
-                inact=int(r["physical_inactivity"]),
-                alc=int(r["heavy_alcohol"]),
-                bmi=float(r["bmi"]),
-                sbp=int(r["systolic_bp"]),
-                famhx=int(r["family_history_cvd"]),
-                cvd=int(r["cvd"]),
-            ))
-    return rows
-
-
-# ----------------------------------------------------------------------
-# The CVD risk equation, verbatim from generate_census.py.
-# ----------------------------------------------------------------------
-
-def p_cvd(p, smoking, sbp):
-    low_ses = p["ses"] <= 2
-    l = (-4.35 + 0.75 * smoking + 0.4 * p["poll"] + 0.030 * (p["age"] - 40)
-         + 0.35 * p["diet"] + 0.3 * p["inact"] + (0.35 if low_ses else 0)
-         + 0.45 * p["alc"] + (0.4 if not p["female"] else 0)
-         + 0.020 * (sbp - 120) + 0.03 * (p["bmi"] - 26.5) + 0.65 * p["famhx"])
-    return logistic(l)
-
-
-def cf_probs(p):
-    """Risk of CVD if this person smokes vs if they do not.
-
-    Smoking raises systolic blood pressure by 3 mmHg in the DGP, so the
-    counterfactual swaps that contribution too (total effect).
-    """
-    sbp_as_smoker = p["sbp"] + (0 if p["smoking"] else 3)
-    sbp_as_nonsmoker = p["sbp"] - (3 if p["smoking"] else 0)
-    return p_cvd(p, 1, sbp_as_smoker), p_cvd(p, 0, sbp_as_nonsmoker)
 
 
 # ----------------------------------------------------------------------
@@ -108,15 +58,16 @@ def experiment_a(rows):
     print(f"  CVD risk {100*r1:.1f} vs {100*r0:.1f} per 100 -> crude RR {r1/r0:.2f}")
 
     # Exact causal truth from the DGP (standardization over the population).
-    p1_all = [cf_probs(p)[0] for p in rows]
-    p0_all = [cf_probs(p)[1] for p in rows]
+    p1_all = [dgp.cvd_prob(p, smoking=1) for p in rows]
+    p0_all = [dgp.cvd_prob(p, smoking=0) for p in rows]
     true_rr_pop = (sum(p1_all) / len(rows)) / (sum(p0_all) / len(rows))
     print(f"\nTruth under the DGP (everyone smokes vs nobody smokes):")
     print(f"  marginal causal RR {true_rr_pop:.2f}"
           f"  (the gap from {r1/r0:.2f} is confounding)")
 
     # The trial population: current smokers. Truth for quitting among them.
-    pairs = [cf_probs(p) for p in smk]
+    pairs = [(dgp.cvd_prob(p, smoking=1), dgp.cvd_prob(p, smoking=0))
+             for p in smk]
     true_quit_rr = (sum(q for _, q in pairs) / len(pairs)) / \
                    (sum(s for s, _ in pairs) / len(pairs))
     print(f"\nTrial question: among Farrlandia's {len(smk)} smokers, what does"
@@ -156,14 +107,7 @@ def experiment_a(rows):
 # Experiment B: epidemic ABM, a vaccine trial inside it, and herd effects
 # ----------------------------------------------------------------------
 
-HH_SIZES = [1, 2, 3, 4, 5]
-HH_WEIGHTS = [0.28, 0.34, 0.18, 0.13, 0.07]
-WORK_SIZE = {"coal miner": 15, "factory worker": 25, "farmhand": 10,
-             "office worker": 12, "service worker": 12}
-
-BETA_HOUSE = 0.055      # per contact per day
-BETA_WORK = 0.014
-BETA_COMM = 0.007
+BETA = {"household": 0.055, "workplace": 0.014, "community": 0.007}
 INF_DAYS = 7
 T_DAYS = 150
 N_SEEDS = 10
@@ -171,60 +115,22 @@ VAX_COVER = 0.40
 VAX_EFF = 0.70          # leaky: scales susceptibility
 
 
-def build_network(rows, rng):
-    n = len(rows)
-    nbrs = [[] for _ in range(n)]
-
-    def link(group, beta):
-        for i in range(len(group)):
-            for j in range(i + 1, len(group)):
-                a, b = group[i], group[j]
-                nbrs[a].append((b, beta))
-                nbrs[b].append((a, beta))
-
-    # households within district
-    by_dist = {}
-    for i, p in enumerate(rows):
-        by_dist.setdefault(p["district"], []).append(i)
-    for members in by_dist.values():
-        rng.shuffle(members)
-        k = 0
-        while k < len(members):
-            size = rng.choices(HH_SIZES, HH_WEIGHTS)[0]
-            link(members[k:k + size], BETA_HOUSE)
-            k += size
-
-    # workplaces within district and occupation
-    by_work = {}
-    for i, p in enumerate(rows):
-        if p["occupation"] in WORK_SIZE:
-            by_work.setdefault((p["district"], p["occupation"]), []).append(i)
-    for (d, occ), members in by_work.items():
-        rng.shuffle(members)
-        size = WORK_SIZE[occ]
-        for k in range(0, len(members), size):
-            link(members[k:k + size], BETA_WORK)
-
-    # community: 3 within-district + 1 anywhere
-    for i, p in enumerate(rows):
-        pool = by_dist[p["district"]]
-        for _ in range(3):
-            j = pool[int(rng.random() * len(pool))]
-            if j != i:
-                nbrs[i].append((j, BETA_COMM))
-                nbrs[j].append((i, BETA_COMM))
-        j = int(rng.random() * n)
-        if j != i:
-            nbrs[i].append((j, BETA_COMM))
-            nbrs[j].append((i, BETA_COMM))
+def load_network(rows):
+    idx = {p["id"]: i for i, p in enumerate(rows)}
+    nbrs = [[] for _ in rows]
+    with open(CONTACTS, newline="") as f:
+        for e in csv.DictReader(f):
+            a, b = idx[int(e["person_a"])], idx[int(e["person_b"])]
+            beta = BETA[e["layer"]]
+            nbrs[a].append((b, beta))
+            nbrs[b].append((a, beta))
     return nbrs
 
 
 def run_epidemic(rows, nbrs, vaccinated, rng):
     """SIR. vaccinated is a set of indices with leaky protection."""
-    n = len(rows)
-    sus = [True] * n
-    days_left = [0] * n
+    sus = [True] * len(rows)
+    days_left = [0] * len(rows)
     snow = [i for i, p in enumerate(rows) if p["district"] == "Snow"]
     infectious = []
     for i in rng.sample(snow, N_SEEDS):
@@ -262,11 +168,12 @@ def experiment_b(rows):
     print("B. EPIDEMIC POLICY: what a trial sees vs what the town gets")
     print("=" * 70)
     rng = random.Random(PROTO_SEED + 1)
-    nbrs = build_network(rows, rng)
+    nbrs = load_network(rows)
     n = len(rows)
     deg = statistics.fmean(len(a) for a in nbrs)
-    print(f"\nContact network: {n} residents, mean {deg:.1f} contacts each"
-          "\n(households, workplaces, neighbourhood).")
+    print(f"\nContact network: the published farrlandia-contacts.csv,"
+          f"\n{n} residents, mean {deg:.1f} contacts each"
+          " (household, workplace, community).")
 
     RUNS = 12
     base_runs, pol_runs, rr_runs = [], [], []
@@ -312,7 +219,7 @@ def experiment_b(rows):
 
 
 def main():
-    rows = load_census()
+    rows = dgp.load_census(CENSUS)
     print(f"Loaded {len(rows)} residents from the published census.\n")
     experiment_a(rows)
     experiment_b(rows)

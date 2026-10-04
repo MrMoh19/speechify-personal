@@ -26,6 +26,8 @@
     .code-tab.is-active{border-color:var(--signal);color:var(--signal);}
     .code-block{background:var(--ink);color:#e8e8e6;font-family:'JetBrains Mono',monospace;font-size:0.78rem;line-height:1.7;padding:var(--space-4);overflow-x:auto;margin-top:8px;display:none;}
     .code-block.is-on{display:block;}
+    .net-code{background:var(--ink);color:#e8e8e6;font-family:'JetBrains Mono',monospace;font-size:0.78rem;line-height:1.7;padding:var(--space-4);overflow-x:auto;margin-top:8px;display:block;}
+    .net-code-label{font-family:'JetBrains Mono',monospace;font-size:0.62rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--ink-mute);margin-top:var(--space-4);}
     .lesson{border:1px solid var(--rule);border-left:3px solid var(--signal);padding:var(--space-4);margin-top:var(--space-3);}
     .lesson h4{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:0.04em;font-size:0.9rem;margin:0 0 6px;}
     .lesson p{font-family:'Source Serif 4',serif;font-size:0.88rem;line-height:1.65;color:var(--ink-2);margin:0;}
@@ -36,7 +38,7 @@
     .overflow-x{overflow-x:auto;}
   </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Epidemiology Matters","item":"https://epidemiologymatters.com/"},{"@type":"ListItem","position":2,"name":"Explore Farrlandia","item":"https://epidemiologymatters.com/farrlandia/"},{"@type":"ListItem","position":3,"name":"The Farrlandia Census","item":"https://epidemiologymatters.com/farrlandia/census/"}]}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"The Farrlandia Census","description":"A simulated population of 10,000 residents with a documented causal structure, built as the companion teaching dataset to Epidemiology Matters (Keyes, Abba-Aji & Galea, Oxford University Press). Includes demographics, exposures, biomarkers, and health outcomes with deliberate confounding, effect-measure modification, and selection structures.","url":"https://epidemiologymatters.com/farrlandia/census/","creator":[{"@type":"Person","name":"Katherine M. Keyes"},{"@type":"Person","name":"Mohammed Abba-Aji"},{"@type":"Person","name":"Sandro Galea"}],"distribution":[{"@type":"DataDownload","encodingFormat":"text/csv","contentUrl":"https://epidemiologymatters.com/farrlandia/census/farrlandia-census.csv"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"The Farrlandia Census","description":"A simulated population of 10,000 residents with a documented causal structure, built as the companion teaching dataset to Epidemiology Matters (Keyes, Abba-Aji & Galea, Oxford University Press). Includes demographics, exposures, biomarkers, and health outcomes with deliberate confounding, effect-measure modification, and selection structures.","url":"https://epidemiologymatters.com/farrlandia/census/","creator":[{"@type":"Person","name":"Katherine M. Keyes"},{"@type":"Person","name":"Mohammed Abba-Aji"},{"@type":"Person","name":"Sandro Galea"}],"distribution":[{"@type":"DataDownload","encodingFormat":"text/csv","contentUrl":"https://epidemiologymatters.com/farrlandia/census/farrlandia-census.csv"},{"@type":"DataDownload","encodingFormat":"text/csv","name":"Contact network edge list","contentUrl":"https://epidemiologymatters.com/farrlandia/census/farrlandia-contacts.csv"}]}</script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to main content</a>
@@ -74,7 +76,7 @@
         <p class="lede" style="margin-top:var(--space-3);max-width:640px;">Farrlandia, counted in full: 10,000 residents with their demographics, exposures, biomarkers, and health outcomes. We built the census from a documented causal structure, so you can run any analysis and then check your answer against the process that produced the data. The <a href="../index.html">interactive explorer</a> works from a 1,000-person random sample of this census. Download the full file and analyze it in whatever software you have.</p>
         <div class="census-dl">
           <a class="btn btn--signal" href="farrlandia-census.csv" download>Download the census (CSV) <span class="arrow"></span></a>
-          <span class="census-meta">10,000 rows &middot; 30 variables &middot; 1.1&nbsp;MB &middot; opens in R, Stata, SPSS, SAS, Python, jamovi, Excel</span>
+          <span class="census-meta">10,000 rows &middot; 32 variables &middot; 1.2&nbsp;MB &middot; opens in R, Stata, SPSS, SAS, Python, jamovi, Excel</span>
         </div>
         <div class="code-tabs" role="tablist">
           <button class="code-tab is-active" data-lang="r">R</button>
@@ -102,7 +104,7 @@ CROSSTABS /TABLES=smoking BY lung_cancer /CELLS=ROW.</pre>
         <div class="section-head">
           <div><p class="section-head__num">Codebook</p></div>
           <div>
-            <h2 class="section-head__title">The 30 Variables</h2>
+            <h2 class="section-head__title">The 32 Variables</h2>
             <p class="section-head__lede">Binary variables are coded 1 = yes, 0 = no. There are no missing values: this is a census, and every resident answered every question.</p>
           </div>
         </div>
@@ -140,9 +142,38 @@ CROSSTABS /TABLES=smoking BY lung_cancer /CELLS=ROW.</pre>
             <tr><td>injury_past_year</td><td>0/1</td><td>Injury requiring medical attention, past year (&asymp;11%).</td></tr>
             <tr><td>clinic_visit_past_year</td><td>0/1</td><td>Attended the Farrlandia clinic in the past year (&asymp;36%). See teaching point D before conditioning on this variable.</td></tr>
             <tr><td>followup_years</td><td>years</td><td>Person-years of follow-up in the Farrlandia cohort, 4.0&ndash;10.0.</td></tr>
+            <tr><td>household_id</td><td>text</td><td>Shared dwelling (H0001&ndash;H4207). Household members live in one district, draw the same water, and tend toward similar socioeconomic position. Useful as a clustering level in multilevel models.</td></tr>
+            <tr><td>workplace_id</td><td>text</td><td>Employer group (W0001&ndash;) for working residents: colliery crews of about 15, factory shifts of about 25, farm teams, offices. Empty for retired, student, and unemployed residents.</td></tr>
           </tbody>
         </table>
         </div>
+      </div>
+    </section>
+
+    <section class="section" style="border-top:1px solid var(--rule);" id="network">
+      <div class="container" style="max-width:880px;">
+        <div class="section-head">
+          <div><p class="section-head__num">For Simulation</p></div>
+          <div>
+            <h2 class="section-head__title">The Contact Network</h2>
+            <p class="section-head__lede">Who meets whom in Farrlandia. Every resident's contacts come as an edge list in three layers: household (everyone in a shared dwelling), workplace (colliery crews, factory shifts, farm teams, offices), and community (neighbourhood acquaintances). Together with the census it supports transmission models, agent-based simulation, and network analysis on a population whose causal structure is fully documented.</p>
+          </div>
+        </div>
+        <p style="margin-top:var(--space-4);">
+          <a class="btn btn--signal" href="farrlandia-contacts.csv" download>Download the contact network (CSV) <span class="arrow"></span></a>
+          <span class="census-meta" style="display:inline-block;margin-left:12px;">90,890 edges &middot; 3 columns (person_a, person_b, layer) &middot; 2.0&nbsp;MB</span>
+        </p>
+        <p class="lede" style="font-size:0.95rem;margin-top:var(--space-4);">The layers hold 10,056 household ties, 41,048 workplace ties, and 39,786 community ties, a mean of 18 contacts per resident. The network is deterministic: it is generated with the census from the same fixed seed, so an analysis written today runs unchanged next year.</p>
+        <p class="net-code-label">R &middot; igraph</p>
+        <pre class="net-code">edges &lt;- read.csv("https://epidemiologymatters.com/farrlandia/census/farrlandia-contacts.csv")
+library(igraph)
+g &lt;- graph_from_data_frame(edges, directed = FALSE)
+summary(g)</pre>
+        <p class="net-code-label">Python &middot; networkx</p>
+        <pre class="net-code">import pandas as pd, networkx as nx
+edges = pd.read_csv("https://epidemiologymatters.com/farrlandia/census/farrlandia-contacts.csv")
+G = nx.from_pandas_edgelist(edges, "person_a", "person_b", edge_attr="layer")
+print(G)</pre>
       </div>
     </section>
 

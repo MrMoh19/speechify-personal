@@ -36,9 +36,11 @@ Reproducible: fixed seed. Do not edit the CSV by hand; edit this script.
 """
 
 import csv
-import math
 import random
 import os
+
+import farrlandia_dgp as dgp
+from farrlandia_dgp import logistic
 
 SEED = 20280402
 N = 10000
@@ -50,10 +52,6 @@ CSV_OUT = os.path.join(SITE, "farrlandia", "census", "farrlandia-census.csv")
 JS_OUT = os.path.join(SITE, "scripts", "farr-data.js")
 
 DISTRICTS = ["", "Snow", "Nightingale", "Hill", "Doll", "Rose"]
-
-
-def logistic(x):
-    return 1.0 / (1.0 + math.exp(-x))
 
 
 def generate():
@@ -72,8 +70,8 @@ def generate():
 
         # education from SES
         r = rng.random()
-        p_tert = logistic(-1.4 + 0.8 * (ses - 3))
-        p_prim = logistic(-1.6 - 0.55 * (ses - 3))
+        p_tert = logistic(dgp.tertiary_edu_logit(ses))
+        p_prim = logistic(dgp.primary_edu_logit(ses))
         if r < p_tert:
             edu = "tertiary"
         elif r < p_tert + p_prim:
@@ -81,7 +79,7 @@ def generate():
         else:
             edu = "secondary"
 
-        insured = 1 if rng.random() < logistic(0.3 + 0.55 * (ses - 3)) else 0
+        insured = 1 if rng.random() < logistic(dgp.insured_logit(ses)) else 0
 
         # ---- structure: occupation & water source ----
         # Hill hosts the colliery; Snow the factories and the Snow Pump.
@@ -121,77 +119,56 @@ def generate():
             if occ in ("unemployed", "service worker") and rng.random() < 0.45:
                 laid = 1
 
-        # ---- exposures ----
-        smoking = 1 if rng.random() < logistic(-1.15 + (0.7 if low_ses else 0)
-                                               - (0.5 if ses >= 4 else 0)
-                                               + (0.2 if age > 45 else 0)) else 0
+        # ---- exposures (equations live in farrlandia_dgp.py) ----
+        smoking = 1 if rng.random() < logistic(dgp.smoking_logit(low_ses, ses >= 4, age)) else 0
         pack_years = round(max(0.0, (age - 18) * 0.35 * (0.5 + rng.random())), 1) if smoking else 0.0
         pack_years = min(pack_years, 60.0)
-        poll = 1 if rng.random() < logistic(-0.82 + (0.6 if dist in (1, 3) else 0)
-                                            + (0.4 if low_ses else 0)) else 0
-        diet = 1 if rng.random() < logistic(-0.75 + (0.7 if low_ses else 0)
-                                            - (0.3 if ses >= 4 else 0)) else 0
-        inact = 1 if rng.random() < logistic(-0.6 + (0.5 if low_ses else 0)
-                                             + (0.4 if age > 55 else 0)) else 0
+        poll = 1 if rng.random() < logistic(dgp.air_pollution_logit(dist in (1, 3), low_ses)) else 0
+        diet = 1 if rng.random() < logistic(dgp.poor_diet_logit(low_ses, ses >= 4)) else 0
+        inact = 1 if rng.random() < logistic(dgp.inactivity_logit(low_ses, age)) else 0
         # heavy alcohol concentrated in the young (drives Lesson B)
-        alc = 1 if rng.random() < logistic(-1.55 + (0.4 if not female else 0)
-                                           + (1.15 if age < 40 else 0)
-                                           - (1.1 if age > 60 else 0)) else 0
-        iso = 1 if rng.random() < logistic(-1.65 + (0.5 if low_ses else 0)
-                                           + (0.6 if age > 65 else 0)) else 0
+        alc = 1 if rng.random() < logistic(dgp.heavy_alcohol_logit(female, age)) else 0
+        iso = 1 if rng.random() < logistic(dgp.isolation_logit(low_ses, age)) else 0
 
-        bmi = 26.5 + 2.0 * diet + 1.7 * inact + 0.045 * (age - 40) \
-            - (1.1 if ses >= 4 else 0) + rng.gauss(0, 3.3)
+        bmi = dgp.bmi_mean(diet, inact, age, ses >= 4) + rng.gauss(0, 3.3)
         bmi = round(max(16.5, min(52.0, bmi)), 1)
-        sbp = 111 + 0.5 * (age - 40) + 0.55 * (bmi - 26.5) + 3 * smoking + 4 * alc + rng.gauss(0, 9)
+        sbp = dgp.sbp_mean(age, bmi, smoking, alc) + rng.gauss(0, 9)
         sbp = int(max(90, min(210, round(sbp))))
         famhx = 1 if rng.random() < 0.15 else 0
 
-        # ---- outcomes ----
-        cvd_l = (-4.35 + 0.75 * smoking + 0.4 * poll + 0.030 * (age - 40)
-                 + 0.35 * diet + 0.3 * inact + (0.35 if low_ses else 0)
-                 + 0.45 * alc + (0.4 if not female else 0)
-                 + 0.020 * (sbp - 120) + 0.03 * (bmi - 26.5) + 0.65 * famhx)
-        cvd = 1 if rng.random() < logistic(cvd_l) else 0
+        # ---- outcomes (equations live in farrlandia_dgp.py) ----
+        cvd = 1 if rng.random() < logistic(dgp.cvd_logit(
+            smoking, poll, age, diet, inact, low_ses, alc, female,
+            sbp, bmi, famhx)) else 0
 
-        dep_pre_l = (-2.95 + 1.0 * iso + (0.5 if low_ses else 0) + 0.4 * female
-                     + 0.3 * alc - 0.012 * (age - 42))
-        dep_pre = 1 if rng.random() < logistic(dep_pre_l) else 0
-        dep_l = (-3.3 + 0.9 * iso + (0.45 if low_ses else 0) + 0.35 * female
-                 + 0.3 * alc - 0.012 * (age - 40) + 1.7 * dep_pre + 0.95 * laid)
-        dep = 1 if rng.random() < logistic(dep_l) else 0
+        dep_pre = 1 if rng.random() < logistic(dgp.dep_pre_logit(
+            iso, low_ses, female, alc, age)) else 0
+        dep = 1 if rng.random() < logistic(dgp.dep_logit(
+            iso, low_ses, female, alc, age, dep_pre, laid)) else 0
 
-        lc_l = (-5.35 + 0.9 * smoking + 0.030 * pack_years + 0.5 * poll
-                + 0.85 * smoking * poll + 0.045 * (age - 40))
-        lc = 1 if rng.random() < logistic(lc_l) else 0
+        lc = 1 if rng.random() < logistic(dgp.lc_logit(
+            smoking, pack_years, poll, age)) else 0
 
-        t2d_l = (-3.6 + 0.085 * (bmi - 26.5) + 0.040 * (age - 40)
-                 + 0.45 * inact + 0.35 * diet + (0.3 if low_ses else 0))
-        t2d = 1 if rng.random() < logistic(t2d_l) else 0
+        t2d = 1 if rng.random() < logistic(dgp.t2d_logit(
+            bmi, age, inact, diet, low_ses)) else 0
 
-        inj_l = (-2.65 + 0.85 * alc + (0.5 if age < 30 else 0)
-                 + (0.4 if age >= 70 else 0) + (0.3 if not female else 0)
-                 + 0.5 * manual)
-        inj = 1 if rng.random() < logistic(inj_l) else 0
+        inj = 1 if rng.random() < logistic(dgp.injury_logit(
+            alc, age, female, manual)) else 0
 
         # Respiratory infection: the colliery's ambient dust burdens all of
         # Hill; mine work itself is the strongest driver. The Snow Pump has
         # NO effect here - the well is clean (Lesson F).
-        resp_l = (-2.15 + 1.2 * miner + (0.5 if dist == 3 else 0)
-                  + 0.5 * poll + 0.45 * smoking + (0.4 if age > 65 else 0)
-                  + (0.25 if low_ses else 0))
-        resp = 1 if rng.random() < logistic(resp_l) else 0
+        resp = 1 if rng.random() < logistic(dgp.resp_logit(
+            miner, dist == 3, poll, smoking, age, low_ses)) else 0
 
         somatic = 1 if (cvd or lc or t2d) else 0
         # The Nightingale Clinic opened eighteen months before the census,
         # so Nightingale residents get through a clinic door more often.
-        visit_l = (-2.5 + 2.3 * somatic + 2.3 * dep + 1.2 * insured
-                   + (0.9 if dist == 2 else 0)
-                   + (0.35 if age > 60 else 0) + 0.25 * female + 0.5 * inj)
-        visit = 1 if rng.random() < logistic(visit_l) else 0
+        visit = 1 if rng.random() < logistic(dgp.visit_logit(
+            somatic, dep, insured, dist == 2, age, female, inj)) else 0
         # Diabetes is diagnosed when someone is seen, and the new
         # Nightingale Clinic runs screening the older dispensaries do not.
-        t2d_dx = 1 if (t2d and rng.random() < ((0.85 if dist == 2 else 0.5) if visit else 0.18)) else 0
+        t2d_dx = 1 if (t2d and rng.random() < dgp.t2d_dx_prob(visit, dist == 2)) else 0
 
         followup = round(4 + rng.random() * 6, 1)   # 4.0 .. 10.0 person-years
 
@@ -210,6 +187,116 @@ def generate():
             followup_years=followup,
         ))
     return rows, random.Random(SEED + 1)
+
+
+# ---------- structure: households, workplaces, contact network ----------
+# Assigned after generation with separate seeds, so the columns above are
+# untouched. Households sit within one district and share a water source,
+# with members of broadly similar SES. Workplaces group working residents
+# by district and occupation; Hill's coal crews and Snow's plant shifts
+# fall out of the occupation structure already in the census.
+
+HH_SIZES = (1, 2, 3, 4, 5)
+HH_WEIGHTS = (0.28, 0.34, 0.18, 0.13, 0.07)
+WORK_SIZE = {"coal miner": 15, "factory worker": 25, "farmhand": 10,
+             "office worker": 12, "service worker": 12}
+CONTACTS_OUT = os.path.join(SITE, "farrlandia", "census",
+                            "farrlandia-contacts.csv")
+
+
+def assign_structure(rows):
+    hrng = random.Random(SEED + 2)
+    hid = 0
+    for d in range(1, 6):
+        for ws in ("snow pump", "municipal"):
+            grp = [r for r in rows
+                   if r["district"] == d and r["water_source"] == ws]
+            # soft sort by SES so households are socially alike, not uniform
+            grp.sort(key=lambda r: r["ses"] + hrng.gauss(0, 0.9))
+            i = 0
+            while i < len(grp):
+                size = hrng.choices(HH_SIZES, HH_WEIGHTS)[0]
+                hid += 1
+                for r in grp[i:i + size]:
+                    r["household_id"] = "H%04d" % hid
+                i += size
+
+    wrng = random.Random(SEED + 3)
+    wid = 0
+    for d in range(1, 6):
+        for occ in sorted(WORK_SIZE):
+            grp = [r for r in rows
+                   if r["district"] == d and r["occupation"] == occ]
+            if not grp:
+                continue
+            wrng.shuffle(grp)
+            size = WORK_SIZE[occ]
+            chunks = [grp[i:i + size] for i in range(0, len(grp), size)]
+            # fold a tiny trailing chunk into the previous workplace
+            if len(chunks) > 1 and len(chunks[-1]) < max(3, size // 3):
+                chunks[-2].extend(chunks.pop())
+            for chunk in chunks:
+                wid += 1
+                for r in chunk:
+                    r["workplace_id"] = "W%04d" % wid
+    for r in rows:
+        r.setdefault("workplace_id", "")
+
+    hh_count = len(set(r["household_id"] for r in rows))
+    wp_count = len(set(r["workplace_id"] for r in rows if r["workplace_id"]))
+    at_work = sum(1 for r in rows if r["workplace_id"])
+    print(f"structure: {hh_count} households (mean size "
+          f"{len(rows)/hh_count:.2f}), {wp_count} workplaces covering "
+          f"{at_work} working residents")
+
+
+def write_contacts(rows):
+    crng = random.Random(SEED + 4)
+    seen = set()
+    edges = []
+
+    def add(a, b, layer):
+        if a == b:
+            return
+        key = (a, b) if a < b else (b, a)
+        if key in seen:
+            return
+        seen.add(key)
+        edges.append((key[0], key[1], layer))
+
+    by_hh, by_wp, by_dist = {}, {}, {}
+    for r in rows:
+        by_hh.setdefault(r["household_id"], []).append(r["id"])
+        if r["workplace_id"]:
+            by_wp.setdefault(r["workplace_id"], []).append(r["id"])
+        by_dist.setdefault(r["district"], []).append(r["id"])
+
+    for members in by_hh.values():
+        for i in range(len(members)):
+            for j in range(i + 1, len(members)):
+                add(members[i], members[j], "household")
+    for members in by_wp.values():
+        for i in range(len(members)):
+            for j in range(i + 1, len(members)):
+                add(members[i], members[j], "workplace")
+    # neighbourhood: three acquaintances in the district, one anywhere
+    all_ids = [r["id"] for r in rows]
+    for r in rows:
+        pool = by_dist[r["district"]]
+        for _ in range(3):
+            add(r["id"], pool[int(crng.random() * len(pool))], "community")
+        add(r["id"], all_ids[int(crng.random() * len(all_ids))], "community")
+
+    with open(CONTACTS_OUT, "w", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["person_a", "person_b", "layer"])
+        w.writerows(edges)
+    by_layer = {}
+    for _, _, layer in edges:
+        by_layer[layer] = by_layer.get(layer, 0) + 1
+    print(f"contacts: {len(edges)} edges "
+          f"({', '.join(f'{k} {v}' for k, v in sorted(by_layer.items()))}); "
+          f"wrote {CONTACTS_OUT} ({os.path.getsize(CONTACTS_OUT)} bytes)")
 
 
 # ---------- validation helpers ----------
@@ -309,7 +396,8 @@ CSV_COLS = ["id", "age", "sex", "district", "ses", "education", "occupation",
             "cvd", "depression", "depression_2yr_ago", "lung_cancer",
             "type2_diabetes", "type2_diabetes_diagnosed",
             "resp_infection_past_year",
-            "injury_past_year", "clinic_visit_past_year", "followup_years"]
+            "injury_past_year", "clinic_visit_past_year", "followup_years",
+            "household_id", "workplace_id"]
 
 
 def write_csv(rows):
@@ -329,6 +417,7 @@ def write_csv(rows):
                 r["type2_diabetes"], r["type2_diabetes_diagnosed"],
                 r["resp_infection_past_year"],
                 r["injury_past_year"], r["clinic_visit_past_year"], r["followup_years"],
+                r["household_id"], r["workplace_id"],
             ])
     print(f"wrote {CSV_OUT} ({os.path.getsize(CSV_OUT)} bytes)")
 
@@ -489,9 +578,11 @@ def write_challenge_data(rows):
 
 if __name__ == "__main__":
     rows, sampler = generate()
+    assign_structure(rows)
     report(rows)
     write_csv(rows)
     write_sample_js(rows, sampler)
+    write_contacts(rows)
     write_challenge_data(rows)
     if OUTBREAK:
         write_outbreak(rows)
