@@ -163,7 +163,7 @@ CROSSTABS /TABLES=smoking BY lung_cancer /CELLS=ROW.</pre>
           <a class="btn btn--signal" href="farrlandia-contacts.csv" download>Download the contact network (CSV) <span class="arrow"></span></a>
           <span class="census-meta" style="display:inline-block;margin-left:12px;">90,890 edges &middot; 3 columns (person_a, person_b, layer) &middot; 2.0&nbsp;MB</span>
         </p>
-        <p class="lede" style="font-size:0.95rem;margin-top:var(--space-4);">The layers hold 10,056 household ties, 41,048 workplace ties, and 39,786 community ties, a mean of 18 contacts per resident. The network is deterministic: it is generated with the census from the same fixed seed, so an analysis written today runs unchanged next year.</p>
+        <p class="lede" style="font-size:0.95rem;margin-top:var(--space-4);">The layers hold 10,056 household ties, 41,048 workplace ties, and 39,786 community ties, a mean of 18 contacts per resident. The network is deterministic: it is generated with the census from the same fixed seed, so an analysis written today runs unchanged next year. To see these files at work without writing code, <a class="link" href="../../trial-grounds/index.html">the Trial Grounds</a> runs an in silico trial and an epidemic on them in your browser.</p>
         <p class="net-code-label">R &middot; igraph</p>
         <pre class="net-code">edges &lt;- read.csv("https://epidemiologymatters.com/farrlandia/census/farrlandia-contacts.csv")
 library(igraph)

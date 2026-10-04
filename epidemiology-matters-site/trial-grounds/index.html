@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Trial Grounds | Epidemiology Matters</title>
+  <meta name="description" content="Run experiments on the Farrlandia Census in your browser: a randomized cessation trial checked against the exact causal answer, and an epidemic on the town's contact network that shows what trials cannot measure." />
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter+Tight:wght@500;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles/main.css" />
+  <style>
+    .tg-wrap{max-width:900px;margin:0 auto;padding:var(--space-6) var(--space-4);}
+    .tg-eyebrow{font-family:'JetBrains Mono',monospace;font-size:0.62rem;letter-spacing:0.22em;text-transform:uppercase;color:var(--ink-mute);border-bottom:2px solid var(--ink);padding-bottom:8px;margin-bottom:var(--space-5);display:flex;justify-content:space-between;}
+    .tg-eyebrow .red{color:var(--signal);}
+    .tg-title{font-family:'Oswald',sans-serif;font-weight:700;text-transform:uppercase;font-size:clamp(1.8rem,5vw,2.8rem);line-height:1.05;margin:0 0 var(--space-3);}
+    .tg-lede{font-family:'Source Serif 4',serif;font-size:1rem;line-height:1.7;color:var(--ink-2);max-width:640px;}
+    .tg-exp{border-top:1px solid var(--rule);margin-top:var(--space-6);padding-top:var(--space-5);}
+    .tg-exp__kicker{font-family:'JetBrains Mono',monospace;font-size:0.62rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--ink-mute);margin:0 0 6px;}
+    .tg-exp__title{font-family:'Oswald',sans-serif;font-weight:600;text-transform:uppercase;font-size:1.35rem;margin:0 0 var(--space-3);}
+    .tg-copy{font-family:'Source Serif 4',serif;font-size:0.96rem;line-height:1.7;color:var(--ink-2);max-width:640px;margin:0 0 var(--space-4);}
+    .tg-stats{display:flex;flex-wrap:wrap;gap:var(--space-4);margin:var(--space-4) 0;}
+    .tg-stat{border:1px solid var(--rule);padding:12px 18px;min-width:130px;}
+    .tg-stat b{display:block;font-family:'Oswald',sans-serif;font-size:1.5rem;font-weight:700;}
+    .tg-stat span{font-family:'JetBrains Mono',monospace;font-size:0.6rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--ink-mute);}
+    .tg-controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:var(--space-4) 0;}
+    .tg-controls .btn{padding:9px 18px;font-size:0.72rem;}
+    .tg-status{font-family:'JetBrains Mono',monospace;font-size:0.68rem;letter-spacing:0.08em;color:var(--ink-mute);min-height:1.2em;margin:4px 0 var(--space-3);}
+    .tg-chart{width:100%;height:auto;display:block;border:1px solid var(--rule);background:#fff;margin:var(--space-3) 0;}
+    .tg-tick{font-family:'JetBrains Mono',monospace;font-size:10px;fill:var(--ink-mute);}
+    .tg-lab{font-family:'Inter Tight',sans-serif;font-size:10.5px;font-weight:600;fill:var(--ink);}
+    .tg-read{font-family:'Source Serif 4',serif;font-size:0.95rem;line-height:1.7;color:var(--ink-2);max-width:640px;min-height:1.5em;}
+    .tg-legend{font-family:'JetBrains Mono',monospace;font-size:0.65rem;letter-spacing:0.06em;color:var(--ink-mute);margin-bottom:var(--space-2);}
+    .tg-sw{display:inline-block;width:14px;height:4px;vertical-align:middle;margin-right:4px;}
+    .tg-slider{display:flex;align-items:center;gap:12px;font-family:'JetBrains Mono',monospace;font-size:0.68rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-mute);}
+    .tg-slider input{width:180px;accent-color:var(--ink);}
+    .tg-slider b{font-family:'Oswald',sans-serif;font-size:1rem;color:var(--ink);min-width:44px;}
+    .tg-how{border:1px solid var(--ink);background:var(--paper-sunk,#fafbfc);padding:var(--space-4) var(--space-5);margin-top:var(--space-6);}
+    .tg-how p{font-family:'Source Serif 4',serif;font-size:0.9rem;line-height:1.7;color:var(--ink-2);margin:0 0 8px;}
+    .tg-how p:last-child{margin:0;}
+  </style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Epidemiology Matters","item":"https://epidemiologymatters.com/"},{"@type":"ListItem","position":2,"name":"The Trial Grounds","item":"https://epidemiologymatters.com/trial-grounds/"}]}</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="topnav">
+    <div class="topnav__inner">
+      <a href="../index.html" class="wordmark" aria-label="Epidemiology Matters home">
+        <svg class="wordmark__sig" viewBox="0 0 48 96" aria-hidden="true">
+          <circle cx="24" cy="9" r="7" fill="currentColor"/>
+          <path d="M 14 19 L 19 17 L 29 17 L 34 19 L 39 30 L 41 48 L 37 49 L 35 30 L 33 50 L 31 92 L 27 92 L 25 58 L 23 58 L 21 92 L 17 92 L 15 50 L 13 30 L 11 49 L 7 48 L 9 30 Z" fill="currentColor"/>
+        </svg>
+        Epidemiology<em>Matters</em>
+        <span class="wordmark__sub">Trial Grounds</span>
+      </a>
+      <nav aria-label="Primary">
+        <ul class="topnav__links" id="navlinks">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../lab/index.html">Causal Lab</a></li>
+          <li><a href="../explore/index.html">Companion</a></li>
+          <li><a href="../farrlandia/index.html">Farrlandia</a></li>
+          <li><a href="../library/index.html">Library</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navlinks">
+        <svg width="16" height="12" viewBox="0 0 16 12" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="0" y1="2" x2="16" y2="2"/><line x1="0" y1="6" x2="16" y2="6"/><line x1="0" y1="10" x2="16" y2="10"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="tg-wrap">
+      <div class="tg-eyebrow"><span>Farrlandia &middot; Experiments on the Census</span><span class="red">Runs in your browser</span></div>
+
+      <h1 class="tg-title">The Trial Grounds</h1>
+      <p class="tg-lede">Farrlandia's census is simulated from equations that are on public record, so it supports something no real dataset can: experiments whose answers can be checked. This page fetches the published census and contact network and runs two of them in your browser. Nothing is uploaded anywhere.</p>
+
+      <!-- ==================== EXPERIMENT 1 ==================== -->
+      <section class="tg-exp" id="exp1" aria-labelledby="exp1Title">
+        <p class="tg-exp__kicker">Experiment 1 &middot; Randomization</p>
+        <h2 class="tg-exp__title" id="exp1Title">Randomize Smoking Cessation</h2>
+        <p class="tg-copy">Nobody can randomize people to smoke. In Farrlandia you can do the next best thing: enrol every smoker in a cessation trial, assign half to quit at random, and follow both arms forward under the town's own risk equations.</p>
+        <p class="tg-copy" id="aIntro"></p>
+        <div class="tg-stats">
+          <div class="tg-stat"><b id="aSmokers">&ndash;</b><span>smokers enrolled</span></div>
+          <div class="tg-stat"><b id="aCrude">&ndash;</b><span>raw census RR</span></div>
+          <div class="tg-stat"><b id="aTruth">&ndash;</b><span>exact answer</span></div>
+        </div>
+        <div class="tg-controls">
+          <button class="btn btn--signal" id="aRun1" disabled>Run 1 trial</button>
+          <button class="btn" id="aRun25" disabled>Run 25</button>
+          <button class="btn" id="aRun100" disabled>Run 100</button>
+          <button class="btn" id="aReset" disabled>Start over</button>
+        </div>
+        <p class="tg-status" id="aStatus"></p>
+        <div id="aChart"></div>
+        <p class="tg-read" id="aRead"></p>
+      </section>
+
+      <!-- ==================== EXPERIMENT 2 ==================== -->
+      <section class="tg-exp" id="exp2" aria-labelledby="exp2Title">
+        <p class="tg-exp__kicker">Experiment 2 &middot; Interference</p>
+        <h2 class="tg-exp__title" id="exp2Title">Vaccinate Part of the Town</h2>
+        <p class="tg-copy">An infection spreads along Farrlandia's published contact network: households, colliery crews and factory shifts, neighbourhood acquaintances. Vaccinate part of the town and a trial inside the epidemic measures the direct protection of the vaccinated. The town gains more than that, because every protected contact also breaks a chain of transmission. Each click runs two full epidemics: one town without the vaccine, one with it.</p>
+        <div class="tg-controls">
+          <div class="tg-slider">
+            <label for="bCover">Coverage</label>
+            <input type="range" id="bCover" min="0" max="80" step="10" value="40" />
+            <b id="bCoverLab">40%</b>
+          </div>
+          <button class="btn btn--signal" id="bRun">Run the epidemics</button>
+        </div>
+        <p class="tg-status" id="bStatus"></p>
+        <div class="tg-stats">
+          <div class="tg-stat"><b id="bBase">&ndash;</b><span>cases, no vaccine</span></div>
+          <div class="tg-stat"><b id="bRR">&ndash;</b><span>trial RR (direct)</span></div>
+          <div class="tg-stat"><b id="bProj">&ndash;</b><span>cases trial predicts</span></div>
+          <div class="tg-stat"><b id="bPol">&ndash;</b><span>cases simulated</span></div>
+          <div class="tg-stat"><b id="bHerd">&ndash;</b><span>herd protection</span></div>
+        </div>
+        <p class="tg-legend" id="bLegend"></p>
+        <div id="bChart"></div>
+        <p class="tg-read" id="bRead"></p>
+      </section>
+
+      <div class="tg-how">
+        <p>Both experiments run on the published files alone: the <a class="link" href="../farrlandia/census/index.html">census</a> (10,000 residents, 32 variables) and its <a class="link" href="../farrlandia/census/index.html#network">contact network</a> (90,890 ties). The risk equations are the ones the census generator uses, reproduced in this page's script, so a result here can be checked against the data by hand or in R, Stata, or Python.</p>
+        <p>Vaccine settings in Experiment 2: a leaky vaccine that cuts each exposure's transmission probability by 70 percent; ten seed cases in District Snow; infectious for seven days.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="sitefoot" style="margin-top:var(--space-6);">
+    <div class="container">
+      <div class="sitefoot__sig">
+        <svg viewBox="0 0 48 96" aria-hidden="true">
+          <circle cx="24" cy="9" r="7" fill="currentColor"/>
+          <path d="M 14 19 L 19 17 L 29 17 L 34 19 L 39 30 L 41 48 L 37 49 L 35 30 L 33 50 L 31 92 L 27 92 L 25 58 L 23 58 L 21 92 L 17 92 L 15 50 L 13 30 L 11 49 L 7 48 L 9 30 Z" fill="currentColor"/>
+        </svg>
+        <span>Epidemiology Matters</span>
+      </div>
+      <div class="sitefoot__copy" style="margin-top:var(--space-4);">
+        <span>Keyes &middot; Abba-Aji &middot; Galea &middot; Oxford University Press</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="trial-grounds.js"></script>
+  <script src="../scripts/search.js" defer></script>
+</body>
+</html>
