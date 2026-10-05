@@ -4,14 +4,14 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Open
 
-### Today (Fri Oct 2)
-- [ ] Lorena call, 11 AM–12:30 PM CT: next-steps conversation on the CDoH paper, now that the resubmission itself is in — added to Google Calendar
-- [ ] Two collaborator notes are unanswered: Ellie Solomon's hypertension-research note and Bella Gomez's second follow-up on the MaRVIN manuscript (Yale, since Sep 21)
-- [ ] JTS/JOTS copy edit (Tara Pierson Hoey, manuscript 1390286): tracked-changes Word doc attached Sep 29, return within 1 week (~by Oct 6) or propose your own deadline
-- [ ] PLOS queue still pending a decision: PMEN-D-26-00498 (self-compassion/PTSD) handling invite + PONE-D-26-40308 (Oginni, Zambia stunting) reviewer invite, now on its second reminder
-- [ ] Global Health Week "Meet the Experts" — Emma Levine needs an RSVP by end of this week
-- [ ] AI survey project: draft the concept note from Wednesday's planning call with Ross and Jennifer and share it with them; share the meeting summary with attendees; update Sandro and seek his institutional buy-in
-- [ ] Still carried, no evidence of action since San Antonio: JTS Wiley corresponding-author click; Jaimie's citation (author order); ISTSS password confirm; reply to Lindsey (Stanford); Nigeria-four coffee day; FARM dinner RSVP (Oct 13); Becker Library; Morven's TFRH data
+### Today (Mon Oct 5)
+- [ ] SSM-PH: both your direct emails to Elsevier about the extension/decision bounced (noreply_emsupport@elsevier.com doesn't accept replies) — the EM system's automated "due soon" reminder fired again this morning, so the extension still isn't confirmed through a channel that actually reaches anyone; use the EM message center or the live-chat support hub instead
+- [ ] Sandro answered on PHS1000 streaming — taping and pre-sent-question Q&A both yes — but asked back: do you want his slides sent to students as pre-reads? He attached them; still awaiting your answer
+- [ ] Rural Health Task Force: Morven's Sep 25 minutes assign you Action Item 1 — update the landscape analysis using the revised OVCR funded-grant spreadsheet, including faculty and staff beyond PIs
+- [ ] JTS/JOTS copy edit (Tara Pierson Hoey, manuscript 1390286) is due back ~Oct 6 — tomorrow — no evidence it's gone out yet
+- [ ] FARM FFF: Courtney circulated the run of show, slides, and a Qualtrics evaluation (Box links) and asked everyone to update the section with their name on it
+- [ ] Still unanswered: Ellie Solomon's hypertension-research note, Bella Gomez's second MaRVIN follow-up, and the pre-travel list — Wiley corresponding-author click, Jaimie's citation, ISTSS password, reply to Lindsey, Nigeria-four coffee day, Becker Library — all untouched since before San Antonio
+- [ ] PLOS queue still pending a decision: PMEN-D-26-00498 (self-compassion/PTSD) handling invite + PONE-D-26-40308 (Oginni, Zambia stunting) reviewer invite
 
 ### Pinned (parked by Mohammed, Sep 16)
 - [ ] Tueth Keeney waiver: the Melanie escalation is PAUSED on his word (Sep 17). Calvin has been silent since Tuesday's nudge; the draft is written and waits
@@ -30,7 +30,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 ### Standing
 - [ ] TOKEN POLICY (his word, Sep 18): sweeps are scoped to `label:Label_3 -category:promotions -category:social newer_than:1d`, with NO second pass over unlabeled mail — he declined it, so mail sent straight to abbaaji189@gmail.com is outside every sweep and is his to watch. Full rules, per-run budgets and measured costs in `daily/token-policy.md`. ROUTINE PROMPTS NOT YET UPDATED: this session cannot edit them (instructions are editable only from session_01PPwbUUWpfmtc9VHJ6fxbgv, which the routines fire into) and delete-and-recreate would lose run history. Replacement text and the one-line ask are parked in `daily/routine-prompts.md`. Both routines read this ledger at fire time, so they see the rule meanwhile
 - [ ] REVISION ORDER (his word, Sep 17): ISTSS DONE, JOTS copy edit in Today (~Oct 6), WHO Bulletin CDoH resubmission DONE (submitted + acknowledged overnight Oct 1→2, BLT/2026/296735), then SSM-PH (extension to 9 Nov requested Sep 18; EM's automated system sent its standard "due soon" reminder Oct 1 regardless, which doesn't confirm either way whether the extension was granted)
-- [ ] Travel: return flight WN 2209 Sat Sep 26, 6:45 AM SAT to 8:50 AM STL, now its own confirmed calendar event (airline moved it earlier from 7:25/9:30, per Brentwood Travel). OUTBOUND FLIGHT STILL MISSING from the calendar — add once he forwards the original booking. Calendar time zone is New York, so Central events display an hour late until he asks for the switch
+- [ ] Travel: return flight WN 2209 Sat Sep 26, 6:45 AM SAT to 8:50 AM STL, now its own confirmed calendar event (airline moved it earlier from 7:25/9:30, per Brentwood Travel). OUTBOUND FLIGHT STILL MISSING from the calendar — add once he forwards the original booking. Calendar time zone now reads America/Chicago as of Oct 5 (was New York) — the display-an-hour-late issue appears resolved; watch the next few events to confirm
 - [ ] JTS/JOTS: ACCEPTED Sep 23; in production, copy edit landed Sep 29 (return by ~Oct 6, in Today); Wiley corresponding-author click still in Today's carried list
 - [ ] Epi Matters 2e response letter: with Kerry since Tue evening; then to Emma at OUP
 - [ ] PLOS Mental Health: PMEN-D-26-00318 action + four editor invitations pending
@@ -39,6 +39,10 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Done
 
+- [x] 2026-10-05 — Sandro answered the streaming ask: taping approved, Q&A from pre-sent questions approved — AJ can now loop in A/V. He has one open follow-up (slides as pre-reads?) carried to Today
+- [x] 2026-10-05 — Sandro weekly loop closed: he replied "Excellent; I look forward to connecting and chatting" to the 2 Oct update
+- [x] 2026-10-03 — Global Health Week "Meet the Experts": Mohammed RSVP'd yes to Emma Levine; flyer shared back
+- [x] 2026-10-02 — Why Health book order CLOSED: 220 copies received Oct 2, AJ submitted the invoice
 - [x] 2026-10-02 — Dean Galea outreach SENT: emailed Sandro directly (cc AJ) on streaming/recording the PHS1000 "Why Health" visit, plus a format idea — keep it like his past lectures, or a lecture (~1h45) with a moderated Q&A (~15 min, pre-submitted + live questions). Awaiting his call; AJ can now loop in A/V once he answers
 - [x] 2026-10-02 — WHO Bulletin CDoH resubmission (BLT/2026/296735) SUBMITTED and acknowledged by the journal, overnight Oct 1→2 — met the self-stated Oct 1 date; Lorena's 11 AM call today now covers next steps rather than the deadline itself
 - [x] 2026-10-02 — AI survey planning call held Oct 1 with Ross Brownson and Jennifer Layden: direction set (diffusion-of-innovation framework, standalone vs. PH WINS module), timeline through May; Mohammed's follow-ups carried to Today
