@@ -4,14 +4,14 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Open
 
-### Today (Mon Oct 5)
-- [ ] SSM-PH: both your direct emails to Elsevier about the extension/decision bounced (noreply_emsupport@elsevier.com doesn't accept replies) — the EM system's automated "due soon" reminder fired again this morning, so the extension still isn't confirmed through a channel that actually reaches anyone; use the EM message center or the live-chat support hub instead
-- [ ] Sandro answered on PHS1000 streaming — taping and pre-sent-question Q&A both yes — but asked back: do you want his slides sent to students as pre-reads? He attached them; still awaiting your answer
+### Today (Tue Oct 6)
+- [ ] JTS/JOTS copy edit (Tara Pierson Hoey, manuscript 1390286) is due back today (~Oct 6) — no evidence it's gone out yet
+- [ ] PH WINS Health Equity Paper / AI data: Ross offered Wed Oct 21, 12-12:45 or 3-3:45 PM ET with de Beaumont's team — he's waiting on you and Jennifer to confirm one of those works, or they'll need to push further out
+- [ ] Gavin declined "Gavin and Mohammed Meeting" — needs rescheduling
+- [ ] FARM Food Futures Forum is Oct 13-14 — Courtney's run of show/slides/evaluation (Box links) still needs your section updated
 - [ ] Rural Health Task Force: Morven's Sep 25 minutes assign you Action Item 1 — update the landscape analysis using the revised OVCR funded-grant spreadsheet, including faculty and staff beyond PIs
-- [ ] JTS/JOTS copy edit (Tara Pierson Hoey, manuscript 1390286) is due back ~Oct 6 — tomorrow — no evidence it's gone out yet
-- [ ] FARM FFF: Courtney circulated the run of show, slides, and a Qualtrics evaluation (Box links) and asked everyone to update the section with their name on it
-- [ ] Still unanswered: Ellie Solomon's hypertension-research note, Bella Gomez's second MaRVIN follow-up, and the pre-travel list — Wiley corresponding-author click, Jaimie's citation, ISTSS password, reply to Lindsey, Nigeria-four coffee day, Becker Library — all untouched since before San Antonio
-- [ ] PLOS queue still pending a decision: PMEN-D-26-00498 (self-compassion/PTSD) handling invite + PONE-D-26-40308 (Oginni, Zambia stunting) reviewer invite
+- [ ] Still unanswered: Sandro's pre-read-slides question, Ellie Solomon's hypertension-research note, Bella Gomez's second MaRVIN follow-up, and the pre-travel list — Wiley corresponding-author click, Jaimie's citation, ISTSS password, reply to Lindsey, Nigeria-four coffee (draft now waiting on your send), Becker Library
+- [ ] PLOS queue grew again: PMEN-D-26-00498, PONE-D-26-40308 (Oginni), and a new PONE-D-26-36016 (El Seifi, rural health literacy) reviewer invite, all pending a decision
 
 ### Pinned (parked by Mohammed, Sep 16)
 - [ ] Tueth Keeney waiver: the Melanie escalation is PAUSED on his word (Sep 17). Calvin has been silent since Tuesday's nudge; the draft is written and waits
@@ -32,13 +32,15 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] REVISION ORDER (his word, Sep 17): ISTSS DONE, JOTS copy edit in Today (~Oct 6), WHO Bulletin CDoH resubmission DONE (submitted + acknowledged overnight Oct 1→2, BLT/2026/296735), then SSM-PH (extension to 9 Nov requested Sep 18; EM's automated system sent its standard "due soon" reminder Oct 1 regardless, which doesn't confirm either way whether the extension was granted)
 - [ ] Travel: return flight WN 2209 Sat Sep 26, 6:45 AM SAT to 8:50 AM STL, now its own confirmed calendar event (airline moved it earlier from 7:25/9:30, per Brentwood Travel). OUTBOUND FLIGHT STILL MISSING from the calendar — add once he forwards the original booking. Calendar time zone now reads America/Chicago as of Oct 5 (was New York) — the display-an-hour-late issue appears resolved; watch the next few events to confirm
 - [ ] JTS/JOTS: ACCEPTED Sep 23; in production, copy edit landed Sep 29 (return by ~Oct 6, in Today); Wiley corresponding-author click still in Today's carried list
-- [ ] Epi Matters 2e response letter: with Kerry since Tue evening; then to Emma at OUP
+- [ ] Epi Matters 2e: approved and with Emma at OUP; she's raising it to OUP's editorial board next week and asked about intended course market — Sandro answered directly (bulk buy ~500, fall+spring intro epi), no action needed from Mohammed
+- [ ] SSM-PH circulation to co-authors is underway via a real channel (not the dead Elsevier reply-to) — Mauricio Avendano auto-replied he's traveling through Oct 9 with limited access, so his sign-off will lag
 - [ ] PLOS Mental Health: PMEN-D-26-00318 action + four editor invitations pending
 - [ ] Publish Outlook calendar as ICS and subscribe in Google Calendar (connector is live; calendar is empty until this lands)
 - [ ] Sandro weekly automation: Friday question round 12:37 PM + unfailing compile-and-deliver 5:23 PM (source of truth projects/sandro-weekly/rows.json; first firing tomorrow)
 
 ## Done
 
+- [x] 2026-10-06 — Magazine story review CLOSED: Tamara incorporated Mohammed's edits on the convenings section, no further input needed
 - [x] 2026-10-05 — Sandro answered the streaming ask: taping approved, Q&A from pre-sent questions approved — AJ can now loop in A/V. He has one open follow-up (slides as pre-reads?) carried to Today
 - [x] 2026-10-05 — Sandro weekly loop closed: he replied "Excellent; I look forward to connecting and chatting" to the 2 Oct update
 - [x] 2026-10-03 — Global Health Week "Meet the Experts": Mohammed RSVP'd yes to Emma Levine; flyer shared back
