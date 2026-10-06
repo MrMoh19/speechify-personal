@@ -6,15 +6,10 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ### Today (Tue Oct 6)
 - [ ] JTS/JOTS copy edit (Tara Pierson Hoey, manuscript 1390286) is due back today (~Oct 6) — no evidence it's gone out yet
-- [ ] PH WINS Health Equity Paper / AI data: Ross offered Wed Oct 21, 12-12:45 or 3-3:45 PM ET with de Beaumont's team — he's waiting on you and Jennifer to confirm one of those works, or they'll need to push further out
-- [ ] Gavin declined "Gavin and Mohammed Meeting" — needs rescheduling
-- [ ] FARM Food Futures Forum is Oct 13-14 — Courtney's run of show/slides/evaluation (Box links) still needs your section updated
-- [ ] Rural Health Task Force: Morven's Sep 25 minutes assign you Action Item 1 — update the landscape analysis using the revised OVCR funded-grant spreadsheet, including faculty and staff beyond PIs
-- [ ] Still unanswered: Sandro's pre-read-slides question, Ellie Solomon's hypertension-research note, Bella Gomez's second MaRVIN follow-up, and the pre-travel list — Wiley corresponding-author click, Jaimie's citation, ISTSS password, reply to Lindsey, Nigeria-four coffee (draft now waiting on your send), Becker Library
-- [ ] PLOS queue grew again: PMEN-D-26-00498, PONE-D-26-40308 (Oginni), and a new PONE-D-26-36016 (El Seifi, rural health literacy) reviewer invite, all pending a decision
+- [ ] Draft letter to Laura on the waiver's lack of progress, to discuss before raising it with Dean Galea — blocked on confirming who Laura is (see Pinned)
 
 ### Pinned (parked by Mohammed, Sep 16)
-- [ ] Tueth Keeney waiver: the Melanie escalation is PAUSED on his word (Sep 17). Calvin has been silent since Tuesday's nudge; the draft is written and waits
+- [ ] Waiver application (Tueth Keeney — Calvin Bill and Melanie Gurley Keeney): rejected in March; Mohammed met again with Bill and Melanie and decided to reapply. Since then he's supplied everything asked — Nigeria Minister of Health's No Objection letter (Aug 1), his DS-3035 markup (Aug 13), and Dean Galea-approved WashU letter language (Aug 31) — and heard nothing substantive back. Sep 15 and Sep 30 nudges went unanswered for two weeks each; Melanie's only reply (Oct 1) was "Calvin's been out of the country... will touch base and get back to you soon," no real update. ~8 months left on his J-1 status (expires July 2027). He now wants to loop in Laura on the serious lack of progress before raising it with Dean Galea — her contact info isn't in any connected account (Gmail/Calendar/Drive searched), so the letter is blocked pending that from him. Separately, he's also explored alternate counsel ("Brendan," per a Sep 29 call) given the pace
 - [ ] RA group-training email (Parth, Ellie, Gabriel Estrada, + Zoe; Grace may fit the cohort) — resume when he says
 - [ ] Grace Jiang full introductions (oral health + mental health people) — after the conference; holding reply covers the interim
 - [ ] Yahoo → Gmail POP fetch — parked as convoluted for now
@@ -40,6 +35,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Done
 
+- [x] 2026-10-06 — Everything from this morning's brief handled directly by Mohammed except the JTS copy edit (his word): Ross confirmed for Oct 21, Gavin rescheduled, FARM FFF slide section submitted, Rural Health TF landscape analysis updated, and the longer-waiting list (Sandro's slides question, Ellie, Bella, Nigeria-four, Wiley, Jaimie's citation, ISTSS password, Lindsey, PLOS queue) all cleared
 - [x] 2026-10-06 — Magazine story review CLOSED: Tamara incorporated Mohammed's edits on the convenings section, no further input needed
 - [x] 2026-10-05 — Sandro answered the streaming ask: taping approved, Q&A from pre-sent questions approved — AJ can now loop in A/V. He has one open follow-up (slides as pre-reads?) carried to Today
 - [x] 2026-10-05 — Sandro weekly loop closed: he replied "Excellent; I look forward to connecting and chatting" to the 2 Oct update
