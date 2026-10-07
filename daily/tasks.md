@@ -11,7 +11,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Charlene Caburnay needs your FRPHC course-proposal presentation date (pick one plus a backup from Oct 26, Nov 16, Nov 30, or Dec 14) by Fri Oct 9 — the Course Proposal Form and a draft syllabus are then due a week before whichever date you choose
 - [ ] Zoe Rochester reply drafted (paste-ready, Oct 7) — placeholder left for you to fill in meeting times yourself
 - [ ] Aisha Jafri (Lancet GV Commission) reply drafted (paste-ready, Oct 7) with tentative meeting-time options — unverified against a real calendar (Outlook sync still pending), sanity-check before sending
-- [ ] Paul Erwin ask (using your Public Health Practice textbook chapter on SDOH as class reading, pre-publication): discussed with you Oct 7, not yet drafted — awaiting your go-ahead
+- [ ] Paul Erwin email drafted and delivered (paste-ready, Oct 7) — fill in his address, the book title, and which class before sending; flagged that this probably can't be ready in time for tomorrow's class if that's what you meant
 
 ### Pinned (parked by Mohammed, Sep 16)
 - [ ] RA group-training email (Parth, Ellie, Gabriel Estrada, + Zoe; Grace may fit the cohort) — resume when he says
