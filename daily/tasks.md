@@ -4,12 +4,14 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Open
 
-### Today (Tue Oct 6)
-- [ ] JTS/JOTS copy edit (Tara Pierson Hoey, manuscript 1390286) is due back today (~Oct 6) — no evidence it's gone out yet
-- [ ] Letter to Laura on the waiver's lack of progress is drafted and delivered (paste-ready, Oct 6) — just needs her wustl.edu address filled in before he sends it
+### Today (Wed Oct 7)
+- [ ] JTS/JOTS copy edit (Tara Pierson Hoey, manuscript 1390286) — now a day past the ~Oct 6 return date, still no evidence it's gone out (he booked a room Oct 6 specifically for "JTS Proof and submission," so he was working on it, but nothing's been sent)
+- [ ] Waiver is moving: Calvin sent the redlined letter for Dean Galea and the DS-3035 prep sheet late Oct 6 (cc'ing WashU's Office of General Counsel, Immigration) — review the redlines, get Dean Galea to sign and return the letter, send back your DS-3035 edits, and expect a Form G-28 to sign next. Tueth Keeney's target is filing both the DOS and Nigerian Embassy packets early next week
+- [ ] WHO Bulletin (CDoH arms-industry paper, BLT/2026/296735): minor-revision decision in Oct 7 — six points, mainly on how Figure 1, the three structural features, and the five interventions were derived, a lobbying-expenditure comparison, and adding author affiliations — due back within ONE WEEK (~Oct 14)
+- [ ] Charlene Caburnay needs your FRPHC course-proposal presentation date (pick one plus a backup from Oct 26, Nov 16, Nov 30, or Dec 14) by Fri Oct 9 — the Course Proposal Form and a draft syllabus are then due a week before whichever date you choose
+- [ ] Zoe Rochester (student) asked to meet about your research, a few questions, and TA opportunities — unanswered
 
 ### Pinned (parked by Mohammed, Sep 16)
-- [ ] Waiver application (Tueth Keeney — Calvin Bill and Melanie Gurley Keeney): rejected in March; Mohammed met again with Bill and Melanie and decided to reapply. Since then he's supplied everything asked — Nigeria Minister of Health's No Objection letter (Aug 1), his DS-3035 markup (Aug 13), and Dean Galea-approved WashU letter language (Aug 31) — and heard nothing substantive back. Sep 15 and Sep 30 nudges went unanswered for two weeks each; Melanie's only reply (Oct 1) was "Calvin's been out of the country... will touch base and get back to you soon," no real update. ~8 months left on his J-1 status (expires July 2027). Letter to Laura (WashU staff/faculty who was part of the team that decided to reapply) is drafted and sent to his inbox Oct 6, raising it with her before Dean Galea — waiting on her address, no email tool match for her. Separately, he's also explored alternate counsel ("Brendan," per a Sep 29 call) given the pace
 - [ ] RA group-training email (Parth, Ellie, Gabriel Estrada, + Zoe; Grace may fit the cohort) — resume when he says
 - [ ] Grace Jiang full introductions (oral health + mental health people) — after the conference; holding reply covers the interim
 - [ ] Yahoo → Gmail POP fetch — parked as convoluted for now
@@ -24,18 +26,22 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ### Standing
 - [ ] TOKEN POLICY (his word, Sep 18): sweeps are scoped to `label:Label_3 -category:promotions -category:social newer_than:1d`, with NO second pass over unlabeled mail — he declined it, so mail sent straight to abbaaji189@gmail.com is outside every sweep and is his to watch. Full rules, per-run budgets and measured costs in `daily/token-policy.md`. ROUTINE PROMPTS NOT YET UPDATED: this session cannot edit them (instructions are editable only from session_01PPwbUUWpfmtc9VHJ6fxbgv, which the routines fire into) and delete-and-recreate would lose run history. Replacement text and the one-line ask are parked in `daily/routine-prompts.md`. Both routines read this ledger at fire time, so they see the rule meanwhile
-- [ ] REVISION ORDER (his word, Sep 17): ISTSS DONE, JOTS copy edit in Today (~Oct 6), WHO Bulletin CDoH resubmission DONE (submitted + acknowledged overnight Oct 1→2, BLT/2026/296735), then SSM-PH (extension to 9 Nov requested Sep 18; EM's automated system sent its standard "due soon" reminder Oct 1 regardless, which doesn't confirm either way whether the extension was granted)
+- [ ] REVISION ORDER (his word, Sep 17): ISTSS DONE, JOTS copy edit in Today (overdue), WHO Bulletin CDoH now back in play — minor revision requested Oct 7, due ~Oct 14 (in Today), then SSM-PH (extension to 9 Nov requested Sep 18; EM's automated system sent its standard "due soon" reminder Oct 1 regardless, which doesn't confirm either way whether the extension was granted)
+- [ ] Waiver application (Tueth Keeney — Calvin Bill and Melanie Gurley Keeney): rejected in March; Mohammed reapplied and supplied everything asked, then heard almost nothing back for weeks (Melanie's Oct 1 reply was non-committal). He wrote to Laura Register (OISS Associate Director, Scholars, lregister@wustl.edu) on Oct 6 to flag it before going to Dean Galea; she escalated the same day, and Calvin responded that night with substantive next steps (see Today). Keep tracking until the DS-3035 and Dean Galea's letter are actually sent back and the DOS/Nigerian Embassy packets are filed
 - [ ] Travel: return flight WN 2209 Sat Sep 26, 6:45 AM SAT to 8:50 AM STL, now its own confirmed calendar event (airline moved it earlier from 7:25/9:30, per Brentwood Travel). OUTBOUND FLIGHT STILL MISSING from the calendar — add once he forwards the original booking. Calendar time zone now reads America/Chicago as of Oct 5 (was New York) — the display-an-hour-late issue appears resolved; watch the next few events to confirm
-- [ ] JTS/JOTS: ACCEPTED Sep 23; in production, copy edit landed Sep 29 (return by ~Oct 6, in Today); Wiley corresponding-author click still in Today's carried list
+- [ ] JTS/JOTS: ACCEPTED Sep 23; in production, copy edit landed Sep 29, was due back ~Oct 6 and is now overdue (in Today)
 - [ ] Epi Matters 2e: approved and with Emma at OUP; she's raising it to OUP's editorial board next week and asked about intended course market — Sandro answered directly (bulk buy ~500, fall+spring intro epi), no action needed from Mohammed
 - [ ] SSM-PH circulation to co-authors is underway via a real channel (not the dead Elsevier reply-to) — Mauricio Avendano auto-replied he's traveling through Oct 9 with limited access, so his sign-off will lag
-- [ ] PLOS Mental Health: PMEN-D-26-00318 action + four editor invitations pending
+- [ ] PLOS Mental Health: PMEN-D-26-00318 action + five editor invitations pending (new: PMEN-D-26-00552, tuberculosis-care mental health integration, Oct 7)
 - [ ] Publish Outlook calendar as ICS and subscribe in Google Calendar (connector is live; calendar is empty until this lands)
 - [ ] Sandro weekly automation: Friday question round 12:37 PM + unfailing compile-and-deliver 5:23 PM (source of truth projects/sandro-weekly/rows.json; first firing tomorrow)
 
 ## Done
 
-- [x] 2026-10-06 — Everything from this morning's brief handled directly by Mohammed except the JTS copy edit (his word): Ross confirmed for Oct 21, Gavin rescheduled, FARM FFF slide section submitted, Rural Health TF landscape analysis updated, and the longer-waiting list (Sandro's slides question, Ellie, Bella, Nigeria-four, Wiley, Jaimie's citation, ISTSS password, Lindsey, PLOS queue) all cleared
+- [x] 2026-10-07 — Waiver UNSTUCK: Mohammed emailed Laura Register (OISS) directly Oct 6 morning; she escalated to Tueth Keeney twice that day, and Calvin responded that night with the revised letter for Dean Galea and DS-3035 redlines, cc'ing WashU's Office of General Counsel, Immigration — next steps now in Today
+- [x] 2026-10-06 — Sandro approved the Applied AI and Data Science Program ("Very good. Fully supportive. Let's do it") and told Mohammed to register it on his research discretionary fund
+- [x] 2026-10-06 — FRPHC course-developer working session held (2-4 PM); Charlene's follow-up (course proposal form, syllabus, presentation date) carried to Today
+- [x] 2026-10-06 — Everything from Tuesday's brief handled directly by Mohammed except the JTS copy edit (his word): Ross confirmed for Oct 21, Gavin rescheduled, FARM FFF slide section submitted, Rural Health TF landscape analysis updated, and the longer-waiting list (Sandro's slides question, Ellie, Bella, Nigeria-four, Wiley, Jaimie's citation, ISTSS password, Lindsey, PLOS queue) all cleared
 - [x] 2026-10-06 — Magazine story review CLOSED: Tamara incorporated Mohammed's edits on the convenings section, no further input needed
 - [x] 2026-10-05 — Sandro answered the streaming ask: taping approved, Q&A from pre-sent questions approved — AJ can now loop in A/V. He has one open follow-up (slides as pre-reads?) carried to Today
 - [x] 2026-10-05 — Sandro weekly loop closed: he replied "Excellent; I look forward to connecting and chatting" to the 2 Oct update
