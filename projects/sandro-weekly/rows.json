@@ -126,6 +126,18 @@
       "next": "Intro to Epi study; Outline 3"
     }
   ],
+  "teaching": [
+    {
+      "name": "PHS1000 (Foundations in Public Health)",
+      "update": "Tue/Thu sessions ongoing; Oct 8 class covers social and structural determinants of health",
+      "next": "Finalize slides for the Oct 8 class"
+    },
+    {
+      "name": "RA / TA mentoring pipeline",
+      "update": "Group-training session outlined for Parth, Ellie, Gabriel Estrada, and Zoe (Grace may fit the cohort); separately, a new TA inquiry came in from student Zoe Rochester (Oct 7)",
+      "next": "Send the RA group-training email; reply to Rochester"
+    }
+  ],
   "projects": [
     {
       "name": "AI and Public Health Survey",

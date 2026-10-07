@@ -12,7 +12,6 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Zoe Rochester reply drafted (paste-ready, Oct 7) — placeholder left for you to fill in meeting times yourself
 - [ ] Aisha Jafri (Lancet GV Commission) reply drafted (paste-ready, Oct 7) with tentative meeting-time options — unverified against a real calendar (Outlook sync still pending), sanity-check before sending
 - [ ] Paul Erwin ask (using your Public Health Practice textbook chapter on SDOH as class reading, pre-publication): discussed with you Oct 7, not yet drafted — awaiting your go-ahead
-- [ ] Weekly update format change requested (heading "Weekly Updates," week covered, Teaching and Mentorship + Projects sections) — awaiting your word on what happens to the existing Active manuscripts/On hold/Training sections before touching `projects/sandro-weekly/weekly.js`
 
 ### Pinned (parked by Mohammed, Sep 16)
 - [ ] RA group-training email (Parth, Ellie, Gabriel Estrada, + Zoe; Grace may fit the cohort) — resume when he says
@@ -41,6 +40,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Done
 
+- [x] 2026-10-07 — Weekly update for Dean Galea reformatted on his word: heading is now "Weekly Updates — Week of [range]" (was "Meeting Agenda with Dean Galea — [date]"), and a new Teaching and Mentorship section sits between On hold and Projects. Active manuscripts, On hold, Projects, and Training kept as-is, per his choice
 - [x] 2026-10-07 — JTS/JOTS copy edit SUBMITTED (his word)
 - [x] 2026-10-07 — Waiver UNSTUCK: Mohammed emailed Laura Register (OISS) directly Oct 6 morning; she escalated to Tueth Keeney twice that day, and Calvin responded that night with the revised letter for Dean Galea and DS-3035 redlines, cc'ing WashU's Office of General Counsel, Immigration — next steps now in Today
 - [x] 2026-10-06 — Sandro approved the Applied AI and Data Science Program ("Very good. Fully supportive. Let's do it") and told Mohammed to register it on his research discretionary fund

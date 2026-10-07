@@ -1,6 +1,10 @@
 # Sandro Weekly — system of record
 
-The weekly update for Dean Galea. `rows.json` is the single source of truth; `weekly.js` renders it to the docx in his table format (Active manuscripts / On hold / Projects / Training).
+The weekly update for Dean Galea. `rows.json` is the single source of truth; `weekly.js` renders it to the docx in his table format (Active manuscripts / On hold / Teaching and Mentorship / Projects / Training).
+
+Heading reads "Weekly Updates — Week of [Monday] – [Friday], [year]" (changed from "Meeting Agenda with Dean Galea — [date]" on Mohammed's word, Oct 7). `title_date` still just holds the Friday compile date and the automation still bumps it the same way each week — `weekly.js` derives the Monday-to-Friday week range from it for display only.
+
+"Teaching and Mentorship" (added Oct 7, same `{name, update, next}` shape as Projects) sits between On hold and Projects.
 
 Cadence (both routines fire into the standing Claude session):
 - **Friday ~12:37 PM CT — question round.** Claude verifies every row against the week's email evidence, updates what it can prove, then emails Mohammed a short numbered questionnaire covering only the rows it could not verify. Mohammed replies in any form ("3: sent to co-authors; 7: no change").

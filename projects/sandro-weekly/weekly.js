@@ -46,9 +46,27 @@ const W5 = [420, 3300, 1650, 1750, 2960];
 const W4 = [420, 2100, 4200, 3360];
 const W3T = [420, 3600, 3200, 2860];
 
+const MONTHS = ["January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December"];
+
+// title_date is the Friday compile date ("2 October 2026"); the automation
+// keeps bumping this same field, so the week range is derived for display
+// only and the underlying field never changes meaning.
+function weekRangeLabel(fridayStr) {
+  const m = fridayStr.match(/^(\d{1,2}) (\w+) (\d{4})$/);
+  if (!m) return "Week of " + fridayStr;
+  const day = parseInt(m[1], 10), month = MONTHS.indexOf(m[2]), year = parseInt(m[3], 10);
+  if (month === -1) return "Week of " + fridayStr;
+  const friday = new Date(year, month, day);
+  const monday = new Date(friday);
+  monday.setDate(friday.getDate() - 4);
+  const fmt = (d) => d.getDate() + " " + MONTHS[d.getMonth()] + (d.getFullYear() !== friday.getFullYear() ? " " + d.getFullYear() : "");
+  return "Week of " + fmt(monday) + " – " + fmt(friday) + ", " + friday.getFullYear();
+}
+
 const children = [
   new Paragraph({ spacing: { after: 200 },
-    children: [new TextRun({ text: "Meeting Agenda with Dean Galea — " + data.title_date, bold: true, size: 28, font: "Calibri", color: INK })] }),
+    children: [new TextRun({ text: "Weekly Updates — " + weekRangeLabel(data.title_date), bold: true, size: 28, font: "Calibri", color: INK })] }),
 
   h("Active manuscripts"),
   table(W6, [["#", "Manuscript", "Stage", "Target journal", "Next step", "Due"],
@@ -57,6 +75,10 @@ const children = [
   h("On hold"),
   table(W5, [["#", "Manuscript", "Stage", "Target journal", "Next step"],
     ...data.on_hold.map((r, i) => [String(i + 1), r.ms, r.stage, r.journal, r.next])]),
+
+  h("Teaching and Mentorship"),
+  table(W4, [["#", "Item", "Updates", "Next step"],
+    ...data.teaching.map((r, i) => [String(i + 1), r.name, r.update, r.next])]),
 
   h("Projects"),
   table(W4, [["#", "Project", "Updates", "Next step"],
