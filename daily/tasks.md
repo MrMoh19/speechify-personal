@@ -6,7 +6,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ### Today (Wed Oct 7)
 - [ ] Finalize slides for tomorrow's PHS1000 class on social and structural determinants of health
-- [ ] Waiver is moving: Calvin sent the redlined letter for Dean Galea and the DS-3035 prep sheet late Oct 6 (cc'ing WashU's Office of General Counsel, Immigration) — review the redlines, get Dean Galea to sign and return the letter, send back your DS-3035 edits, and expect a Form G-28 to sign next. Tueth Keeney's target is filing both the DOS and Nigerian Embassy packets early next week
+- [ ] Waiver is moving: letter for Dean Galea forwarded to him (your word, Oct 7) — reply to Calvin confirming that is drafted and paste-ready. Still open: get Dean Galea to actually sign and return the letter, review and return your DS-3035 edits, and expect a Form G-28 to sign next. Tueth Keeney's target is filing both the DOS and Nigerian Embassy packets early next week
 - [ ] WHO Bulletin (CDoH arms-industry paper, BLT/2026/296735): minor-revision decision in Oct 7 — six points, mainly on how Figure 1, the three structural features, and the five interventions were derived, a lobbying-expenditure comparison, and adding author affiliations — due back within ONE WEEK (~Oct 14)
 - [ ] Charlene Caburnay needs your FRPHC course-proposal presentation date (pick one plus a backup from Oct 26, Nov 16, Nov 30, or Dec 14) by Fri Oct 9 — the Course Proposal Form and a draft syllabus are then due a week before whichever date you choose
 - [ ] Zoe Rochester reply drafted (paste-ready, Oct 7) — placeholder left for you to fill in meeting times yourself
