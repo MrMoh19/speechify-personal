@@ -5,13 +5,11 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 ## Open
 
 ### Today (Fri Oct 9)
-- [ ] SSM-Population Health shows your revision as OVERDUE (EM reminder Oct 9: "expected by Oct 08, 2026") — this conflicts with the extension to Nov 9 you requested Sep 18, which a journal system reminder has never actually confirmed either way. Worth confirming directly with the editor that the extension is on record before this escalates
-- [ ] FARM Food Futures Forum dinner (Tue Oct 13, Missouri Botanical Garden) — SPH Events has followed up twice now (Sep 23, Oct 8) with no RSVP sent
-- [ ] Becky Light needs a yes/no on whether Salma Abdalla is still the guest lecturer for Tuesday Oct 13's PHS1000 class — still unanswered
-- [ ] Charlene Caburnay needs your FRPHC course-proposal presentation date (pick one plus a backup from Oct 26, Nov 16, Nov 30, or Dec 14) — due TODAY, no reply sent yet
-- [ ] Bella Gomez (Yale MPH, former mentee) reply drafted together Oct 8 (not yet sent) — corrects the "three manuscripts" framing as a hope rather than a commitment, reaffirms the September plan (you lead the food-insecurity paper, she's second author), and declines to reopen broader scope. Grab it from the chat and send when ready
+- [ ] SSM-PH overdue-revision conflict — his word, he's emailing the editor himself to confirm the Nov 9 extension is on record
+- [ ] Charlene's FRPHC presentation date — his word, he's sending that reply himself
+- [ ] Bella Gomez reply, Becky Light reply (Salma confirmed as still expected; he doesn't know yet if she's accepted), and the FARM dinner RSVP are all drafted and paste-ready (Oct 9) — FARM RSVP has brackets for attendance/transportation/dietary since that's his call
+- [ ] Aisha Jafri (Lancet GV Commission) reply re-delivered as paste-ready (Oct 9, same Oct 13-15 options as Oct 7 — still upcoming) — not sent yet
 - [ ] WHO Bulletin (CDoH arms-industry paper, BLT/2026/296735): minor-revision due back within ONE WEEK of Oct 7 (~Oct 14)
-- [ ] Aisha Jafri (Lancet GV Commission) reply still sitting as a paste-ready draft (Oct 7) with tentative meeting-time options — not sent yet
 - [ ] Paul Erwin email still sitting as a paste-ready draft (Oct 7) — his address, the book title, and which class are still blank
 - [ ] Dean Galea's AI for Health dinner (Wed Oct 28, his residence) — new invite, RSVP not urgent today
 - [ ] PLOS queue: new editor invitation PMEN-D-26-00449, a reminder on PONE-D-26-36016, and a stray reminder on PMEN-D-26-00318 (already closed in the portal Sep 29 — likely just a stale automated notice)
