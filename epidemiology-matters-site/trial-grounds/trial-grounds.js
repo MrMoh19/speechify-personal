@@ -114,6 +114,7 @@
 
   function runTrialsA(k) {
     var n = A.smokers.length, half = n >> 1;
+    A.newFrom = A.estimates.length;
     for (var t = 0; t < k; t++) {
       var order = new Array(n);
       for (var i = 0; i < n; i++) order[i] = i;
@@ -160,10 +161,12 @@
     }
     // estimate dots (render the last 300)
     var start = Math.max(0, A.estimates.length - 300);
+    var newFrom = (A.newFrom === undefined) ? A.estimates.length : A.newFrom;
     for (var i = start; i < A.estimates.length; i++) {
       var jit = ((i * 2654435761) >>> 0) % 1000 / 1000;
       var y = top + 8 + jit * (H - bot - top - 18);
-      s += '<circle cx="' + X(A.estimates[i]) + '" cy="' + y + '" r="2.6" fill="#b8c2cc" fill-opacity="0.75"/>';
+      s += '<circle cx="' + X(A.estimates[i]) + '" cy="' + y + '" r="2.6" fill="#b8c2cc" fill-opacity="0.75"' +
+        (i >= newFrom ? ' class="is-new"' : '') + '/>';
     }
     if (A.estimates.length) {
       var mean = A.estimates.reduce(function (x, y) { return x + y; }, 0) / A.estimates.length;

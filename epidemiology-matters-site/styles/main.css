@@ -667,12 +667,13 @@ a.link:hover { opacity: 0.6; }
   padding: var(--space-3) var(--space-4);
   border: 1px solid var(--ink);
   color: var(--ink);
-  transition: background var(--t-fast) var(--ease), color var(--t-fast) var(--ease);
+  transition: background var(--t-fast) var(--ease), color var(--t-fast) var(--ease), transform 120ms var(--ease);
   display: inline-flex;
   align-items: center;
   gap: var(--space-2);
 }
 .btn:hover { background: var(--ink); color: var(--paper); }
+.btn:active { transform: scale(0.98); }
 .btn--signal { border-color: var(--signal); color: var(--signal); }
 .btn--signal:hover { background: var(--signal); color: var(--paper); }
 .btn .arrow { width: 14px; height: 1px; background: currentColor; position: relative; }
@@ -1899,3 +1900,17 @@ a.feed-card:hover .feed-card__foot::after { transform: translateX(4px); }
 .farr-map{max-width:470px;margin:var(--space-6) auto;padding:12px 12px 10px;background:#fff;border:1px solid var(--rule);box-shadow:0 10px 30px rgba(10,10,10,.06)}
 .farr-map svg{display:block;width:100%;height:auto}
 .farr-map figcaption{font-family:'Source Serif 4',serif;font-style:italic;font-size:0.8rem;color:var(--ink-mute);text-align:center;margin-top:10px;line-height:1.55}
+
+/* ============================================================
+   Micro-motion (entrances that bridge instant state changes)
+   ============================================================ */
+@media (max-width: 900px) {
+  .topnav__links.is-open { animation: emNavIn 200ms var(--ease); }
+}
+@keyframes emNavIn {
+  from { opacity: 0; transform: translateY(-6px); }
+}
+#signupMsg:not([hidden]) { animation: emMsgIn 220ms var(--ease); }
+@keyframes emMsgIn {
+  from { opacity: 0; transform: translateY(4px); }
+}
