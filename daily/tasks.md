@@ -5,6 +5,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 ## Open
 
 ### Needs you now (reconciled Sun Oct 18, after the brief's Oct 12-16 outage)
+- [ ] SSM-PH revision (Digital Environments, SSMPH-D-26-00361) DUE THU OCT 22 — the journal's Oct 15 reminder confirms the date. (Corrected Oct 18: the ledger had said Nov 9)
 - [ ] ISTSS thank-you notes to Nuha Alshabani and Jaimie Gradus — drafted, paste-ready in `istss-2026-discussant/emails/15-nuha-thankyou.md` and `16-jaimie-thankyou.md` (Nuha's has two brackets only you can fill)
 - [ ] BMJ climate press release: Emma Dickinson asked for approval of the draft copy + your phone number by Fri Oct 16, 4 PM UK. No reply visible from here; if you didn't answer, send it Monday. Embargo lifts Wed Oct 21, 23:30 UK
 - [ ] BMJ podcast with Duncan Jarvies: Thu Oct 22, 4 PM UK = 10 AM CT, without Nason (on leave). CLASHES with PHS1000 Thursday 10:00-11:20; confirm the slot with Duncan or ask for another time
@@ -19,7 +20,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Wyatt Anderson meeting is scheduled; he asked Oct 15 to confirm your office (Hillman 22, garden level?)
 - [ ] Parth (o.parth) followed up Oct 13 on helping with publication opportunities — no reply seen
 - [ ] Tarik Tuncay: you missed each other Fri Oct 16 (he was working remotely) — rebook coffee
-- [ ] Sandro weekly for 16 Oct compiled Sun Oct 18 (Doc + docx + paste-ready note in your inbox): attach the Why Health slide edits and the AI/SDOH charts, fill two brackets, send from Outlook
+- [ ] Sandro weekly for 16 Oct: docx rebuilt on your 9 Oct layout (Oct 18, in the chat and repo). Attach it with the Why Health slide edits and the AI/SDOH charts, fill the brackets in the paste-ready note, send from Outlook
 - [ ] Sandro wants to talk "next steps / your engagement around the PHALs" (Oct 11) — not yet on a calendar as far as mail shows
 - [ ] Paul Erwin email still a paste-ready draft (Oct 7) — his address, the book title, and which class still blank
 - [ ] Bella Gomez and Becky Light replies (paste-ready Oct 9) — no evidence either went; confirm or drop
@@ -48,7 +49,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 ### Standing
 - [ ] TOKEN POLICY (his word, Sep 18): sweeps cover WUSTL work mail only; no pass over mail sent straight to abbaaji189@gmail.com. Note: `label:Label_3` returns nothing in the Gmail connector (label IDs don't match), so routines use `{to:abba-aji@wustl.edu cc:abba-aji@wustl.edu deliveredto:abba-aji@wustl.edu}`. Full rules in `daily/token-policy.md`
 - [ ] ROUTINES moved Oct 18 into this session (session_01LsjFMGPvAJYdbtzSqoYP5k), branch claude/istss-2026-discussant-m2xkou; the old session_01PPwbUUWpfmtc9VHJ6fxbgv routines are disabled. Open question still parked: drop the daily HTML render and keep only the email?
-- [ ] REVISION ORDER (his word, Sep 17): ISTSS done, JOTS done, WHO Bulletin resubmitted Oct 14 — now SSM-PH, due Nov 9 (extension confirmed in the system Oct 9)
+- [ ] REVISION ORDER (his word, Sep 17): ISTSS done, JOTS done, WHO Bulletin resubmitted Oct 14 — now SSM-PH, due THU OCT 22 (journal reminder Oct 15; extension actioned Oct 9)
 - [ ] Waiver (Tueth Keeney): packets went to DOS and the Nigerian Embassy Oct 12; Calvin explained Oct 15 that the "No Objection" status shows as a second tab under the same case number. Waiting on the agencies
 - [ ] JTS/JOTS validation paper: accepted Sep 23, copy edit returned Oct 7, awaiting page proofs; OA payment open (above)
 - [ ] Epi Matters 2e: with Emma at OUP for the editorial board; nothing owed
@@ -72,7 +73,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [x] 2026-10-12 — PLOS MH: accepted Editor role on PMEN-D-26-00449 and PMEN-D-26-00244R1
 - [x] 2026-10-11 — Sandro: "This weekly update is invaluable"; the NYT/Senator Murray exchange closed with his reply
 - [x] 2026-10-10 — 9 Oct Sandro weekly sent by you
-- [x] 2026-10-09 — SSM-PH extension CONFIRMED: Avendano agreed, Francesca Cardwell updated the deadline in the system (now Nov 9)
+- [x] 2026-10-09 — SSM-PH extension CONFIRMED: Avendano agreed, Francesca Cardwell updated the deadline in the system (now Oct 22, per the journal's Oct 15 reminder)
 
 - [x] 2026-10-09 — Waiver paperwork CLOSED on his end: Mohammed scanned and sent back the signed DS-3035 and G-28 Oct 8 night; Calvin confirmed receipt and will file both packets Monday Oct 12 once he and Melanie are back in the office
 - [x] 2026-10-08 — Zoe Rochester's meeting happened (1:30-2:00 PM in person)

@@ -8,24 +8,24 @@
   "active": [
     {
       "ms": "MaRVIN 1 — Validation of Mental Health Screening Instruments in Nigerian Populations",
-      "stage": "In production; copy edit returned (Oct 7)",
+      "stage": "In proof stage (copy edit returned to JTS)",
       "journal": "Journal of Traumatic Stress",
-      "next": "Awaiting page proofs for final author review",
+      "next": "Awaiting page proofs for final author review before publication",
       "due": ""
     },
     {
       "ms": "Commercial Determinants of Armed Conflict and the Global Arms Industry",
-      "stage": "Minor revision (requested Oct 7) resubmitted Oct 14; acknowledged by the journal",
+      "stage": "Minor revisions submitted (Oct 14)",
       "journal": "WHO Bulletin",
       "next": "Awaiting editorial decision",
       "due": ""
     },
     {
       "ms": "Digital Environments as Health Environments: Reframing Digital Health for Population Health",
-      "stage": "Revising per two external reviews; extension confirmed by the editor (Oct 9)",
+      "stage": "Revise & resubmit received (Sep 17); two external reviews",
       "journal": "SSM-Population Health",
-      "next": "Revise per reviewers (study-selection/method transparency, justification of the five domains and mechanisms, non-US/LMIC evidence, concrete measures and study designs, governance tensions and feasibility, reference cleanup); point-by-point response",
-      "due": "Nov 9, 2026"
+      "next": "Revise per reviewers point-by-point response",
+      "due": "Oct 22, 2026"
     },
     {
       "ms": "MaRVIN Burden paper — Trauma, Displacement, and Common Mental Disorders in Populations Exposed to Ongoing High-Prevalence Violence",
@@ -43,9 +43,9 @@
     },
     {
       "ms": "MaRVIN Expanded validation (population-level validation of PCL-5, PHQ-9, GAD-7)",
-      "stage": "Drafting with Gavin; his Introduction and Discussion edits came in Oct 16",
+      "stage": "Drafting with Gavin; Introduction and Discussion edits in (Oct 16)",
       "journal": "TBD",
-      "next": "Review Gavin's edits; send him the Paper 1 citation once JTS assigns a DOI",
+      "next": "Review Gavin's edits",
       "due": ""
     },
     {
@@ -57,10 +57,10 @@
     },
     {
       "ms": "\"Increasing Defence Expenditure May Cost Us Our Security\" (Mohammed Abba-Aji, Nason Maani)",
-      "stage": "Accepted; scheduled for the BMJ climate issue, with a BMJ press release (embargo lifts Oct 21, 23:30 UK)",
+      "stage": "Accepted; publishing in the climate issue with a BMJ press release (embargo lifts Oct 21)",
       "journal": "The BMJ (climate issue)",
-      "next": "BMJ podcast recording Thu Oct 22 (Nason on leave)",
-      "due": ""
+      "next": "BMJ podcast on the theme",
+      "due": "Oct 22"
     },
     {
       "ms": "Digital Determinants of Health Viewpoint (with Jay Shaw)",
@@ -129,35 +129,35 @@
   "teaching": [
     {
       "name": "PHS1000 (Foundations in Public Health)",
-      "update": "Midterm graded and attendance corrections closed out; Salma Abdalla guest-lectured Oct 13 on social and structural determinants; Lab III (systems thinking) ran Oct 15",
-      "next": "Oct 22 session needs a plan (Saffiyah Poole had to cancel); Patrick Aguilar guest lectures Oct 29, materials in hand"
+      "update": "Midterm graded; Salma Abdalla guest lecture on social and structural determinants (Oct 13); Lab III on systems thinking (Oct 15)",
+      "next": "Patrick Aguilar guest lecture (Oct 29)"
     },
     {
       "name": "RA / TA mentoring pipeline",
-      "update": "Zoe Rochester lined up as undergraduate TA for Intro to Epi (spring); Kirsten preparing the spring TA call; lunch with four undergraduates interested in Nigeria research (Oct 16)",
-      "next": "Answer Kirsten's TA call (grad TA also needed); send the RA group-training email"
+      "update": "Group-training session outlined for Parth, Ellie, Gabriel Estrada, Zoe; Zoe Rochester to TA Intro to Epi in spring",
+      "next": "Send the RA group-training email"
     }
   ],
   "projects": [
     {
       "name": "AI and Public Health Survey",
-      "update": "National survey of AI in public health practice; leading with Brownson's support, Jen Layden joined. Framed as an adoption study: individual use mapped to Shah's three tiers with a sanctioned / tolerated / unsanctioned item, ASTHO challenge categories, local health departments included. Met with Layden and Brownson Oct 1 — discussed next steps, presented the plan. PH WINS (de Beaumont) meeting being scheduled for Oct 27 or 29",
-      "next": "Layden and Brownson to reach out separately to ASTHO and NACCHO; concept note to follow"
+      "update": "National survey of AI in public health practice; leading with Brownson's support, Jen Layden joined. PH WINS (de Beaumont) meeting being scheduled",
+      "next": "Meeting with ASTHO secured"
     },
     {
       "name": "Annual PH&S Lecture and book event",
-      "update": "PH&S confirms funding for 100 copies; School covers 100; books have arrived, and an A/V team will be on site",
-      "next": "[date and format] bracket still open"
+      "update": "PH&S confirms books have arrived, and an A/V team will be on site",
+      "next": "None"
     },
     {
       "name": "Epidemiology Matters",
-      "update": "Four external reviews received; response letter drafted in the Zimmerman format; approved by Kerry and sent to Emma at OUP",
+      "update": "Response letter with OUP",
       "next": "Meeting with Kerry for next steps"
     },
     {
       "name": "St. Louis SHINE Survey",
-      "update": "IRB approved; NORC soft-launched the AmeriSpeak sample (Oct 7) and shared the soft-launch data (Oct 15)",
-      "next": "Soft-launch data check, then full launch"
+      "update": "NORC soft-launched the survey; IRB approved; soft-launch data shared (Oct 15)",
+      "next": "Data check, then full launch"
     },
     {
       "name": "MaRVIN dissertation on primary care implementation in Nigeria",
@@ -171,30 +171,35 @@
     },
     {
       "name": "Rural Health Task Force",
-      "update": "Analysis updated and white paper drafting done",
-      "next": "[next step from the task force]"
+      "update": "Updated analysis with new data and drafted some sections of the landscape report.",
+      "next": "White paper sent to Dean Galea."
     },
     {
       "name": "AI & Digital Innovation in Public Health Curriculum (MPH)",
-      "update": "Course pitched at the FRPHC working session (Oct 6)",
-      "next": "Present to the MPH Education Subcommittee Mon Nov 30 (proposal form and draft syllabus due Nov 23)"
+      "update": "Course pitch meeting held; presentation to the MPH Education Subcommittee set for Nov 30",
+      "next": "Course syllabus and proposal (due Nov 23)"
     },
     {
       "name": "Lancet Global Gun Violence Commission",
-      "update": "Met Aisha Jafri Oct 13 to go through the working-group feedback",
-      "next": "[next steps agreed Oct 13]"
+      "update": "Working-group synthesis completed; met Aisha (Oct 13) on the feedback",
+      "next": "[next steps agreed with Aisha]"
     },
     {
       "name": "Public Health 3rd edition (Springer)",
-      "update": "Met Springer's digital team Oct 16 (CourseConnect platform demo); modular, bite-sized format agreed at the Sep 30 kickoff",
-      "next": "Map the new modular structure with Angela and Jim"
+      "update": "Met Springer's digital team (Oct 16)",
+      "next": "Map the modular structure with Angela and Jim"
     }
   ],
   "training": [
     {
       "name": "Teaching with AI series (Eddie Watson, FRPHC course developer team)",
-      "status": "Sessions continuing with the FRPHC course-developer team",
-      "next": "Oct 20, 1-3 (AI for course design) and Oct 23, 9-11 this week; then Oct 28, Nov 20, Dec 4"
+      "status": "Sessions ongoing; next on Oct 20 and Oct 23",
+      "next": "Meeting and training sessions."
+    },
+    {
+      "name": "MIT Applied AI and Data Science Program",
+      "status": "Registered; preparatory sessions under way; live course starts Nov 21",
+      "next": "Pre-course training from now to Nov 21"
     }
   ]
 }
