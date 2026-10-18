@@ -19,7 +19,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Wyatt Anderson meeting is scheduled; he asked Oct 15 to confirm your office (Hillman 22, garden level?)
 - [ ] Parth (o.parth) followed up Oct 13 on helping with publication opportunities — no reply seen
 - [ ] Tarik Tuncay: you missed each other Fri Oct 16 (he was working remotely) — rebook coffee
-- [ ] Sandro weekly for 16 Oct was NOT delivered (routine broken, fixed Oct 18) — compile on your word; last one sent 10 Oct
+- [ ] Sandro weekly for 16 Oct compiled Sun Oct 18 (Doc + docx + paste-ready note in your inbox): attach the Why Health slide edits and the AI/SDOH charts, fill two brackets, send from Outlook
 - [ ] Sandro wants to talk "next steps / your engagement around the PHALs" (Oct 11) — not yet on a calendar as far as mail shows
 - [ ] Paul Erwin email still a paste-ready draft (Oct 7) — his address, the book title, and which class still blank
 - [ ] Bella Gomez and Becky Light replies (paste-ready Oct 9) — no evidence either went; confirm or drop

@@ -1,5 +1,5 @@
 {
-  "title_date": "9 October 2026",
+  "title_date": "16 October 2026",
   "excluded_from_sandro": [
     "ANCHOR-MH Nigeria",
     "PLOS Mental Health editor queue",
@@ -8,24 +8,24 @@
   "active": [
     {
       "ms": "MaRVIN 1 — Validation of Mental Health Screening Instruments in Nigerian Populations",
-      "stage": "In proof stage (copy edit returned to JTS)",
+      "stage": "In production; copy edit returned (Oct 7)",
       "journal": "Journal of Traumatic Stress",
-      "next": "Awaiting page proofs for final author review before publication",
-      "due": "~Oct 7"
+      "next": "Awaiting page proofs for final author review",
+      "due": ""
     },
     {
       "ms": "Commercial Determinants of Armed Conflict and the Global Arms Industry",
-      "stage": "Revised and resubmitted (Oct 1); acknowledged by the journal",
+      "stage": "Minor revision (requested Oct 7) resubmitted Oct 14; acknowledged by the journal",
       "journal": "WHO Bulletin",
       "next": "Awaiting editorial decision",
-      "due": "~Oct 1 (CDoH theme issue) — met"
+      "due": ""
     },
     {
       "ms": "Digital Environments as Health Environments: Reframing Digital Health for Population Health",
-      "stage": "Revise & resubmit received (Sep 17); two external reviews",
+      "stage": "Revising per two external reviews; extension confirmed by the editor (Oct 9)",
       "journal": "SSM-Population Health",
       "next": "Revise per reviewers (study-selection/method transparency, justification of the five domains and mechanisms, non-US/LMIC evidence, concrete measures and study designs, governance tensions and feasibility, reference cleanup); point-by-point response",
-      "due": "Oct 8, 2026"
+      "due": "Nov 9, 2026"
     },
     {
       "ms": "MaRVIN Burden paper — Trauma, Displacement, and Common Mental Disorders in Populations Exposed to Ongoing High-Prevalence Violence",
@@ -43,9 +43,9 @@
     },
     {
       "ms": "MaRVIN Expanded validation (population-level validation of PCL-5, PHQ-9, GAD-7)",
-      "stage": "Phase 2 outline shared with Gavin (Sep 14); aligned at meeting",
+      "stage": "Drafting with Gavin; his Introduction and Discussion edits came in Oct 16",
       "journal": "TBD",
-      "next": "Begin drafting per outline",
+      "next": "Review Gavin's edits; send him the Paper 1 citation once JTS assigns a DOI",
       "due": ""
     },
     {
@@ -57,9 +57,9 @@
     },
     {
       "ms": "\"Increasing Defence Expenditure May Cost Us Our Security\" (Mohammed Abba-Aji, Nason Maani)",
-      "stage": "Accepted; COI declarations complete, with BMJ's technical editor for production",
+      "stage": "Accepted; scheduled for the BMJ climate issue, with a BMJ press release (embargo lifts Oct 21, 23:30 UK)",
       "journal": "The BMJ (climate issue)",
-      "next": "Awaiting proofs from the technical editor",
+      "next": "BMJ podcast recording Thu Oct 22 (Nason on leave)",
       "due": ""
     },
     {
@@ -129,19 +129,19 @@
   "teaching": [
     {
       "name": "PHS1000 (Foundations in Public Health)",
-      "update": "Tue/Thu sessions ongoing; Oct 8 class covers social and structural determinants of health",
-      "next": "Finalize slides for the Oct 8 class"
+      "update": "Midterm graded and attendance corrections closed out; Salma Abdalla guest-lectured Oct 13 on social and structural determinants; Lab III (systems thinking) ran Oct 15",
+      "next": "Oct 22 session needs a plan (Saffiyah Poole had to cancel); Patrick Aguilar guest lectures Oct 29, materials in hand"
     },
     {
       "name": "RA / TA mentoring pipeline",
-      "update": "Group-training session outlined for Parth, Ellie, Gabriel Estrada, and Zoe (Grace may fit the cohort); separately, a new TA inquiry came in from student Zoe Rochester (Oct 7)",
-      "next": "Send the RA group-training email; reply to Rochester"
+      "update": "Zoe Rochester lined up as undergraduate TA for Intro to Epi (spring); Kirsten preparing the spring TA call; lunch with four undergraduates interested in Nigeria research (Oct 16)",
+      "next": "Answer Kirsten's TA call (grad TA also needed); send the RA group-training email"
     }
   ],
   "projects": [
     {
       "name": "AI and Public Health Survey",
-      "update": "National survey of AI in public health practice; leading with Brownson's support, Jen Layden joined. Framed as an adoption study: individual use mapped to Shah's three tiers with a sanctioned / tolerated / unsanctioned item, ASTHO challenge categories, local health departments included. Met with Layden and Brownson Oct 1 — discussed next steps, presented the plan",
+      "update": "National survey of AI in public health practice; leading with Brownson's support, Jen Layden joined. Framed as an adoption study: individual use mapped to Shah's three tiers with a sanctioned / tolerated / unsanctioned item, ASTHO challenge categories, local health departments included. Met with Layden and Brownson Oct 1 — discussed next steps, presented the plan. PH WINS (de Beaumont) meeting being scheduled for Oct 27 or 29",
       "next": "Layden and Brownson to reach out separately to ASTHO and NACCHO; concept note to follow"
     },
     {
@@ -156,8 +156,8 @@
     },
     {
       "name": "St. Louis SHINE Survey",
-      "update": "NORC sent incentive proposal; Morven following up; no meeting needed this week",
-      "next": "Pilot data collection"
+      "update": "IRB approved; NORC soft-launched the AmeriSpeak sample (Oct 7) and shared the soft-launch data (Oct 15)",
+      "next": "Soft-launch data check, then full launch"
     },
     {
       "name": "MaRVIN dissertation on primary care implementation in Nigeria",
@@ -171,25 +171,30 @@
     },
     {
       "name": "Rural Health Task Force",
-      "update": "White paper drafting underway; writing assignments distributed",
-      "next": "Updating analysis with new data; drafting part of the landscape report"
+      "update": "Analysis updated and white paper drafting done",
+      "next": "[next step from the task force]"
     },
     {
       "name": "AI & Digital Innovation in Public Health Curriculum (MPH)",
-      "update": "Kick-off meeting held",
-      "next": "Course concept"
+      "update": "Course pitched at the FRPHC working session (Oct 6)",
+      "next": "Present to the MPH Education Subcommittee Mon Nov 30 (proposal form and draft syllabus due Nov 23)"
     },
     {
       "name": "Lancet Global Gun Violence Commission",
-      "update": "Working-group synthesis completed; feedback received this week",
-      "next": "Meeting with Aisha next week for next steps"
+      "update": "Met Aisha Jafri Oct 13 to go through the working-group feedback",
+      "next": "[next steps agreed Oct 13]"
+    },
+    {
+      "name": "Public Health 3rd edition (Springer)",
+      "update": "Met Springer's digital team Oct 16 (CourseConnect platform demo); modular, bite-sized format agreed at the Sep 30 kickoff",
+      "next": "Map the new modular structure with Angela and Jim"
     }
   ],
   "training": [
     {
       "name": "Teaching with AI series (Eddie Watson, FRPHC course developer team)",
-      "status": "First session attended; four one-hour sessions to follow this academic year",
-      "next": "Dates set (Hobson, Sep 17): Oct 6 2-4, Oct 20 1-3, Oct 23 9-11, Oct 28 2-4, Nov 20 10-12, Dec 4 10-12; Tish sending hybrid invites"
+      "status": "Sessions continuing with the FRPHC course-developer team",
+      "next": "Oct 20, 1-3 (AI for course design) and Oct 23, 9-11 this week; then Oct 28, Nov 20, Dec 4"
     }
   ]
 }
