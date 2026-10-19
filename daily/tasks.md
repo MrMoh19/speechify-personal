@@ -4,23 +4,22 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Open
 
-### Needs you now (reconciled Sun Oct 18, after the brief's Oct 12-16 outage)
+### Needs you now (brief, Mon Oct 19)
 - [ ] SSM-PH revision (Digital Environments, SSMPH-D-26-00361) DUE THU OCT 22 — the journal's Oct 15 reminder confirms the date. (Corrected Oct 18: the ledger had said Nov 9)
 - [ ] ISTSS thank-you notes to Nuha Alshabani and Jaimie Gradus — drafted, paste-ready in `istss-2026-discussant/emails/15-nuha-thankyou.md` and `16-jaimie-thankyou.md` (Nuha's has two brackets only you can fill)
 - [ ] BMJ climate press release: Emma Dickinson asked for approval of the draft copy + your phone number by Fri Oct 16, 4 PM UK. No reply visible from here; if you didn't answer, send it Monday. Embargo lifts Wed Oct 21, 23:30 UK
 - [ ] BMJ podcast with Duncan Jarvies: Thu Oct 22, 4 PM UK = 10 AM CT, without Nason (on leave). CLASHES with PHS1000 Thursday 10:00-11:20; confirm the slot with Duncan or ask for another time
 - [ ] PHS1000 Thu Oct 22 has no guest: Saffiyah Poole (St. Louis IHN) canceled Oct 15 and Oct 20 doesn't work for her. Session needs a plan with Ans
-- [ ] PHS1000 Thu Oct 29: Patrick Aguilar sent slides, Gawande pre-read, teaching guide and four Poll Everywhere questions (Oct 18). Acknowledge, post the pre-read, build the polls (you offered to)
-- [ ] Wiley JTS open-access payment reminder (Oct 18): the OA order went in Sep 23 but payment shows incomplete; a Wiley customer statement also arrived Oct 12
-- [ ] PLOS MH PMEN-D-26-00449 (Zimbabwe help-seeking, you're Editor since Oct 12): required reviews received Oct 17 — decision is yours now
-- [ ] PLOS MH PMEN-D-26-00502 reviewer invitation (Manuel Stadtmann, adolescent depression): pending, reminder Oct 17
+- [ ] PHS1000 Thu Oct 29 (Patrick Aguilar): he'll build the PollEv himself and asks (Oct 19, Becky cc'd) how you want attendance handled
+- [ ] JTS APC invoice → Maggie, charged to Sandro's research discretionary (Sandro's yes, Oct 18)
+- [ ] PLOS MH decisions ready: PMEN-D-26-00449 (reviews in Oct 17) and PMEN-D-26-00244R1 (reviews in Oct 19, action reminder)
+- [ ] PLOS MH review invitations: PMEN-D-26-00502 (final reminder Oct 19) and a new re-review of PMEN-D-26-00056R3 (Oct 19)
 - [ ] PLOS One PONE-D-26-36016: final reminder Oct 10, still unanswered
 - [ ] Dr. Ojo for the Bursky global mental health convening: you told Joshua Bogus (Oct 15) you'd ask Ojo; Joshua has him on the proposed-speaker list
 - [ ] Gavin Newberry: edits to Introduction + Discussion sent Oct 16 for your comments; he also asked for the Paper 1 citation (JTS accepted, in production, no DOI yet)
 - [ ] Wyatt Anderson meeting is scheduled; he asked Oct 15 to confirm your office (Hillman 22, garden level?)
 - [ ] Parth (o.parth) followed up Oct 13 on helping with publication opportunities — no reply seen
 - [ ] Tarik Tuncay: you missed each other Fri Oct 16 (he was working remotely) — rebook coffee
-- [ ] Sandro weekly for 16 Oct: docx rebuilt on your 9 Oct layout (Oct 18, in the chat and repo). Attach it with the Why Health slide edits and the AI/SDOH charts, fill the brackets in the paste-ready note, send from Outlook
 - [ ] Sandro wants to talk "next steps / your engagement around the PHALs" (Oct 11) — not yet on a calendar as far as mail shows
 - [ ] Paul Erwin email still a paste-ready draft (Oct 7) — his address, the book title, and which class still blank
 - [ ] Bella Gomez and Becky Light replies (paste-ready Oct 9) — no evidence either went; confirm or drop
@@ -58,6 +57,8 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Sandro weekly automation: Friday question round ~12:37 PM + compile ~5:23 PM CT (source of truth projects/sandro-weekly/rows.json)
 
 ## Done
+
+- [x] 2026-10-18 — Sandro weekly SENT Sun 3:21 PM (with the Why Health slide edits and the Scopus AI/SDOH charts). Sandro replied: AI analysis "sort of fascinating to read", not sure yet what's actionable; keeping his Bursky-branded slides; yes to Maggie paying the JTS APC from his discretionary
 
 - [x] 2026-10-18 — Morning brief diagnosed and moved: since Oct 14 it fired into fresh sessions with no Gmail, Calendar or repo, so Oct 12-16 produced nothing (last brief Oct 9). The Sandro weekly also stopped delivering after Oct 9. All three routines recreated in this session
 - [x] 2026-10-17 — RADY-2026-0452 (Intl J Adolescence and Youth) review DECLINED; editor acknowledged
