@@ -10,7 +10,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
   - [ ] Send Salma the trust analysis (draft: `daily/drafts/2026-10-20-salma-trust.md`)
   - [x] Attachments sent to Parth (nothing for Zoe for now)
   - [ ] Start the MaRVIN Burden paper outline
-  - [ ] Quick replies: JTS APC invoice to Maggie; Mwobobia (pick a Thursday time); Duncan at BMJ about the Thursday 10 AM clash; postdoc social RSVP
+  - [ ] Quick replies: JTS APC invoice to Maggie; Mwobobia (pick a Thursday time); Duncan at BMJ: podcast prep questions; postdoc social RSVP
 - [ ] 11:30-1:00: SSM-PH revision
 - [x] 1:00-3:00: FRPHC course-developer session (Eddie Watson, AI for course design)
 - [x] PLOS: decisions made on 00449 and 00244R1 (additional reviewers requested on both, not yet picked up); invitations 00502 and 00056R3 left by his choice
@@ -22,7 +22,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] SSM-PH revision (Digital Environments, SSMPH-D-26-00361): extension to NOV 12 requested Oct 20 (his email to Dr. Avendano). Watch for the editor's confirmation; Oct 22 stands in the system until then
 - [ ] ISTSS thank-you notes to Nuha Alshabani and Jaimie Gradus — drafted, paste-ready in `istss-2026-discussant/emails/15-nuha-thankyou.md` and `16-jaimie-thankyou.md` (Nuha's has two brackets only you can fill)
 - [ ] BMJ press release: reply sent to Emma Oct 20 with Deb Parker (WashU Marketing & Communications, parkerd@wustl.edu) as media contact; draft forwarded to Tamara and Deb. Watch for Deb's number or edits. Embargo lifts Wed Oct 21, 23:30 UK
-- [ ] BMJ podcast with Duncan Jarvies: Thu Oct 22, 4 PM UK = 10 AM CT, without Nason (on leave). CLASHES with PHS1000 Thursday 10:00-11:20; confirm the slot with Duncan or ask for another time
+- [ ] BMJ podcast with Duncan Jarvies: Thu Oct 22, 4 PM UK = 10 AM CT, without Nason. He's attending (class covered, his word Oct 20); prep questions to Duncan drafted
 - [ ] PHS1000 Thu Oct 22 has no guest (Saffiyah Poole out; she thanked you Oct 19) — session plan with Ans
 - [ ] JTS APC invoice → Maggie, charged to Sandro's research discretionary (Sandro's yes, Oct 18)
 - [ ] PLOS MH: 00449 and 00244R1 waiting on the additional reviewers he requested (Oct 20)
