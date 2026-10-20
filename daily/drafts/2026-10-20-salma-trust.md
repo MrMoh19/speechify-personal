@@ -17,7 +17,7 @@ Trust is a question I had thought about before, but I engaged with it more deepl
 
 A few early findings:
 
-- The six core trust items form two closely related dimensions, the two science-worded items and the items naming people (scientists, doctors and nurses, and others), correlated at about 0.86. Trust in health information from the internet sits apart from both.
+- The five core trust items form two closely related dimensions: trust in science and scientists, and trust in people (neighbours, journalists, doctors and nurses), correlated at about 0.86. Trust in health information from the internet sits apart from both.
 - The items behave similarly across gender, age, education and survey mode, but their response thresholds shift across countries and regions. Associations within countries hold up; direct comparisons of mean trust scores between countries do not, which bears on comparisons like the ones in your talk.
 - Trust adds predictive information for views on vaccines and for confidence in accessing healthcare in about nine of every ten countries held out. For healthcare access, keeping the two dimensions separate predicts better than a single trust score.
 - Respondents do not fall into distinct trust types. The pattern is a continuous gradient from low to high.
