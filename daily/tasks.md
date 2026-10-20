@@ -4,6 +4,19 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Open
 
+### Today (Tue Oct 20) — his plan
+- [ ] Before class (to 10:00): SSM-PH revision block (due Thu Oct 22)
+- [ ] During PHS1000 (10:00-11:20, attending, not teaching):
+  - [ ] Send Salma the trust analysis (draft: `daily/drafts/2026-10-20-salma-trust.md`)
+  - [ ] Send the attachments to Parth and Zoe
+  - [ ] Start the MaRVIN Burden paper outline
+  - [ ] Quick replies: JTS APC invoice to Maggie; Mwobobia (pick a Thursday time); Duncan at BMJ about the Thursday 10 AM clash; postdoc social RSVP
+- [ ] 11:30-1:00: SSM-PH revision
+- [ ] 1:00-3:00: FRPHC course-developer session (Eddie Watson, AI for course design)
+- [ ] 3:00-4:00: PLOS decisions (00449, 00244R1); accept or decline 00502 and the 00056R3 re-review
+- [ ] 4:00: Bursky postdoc social
+- [ ] Evening: SSM-PH revision; Code of Conduct training if time allows
+
 ### Needs you now (brief, Tue Oct 20)
 - [ ] SSM-PH revision (Digital Environments, SSMPH-D-26-00361) DUE THU OCT 22 — the journal's Oct 15 reminder confirms the date. (Corrected Oct 18: the ledger had said Nov 9)
 - [ ] ISTSS thank-you notes to Nuha Alshabani and Jaimie Gradus — drafted, paste-ready in `istss-2026-discussant/emails/15-nuha-thankyou.md` and `16-jaimie-thankyou.md` (Nuha's has two brackets only you can fill)
