@@ -4,13 +4,12 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Open
 
-### Needs you now (brief, Mon Oct 19)
+### Needs you now (brief, Tue Oct 20)
 - [ ] SSM-PH revision (Digital Environments, SSMPH-D-26-00361) DUE THU OCT 22 — the journal's Oct 15 reminder confirms the date. (Corrected Oct 18: the ledger had said Nov 9)
 - [ ] ISTSS thank-you notes to Nuha Alshabani and Jaimie Gradus — drafted, paste-ready in `istss-2026-discussant/emails/15-nuha-thankyou.md` and `16-jaimie-thankyou.md` (Nuha's has two brackets only you can fill)
 - [ ] BMJ climate press release: Emma Dickinson asked for approval of the draft copy + your phone number by Fri Oct 16, 4 PM UK. No reply visible from here; if you didn't answer, send it Monday. Embargo lifts Wed Oct 21, 23:30 UK
 - [ ] BMJ podcast with Duncan Jarvies: Thu Oct 22, 4 PM UK = 10 AM CT, without Nason (on leave). CLASHES with PHS1000 Thursday 10:00-11:20; confirm the slot with Duncan or ask for another time
-- [ ] PHS1000 Thu Oct 22 has no guest: Saffiyah Poole (St. Louis IHN) canceled Oct 15 and Oct 20 doesn't work for her. Session needs a plan with Ans
-- [ ] PHS1000 Thu Oct 29 (Patrick Aguilar): he'll build the PollEv himself and asks (Oct 19, Becky cc'd) how you want attendance handled
+- [ ] PHS1000 Thu Oct 22 has no guest (Saffiyah Poole out; she thanked you Oct 19) — session plan with Ans
 - [ ] JTS APC invoice → Maggie, charged to Sandro's research discretionary (Sandro's yes, Oct 18)
 - [ ] PLOS MH decisions ready: PMEN-D-26-00449 (reviews in Oct 17) and PMEN-D-26-00244R1 (reviews in Oct 19, action reminder)
 - [ ] PLOS MH review invitations: PMEN-D-26-00502 (final reminder Oct 19) and a new re-review of PMEN-D-26-00056R3 (Oct 19)
@@ -19,6 +18,8 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Gavin Newberry: edits to Introduction + Discussion sent Oct 16 for your comments; he also asked for the Paper 1 citation (JTS accepted, in production, no DOI yet)
 - [ ] Wyatt Anderson meeting is scheduled; he asked Oct 15 to confirm your office (Hillman 22, garden level?)
 - [ ] Parth (o.parth) followed up Oct 13 on helping with publication opportunities — no reply seen
+- [ ] Mwobobia (j.mwobobia) replied Oct 19: happy to meet, "anytime next Thursday" — pick a time
+- [ ] FY27 Code of Conduct training + attestation (University Compliance, Oct 19)
 - [ ] Tarik Tuncay: you missed each other Fri Oct 16 (he was working remotely) — rebook coffee
 - [ ] Sandro wants to talk "next steps / your engagement around the PHALs" (Oct 11) — not yet on a calendar as far as mail shows
 - [ ] Paul Erwin email still a paste-ready draft (Oct 7) — his address, the book title, and which class still blank
@@ -48,7 +49,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 ### Standing
 - [ ] TOKEN POLICY (his word, Sep 18): sweeps cover WUSTL work mail only; no pass over mail sent straight to abbaaji189@gmail.com. Note: `label:Label_3` returns nothing in the Gmail connector (label IDs don't match), so routines use `{to:abba-aji@wustl.edu cc:abba-aji@wustl.edu deliveredto:abba-aji@wustl.edu}`. Full rules in `daily/token-policy.md`
 - [ ] ROUTINES moved Oct 18 into this session (session_01LsjFMGPvAJYdbtzSqoYP5k), branch claude/istss-2026-discussant-m2xkou; the old session_01PPwbUUWpfmtc9VHJ6fxbgv routines are disabled. Open question still parked: drop the daily HTML render and keep only the email?
-- [ ] REVISION ORDER (his word, Sep 17): ISTSS done, JOTS done, WHO Bulletin resubmitted Oct 14 — now SSM-PH, due THU OCT 22 (journal reminder Oct 15; extension actioned Oct 9)
+- [ ] REVISION ORDER (his word, Sep 17): ISTSS done, JOTS done, WHO Bulletin resubmitted Oct 14 — WHO Bulletin ACCEPTED Oct 19 — now SSM-PH, due THU OCT 22 (journal reminder Oct 15; extension actioned Oct 9)
 - [ ] Waiver (Tueth Keeney): packets went to DOS and the Nigerian Embassy Oct 12; Calvin explained Oct 15 that the "No Objection" status shows as a second tab under the same case number. Waiting on the agencies
 - [ ] JTS/JOTS validation paper: accepted Sep 23, copy edit returned Oct 7, awaiting page proofs; OA payment open (above)
 - [ ] Epi Matters 2e: with Emma at OUP for the editorial board; nothing owed
@@ -57,6 +58,9 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Sandro weekly automation: Friday question round ~12:37 PM + compile ~5:23 PM CT (source of truth projects/sandro-weekly/rows.json)
 
 ## Done
+
+- [x] 2026-10-19 — WHO Bulletin BLT/2026/296735 ACCEPTED (arms-industry CDoH paper); edited version due within a month, 2-day turnaround; Sandro: "Wonderful, congratulations Mohammed, thank you for leading us on this"
+- [x] 2026-10-19 — Patrick Aguilar added attendance to the Oct 29 PollEv deck after your reply; Zoe Rochester will flag Kirsten's outreach
 
 - [x] 2026-10-18 — Sandro weekly SENT Sun 3:21 PM (with the Why Health slide edits and the Scopus AI/SDOH charts). Sandro replied: AI analysis "sort of fascinating to read", not sure yet what's actionable; keeping his Bursky-branded slides; yes to Maggie paying the JTS APC from his discretionary
 
