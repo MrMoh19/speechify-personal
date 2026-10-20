@@ -8,31 +8,30 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Before class (to 10:00): SSM-PH revision block (extension to Nov 12 requested)
 - [ ] During PHS1000 (10:00-11:20, attending, not teaching):
   - [ ] Send Salma the trust analysis (draft: `daily/drafts/2026-10-20-salma-trust.md`)
-  - [ ] Send the attachments to Parth and Zoe
+  - [x] Attachments sent to Parth (nothing for Zoe for now)
   - [ ] Start the MaRVIN Burden paper outline
   - [ ] Quick replies: JTS APC invoice to Maggie; Mwobobia (pick a Thursday time); Duncan at BMJ about the Thursday 10 AM clash; postdoc social RSVP
 - [ ] 11:30-1:00: SSM-PH revision
-- [ ] 1:00-3:00: FRPHC course-developer session (Eddie Watson, AI for course design)
-- [ ] 3:00-4:00: PLOS decisions (00449, 00244R1); accept or decline 00502 and the 00056R3 re-review
+- [x] 1:00-3:00: FRPHC course-developer session (Eddie Watson, AI for course design)
+- [x] PLOS: decisions made on 00449 and 00244R1 (additional reviewers requested on both, not yet picked up); invitations 00502 and 00056R3 left by his choice
 - [ ] 4:00: Bursky postdoc social
-- [ ] Evening: SSM-PH revision; Code of Conduct training if time allows
+- [x] Code of Conduct training done
+- [ ] Evening: SSM-PH revision
 
 ### Needs you now (brief, Tue Oct 20)
 - [ ] SSM-PH revision (Digital Environments, SSMPH-D-26-00361): extension to NOV 12 requested Oct 20 (his email to Dr. Avendano). Watch for the editor's confirmation; Oct 22 stands in the system until then
 - [ ] ISTSS thank-you notes to Nuha Alshabani and Jaimie Gradus — drafted, paste-ready in `istss-2026-discussant/emails/15-nuha-thankyou.md` and `16-jaimie-thankyou.md` (Nuha's has two brackets only you can fill)
-- [ ] BMJ climate press release: Emma Dickinson asked for approval of the draft copy + your phone number by Fri Oct 16, 4 PM UK. No reply visible from here; if you didn't answer, send it Monday. Embargo lifts Wed Oct 21, 23:30 UK
+- [ ] BMJ press release: reply sent to Emma Oct 20 with Deb Parker (WashU Marketing & Communications, parkerd@wustl.edu) as media contact; draft forwarded to Tamara and Deb. Watch for Deb's number or edits. Embargo lifts Wed Oct 21, 23:30 UK
 - [ ] BMJ podcast with Duncan Jarvies: Thu Oct 22, 4 PM UK = 10 AM CT, without Nason (on leave). CLASHES with PHS1000 Thursday 10:00-11:20; confirm the slot with Duncan or ask for another time
 - [ ] PHS1000 Thu Oct 22 has no guest (Saffiyah Poole out; she thanked you Oct 19) — session plan with Ans
 - [ ] JTS APC invoice → Maggie, charged to Sandro's research discretionary (Sandro's yes, Oct 18)
-- [ ] PLOS MH decisions ready: PMEN-D-26-00449 (reviews in Oct 17) and PMEN-D-26-00244R1 (reviews in Oct 19, action reminder)
-- [ ] PLOS MH review invitations: PMEN-D-26-00502 (final reminder Oct 19) and a new re-review of PMEN-D-26-00056R3 (Oct 19)
+- [ ] PLOS MH: 00449 and 00244R1 waiting on the additional reviewers he requested (Oct 20)
 - [ ] PLOS One PONE-D-26-36016: final reminder Oct 10, still unanswered
 - [ ] Dr. Ojo for the Bursky global mental health convening: you told Joshua Bogus (Oct 15) you'd ask Ojo; Joshua has him on the proposed-speaker list
 - [ ] Gavin Newberry: edits to Introduction + Discussion sent Oct 16 for your comments; he also asked for the Paper 1 citation (JTS accepted, in production, no DOI yet)
 - [ ] Wyatt Anderson meeting is scheduled; he asked Oct 15 to confirm your office (Hillman 22, garden level?)
 - [ ] Parth (o.parth) followed up Oct 13 on helping with publication opportunities — no reply seen
 - [ ] Mwobobia (j.mwobobia) replied Oct 19: happy to meet, "anytime next Thursday" — pick a time
-- [ ] FY27 Code of Conduct training + attestation (University Compliance, Oct 19)
 - [ ] Tarik Tuncay: you missed each other Fri Oct 16 (he was working remotely) — rebook coffee
 - [ ] Sandro wants to talk "next steps / your engagement around the PHALs" (Oct 11) — not yet on a calendar as far as mail shows
 - [ ] Paul Erwin email still a paste-ready draft (Oct 7) — his address, the book title, and which class still blank
@@ -71,6 +70,8 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Sandro weekly automation: Friday question round ~12:37 PM + compile ~5:23 PM CT (source of truth projects/sandro-weekly/rows.json)
 
 ## Done
+
+- [x] 2026-10-20 — Sent: BMJ press-release reply (Deb Parker as media contact) and forward to Tamara/Deb; SSM-PH extension request; Parth's attachments. FRPHC session attended; Code of Conduct training done; PLOS decisions made (more reviewers requested on 00449 and 00244R1)
 
 - [x] 2026-10-20 — SSM-PH second extension requested (to Nov 12), sent by Mohammed
 
