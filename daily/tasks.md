@@ -4,7 +4,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Open
 
-### Today (Tue Oct 20) — his plan
+### Tue Oct 20 plan (carry-overs)
 - [ ] Before class (to 10:00): SSM-PH revision block (extension to Nov 12 requested)
 - [ ] During PHS1000 (10:00-11:20, attending, not teaching):
   - [ ] Send Salma the trust analysis (draft: `daily/drafts/2026-10-20-salma-trust.md`)
@@ -18,11 +18,11 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [x] Code of Conduct training done
 - [ ] Evening: SSM-PH revision
 
-### Needs you now (brief, Tue Oct 20)
-- [ ] SSM-PH revision (Digital Environments, SSMPH-D-26-00361): extension to NOV 12 requested Oct 20 (his email to Dr. Avendano). Watch for the editor's confirmation; Oct 22 stands in the system until then
+### Needs you now (brief, Wed Oct 21)
+- [ ] SSM-PH revision (Digital Environments, SSMPH-D-26-00361): DUE NOV 12, extension granted by Dr. Avendano Oct 21 (Francesca to update the system)
 - [ ] ISTSS thank-you notes to Nuha Alshabani and Jaimie Gradus — drafted, paste-ready in `istss-2026-discussant/emails/15-nuha-thankyou.md` and `16-jaimie-thankyou.md` (Nuha's has two brackets only you can fill)
-- [ ] BMJ press release: reply sent to Emma Oct 20 with Deb Parker (WashU Marketing & Communications, parkerd@wustl.edu) as media contact; draft forwarded to Tamara and Deb. Watch for Deb's number or edits. Embargo lifts Wed Oct 21, 23:30 UK
-- [ ] BMJ podcast with Duncan Jarvies: Thu Oct 22, 4 PM UK = 10 AM CT, without Nason. He's attending (class covered, his word Oct 20); prep questions to Duncan drafted
+- [ ] BMJ press release: give the press office Deb Parker's cell, 314-640-1462 (her word Oct 20), if not already done. Embargo lifts tonight Oct 21, 23:30 UK = 5:30 PM CT
+- [ ] BMJ podcast Thu Oct 22, 4 PM UK = 10 AM CT: Neta Crawford joins; each sets out their argument, then overlap and implications (Duncan, Oct 21; both articles attached). He's attending; class covered
 - [ ] PHS1000 Thu Oct 22 has no guest (Saffiyah Poole out; she thanked you Oct 19) — session plan with Ans
 - [ ] JTS APC invoice → Maggie, charged to Sandro's research discretionary (Sandro's yes, Oct 18)
 - [ ] PLOS MH: 00449 and 00244R1 waiting on the additional reviewers he requested (Oct 20)
@@ -32,6 +32,10 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Wyatt Anderson meeting is scheduled; he asked Oct 15 to confirm your office (Hillman 22, garden level?)
 - [ ] Parth (o.parth) followed up Oct 13 on helping with publication opportunities — no reply seen
 - [ ] Mwobobia (j.mwobobia) replied Oct 19: happy to meet, "anytime next Thursday" — pick a time
+- [ ] Isabella Li (sophomore, PH + Biology) asks you to advise her research (Oct 20)
+- [ ] Emma Levine: MPH letter of recommendation request (Oct 20)
+- [ ] Larson King immigration consult: confirm whether the J-1 two-year home residency requirement applies; Nancy sent scheduling details (Oct 20)
+- [ ] PLOS MH: invitation to handle PMEN-D-26-00573 (Oct 21); action reminder on PMEN-D-26-00318 (Oct 21)
 - [ ] Tarik Tuncay: you missed each other Fri Oct 16 (he was working remotely) — rebook coffee
 - [ ] Sandro wants to talk "next steps / your engagement around the PHALs" (Oct 11) — not yet on a calendar as far as mail shows
 - [ ] Paul Erwin email still a paste-ready draft (Oct 7) — his address, the book title, and which class still blank
@@ -61,7 +65,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 ### Standing
 - [ ] TOKEN POLICY (his word, Sep 18): sweeps cover WUSTL work mail only; no pass over mail sent straight to abbaaji189@gmail.com. Note: `label:Label_3` returns nothing in the Gmail connector (label IDs don't match), so routines use `{to:abba-aji@wustl.edu cc:abba-aji@wustl.edu deliveredto:abba-aji@wustl.edu}`. Full rules in `daily/token-policy.md`
 - [ ] ROUTINES moved Oct 18 into this session (session_01LsjFMGPvAJYdbtzSqoYP5k), branch claude/istss-2026-discussant-m2xkou; the old session_01PPwbUUWpfmtc9VHJ6fxbgv routines are disabled. Open question still parked: drop the daily HTML render and keep only the email?
-- [ ] REVISION ORDER (his word, Sep 17): ISTSS done, JOTS done, WHO Bulletin resubmitted Oct 14 — WHO Bulletin ACCEPTED Oct 19 — now SSM-PH, due NOV 12 if the Oct 20 extension request is granted (was Oct 22)
+- [ ] REVISION ORDER (his word, Sep 17): ISTSS done, JOTS done, WHO Bulletin resubmitted Oct 14 — WHO Bulletin ACCEPTED Oct 19 — now SSM-PH, due NOV 12 (granted Oct 21)
 - [ ] Waiver (Tueth Keeney): packets went to DOS and the Nigerian Embassy Oct 12; Calvin explained Oct 15 that the "No Objection" status shows as a second tab under the same case number. Waiting on the agencies
 - [ ] JTS/JOTS validation paper: accepted Sep 23, copy edit returned Oct 7, awaiting page proofs; OA payment open (above)
 - [ ] Epi Matters 2e: with Emma at OUP for the editorial board; nothing owed
@@ -70,6 +74,8 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Sandro weekly automation: Friday question round ~12:37 PM + compile ~5:23 PM CT (source of truth projects/sandro-weekly/rows.json)
 
 ## Done
+
+- [x] 2026-10-21 — SSM-PH extension to Nov 12 GRANTED (Avendano: "this would be fine for us")
 
 - [x] 2026-10-20 — Sent: BMJ press-release reply (Deb Parker as media contact) and forward to Tamara/Deb; SSM-PH extension request; Parth's attachments. FRPHC session attended; Code of Conduct training done; PLOS decisions made (more reviewers requested on 00449 and 00244R1)
 
