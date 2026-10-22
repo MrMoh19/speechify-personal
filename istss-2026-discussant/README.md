@@ -4,7 +4,9 @@
 **Slot:** Thursday, September 24, 2026, 1:45–3:00 PM, Salon C, Floor 3
 **Meeting:** ISTSS 42nd Annual Meeting, September 23–26, 2026, San Antonio Marriott Rivercenter (theme: "Traumatic Stress in a Troubled World: Collaboration on Evidence and Action")
 **Chair:** Jaimie Gradus (also presents the first paper)
-**Situation:** Sandro Galea has withdrawn as discussant due to scheduling conflicts. Replacement needed before the meeting, now under two weeks out.
+**Situation (closed):** Sandro Galea withdrew as discussant; Nuha Alshabani (now at Albany) accepted Sept 14, the program office confirmed the change Sept 16, and she discussed the session on Sept 24.
+
+**Post-meeting (Oct 18):** thank-you notes to Nuha and Jaimie drafted in `emails/15-nuha-thankyou.md` and `emails/16-jaimie-thankyou.md`, paste-ready for Outlook. Once both are sent, this folder is finished. Everything below is the historical working record.
 
 ## Status
 
