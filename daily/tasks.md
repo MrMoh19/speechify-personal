@@ -18,10 +18,9 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [x] Code of Conduct training done
 - [ ] Evening: SSM-PH revision
 
-### Needs you now (brief, Wed Oct 21)
-- [ ] SSM-PH revision (Digital Environments, SSMPH-D-26-00361): DUE NOV 12, extension granted by Dr. Avendano Oct 21 (Francesca to update the system)
+### Needs you now (brief, Thu Oct 22)
+- [ ] SSM-PH revision (Digital Environments, SSMPH-D-26-00361): DUE NOV 12 (system updated Oct 21)
 - [ ] ISTSS thank-you notes to Nuha Alshabani and Jaimie Gradus — drafted, paste-ready in `istss-2026-discussant/emails/15-nuha-thankyou.md` and `16-jaimie-thankyou.md` (Nuha's has two brackets only you can fill)
-- [ ] BMJ press release: give the press office Deb Parker's cell, 314-640-1462 (her word Oct 20), if not already done. Embargo lifts tonight Oct 21, 23:30 UK = 5:30 PM CT
 - [ ] BMJ podcast Thu Oct 22, 4 PM UK = 10 AM CT: Neta Crawford joins; each sets out their argument, then overlap and implications (Duncan, Oct 21; both articles attached). He's attending; class covered
 - [ ] PHS1000 Thu Oct 22 has no guest (Saffiyah Poole out; she thanked you Oct 19) — session plan with Ans
 - [ ] JTS APC invoice → Maggie, charged to Sandro's research discretionary (Sandro's yes, Oct 18)
@@ -36,6 +35,9 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Emma Levine: MPH letter of recommendation request (Oct 20)
 - [ ] Larson King immigration consult: confirm whether the J-1 two-year home residency requirement applies; Nancy sent scheduling details (Oct 20)
 - [ ] PLOS MH: invitation to handle PMEN-D-26-00573 (Oct 21); action reminder on PMEN-D-26-00318 (Oct 21)
+- [ ] Earth.com (Eric Ralls) preparing a story on the BMJ pieces (Oct 21, to Neta, you cc'd); route to Deb Parker or reply
+- [ ] MaRVIN six-state field implementation report from Olawunmi Adeoye (Oct 21): read and acknowledge
+- [ ] Fri Oct 23, 1:30 PM: meeting with Jen Layden and Caitlin Bristow (Izzi Stone's invite)
 - [ ] Tarik Tuncay: you missed each other Fri Oct 16 (he was working remotely) — rebook coffee
 - [ ] Sandro wants to talk "next steps / your engagement around the PHALs" (Oct 11) — not yet on a calendar as far as mail shows
 - [ ] Paul Erwin email still a paste-ready draft (Oct 7) — his address, the book title, and which class still blank
@@ -74,6 +76,8 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Sandro weekly automation: Friday question round ~12:37 PM + compile ~5:23 PM CT (source of truth projects/sandro-weekly/rows.json)
 
 ## Done
+
+- [x] 2026-10-21 — BMJ piece PUBLISHED online ("Increasing defence expenditure may cost us our security"); Emma Dickinson acknowledged his press-release reply with Deb cc'd; SSM-PH system updated to Nov 12 (Francesca)
 
 - [x] 2026-10-21 — SSM-PH extension to Nov 12 GRANTED (Avendano: "this would be fine for us")
 
