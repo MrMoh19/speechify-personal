@@ -1,5 +1,5 @@
 {
-  "title_date": "16 October 2026",
+  "title_date": "23 October 2026",
   "excluded_from_sandro": [
     "ANCHOR-MH Nigeria",
     "PLOS Mental Health editor queue",
@@ -8,9 +8,9 @@
   "active": [
     {
       "ms": "MaRVIN 1 — Validation of Mental Health Screening Instruments in Nigerian Populations",
-      "stage": "In proof stage (copy edit returned to JTS)",
+      "stage": "Page proofs received (Oct 22)",
       "journal": "Journal of Traumatic Stress",
-      "next": "Awaiting page proofs for final author review before publication",
+      "next": "Return proofs for final author review before publication",
       "due": ""
     },
     {
@@ -59,7 +59,7 @@
       "ms": "\"Increasing Defence Expenditure May Cost Us Our Security\" (Mohammed Abba-Aji, Nason Maani)",
       "stage": "Published online Oct 21 in the BMJ climate issue, with a BMJ press release",
       "journal": "The BMJ (climate issue)",
-      "next": "BMJ podcast recorded with Neta Crawford (Oct 22)",
+      "next": "BMJ podcast recorded with Neta Crawford (Oct 22); Earth.com story in preparation",
       "due": ""
     },
     {
@@ -156,7 +156,7 @@
     },
     {
       "name": "St. Louis SHINE Survey",
-      "update": "NORC soft-launched the survey; IRB approved; soft-launch data shared (Oct 15)",
+      "update": "Soft launch fielded and data shared (Oct 15); NORC confirmed timing for the first ABS invitation mailing (Oct 21)",
       "next": "Data check, then full launch"
     },
     {
@@ -171,7 +171,7 @@
     },
     {
       "name": "Rural Health Task Force",
-      "update": "Updated analysis with new data and drafted some sections of the landscape report.",
+      "update": "White paper drafted; Morven consolidating contributions, edits paused (Oct 21)",
       "next": "White paper sent to Dean Galea."
     },
     {
