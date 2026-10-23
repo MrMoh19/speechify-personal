@@ -18,26 +18,31 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [x] Code of Conduct training done
 - [ ] Evening: SSM-PH revision
 
-### Needs you now (brief, Thu Oct 22)
+### Needs you now (brief, Fri Oct 23)
 - [ ] SSM-PH revision (Digital Environments, SSMPH-D-26-00361): DUE NOV 12 (system updated Oct 21)
 - [ ] ISTSS thank-you notes to Nuha Alshabani and Jaimie Gradus — drafted, paste-ready in `istss-2026-discussant/emails/15-nuha-thankyou.md` and `16-jaimie-thankyou.md` (Nuha's has two brackets only you can fill)
-- [ ] BMJ podcast Thu Oct 22, 4 PM UK = 10 AM CT: Neta Crawford joins; each sets out their argument, then overlap and implications (Duncan, Oct 21; both articles attached). He's attending; class covered
 - [ ] PHS1000 Thu Oct 22 has no guest (Saffiyah Poole out; she thanked you Oct 19) — session plan with Ans
 - [ ] JTS APC invoice → Maggie, charged to Sandro's research discretionary (Sandro's yes, Oct 18)
-- [ ] PLOS MH: 00449 and 00244R1 waiting on the additional reviewers he requested (Oct 20)
+- [ ] PLOS MH: required reviews in for 00449 (Oct 22) and a completed review on 00318; 00244R1 still short of reviewers
 - [ ] PLOS One PONE-D-26-36016: final reminder Oct 10, still unanswered
 - [ ] Dr. Ojo for the Bursky global mental health convening: you told Joshua Bogus (Oct 15) you'd ask Ojo; Joshua has him on the proposed-speaker list
 - [ ] Gavin Newberry: edits to Introduction + Discussion sent Oct 16 for your comments; he also asked for the Paper 1 citation (JTS accepted, in production, no DOI yet)
 - [ ] Wyatt Anderson meeting is scheduled; he asked Oct 15 to confirm your office (Hillman 22, garden level?)
 - [ ] Parth (o.parth) followed up Oct 13 on helping with publication opportunities — no reply seen
 - [ ] Mwobobia (j.mwobobia) replied Oct 19: happy to meet, "anytime next Thursday" — pick a time
-- [ ] Isabella Li (sophomore, PH + Biology) asks you to advise her research (Oct 20)
+- [ ] Isabella Li: meeting set via poll, but she picked the wrong time zone and asks you to resend the time (Oct 22)
 - [ ] Emma Levine: MPH letter of recommendation request (Oct 20)
 - [ ] Larson King immigration consult: confirm whether the J-1 two-year home residency requirement applies; Nancy sent scheduling details (Oct 20)
 - [ ] PLOS MH: invitation to handle PMEN-D-26-00573 (Oct 21); action reminder on PMEN-D-26-00318 (Oct 21)
-- [ ] Earth.com (Eric Ralls) preparing a story on the BMJ pieces (Oct 21, to Neta, you cc'd); route to Deb Parker or reply
+- [ ] Earth.com: Eric Ralls thanked you for the answers (Oct 22) and asks for a copy of the full paper
 - [ ] MaRVIN six-state field implementation report from Olawunmi Adeoye (Oct 21): read and acknowledge
 - [ ] Fri Oct 23, 1:30 PM: meeting with Jen Layden and Caitlin Bristow (Izzi Stone's invite)
+- [ ] JTS PAGE PROOFS ready in Wiley online proofing (Oct 22): review; Wiley OA payment reminder again Oct 23
+- [ ] Angela Hobson offered times for the DrPH and MS/MHA market mapping (Oct 22); pick one
+- [ ] Samuel Ekanem (via Amanda Rhodes) wants to present the 3+2/4+1 pathways to your PH&S class; give him dates
+- [ ] Dean Galea's AI for Health dinner Wed Oct 28, 6:30 PM: SPH Events followed up for your RSVP (Oct 22)
+- [ ] Becker Library: remote access blocked until billed items are returned (final notice Oct 23)
+- [ ] WHO CDoH Global Report drafting group: Mon Oct 26, 15:00-17:30 CET = 9:00-11:30 AM CT; DoI done, draft agenda sent Oct 23
 - [ ] Tarik Tuncay: you missed each other Fri Oct 16 (he was working remotely) — rebook coffee
 - [ ] Sandro wants to talk "next steps / your engagement around the PHALs" (Oct 11) — not yet on a calendar as far as mail shows
 - [ ] Paul Erwin email still a paste-ready draft (Oct 7) — his address, the book title, and which class still blank
@@ -76,6 +81,8 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Sandro weekly automation: Friday question round ~12:37 PM + compile ~5:23 PM CT (source of truth projects/sandro-weekly/rows.json)
 
 ## Done
+
+- [x] 2026-10-22 — BMJ podcast recording day (Riverside link from Duncan; Hillman room booked); Earth.com answers sent; Sandro's "about to get busy" note answered (he replied "Thank you Mohammed"); Isabella Li meeting scheduled by poll
 
 - [x] 2026-10-21 — BMJ piece PUBLISHED online ("Increasing defence expenditure may cost us our security"); Emma Dickinson acknowledged his press-release reply with Deb cc'd; SSM-PH system updated to Nov 12 (Francesca)
 
