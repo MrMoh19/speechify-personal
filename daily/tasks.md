@@ -18,11 +18,11 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [x] Code of Conduct training done
 - [ ] Evening: SSM-PH revision
 
-### Needs you now (brief, Mon Oct 26)
+### Needs you now (brief, Tue Oct 27)
 - [ ] SSM-PH revision (Digital Environments, SSMPH-D-26-00361): DUE NOV 12 (system updated Oct 21)
 - [ ] ISTSS thank-you notes to Nuha Alshabani and Jaimie Gradus — drafted, paste-ready in `istss-2026-discussant/emails/15-nuha-thankyou.md` and `16-jaimie-thankyou.md` (Nuha's has two brackets only you can fill)
 - [ ] PHS1000 Thu Oct 22 has no guest (Saffiyah Poole out; she thanked you Oct 19) — session plan with Ans
-- [ ] JTS APC invoice → Maggie, charged to Sandro's research discretionary (Sandro's yes, Oct 18)
+- [ ] JTS APC: Maggie processing from Sandro's discretionary ("I will make sure this is completed today", Oct 26)
 - [ ] PLOS MH: required reviews in for 00449 (Oct 22) and a completed review on 00318; 00244R1 still short of reviewers
 - [ ] PLOS One PONE-D-26-36016: final reminder Oct 10, still unanswered
 - [ ] Dr. Ojo for the Bursky global mental health convening: you told Joshua Bogus (Oct 15) you'd ask Ojo; Joshua has him on the proposed-speaker list
@@ -30,7 +30,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Wyatt Anderson meeting is scheduled; he asked Oct 15 to confirm your office (Hillman 22, garden level?)
 - [ ] Parth (o.parth) followed up Oct 13 on helping with publication opportunities — no reply seen
 - [ ] Mwobobia (j.mwobobia) replied Oct 19: happy to meet, "anytime next Thursday" — pick a time
-- [ ] Isabella Li prefers to meet in person this week; send her your available times
+- [ ] Isabella Li: meeting Tue Oct 27 (her pick); confirm the time
 - [ ] Emma Levine: MPH letter of recommendation request (Oct 20)
 - [ ] Larson King immigration consult: confirm whether the J-1 two-year home residency requirement applies; Nancy sent scheduling details (Oct 20)
 - [ ] PLOS MH: invitation to handle PMEN-D-26-00573 (Oct 21); action reminder on PMEN-D-26-00318 (Oct 21)
@@ -44,9 +44,14 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Becker Library: remote access blocked until billed items are returned (final notice Oct 23)
 - [ ] WHO CDoH Global Report drafting group: today Mon Oct 26, 9:00-11:30 AM CT
 - [ ] TFRH white paper v2: review by EOD Wed Oct 28; Morven asks you to review all of Section 3 and share updated source data for the landscape figure
-- [ ] Emma Levine wants to meet this week or next (draft, details, deadlines ready)
+- [ ] Emma Levine: SOPHAS online recommendation requested (Oct 26); she also offered to meet this week or next
 - [ ] BIG talk on AI in research for Ross Brownson's PRC group: Fri Nov 20, 9 AM, ~20 min + 15 min discussion
 - [ ] Lancet GV: virtual meeting of the Commissioners (Aisha's Zoom invite Oct 23; date in the invite)
+- [ ] Caitlin Bristow sent Labs materials ahead of today's call (Oct 26)
+- [ ] Zoe Rochester: confirm PUBHLTHSOC 2999 is the right TA enrollment (Workday shows 10:00-11:20 with Irfan and Steensma)
+- [ ] Dean's dinner Wed Nov 11 (Human Rights Lens convening): new invite, RSVP
+- [ ] PLOS One PONE-D-26-42332 review invitation (Sadaf Sepanlou, Oct 27)
+- [ ] Judith Mwobobia: meeting Fri Oct 30 at Hillman (poll closed Oct 26)
 - [ ] Tarik Tuncay: you missed each other Fri Oct 16 (he was working remotely) — rebook coffee
 - [ ] Sandro wants to talk "next steps / your engagement around the PHALs" (Oct 11) — not yet on a calendar as far as mail shows
 - [ ] Paul Erwin email still a paste-ready draft (Oct 7) — his address, the book title, and which class still blank
