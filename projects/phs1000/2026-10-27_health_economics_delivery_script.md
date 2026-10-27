@@ -2,13 +2,13 @@
 
 ### Delivery script · Week 10.1 · Tuesday 27 October 2026 · Brown 100
 
-### 31 slides · 60-minute target inside the 80-minute block · ~50 min content, 8 min working groups, Q&A to the hour
+### 35 slides · 60-minute target inside the 80-minute block · ~50 min content, 8 min working groups, Q&A to the hour
 
 *Square brackets are stage directions; do not read them aloud. Clock markers are cumulative targets from the first word. The block runs to 11:20, so the hour leaves twenty minutes of margin for overrun, the Leadership Perspective handover, and questions. Required reading: Guinness and Wiseman, Introduction to Health Economics, pages 1 to 21. Recommended: Cullinan and Lorgelly, Social Science and Medicine, 2025.*
 
-**Production needs:** one slide with a full-screen five-minute countdown for the working groups; the two charts reused from 8 October (health spending as a share of GDP, and life expectancy against spending per person) so the room recognises them; a printed or projected copy of the working-group brief (Slide 25).
+**Production needs:** one slide with a full-screen five-minute countdown for the working groups; the two charts reused from 8 October (health spending as a share of GDP, and life expectancy against spending per person) so the room recognises them; a printed or projected copy of the working-group brief (Slide 29).
 
-**The running device:** health economics always asks a second question. "Does it work?" gets a second question: compared with what, and at what cost? "Who gets it?" gets a second question: who does not, and who decided? The phrase "the second question" returns at Slides 4, 11, 19, 24 and 29. Land it each time; it is what turns thirty slides into one argument.
+**The running device:** health economics always asks a second question. "Does it work?" gets a second question: compared with what, and at what cost? "Who gets it?" gets a second question: who does not, and who decided? The phrase "the second question" returns at Slides 4, 12, 22, 27 and 33. Land it each time; it is what turns thirty-five slides into one argument.
 
 -----
 
@@ -44,13 +44,17 @@ One habit to carry out of here: whenever someone tells you a programme works, as
 
 ## PART ONE: CHOICE UNDER SCARCITY (0:06–0:18)
 
-**Slide 5 — What economics is**
+**Slide 5 — Section divider: 1 in red**
+
+[hold two seconds; no words needed beyond "Part one."]
+
+**Slide 6 — What economics is**
 
 Your reading opens with a definition most of you will find narrower than you expected. Economics is not the study of money. It is the study of how people and societies choose to use resources that are scarce, when those resources have alternative uses. Three words do the work: scarcity, choice, alternatives. Money is only the unit we count in.
 
 Scarcity does not mean poverty. The United States spent 5.3 trillion dollars on health care in 2024 and still rations care; we will see how in part three. Scarcity means that wants exceed means, everywhere, always, so that every yes is also a no. A hospital that opens a new cardiac unit has decided not to open something else. A health department that funds a screening campaign has decided not to fund the community health workers. The decision is made whether or not anyone says it aloud.
 
-**Slide 6 — Opportunity cost**
+**Slide 7 — Opportunity cost**
 
 Which brings us to the single most important idea in this lecture, and I would say in the whole of economics: opportunity cost. The cost of anything is the value of the best alternative you gave up to get it. Not the price tag. The next best thing you did not do.
 
@@ -58,27 +62,27 @@ Take the Homer G. Phillips decision. The city's accountants could tell you the b
 
 [pause] When you write your Leadership Perspectives, or later your policy memos, test every recommendation with this sentence: "and the money would otherwise have gone to." If you cannot finish the sentence, you have not costed the decision.
 
-**Slide 7 — Thinking at the margin —** ***target 0:11***
+**Slide 8 — Thinking at the margin —** ***target 0:11***
 
 The second tool is the margin. Economists rarely ask whether a programme is good. They ask whether one more unit of it is worth one more unit of cost. The first thousand doses of a vaccine in an outbreak save many lives. The ten-thousandth dose, given to someone already low-risk, saves fewer. The question is never "vaccines, yes or no." It is "at what point does the next dollar do more good somewhere else?"
 
 This is why the public debate about health care is so often beside the point. "Should we spend more on health?" is not an economic question. "Would the next billion dollars do more in Medicaid dental coverage or in lead pipe replacement?" is. The margin is where decisions actually live.
 
-**Slide 8 — Positive and normative**
+**Slide 9 — Positive and normative**
 
 One distinction from the reading that you will need in part three. A positive statement describes what is: Medicaid expansion reduced uninsured emergency visits in Missouri. A normative statement says what ought to be: Missouri should expand Medicaid. Economics is good at the first and has no special authority on the second. When an economist tells you a policy is efficient, that is positive. When they tell you it is therefore the right policy, they have changed hats without telling you. Today I will change hats several times, and I will try to say so each time.
 
-**Slide 9 — Health and health care are different goods**
+**Slide 10 — Health and health care are different goods**
 
 Now the move that makes this health economics and not economics in general. People do not want health care. They want health. Nobody wakes up wanting a colonoscopy. Health care is demanded only because, and only to the extent that, it produces health. Economists call this derived demand, and Michael Grossman formalised it in 1972: each of us holds a stock of health that depreciates with age, and we invest in it through care, diet, time, and the conditions we live in.
 
 Hold this against what we did on 8 October. If health care produces only part of health, and the conditions of life produce the larger part, then a health economics that studies only hospitals and drugs is studying the smaller input. Your reading makes this point in its map of the field: the first box is "what influences health, other than health care." The field knows this. Practice often forgets it.
 
-**Slide 10 — Efficiency, and two kinds of it —** ***target 0:15***
+**Slide 11 — Efficiency, and two kinds of it —** ***target 0:15***
 
 Two words you will hear argued over for the rest of your careers. Efficiency first. Technical efficiency means producing a given output with the fewest resources: the same number of vaccinations with fewer nurse-hours. Allocative efficiency is harder: it means producing the mix of outputs that society values most. A health system can be technically efficient, running every operating theatre at capacity, and allocatively inefficient, because it is performing procedures nobody needed while diabetics lose their feet for want of a podiatrist. The United States, as we will see, is a world leader in the second kind of failure.
 
-**Slide 11 — Equity, and two kinds of it**
+**Slide 12 — Equity, and two kinds of it**
 
 Equity second. Horizontal equity: equal treatment of equals. Two people with the same need should get the same care, regardless of income, race or postcode. Vertical equity: unequal treatment of unequals. People with greater need should get more. Both sound obvious. Both are violated constantly. Tudor Hart's inverse care law, which you met two weeks ago, is a description of horizontal inequity: equal need, unequal care, in the direction of wealth.
 
@@ -88,13 +92,17 @@ Here is the first return of the second question. Efficiency asks whether we got 
 
 ## PART TWO: WHY HEALTH CARE BREAKS THE MARKET (0:18–0:30)
 
-**Slide 12 — The market, and when it works**
+**Slide 13 — Section divider: 2 in red**
+
+[hold; "Part two."]
+
+**Slide 14 — The market, and when it works**
 
 A market is a mechanism for allocating scarce things without anyone being in charge. Buyers reveal what they value by what they will pay; sellers reveal what it costs by what they will accept; the price settles where the two meet. Under certain conditions, and this is the result the whole of market economics rests on, that price allocates resources efficiently. The conditions matter: many buyers and sellers, good information on both sides, no spillovers onto third parties, and goods that can be withheld from people who do not pay.
 
 Groceries roughly meet those conditions. Health care fails every one of them. This was Kenneth Arrow's argument in 1963, and it remains the founding paper of the field.
 
-**Slide 13 — Arrow 1963: five ways health care is different —** ***target 0:21***
+**Slide 15 — Arrow 1963: five ways health care is different —** ***target 0:21***
 
 [walk the five, one example each]
 
@@ -108,7 +116,7 @@ Public goods. Clean air, disease surveillance, a functioning emergency system. O
 
 Barriers to entry. We license physicians, restrict hospital construction, patent drugs. Each has a reason. Each also hands sellers market power. The patent on a drug is a legally created monopoly, which is why a course of a new hepatitis C treatment was priced at 84,000 dollars when it launched, and why the price fell when competitors arrived.
 
-**Slide 14 — Insurance: the fix that needs fixing**
+**Slide 16 — Insurance: the fix that needs fixing**
 
 Insurance is society's answer to uncertainty: many people pay a little in advance so that the few who fall ill are covered. Risk pooling. It is the logic of every health system in the world, including ours, and it fails in two predictable ways.
 
@@ -116,17 +124,17 @@ Adverse selection. If joining is voluntary, the sick join and the healthy wait, 
 
 Moral hazard. Once insured, you use more care, some of it care you would not have bought at full price. The RAND Health Insurance Experiment in the 1970s randomised families to different levels of cost-sharing and found that people facing higher out-of-pocket costs used less care. The catch, which matters for part three: they used less of the care that worked and less of the care that did not, in roughly equal measure, and the poorest hypertensive participants were measurably worse off. Cost-sharing is a blunt instrument. It cuts need as readily as waste.
 
-**Slide 15 — Four ways to pay, and one country that uses all four —** ***target 0:26***
+**Slide 17 — Four ways to pay, and one country that uses all four —** ***target 0:26***
 
 Because the market fails, every rich country intervenes. The question is how, and the answers sort into four models. Beveridge: tax-funded, government-provided, as in the United Kingdom and Spain. Bismarck: compulsory social insurance through employers and non-profit funds, as in Germany, France and Japan. National health insurance: private providers paid by a single public insurer, as in Canada and Taiwan. And out-of-pocket: you pay when you are ill, which is the default in much of the world and the model for the uninsured everywhere.
 
 The United States runs all four at once. Veterans get Beveridge. Working-age people with employer insurance get something like Bismarck. People over 65 get national health insurance called Medicare. People without coverage get out-of-pocket, which in practice means delay, debt, and the emergency room. Which model you live under depends on your age, your employer, your state, and your income. Four systems, then, and the gaps between them are where people fall.
 
-**Slide 16 — Who pays, and when**
+**Slide 18 — Who pays, and when**
 
 One more distinction, and then the evidence. Prepayment against payment at the point of use. Taxes and premiums are prepayment: you pay while well. Deductibles, copays and uninsured bills are payment at the point of use: you pay while ill. The share of a system that runs on point-of-use payment predicts, better than almost anything else, who goes without care and who goes into debt. Keep that in mind when we reach the medical debt figures.
 
-**Slide 17 — Pause and check —** ***target 0:29***
+**Slide 19 — Pause and check —** ***target 0:29***
 
 [quick show of hands, thirty seconds each]
 
@@ -136,7 +144,11 @@ Hands up if you have ever decided not to see a doctor because of what it might c
 
 ## PART THREE: DISTRIBUTIVE JUSTICE IN PRACTICE (0:30–0:44)
 
-**Slide 18 — The United States, 2024**
+**Slide 20 — Section divider: 3 in red**
+
+[hold; "Part three, and now the evidence."]
+
+**Slide 21 — The United States, 2024**
 
 [the two charts from 8 October reappear; let the room recognise them]
 
@@ -144,19 +156,19 @@ You have seen these. Spending as a share of the economy; life expectancy against
 
 And we know from two weeks ago what that bought: life expectancy below every comparable country, maternal mortality several times the peer rate, and a gap between Black and white Americans that fifteen years of medical progress did not close. In economic language, this is allocative inefficiency on a national scale. We are technically very good at producing health care. We are producing the wrong amount of the wrong things for the wrong people.
 
-**Slide 19 — Why? The second question —** ***target 0:33***
+**Slide 22 — Why? The second question —** ***target 0:33***
 
 Why does the United States spend so much more? For years the comfortable answer was that Americans use more care. The data say otherwise: Americans see doctors less often and spend fewer nights in hospital than Germans or the French. In 2003 Gerard Anderson and colleagues published a paper in Health Affairs with a title that has become the field's shorthand: "It's the prices, stupid." They revisited it in 2019 and the answer had not changed. The same drug, the same scan, the same appendectomy costs more here because the sellers can charge more, and the buyers, fragmented across four systems, cannot push back.
 
 That is Arrow's barriers to entry and information asymmetry, operating at the scale of a 5-trillion-dollar economy. It is also exactly what Dr Aguilar will take up on Thursday, because the question of who sets prices is the question of who owns the hospital, the pharmacy, and the physician practice, and the answer is increasingly a private equity fund. The Anderson paper is in your recommended reading for Thursday. Read it; it is short and it will reorganise how you read every health story in the news.
 
-**Slide 20 — Who is outside**
+**Slide 23 — Who is outside**
 
 Now the distribution. About 8 percent of Americans had no health insurance in 2025, roughly 27 million people, and the number rose by about 800,000 in a year, 300,000 of them children. The low point was 2023. The Congressional Budget Office estimates that the Medicaid changes enacted in 2025 could add 10 million to the uninsured over the coming decade. I am giving you these as positive statements; what you make of them is normative, and we will argue it in the working groups.
 
-Being insured does not mean being protected. In 2022 KFF estimated that about 41 percent of American adults, around 100 million people, carried debt from medical or dental bills. The rate was 56 percent among Black adults, 50 percent among Hispanic adults, 37 percent among white adults, and 57 percent among households earning under 40,000 dollars. This is point-of-use payment, Slide 16, landing on exactly the people vertical equity says should pay least. Medical debt is the American health system's rationing mechanism. It is quiet, it is regressive, and nobody voted for it.
+Being insured does not mean being protected. In 2022 KFF estimated that about 41 percent of American adults, around 100 million people, carried debt from medical or dental bills. The rate was 56 percent among Black adults, 50 percent among Hispanic adults, 37 percent among white adults, and 57 percent among households earning under 40,000 dollars. This is point-of-use payment, Slide 18, landing on exactly the people vertical equity says should pay least. Medical debt is the American health system's rationing mechanism. It is quiet, it is regressive, and nobody voted for it.
 
-**Slide 21 — What coverage buys: the Oregon experiment —** ***target 0:37***
+**Slide 24 — What coverage buys: the Oregon experiment —** ***target 0:37***
 
 Does coverage change health? Here is the cleanest evidence we have. In 2008 Oregon had money to add about 10,000 low-income adults to Medicaid and 90,000 applicants, so it ran a lottery. A lottery is a randomised trial, and Amy Finkelstein, Katherine Baicker and colleagues followed the winners and losers.
 
@@ -164,17 +176,17 @@ After two years, coverage cut the probability of screening positive for depressi
 
 [pause] Read that result both ways, because both sides of the Medicaid debate quote it. Coverage is financial protection and mental health first; measured physical health moves slowly and the study was short. The second question applies here too: compared with what? Compared with no coverage, the Oregon winners were protected from ruin and less depressed. Whether that is worth the cost is a normative judgement, and it is the one Missouri voters faced.
 
-**Slide 22 — Missouri, 2020 to 2025**
+**Slide 25 — Missouri, 2020 to 2025**
 
 In August 2020 Missourians passed Amendment 2 to expand Medicaid, with 53 percent of the vote. The legislature declined to fund it; the state Supreme Court ordered implementation; enrolment opened in October 2021. By early 2022 the expansion group had about 58,000 enrolled with a long backlog, and the St. Louis region was among the fastest to apply.
 
 A policy brief from this School, led by Timothy McBride and published last October, looked at hospital data from 2019 to 2024. Uninsured emergency and inpatient visits fell; visits by Medicaid enrollees rose; uncompensated care costs fell. Before expansion, Missouri had lost ten to twelve hospitals; in the years after, the closures slowed. McBride is careful to say expansion is one factor among several, and so should you be. But the mechanism is exactly the one we have built today: prepayment replaced point-of-use payment for a few hundred thousand people, and the costs that had been falling on them and on safety-net hospitals moved to the pooled budget.
 
-**Slide 23 — Every system rations. The question is by what rule —** ***target 0:40***
+**Slide 26 — Every system rations. The question is by what rule —** ***target 0:40***
 
 Here is the sentence I most want you to leave with. Every health system rations. Scarcity guarantees it. The only choices are the rule and the visibility. The United Kingdom rations partly by queue and partly by an explicit rule: NICE will generally recommend a treatment if it costs under about 20,000 to 30,000 pounds per quality-adjusted life year gained, and will say so in public. The United States rations by price, by insurance status, by what your plan covers, and by medical debt, and almost none of it is written down. One of these rules can be debated in a legislature. The other is argued with a billing department.
 
-**Slide 24 — Rules of justice, in one slide**
+**Slide 27 — Rules of justice, in one slide**
 
 So what rule? Philosophers have offered several, and each gives a different answer to the working-group problem you are about to face.
 
@@ -196,7 +208,11 @@ Health economics has started to build the trade-offs into its methods. Distribut
 
 ## PART FOUR: YOU DECIDE (0:44–0:53)
 
-**Slide 25 — Working groups: one budget, four options —** ***target 0:44***
+**Slide 28 — Section divider: 4 in red**
+
+[hold; "Part four. Your turn."]
+
+**Slide 29 — Working groups: one budget, four options —** ***target 0:44***
 
 [brief on screen; countdown timer ready]
 
@@ -212,7 +228,7 @@ D. Raise Medicaid payment rates to physicians by 20 percent. Reaches nobody dire
 
 Your task, five minutes: choose one option; name the rule of justice you used, in one of the words from the previous slide; and finish this sentence out loud when you report: "and the opportunity cost is." [start the timer; walk the room]
 
-**Slide 26 — Harvest —** ***target 0:50***
+**Slide 30 — Harvest —** ***target 0:50***
 
 [three groups, ninety seconds each; push on the second question every time]
 
@@ -230,13 +246,13 @@ The purpose is not the right answer. There is no right answer on the slide; ther
 
 ## CLOSING (0:53–0:58)
 
-**Slide 27 — Back to the Ville —** ***target 0:53***
+**Slide 31 — Back to the Ville —** ***target 0:53***
 
 Return to 1979. The city said one hospital had to close. In the language we now have, it made a scarcity claim. It never published the opportunity cost of each option, by neighbourhood. It did not name the rule: was this technical efficiency, the cheaper building to run, or allocative, the location that served the most need? It did not ask the Ville which rule it would have chosen. And it never asked the second question: closing Phillips saved the city a budget line, and it cost north St. Louis an emergency department, a training pipeline, and one of its largest employers, costs that fell on one community for forty-seven years and counting.
 
 I said I would not tell you whether the city was right. I will tell you that it did not show its work. That is the minimum health economics asks of any allocation: show the scarcity, show the opportunity cost for each group, name the rule, and say who chose it. A decision that cannot survive those four questions was made politically and costed afterwards.
 
-**Slide 28 — Five things to take with you**
+**Slide 32 — Five things to take with you**
 
 [walk briskly]
 
@@ -250,15 +266,15 @@ Four. Every system rations. The United States rations by price, coverage and deb
 
 Five. Name the rule of justice before you give the answer. Then ask the second question.
 
-**Slide 29 — Thursday, and the reading —** ***target 0:56***
+**Slide 33 — Thursday, and the reading —** ***target 0:56***
 
 Thursday, Dr Patrick Aguilar: the business of health. Read Aguilar and Boumgarden in The Conversation on the Walgreens buyout, and if you read one optional piece this semester make it Anderson's "It's still the prices, stupid." Come with one question for him that uses today's vocabulary: ask him about a price, an opportunity cost, or a rule. Leadership Perspective II closes tonight on Canvas.
 
-**Slide 30 — Questions —** ***target 0:57, floor open to the hour***
+**Slide 34 — Questions —** ***target 0:57, floor open to the hour***
 
 The floor is yours. [If quiet, seed it: "Here is one. The NICE threshold is a number. Should the United States have one, and who should set it?" Or: "Missouri voters chose expansion by 53 to 47. Which rule of justice did the 47 percent use?"]
 
-**Slide 31 — abba-aji@wustl.edu**
+**Slide 35 — abba-aji@wustl.edu**
 
 Office hours as usual. Thank you.
 
@@ -266,21 +282,21 @@ Office hours as usual. Thank you.
 
 ## DELIVERY NOTES
 
-1. **Rehearse the opening and the closing together, aloud.** The Homer G. Phillips frame only works if the return at Slide 27 uses the same four questions in the same order as Slide 2. Say them identically both times.
+1. **Rehearse the opening and the closing together, aloud.** The Homer G. Phillips frame only works if the return at Slide 31 uses the same four questions in the same order as Slide 2. Say them identically both times.
 
-2. **The second question is the architecture.** It lands at Slide 4 (introduced), Slide 11 (efficiency versus equity), Slide 19 (prices), Slide 21 (Oregon), Slide 24 (the rule) and Slide 29 (seeding Q&A). Do not add it elsewhere; six is enough for it to be remembered and not enough for it to be a tic.
+2. **The second question is the architecture.** It lands at Slide 4 (introduced), Slide 12 (efficiency versus equity), Slide 22 (prices), Slide 24 (Oregon), Slide 27 (the rule) and Slide 33 (seeding Q&A). Do not add it elsewhere; six is enough for it to be remembered and not enough for it to be a tic.
 
 3. **Change hats aloud.** Each time you move from a positive to a normative statement, say so. Students in this course have been told since September to separate evidence from values; this lecture is where they watch you do it in real time.
 
-4. **Timing recovery.** Behind at 0:18: compress Slide 8 (positive and normative) to two sentences and fold it into Slide 11. Behind at 0:30: cut the show of hands at Slide 17. Behind at 0:40: Slide 24 becomes "three rules" (utilitarian, prioritarian, libertarian) and the distributional cost-effectiveness paragraph goes. Never cut the working groups, the harvest, or the return to the Ville. If the harvest runs long, take two groups instead of three.
+4. **Timing recovery.** Behind at 0:18: compress Slide 9 (positive and normative) to two sentences and fold it into Slide 12. Behind at 0:30: cut the show of hands at Slide 19. Behind at 0:40: Slide 27 becomes "three rules" (utilitarian, prioritarian, libertarian) and the distributional cost-effectiveness paragraph goes. Never cut the working groups, the harvest, or the return to the Ville. If the harvest runs long, take two groups instead of three.
 
 5. **Numbers that must be exact.** 5.3 trillion dollars, 15,474 dollars per person, 18 percent of GDP, 43 percent public (CMS, 2024 data, released January 2026). About 8 percent uninsured in 2025, up roughly 800,000 (NCHS). KFF 2022: 41 percent of adults, about 100 million people, with health care debt. Oregon: depression down about 9 points; catastrophic spending 5.5 to 1 percent; ED use up about 40 percent. Missouri: Amendment 2, August 2020, 53 percent; enrolment from October 2021. Everything else can be said approximately.
 
-6. **If someone objects that economics is cold.** Agree that it can be, then point back at Slide 6: opportunity cost is the tool that makes the Ville's loss visible in a budget that otherwise would not have counted it. The discipline is only as cold as the person holding it.
+6. **If someone objects that economics is cold.** Agree that it can be, then point back at Slide 7: opportunity cost is the tool that makes the Ville's loss visible in a budget that otherwise would not have counted it. The discipline is only as cold as the person holding it.
 
-7. **If someone defends the American arrangement on libertarian grounds.** Good; that is Slide 24 working. Ask them to name the opportunity cost of that rule and who bears it. Do not win the argument for them. The point is that they named a rule.
+7. **If someone defends the American arrangement on libertarian grounds.** Good; that is Slide 27 working. Ask them to name the opportunity cost of that rule and who bears it. Do not win the argument for them. The point is that they named a rule.
 
-8. **Handover.** If Ans or the TAs need five minutes on Leadership Perspective II, give them Slide 29 and take questions from the hall while they set up.
+8. **Handover.** If Ans or the TAs need five minutes on Leadership Perspective II, give them Slide 33 and take questions from the hall while they set up.
 
 -----
 
@@ -302,4 +318,4 @@ Office hours as usual. Thank you.
 - Reid TR. The Healing of America. Penguin, 2009 (the four-models framing).
 - Homer G. Phillips Hospital: O'Connor C. Climbing the Ladder, Chasing the Dream: The History of Homer G. Phillips Hospital. University of Missouri Press, 2021; St. Louis Public Radio and PBS NewsHour retrospectives.
 
-*Verify before Tuesday: the hepatitis C launch price on Slide 13 (84,000 dollars for a course of sofosbuvir, 2013) and the NICE threshold wording on Slide 23 (20,000 to 30,000 pounds per QALY; NICE's 2022 manual keeps this range with severity modifiers). Both are stated from memory and are stable facts, but check them against a current source if you intend to put them on a slide.*
+*Verify before Tuesday: the hepatitis C launch price on Slide 15 (84,000 dollars for a course of sofosbuvir, 2013) and the NICE threshold wording on Slide 26 (20,000 to 30,000 pounds per QALY; NICE's 2022 manual keeps this range with severity modifiers). Both are stated from memory and are stable facts, but check them against a current source if you intend to put them on a slide.*
