@@ -18,11 +18,11 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [x] Code of Conduct training done
 - [ ] Evening: SSM-PH revision
 
-### Needs you now (brief, Tue Oct 27)
+### Needs you now (brief, Wed Oct 28)
 - [ ] SSM-PH revision (Digital Environments, SSMPH-D-26-00361): DUE NOV 12 (system updated Oct 21)
 - [ ] ISTSS thank-you notes to Nuha Alshabani and Jaimie Gradus — drafted, paste-ready in `istss-2026-discussant/emails/15-nuha-thankyou.md` and `16-jaimie-thankyou.md` (Nuha's has two brackets only you can fill)
 - [ ] PHS1000 Thu Oct 22 has no guest (Saffiyah Poole out; she thanked you Oct 19) — session plan with Ans
-- [ ] JTS APC: Maggie processing from Sandro's discretionary ("I will make sure this is completed today", Oct 26)
+- [ ] JTS APC: Maggie processing from Sandro's discretionary ("I will make sure this is completed today", Oct 26); Wiley sent another OA payment reminder Oct 28, so check it went through
 - [ ] PLOS MH: required reviews in for 00449 (Oct 22) and a completed review on 00318; 00244R1 still short of reviewers
 - [ ] PLOS One PONE-D-26-36016: final reminder Oct 10, still unanswered
 - [ ] Dr. Ojo for the Bursky global mental health convening: you told Joshua Bogus (Oct 15) you'd ask Ojo; Joshua has him on the proposed-speaker list
@@ -30,33 +30,31 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Wyatt Anderson meeting is scheduled; he asked Oct 15 to confirm your office (Hillman 22, garden level?)
 - [ ] Parth (o.parth) followed up Oct 13 on helping with publication opportunities — no reply seen
 - [ ] Mwobobia (j.mwobobia) replied Oct 19: happy to meet, "anytime next Thursday" — pick a time
-- [ ] Isabella Li: meeting Tue Oct 27 (her pick); confirm the time
+- [ ] Isabella Li: she accepted the "Independent project" invite and the room was booked Oct 27; at 1:50 PM she asked whether your earlier meeting had finished. Confirm you met, or rebook
 - [ ] Emma Levine: MPH letter of recommendation request (Oct 20)
 - [ ] Larson King immigration consult: confirm whether the J-1 two-year home residency requirement applies; Nancy sent scheduling details (Oct 20)
-- [ ] PLOS MH: invitation to handle PMEN-D-26-00573 (Oct 21); action reminder on PMEN-D-26-00318 (Oct 21)
+- [ ] PLOS MH: invitation to handle PMEN-D-26-00573 (Oct 21); action reminder on PMEN-D-26-00318 (Oct 21, again Oct 28)
 - [ ] Earth.com: Eric Ralls thanked you for the answers (Oct 22) and asks for a copy of the full paper
 - [ ] MaRVIN six-state field implementation report from Olawunmi Adeoye (Oct 21): read and acknowledge
-- [ ] Layden + Bristow meeting moved to Tue Oct 27 (Liv's invite)
-- [ ] JTS PAGE PROOFS ready in Wiley online proofing (Oct 22): review; Wiley OA payment reminder again Oct 23
 - [ ] Angela Hobson: MS, MHA, DrPH market analysis meeting booked (her invite Oct 23)
 - [ ] Samuel Ekanem (via Amanda Rhodes) wants to present the 3+2/4+1 pathways to your PH&S class; give him dates
-- [ ] Dean Galea's AI for Health dinner Wed Oct 28, 6:30 PM: SPH Events followed up for your RSVP (Oct 22)
 - [ ] Becker Library: remote access blocked until billed items are returned (final notice Oct 23)
-- [ ] WHO CDoH Global Report drafting group: today Mon Oct 26, 9:00-11:30 AM CT
 - [ ] TFRH white paper v2: review by EOD Wed Oct 28; Morven asks you to review all of Section 3 and share updated source data for the landscape figure
 - [ ] Emma Levine: SOPHAS online recommendation requested (Oct 26); she also offered to meet this week or next
-- [ ] BIG talk on AI in research for Ross Brownson's PRC group: Fri Nov 20, 9 AM, ~20 min + 15 min discussion
+- [ ] BIG talk on AI in research for Ross Brownson's PRC group: Fri Nov 20, 9 AM, ~20 min + 15 min discussion (Ross on your plan, Oct 27: "This sounds perfecto!")
 - [ ] Lancet GV: virtual meeting of the Commissioners (Aisha's Zoom invite Oct 23; date in the invite)
-- [ ] Caitlin Bristow sent Labs materials ahead of today's call (Oct 26)
-- [ ] Zoe Rochester: confirm PUBHLTHSOC 2999 is the right TA enrollment (Workday shows 10:00-11:20 with Irfan and Steensma)
-- [ ] Dean's dinner Wed Nov 11 (Human Rights Lens convening): new invite, RSVP
+- [ ] Caitlin Bristow is setting up dedicated Labs space for you on Hillman 2nd floor; she asks whether you want monitors, a keyboard, a mouse (Oct 27)
+- [ ] Zoe Rochester TA enrollment: Kirsten's colleague is creating a PHS 3700 UTA section (up Oct 27 or 28); Zoe enrolls once it is live
 - [ ] PLOS One PONE-D-26-42332 review invitation (Sadaf Sepanlou, Oct 27)
 - [ ] Judith Mwobobia: meeting Fri Oct 30 at Hillman (poll closed Oct 26)
+- [ ] Becky Light asks for the slides from Tue Oct 27 PHS1000 (Oct 27)
+- [ ] Jesseca Leggett: Monday.com introduction today Wed Oct 28 at 1 PM (Zoom invite sent; she is on Hillman 2nd floor)
+- [ ] Jen Layden shared a personas slide deck (general public, healthcare, public health/government) with you, Caitlin and Jesseca (Oct 27)
+- [ ] Data Channel Touchbase (Liv Most): weekly Wednesdays 11:30 AM from Nov 11
 - [ ] Tarik Tuncay: you missed each other Fri Oct 16 (he was working remotely) — rebook coffee
 - [ ] Sandro wants to talk "next steps / your engagement around the PHALs" (Oct 11) — not yet on a calendar as far as mail shows
 - [ ] Paul Erwin email still a paste-ready draft (Oct 7) — his address, the book title, and which class still blank
 - [ ] Bella Gomez and Becky Light replies (paste-ready Oct 9) — no evidence either went; confirm or drop
-- [ ] Dean Galea's AI for Health dinner, Wed Oct 28 at his residence — RSVP
 
 ### This week
 - [ ] FRPHC course-developer sessions: Tue Oct 20 1-3 (Eddie Watson on AI for course design), Fri Oct 23 9-11
@@ -91,6 +89,13 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Done
 
+- [x] 2026-10-28 — JTS proof corrections submitted Oct 27 (Wiley confirmation)
+- [x] 2026-10-28 — Nigerian Embassy No Objection letter received Oct 26; Tueth Keeney is watching the DOS portal for the update
+- [x] 2026-10-28 — RSVPs confirmed for the Dean's dinners on Oct 28 (AI for Health) and Nov 11 (Human Rights Lens)
+- [x] 2026-10-28 — Layden + Bristow meeting held Tue Oct 27
+- [x] 2026-10-28 — WHO CDoH drafting group meeting date (Oct 26) passed; dropped from the open list
+- [x] 2026-10-28 — NORC SHINE check-in for Oct 28 cancelled by Morven; batch 1 letters go out 11/2
+- [x] 2026-10-28 — Ans confirmed to Becky that Deidre Griffith (with Calencia Mitchell) is the Nov 3 guest
 - [x] 2026-10-25 — Sandro weekly SENT for 19-23 Oct; Sandro: "The status report is all noted, appreciated" (Oct 26). Dean Galea one-on-ones canceled for APHA and Thanksgiving travel
 
 - [x] 2026-10-22 — BMJ podcast recording day (Riverside link from Duncan; Hillman room booked); Earth.com answers sent; Sandro's "about to get busy" note answered (he replied "Thank you Mohammed"); Isabella Li meeting scheduled by poll
