@@ -4,15 +4,63 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Open
 
-### Today (Fri Oct 9)
-- [ ] SSM-PH overdue-revision conflict — his word, he's emailing the editor himself to confirm the Nov 9 extension is on record
-- [ ] Charlene's FRPHC presentation date — his word, he's sending that reply himself
-- [ ] Bella Gomez reply, Becky Light reply (Salma confirmed as still expected; he doesn't know yet if she's accepted), and the FARM dinner RSVP are all drafted and paste-ready (Oct 9) — FARM RSVP has brackets for attendance/transportation/dietary since that's his call
-- [ ] Aisha Jafri (Lancet GV Commission) reply re-delivered as paste-ready (Oct 9, same Oct 13-15 options as Oct 7 — still upcoming) — not sent yet
-- [ ] WHO Bulletin (CDoH arms-industry paper, BLT/2026/296735): minor-revision due back within ONE WEEK of Oct 7 (~Oct 14)
-- [ ] Paul Erwin email still sitting as a paste-ready draft (Oct 7) — his address, the book title, and which class are still blank
-- [ ] Dean Galea's AI for Health dinner (Wed Oct 28, his residence) — new invite, RSVP not urgent today
-- [ ] PLOS queue: new editor invitation PMEN-D-26-00449, a reminder on PONE-D-26-36016, and a stray reminder on PMEN-D-26-00318 (already closed in the portal Sep 29 — likely just a stale automated notice)
+### Tue Oct 20 plan (carry-overs)
+- [ ] Before class (to 10:00): SSM-PH revision block (extension to Nov 12 requested)
+- [ ] During PHS1000 (10:00-11:20, attending, not teaching):
+  - [ ] Send Salma the trust analysis (draft: `daily/drafts/2026-10-20-salma-trust.md`)
+  - [x] Attachments sent to Parth (nothing for Zoe for now)
+  - [ ] Start the MaRVIN Burden paper outline
+  - [ ] Quick replies: JTS APC invoice to Maggie; Mwobobia (pick a Thursday time); Duncan at BMJ: podcast prep questions; postdoc social RSVP
+- [ ] 11:30-1:00: SSM-PH revision
+- [x] 1:00-3:00: FRPHC course-developer session (Eddie Watson, AI for course design)
+- [x] PLOS: decisions made on 00449 and 00244R1 (additional reviewers requested on both, not yet picked up); invitations 00502 and 00056R3 left by his choice
+- [ ] 4:00: Bursky postdoc social
+- [x] Code of Conduct training done
+- [ ] Evening: SSM-PH revision
+
+### Needs you now (brief, Wed Oct 28)
+- [ ] SSM-PH revision (Digital Environments, SSMPH-D-26-00361): DUE NOV 12 (system updated Oct 21)
+- [ ] ISTSS thank-you notes to Nuha Alshabani and Jaimie Gradus — drafted, paste-ready in `istss-2026-discussant/emails/15-nuha-thankyou.md` and `16-jaimie-thankyou.md` (Nuha's has two brackets only you can fill)
+- [ ] PHS1000 Thu Oct 22 has no guest (Saffiyah Poole out; she thanked you Oct 19) — session plan with Ans
+- [ ] JTS APC: Maggie processing from Sandro's discretionary ("I will make sure this is completed today", Oct 26); Wiley sent another OA payment reminder Oct 28, so check it went through
+- [ ] PLOS MH: required reviews in for 00449 (Oct 22) and a completed review on 00318; 00244R1 still short of reviewers
+- [ ] PLOS One PONE-D-26-36016: final reminder Oct 10, still unanswered
+- [ ] Dr. Ojo for the Bursky global mental health convening: you told Joshua Bogus (Oct 15) you'd ask Ojo; Joshua has him on the proposed-speaker list
+- [ ] Gavin Newberry: edits to Introduction + Discussion sent Oct 16 for your comments; he also asked for the Paper 1 citation (JTS accepted, in production, no DOI yet)
+- [ ] Wyatt Anderson meeting is scheduled; he asked Oct 15 to confirm your office (Hillman 22, garden level?)
+- [ ] Parth (o.parth) followed up Oct 13 on helping with publication opportunities — no reply seen
+- [ ] Mwobobia (j.mwobobia) replied Oct 19: happy to meet, "anytime next Thursday" — pick a time
+- [ ] Isabella Li: she accepted the "Independent project" invite and the room was booked Oct 27; at 1:50 PM she asked whether your earlier meeting had finished. Confirm you met, or rebook
+- [ ] Emma Levine: MPH letter of recommendation request (Oct 20)
+- [ ] Larson King immigration consult: confirm whether the J-1 two-year home residency requirement applies; Nancy sent scheduling details (Oct 20)
+- [ ] PLOS MH: invitation to handle PMEN-D-26-00573 (Oct 21); action reminder on PMEN-D-26-00318 (Oct 21, again Oct 28)
+- [ ] Earth.com: Eric Ralls thanked you for the answers (Oct 22) and asks for a copy of the full paper
+- [ ] MaRVIN six-state field implementation report from Olawunmi Adeoye (Oct 21): read and acknowledge
+- [ ] Angela Hobson: MS, MHA, DrPH market analysis meeting booked (her invite Oct 23)
+- [ ] Samuel Ekanem (via Amanda Rhodes) wants to present the 3+2/4+1 pathways to your PH&S class; give him dates
+- [ ] Becker Library: remote access blocked until billed items are returned (final notice Oct 23)
+- [ ] TFRH white paper v2: review by EOD Wed Oct 28; Morven asks you to review all of Section 3 and share updated source data for the landscape figure
+- [ ] Emma Levine: SOPHAS online recommendation requested (Oct 26); she also offered to meet this week or next
+- [ ] BIG talk on AI in research for Ross Brownson's PRC group: Fri Nov 20, 9 AM, ~20 min + 15 min discussion (Ross on your plan, Oct 27: "This sounds perfecto!")
+- [ ] Lancet GV: virtual meeting of the Commissioners (Aisha's Zoom invite Oct 23; date in the invite)
+- [ ] Caitlin Bristow is setting up dedicated Labs space for you on Hillman 2nd floor; she asks whether you want monitors, a keyboard, a mouse (Oct 27)
+- [ ] Zoe Rochester TA enrollment: Kirsten's colleague is creating a PHS 3700 UTA section (up Oct 27 or 28); Zoe enrolls once it is live
+- [ ] PLOS One PONE-D-26-42332 review invitation (Sadaf Sepanlou, Oct 27)
+- [ ] Judith Mwobobia: meeting Fri Oct 30 at Hillman (poll closed Oct 26)
+- [ ] Becky Light asks for the slides from Tue Oct 27 PHS1000 (Oct 27)
+- [ ] Jesseca Leggett: Monday.com introduction today Wed Oct 28 at 1 PM (Zoom invite sent; she is on Hillman 2nd floor)
+- [ ] Jen Layden shared a personas slide deck (general public, healthcare, public health/government) with you, Caitlin and Jesseca (Oct 27)
+- [ ] Data Channel Touchbase (Liv Most): weekly Wednesdays 11:30 AM from Nov 11
+- [ ] Tarik Tuncay: you missed each other Fri Oct 16 (he was working remotely) — rebook coffee
+- [ ] Sandro wants to talk "next steps / your engagement around the PHALs" (Oct 11) — not yet on a calendar as far as mail shows
+- [ ] Paul Erwin email still a paste-ready draft (Oct 7) — his address, the book title, and which class still blank
+- [ ] Bella Gomez and Becky Light replies (paste-ready Oct 9) — no evidence either went; confirm or drop
+
+### This week
+- [ ] FRPHC course-developer sessions: Tue Oct 20 1-3 (Eddie Watson on AI for course design), Fri Oct 23 9-11
+- [ ] Bursky postdoc social Tue Oct 20, 4 PM — RSVP via the calendar invite; postdoc needs-assessment survey also outstanding
+- [ ] Kirsten Jacobsen: wait for her spring-TA email before recruiting (her ask, Oct 16); Zoe Rochester as Intro Epi UTA needs your override when registration opens; you want a grad TA too. Box invite to SP27_Interest-Approval.xlsx (Oct 16)
+- [ ] PH WINS / de Beaumont meeting: Ross can do 10/27 3:00-3:45 ET or 10/29 2:00-2:45 ET; Maya Najjar scheduling
 
 ### Pinned (parked by Mohammed, Sep 16)
 - [ ] RA group-training email (Parth, Ellie, Gabriel Estrada, + Zoe; Grace may fit the cohort) — resume when he says
@@ -20,26 +68,66 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Yahoo → Gmail POP fetch — parked as convoluted for now
 
 ### Portfolio (tracked; work as directed)
-- [ ] PH3 textbook, 3rd edition (Springer, David D'Addona): kickoff call held Sep 30 — team agreed to a modular "bite-sized" format for a broader undergrad audience; David coordinates with Springer's digital team, Sandro/Angela/Mohammed begin mapping the new structure together; David sent a placeholder invite Oct 1 for a CourseConnect digital-platform discussion, time TBD — no solo deadline yet
-- [ ] AI & Digital Innovation Public Health Survey (Brownson/Layden): planning call held Oct 1 — standalone survey vs. a module on the existing PH WINS survey both on the table; Jennifer following up with NACCHO, Ross with PH WINS; Mohammed owes the concept note (see Today)
-- [ ] AI & Digital Innovation in PH Curriculum (MPH): kick-off held; course concept is the next deliverable
+- [ ] MPH new course (AI & Digital Innovation): you present to the MPH Education Subcommittee Mon Nov 30, 12 PM (with Sara Malone). Course proposal form + draft syllabus (sections I, II, V-Assignments, VI, VII) due to Charlene and Jonesey by Mon Nov 23
+- [ ] PH3 textbook, 3rd edition (Springer): digital-team meeting held Fri Oct 16; David D'Addona's follow-up and Anna Brigido's CourseConnect demo materials are in mail — no solo deadline yet
+- [ ] AI & Digital Innovation Public Health Survey (Brownson/Layden): standalone vs. PH WINS module; concept note owed
+- [ ] WHO Global Report on Commercial Determinants of Health: drafting group reconvened; you said (Oct 10) you'd join the 15:00 session
 - [ ] N-MIND: readiness forms back from FNPH sites + ethics submissions; workbook v0.3 build (imported notes in projects/n-mind/)
-- [ ] PHS1000 teaching: Tue/Thu sessions; team meeting Thursdays (relocated this week per AJ)
-- [ ] FRPHC course-developer sessions scheduled (Hobson, Thu): Oct 6 2-4, Oct 20 1-3, Oct 23 9-11, Oct 28 2-4, Nov 20 10-12, Dec 4 10-12; hybrid, Tish sending invites — no reply needed unless a date fails
+- [ ] PHS1000 teaching: Tue/Thu 10:00-11:20; team meeting Thursdays
+- [ ] FRPHC course-developer sessions remaining: Oct 20 1-3, Oct 23 9-11, Oct 28 2-4, Nov 20 10-12, Dec 4 10-12
 
 ### Standing
-- [ ] TOKEN POLICY (his word, Sep 18): sweeps are scoped to `label:Label_3 -category:promotions -category:social newer_than:1d`, with NO second pass over unlabeled mail — he declined it, so mail sent straight to abbaaji189@gmail.com is outside every sweep and is his to watch. Full rules, per-run budgets and measured costs in `daily/token-policy.md`. ROUTINE PROMPTS NOT YET UPDATED: this session cannot edit them (instructions are editable only from session_01PPwbUUWpfmtc9VHJ6fxbgv, which the routines fire into) and delete-and-recreate would lose run history. Replacement text and the one-line ask are parked in `daily/routine-prompts.md`. Both routines read this ledger at fire time, so they see the rule meanwhile
-- [ ] REVISION ORDER (his word, Sep 17): ISTSS DONE, JOTS copy edit in Today (overdue), WHO Bulletin CDoH now back in play — minor revision requested Oct 7, due ~Oct 14 (in Today), then SSM-PH (extension to 9 Nov requested Sep 18; EM's automated system sent its standard "due soon" reminder Oct 1 regardless, which doesn't confirm either way whether the extension was granted)
-- [ ] Waiver application (Tueth Keeney — Calvin Bill and Melanie Gurley Keeney): rejected in March; Mohammed reapplied, then heard almost nothing back for weeks until Laura Register (OISS) escalated on his Oct 6 word. Since then it's moved fast: Dean Galea approved the letter of support Oct 7, the DS-3035 online application is submitted, and Mohammed scanned and sent back the signed DS-3035 and G-28 the same night. Calvin confirmed receipt Oct 8 — both the DOS and Nigerian Embassy packets go in Monday Oct 12, once Calvin and Melanie are back in the office. Nothing further needed from Mohammed until then
-- [ ] Travel: return flight WN 2209 Sat Sep 26, 6:45 AM SAT to 8:50 AM STL, now its own confirmed calendar event (airline moved it earlier from 7:25/9:30, per Brentwood Travel). OUTBOUND FLIGHT STILL MISSING from the calendar — add once he forwards the original booking. Calendar time zone now reads America/Chicago as of Oct 5 (was New York) — the display-an-hour-late issue appears resolved; watch the next few events to confirm
-- [ ] JTS/JOTS: ACCEPTED Sep 23; in production, copy edit landed Sep 29, SUBMITTED BACK (his word, Oct 7)
-- [ ] Epi Matters 2e: approved and with Emma at OUP; she's raising it to OUP's editorial board next week and asked about intended course market — Sandro answered directly (bulk buy ~500, fall+spring intro epi), no action needed from Mohammed
-- [ ] SSM-PH circulation to co-authors is underway via a real channel (not the dead Elsevier reply-to) — Mauricio Avendano auto-replied he's traveling through Oct 9 with limited access, so his sign-off will lag
-- [ ] PLOS Mental Health: PMEN-D-26-00318 action + five editor invitations pending (new: PMEN-D-26-00552, tuberculosis-care mental health integration, Oct 7)
-- [ ] Publish Outlook calendar as ICS and subscribe in Google Calendar (connector is live; calendar is empty until this lands)
-- [ ] Sandro weekly automation: Friday question round 12:37 PM + unfailing compile-and-deliver 5:23 PM (source of truth projects/sandro-weekly/rows.json; first firing tomorrow)
+- [ ] TOKEN POLICY (his word, Sep 18): sweeps cover WUSTL work mail only; no pass over mail sent straight to abbaaji189@gmail.com. Note: `label:Label_3` returns nothing in the Gmail connector (label IDs don't match), so routines use `{to:abba-aji@wustl.edu cc:abba-aji@wustl.edu deliveredto:abba-aji@wustl.edu}`. Full rules in `daily/token-policy.md`
+- [ ] ROUTINES moved Oct 18 into this session (session_01LsjFMGPvAJYdbtzSqoYP5k), branch claude/istss-2026-discussant-m2xkou; the old session_01PPwbUUWpfmtc9VHJ6fxbgv routines are disabled. Open question still parked: drop the daily HTML render and keep only the email?
+- [ ] REVISION ORDER (his word, Sep 17): ISTSS done, JOTS done, WHO Bulletin resubmitted Oct 14 — WHO Bulletin ACCEPTED Oct 19 — now SSM-PH, due NOV 12 (granted Oct 21)
+- [ ] Waiver (Tueth Keeney): packets went to DOS and the Nigerian Embassy Oct 12; Calvin explained Oct 15 that the "No Objection" status shows as a second tab under the same case number. Waiting on the agencies
+- [ ] JTS/JOTS validation paper: accepted Sep 23, copy edit returned Oct 7, awaiting page proofs; OA payment open (above)
+- [ ] Epi Matters 2e: with Emma at OUP for the editorial board; nothing owed
+- [ ] PLOS Mental Health: Editor on PMEN-D-26-00449 and PMEN-D-26-00244R1 (Togo leprosy, accepted Oct 12); PMEN-D-26-00318 still collecting reviewers (one agreed Oct 14, several declined)
+- [ ] Publish Outlook calendar as ICS and subscribe in Google Calendar
+- [ ] Sandro weekly automation: Friday question round ~12:37 PM + compile ~5:23 PM CT (source of truth projects/sandro-weekly/rows.json)
 
 ## Done
+
+- [x] 2026-10-28 — JTS proof corrections submitted Oct 27 (Wiley confirmation)
+- [x] 2026-10-28 — Nigerian Embassy No Objection letter received Oct 26; Tueth Keeney is watching the DOS portal for the update
+- [x] 2026-10-28 — RSVPs confirmed for the Dean's dinners on Oct 28 (AI for Health) and Nov 11 (Human Rights Lens)
+- [x] 2026-10-28 — Layden + Bristow meeting held Tue Oct 27
+- [x] 2026-10-28 — WHO CDoH drafting group meeting date (Oct 26) passed; dropped from the open list
+- [x] 2026-10-28 — NORC SHINE check-in for Oct 28 cancelled by Morven; batch 1 letters go out 11/2
+- [x] 2026-10-28 — Ans confirmed to Becky that Deidre Griffith (with Calencia Mitchell) is the Nov 3 guest
+- [x] 2026-10-25 — Sandro weekly SENT for 19-23 Oct; Sandro: "The status report is all noted, appreciated" (Oct 26). Dean Galea one-on-ones canceled for APHA and Thanksgiving travel
+
+- [x] 2026-10-22 — BMJ podcast recording day (Riverside link from Duncan; Hillman room booked); Earth.com answers sent; Sandro's "about to get busy" note answered (he replied "Thank you Mohammed"); Isabella Li meeting scheduled by poll
+
+- [x] 2026-10-21 — BMJ piece PUBLISHED online ("Increasing defence expenditure may cost us our security"); Emma Dickinson acknowledged his press-release reply with Deb cc'd; SSM-PH system updated to Nov 12 (Francesca)
+
+- [x] 2026-10-21 — SSM-PH extension to Nov 12 GRANTED (Avendano: "this would be fine for us")
+
+- [x] 2026-10-20 — Sent: BMJ press-release reply (Deb Parker as media contact) and forward to Tamara/Deb; SSM-PH extension request; Parth's attachments. FRPHC session attended; Code of Conduct training done; PLOS decisions made (more reviewers requested on 00449 and 00244R1)
+
+- [x] 2026-10-20 — SSM-PH second extension requested (to Nov 12), sent by Mohammed
+
+- [x] 2026-10-19 — WHO Bulletin BLT/2026/296735 ACCEPTED (arms-industry CDoH paper); edited version due within a month, 2-day turnaround; Sandro: "Wonderful, congratulations Mohammed, thank you for leading us on this"
+- [x] 2026-10-19 — Patrick Aguilar added attendance to the Oct 29 PollEv deck after your reply; Zoe Rochester will flag Kirsten's outreach
+
+- [x] 2026-10-18 — Sandro weekly SENT Sun 3:21 PM (with the Why Health slide edits and the Scopus AI/SDOH charts). Sandro replied: AI analysis "sort of fascinating to read", not sure yet what's actionable; keeping his Bursky-branded slides; yes to Maggie paying the JTS APC from his discretionary
+
+- [x] 2026-10-18 — Morning brief diagnosed and moved: since Oct 14 it fired into fresh sessions with no Gmail, Calendar or repo, so Oct 12-16 produced nothing (last brief Oct 9). The Sandro weekly also stopped delivering after Oct 9. All three routines recreated in this session
+- [x] 2026-10-17 — RADY-2026-0452 (Intl J Adolescence and Youth) review DECLINED; editor acknowledged
+- [x] 2026-10-16 — Lunch with Ebube, Ziah, Raqeebah and Jolaade (Nigeria research interest) set for Fri Oct 16, PH suite booked
+- [x] 2026-10-16 — Kirsten looped in on Zoe Rochester as Intro Epi UTA (your two replies Oct 16)
+- [x] 2026-10-15 — Thank-you note to Sandro for his Oct 14 offer sent; he replied warmly the same morning
+- [x] 2026-10-15 — Salma's Nigeria contacts question answered: Dr. Tunde Ojo named; Joshua Bogus added him to the proposed speakers
+- [x] 2026-10-14 — WHO Bulletin BLT/2026/296735 minor revision RESUBMITTED and acknowledged (on time for the ~Oct 14 target)
+- [x] 2026-10-13 — Aisha Jafri (Lancet GV Commission) meeting held, Tue Oct 13, 2 PM CT
+- [x] 2026-10-13 — FARM Food Futures Forum dinner: attendance confirmed Oct 9 by SPH Events
+- [x] 2026-10-13 — Charlene's presentation schedule set: you present Mon Nov 30 (moved to Portfolio)
+- [x] 2026-10-12 — Waiver packets filed with DOS and the Nigerian Embassy (Calvin, Oct 12)
+- [x] 2026-10-12 — PLOS MH: accepted Editor role on PMEN-D-26-00449 and PMEN-D-26-00244R1
+- [x] 2026-10-11 — Sandro: "This weekly update is invaluable"; the NYT/Senator Murray exchange closed with his reply
+- [x] 2026-10-10 — 9 Oct Sandro weekly sent by you
+- [x] 2026-10-09 — SSM-PH extension CONFIRMED: Avendano agreed, Francesca Cardwell updated the deadline in the system (now Oct 22, per the journal's Oct 15 reminder)
 
 - [x] 2026-10-09 — Waiver paperwork CLOSED on his end: Mohammed scanned and sent back the signed DS-3035 and G-28 Oct 8 night; Calvin confirmed receipt and will file both packets Monday Oct 12 once he and Melanie are back in the office
 - [x] 2026-10-08 — Zoe Rochester's meeting happened (1:30-2:00 PM in person)
