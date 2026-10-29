@@ -18,7 +18,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [x] Code of Conduct training done
 - [ ] Evening: SSM-PH revision
 
-### Needs you now (brief, Wed Oct 28)
+### Needs you now (brief, Thu Oct 29)
 - [ ] SSM-PH revision (Digital Environments, SSMPH-D-26-00361): DUE NOV 12 (system updated Oct 21)
 - [ ] ISTSS thank-you notes to Nuha Alshabani and Jaimie Gradus — drafted, paste-ready in `istss-2026-discussant/emails/15-nuha-thankyou.md` and `16-jaimie-thankyou.md` (Nuha's has two brackets only you can fill)
 - [ ] PHS1000 Thu Oct 22 has no guest (Saffiyah Poole out; she thanked you Oct 19) — session plan with Ans
@@ -26,7 +26,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] PLOS MH: required reviews in for 00449 (Oct 22) and a completed review on 00318; 00244R1 still short of reviewers
 - [ ] PLOS One PONE-D-26-36016: final reminder Oct 10, still unanswered
 - [ ] Dr. Ojo for the Bursky global mental health convening: you told Joshua Bogus (Oct 15) you'd ask Ojo; Joshua has him on the proposed-speaker list
-- [ ] Gavin Newberry: edits to Introduction + Discussion sent Oct 16 for your comments; he also asked for the Paper 1 citation (JTS accepted, in production, no DOI yet)
+- [ ] Gavin Newberry: edits to Introduction + Discussion sent Oct 16 for your comments; he also asked for the Paper 1 citation (JTS accepted, in production, no DOI yet); he followed up Oct 28 asking for the updated manuscript and how he can contribute
 - [ ] Wyatt Anderson meeting is scheduled; he asked Oct 15 to confirm your office (Hillman 22, garden level?)
 - [ ] Parth (o.parth) followed up Oct 13 on helping with publication opportunities — no reply seen
 - [ ] Mwobobia (j.mwobobia) replied Oct 19: happy to meet, "anytime next Thursday" — pick a time
@@ -39,17 +39,22 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Angela Hobson: MS, MHA, DrPH market analysis meeting booked (her invite Oct 23)
 - [ ] Samuel Ekanem (via Amanda Rhodes) wants to present the 3+2/4+1 pathways to your PH&S class; give him dates
 - [ ] Becker Library: remote access blocked until billed items are returned (final notice Oct 23)
-- [ ] TFRH white paper v2: review by EOD Wed Oct 28; Morven asks you to review all of Section 3 and share updated source data for the landscape figure
+- [ ] TFRH white paper v2: review was due EOD Wed Oct 28 (Section 3 and updated source data for the landscape figure); Lindsey, Lisa and Abigail replied in the thread and Tim asked for more time; no note from you in the thread (if you edited in Box, mark done)
 - [ ] Emma Levine: SOPHAS online recommendation requested (Oct 26); she also offered to meet this week or next
 - [ ] BIG talk on AI in research for Ross Brownson's PRC group: Fri Nov 20, 9 AM, ~20 min + 15 min discussion (Ross on your plan, Oct 27: "This sounds perfecto!")
 - [ ] Lancet GV: virtual meeting of the Commissioners (Aisha's Zoom invite Oct 23; date in the invite)
 - [ ] Caitlin Bristow is setting up dedicated Labs space for you on Hillman 2nd floor; she asks whether you want monitors, a keyboard, a mouse (Oct 27)
-- [ ] Zoe Rochester TA enrollment: Kirsten's colleague is creating a PHS 3700 UTA section (up Oct 27 or 28); Zoe enrolls once it is live
-- [ ] PLOS One PONE-D-26-42332 review invitation (Sadaf Sepanlou, Oct 27)
+- [ ] Zoe Rochester TA enrollment: she submitted a Workday override request for PUBHLTHSOC 2999-02 (Intro to Epidemiology UTA) on Oct 28; it awaits your approval in Workday
+- [ ] PLOS One PONE-D-26-42332 review invitation (Sadaf Sepanlou, Oct 27; reminder Oct 29)
 - [ ] Judith Mwobobia: meeting Fri Oct 30 at Hillman (poll closed Oct 26)
 - [ ] Becky Light asks for the slides from Tue Oct 27 PHS1000 (Oct 27)
-- [ ] Jesseca Leggett: Monday.com introduction today Wed Oct 28 at 1 PM (Zoom invite sent; she is on Hillman 2nd floor)
-- [ ] Jen Layden shared a personas slide deck (general public, healthcare, public health/government) with you, Caitlin and Jesseca (Oct 27)
+- [ ] Jen Layden: personas slide deck v2 sent Oct 28 to you and Jesseca, "very much welcome your feedback" (v1 Oct 27)
+- [ ] Springer Public Health 3rd edition APPROVED (David D'Addona, Oct 28): author agreement attached; questions on the agreement (Schedule A delivery dates, Schedule B specs) by Mon Nov 9; Sandro has signed
+- [ ] Dr. Ojo Tunde sent ISTSS expense receipts to you and Maggie (Oct 28)
+- [ ] Brain and Behavior review invitation 4280970 (PTSD in Elazig earthquake victims, Oct 28)
+- [ ] Sandro sent you and Katherine Keyes two emails with attachments and no message text (Oct 28): "Errata" (Epidemiology Matters errata PDF) and "EMM"
+- [ ] SPH Dean's office sent you a calendar invite (Oct 28; details in the .ics, not on the Google calendar)
+- [ ] MIT Applied AI: repeat "Intro to the World of AI" session Sat Oct 31, 12-2 PM CT
 - [ ] Data Channel Touchbase (Liv Most): weekly Wednesdays 11:30 AM from Nov 11
 - [ ] Tarik Tuncay: you missed each other Fri Oct 16 (he was working remotely) — rebook coffee
 - [ ] Sandro wants to talk "next steps / your engagement around the PHALs" (Oct 11) — not yet on a calendar as far as mail shows
@@ -89,6 +94,9 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Done
 
+- [x] 2026-10-29 — Monday.com introduction with Jesseca held Oct 28 (moved to 1:30); she subscribed you to the Healthspan Data Channel weekly tracker and shared the folder
+- [x] 2026-10-29 — AJ Short added your profile update (Oct 28)
+- [x] 2026-10-29 — Ans forwarded the Disability Resources exam request for Maha Alyasiry and Becky has written to the Nov 3 guests (Oct 28)
 - [x] 2026-10-28 — JTS proof corrections submitted Oct 27 (Wiley confirmation)
 - [x] 2026-10-28 — Nigerian Embassy No Objection letter received Oct 26; Tueth Keeney is watching the DOS portal for the update
 - [x] 2026-10-28 — RSVPs confirmed for the Dean's dinners on Oct 28 (AI for Health) and Nov 11 (Human Rights Lens)
