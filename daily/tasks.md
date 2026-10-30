@@ -18,7 +18,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [x] Code of Conduct training done
 - [ ] Evening: SSM-PH revision
 
-### Needs you now (brief, Thu Oct 29)
+### Needs you now (brief, Fri Oct 30)
 - [ ] SSM-PH revision (Digital Environments, SSMPH-D-26-00361): DUE NOV 12 (system updated Oct 21)
 - [ ] ISTSS thank-you notes to Nuha Alshabani and Jaimie Gradus — drafted, paste-ready in `istss-2026-discussant/emails/15-nuha-thankyou.md` and `16-jaimie-thankyou.md` (Nuha's has two brackets only you can fill)
 - [ ] PHS1000 Thu Oct 22 has no guest (Saffiyah Poole out; she thanked you Oct 19) — session plan with Ans
@@ -48,8 +48,12 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] PLOS One PONE-D-26-42332 review invitation (Sadaf Sepanlou, Oct 27; reminder Oct 29)
 - [ ] Judith Mwobobia: meeting Fri Oct 30 at Hillman (poll closed Oct 26)
 - [ ] Becky Light asks for the slides from Tue Oct 27 PHS1000 (Oct 27)
-- [ ] Jen Layden: personas slide deck v2 sent Oct 28 to you and Jesseca, "very much welcome your feedback" (v1 Oct 27)
-- [ ] Springer Public Health 3rd edition APPROVED (David D'Addona, Oct 28): author agreement attached; questions on the agreement (Schedule A delivery dates, Schedule B specs) by Mon Nov 9; Sandro has signed
+- [ ] Labs pitch: Caitlin merged your and Jen's decks into one revised pitch deck (to you, Sandro, Jen, Jesseca, Oct 29 evening); Jen reviews this morning. Jen asked Liv and Isabella Stone to book a 45-min meeting for you, her and Jesseca next Thu or Fri
+- [ ] Springer Public Health 3rd edition APPROVED (David D'Addona, Oct 28): questions on the agreement (Schedule A delivery dates, Schedule B specs) by Mon Nov 9. Jim had the author order corrected; Annick will void the first DocuSign and resend the revised agreement for signature (Oct 29)
+- [ ] PH3 to-do matrix (AH/JS/MAA/SG, to-dos and timelines, as done for EMM) for Sandro and Angela: you said "by the weekend" (Oct 29)
+- [ ] WHO Bulletin BLT/2026/296735 (Commercial determinants of armed conflict): technical edits back within 48 hours of Oct 29 8:39 AM CT, i.e. by ~Sat Oct 31 morning; answer the Word queries with track changes, check yellow-highlighted additions, then "Approve technically edited file" and email the file separately to Fiona Curlet
+- [ ] Dagmawi Shibeshi (MPH '27, Meet the Experts committee) asks to meet in person next week for career advice (Oct 29)
+- [ ] SPH Events: After the Midterms fireside chat and dinner, Holmes Lounge, Mon Nov 16 — RSVP
 - [ ] Dr. Ojo Tunde sent ISTSS expense receipts to you and Maggie (Oct 28)
 - [ ] Brain and Behavior review invitation 4280970 (PTSD in Elazig earthquake victims, Oct 28)
 - [ ] Sandro sent you and Katherine Keyes two emails with attachments and no message text (Oct 28): "Errata" (Epidemiology Matters errata PDF) and "EMM"
@@ -94,6 +98,9 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Done
 
+- [x] 2026-10-30 — Patrick Aguilar's Oct 29 guest lecture: room mix-up (Hillman 70) sorted, you brought him to Brown 100
+- [x] 2026-10-30 — Caitlin liked your slide and asked you to share with Jen and Jesseca; Jen thanked you Oct 29
+- [x] 2026-10-30 — Sandro on PH3 Jim: "No worries :)" (Oct 29)
 - [x] 2026-10-29 — Monday.com introduction with Jesseca held Oct 28 (moved to 1:30); she subscribed you to the Healthspan Data Channel weekly tracker and shared the folder
 - [x] 2026-10-29 — AJ Short added your profile update (Oct 28)
 - [x] 2026-10-29 — Ans forwarded the Disability Resources exam request for Maha Alyasiry and Becky has written to the Nov 3 guests (Oct 28)
