@@ -1,5 +1,5 @@
 {
-  "title_date": "23 October 2026",
+  "title_date": "30 October 2026",
   "excluded_from_sandro": [
     "ANCHOR-MH Nigeria",
     "PLOS Mental Health editor queue",
@@ -8,16 +8,16 @@
   "active": [
     {
       "ms": "MaRVIN 1 — Validation of Mental Health Screening Instruments in Nigerian Populations",
-      "stage": "Page proofs received (Oct 22)",
+      "stage": "Proof corrections submitted (Oct 27)",
       "journal": "Journal of Traumatic Stress",
-      "next": "Return proofs for final author review before publication",
+      "next": "Open-access payment being processed; publication",
       "due": ""
     },
     {
       "ms": "Commercial Determinants of Armed Conflict and the Global Arms Industry",
-      "stage": "Accepted (Oct 19)",
+      "stage": "Accepted (Oct 19); technical edits received (Oct 29)",
       "journal": "WHO Bulletin",
-      "next": "Edited version for approval within a month (2-day turnaround)",
+      "next": "Return the technically edited manuscript (48-hour turnaround)",
       "due": ""
     },
     {
@@ -129,12 +129,12 @@
   "teaching": [
     {
       "name": "PHS1000 (Foundations in Public Health)",
-      "update": "Midterm graded; Salma Abdalla guest lecture on social and structural determinants (Oct 13); Lab III on systems thinking (Oct 15)",
-      "next": "Patrick Aguilar guest lecture (Oct 29)"
+      "update": "Patrick Aguilar guest lecture (Oct 29)",
+      "next": "Deidre Griffith and Calencia Mitchell (BJC) guest session (Nov 3)"
     },
     {
       "name": "RA / TA mentoring pipeline",
-      "update": "Group-training session outlined for Parth, Ellie, Gabriel Estrada, Zoe; Zoe Rochester to TA Intro to Epi in spring",
+      "update": "Group-training session outlined for Parth, Ellie, Gabriel Estrada, Zoe; Zoe Rochester's request to TA Intro to Epi submitted (Oct 28)",
       "next": "Send the RA group-training email"
     }
   ],
@@ -156,8 +156,8 @@
     },
     {
       "name": "St. Louis SHINE Survey",
-      "update": "Soft launch fielded and data shared (Oct 15); NORC confirmed timing for the first ABS invitation mailing (Oct 21)",
-      "next": "Data check, then full launch"
+      "update": "Soft launch data shared (Oct 15); batch 1 invitation letters scheduled for Nov 2",
+      "next": "Full launch"
     },
     {
       "name": "MaRVIN dissertation on primary care implementation in Nigeria",
@@ -171,8 +171,8 @@
     },
     {
       "name": "Rural Health Task Force",
-      "update": "White paper drafted; Morven consolidating contributions, edits paused (Oct 21)",
-      "next": "White paper sent to Dean Galea."
+      "update": "White paper v2 circulated for review (due Oct 28); Morven consolidating",
+      "next": "White paper to Dean Galea"
     },
     {
       "name": "AI & Digital Innovation in Public Health Curriculum (MPH)",
@@ -186,8 +186,8 @@
     },
     {
       "name": "Public Health 3rd edition (Springer)",
-      "update": "Met Springer's digital team (Oct 16)",
-      "next": "Map the modular structure with Angela and Jim"
+      "update": "Third edition approved by Springer's editorial board (Oct 28); author agreement out for signature",
+      "next": "To-do matrix with timelines for Angela and Sandro"
     }
   ],
   "training": [
@@ -198,7 +198,7 @@
     },
     {
       "name": "MIT Applied AI and Data Science Program",
-      "status": "Registered; preparatory sessions under way; live course starts Nov 21",
+      "status": "Registered; preparatory sessions under way (repeat intro session Oct 31); live course starts Nov 21",
       "next": "Pre-course training from now to Nov 21"
     }
   ]
