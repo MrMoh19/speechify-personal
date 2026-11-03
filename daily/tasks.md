@@ -18,7 +18,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [x] Code of Conduct training done
 - [ ] Evening: SSM-PH revision
 
-### Needs you now (brief, Mon Nov 2)
+### Needs you now (brief, Tue Nov 3)
 - [ ] SSM-PH revision (Digital Environments, SSMPH-D-26-00361): DUE NOV 12 (system updated Oct 21)
 - [ ] ISTSS thank-you notes to Nuha Alshabani and Jaimie Gradus — drafted, paste-ready in `istss-2026-discussant/emails/15-nuha-thankyou.md` and `16-jaimie-thankyou.md` (Nuha's has two brackets only you can fill)
 - [ ] PHS1000 Thu Oct 22 has no guest (Saffiyah Poole out; she thanked you Oct 19) — session plan with Ans
@@ -26,19 +26,17 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] PLOS MH: required reviews in for 00449 (Oct 22) and a completed review on 00318; 00244R1 still short of reviewers
 - [ ] PLOS One PONE-D-26-36016: final reminder Oct 10, still unanswered
 - [ ] Dr. Ojo for the Bursky global mental health convening: you told Joshua Bogus (Oct 15) you'd ask Ojo; Joshua has him on the proposed-speaker list
-- [ ] Gavin Newberry: edits to Introduction + Discussion sent Oct 16 for your comments; he also asked for the Paper 1 citation (JTS accepted, in production, no DOI yet); he followed up Oct 28 asking for the updated manuscript and how he can contribute
 - [ ] Wyatt Anderson meeting is scheduled; he asked Oct 15 to confirm your office (Hillman 22, garden level?)
 - [ ] Parth (o.parth) followed up Oct 13 on helping with publication opportunities — no reply seen
 - [ ] Mwobobia (j.mwobobia) replied Oct 19: happy to meet, "anytime next Thursday" — pick a time
-- [ ] Isabella Li: she accepted the "Independent project" invite and the room was booked Oct 27; at 1:50 PM she asked whether your earlier meeting had finished. Confirm you met, or rebook
+- [ ] Isabella Li: met (she called it "very inspiring and informative"); asks Nov 2 for a second meeting this week on "the decision and the potential workload" and your free times. Earlier: she accepted the "Independent project" invite and the room was booked Oct 27; at 1:50 PM she asked whether your earlier meeting had finished. Confirm you met, or rebook
 - [ ] Emma Levine: MPH letter of recommendation request (Oct 20)
 - [ ] Larson King immigration consult: confirm whether the J-1 two-year home residency requirement applies; Nancy sent scheduling details (Oct 20)
 - [ ] PLOS MH: invitation to handle PMEN-D-26-00573 (Oct 21); action reminder on PMEN-D-26-00318 (Oct 21, again Oct 28)
 - [ ] Earth.com: Eric Ralls thanked you for the answers (Oct 22) and asks for a copy of the full paper
 - [ ] MaRVIN six-state field implementation report from Olawunmi Adeoye (Oct 21): read and acknowledge
 - [ ] Angela Hobson: MS, MHA, DrPH market analysis meeting booked (her invite Oct 23)
-- [ ] Samuel Ekanem presents the 3+2/4+1 pathways in PHS1000 Tue Nov 3 at 10:00, Brown Hall, 10 min + Q&A (he confirmed Oct 30); same class as the BJC guests Deidre Griffith and Calencia Mitchell
-- [ ] Abel Regassa (TA) asks to be excused from Tue Nov 3 class for a residency interview; will coordinate with Yuxin (Nov 2)
+- [ ] TODAY: Samuel Ekanem presents the 3+2/4+1 pathways in PHS1000 Tue Nov 3 at 10:00, Brown Hall, 10 min + Q&A (he confirmed Oct 30); same class as the BJC guests Deidre Griffith and Calencia Mitchell
 - [ ] Becker Library: remote access blocked until billed items are returned (final notice Oct 23)
 - [ ] Emma Levine: SOPHAS online recommendation requested (Oct 26); she also offered to meet this week or next
 - [ ] BIG talk on AI in research for Ross Brownson's PRC group: Fri Nov 20, 9 AM, ~20 min + 15 min discussion (Ross on your plan, Oct 27: "This sounds perfecto!")
@@ -49,12 +47,17 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Judith Mwobobia: Fri Oct 30 meeting called off (she had to cover a class); she asked to move to this week, and a Hillman room booking for the new slot was accepted Oct 30 (time not in mail)
 - [ ] Becky Light asks for the slides from Tue Oct 27 PHS1000 (Oct 27)
 - [ ] Labs pitch: Caitlin merged your and Jen's decks into one revised pitch deck (to you, Sandro, Jen, Jesseca, Oct 29 evening); Jen reviews this morning. Jen asked Liv and Isabella Stone to book a 45-min meeting for you, her and Jesseca this Thu or Fri. Oct 30: Jen edited the deck; name settling on AHDC (Sandro and Jen); Jen proposes the accelerator focus on one user group, the public
-- [ ] Springer Public Health 3rd edition APPROVED (David D'Addona, Oct 28): questions on the agreement (Schedule A delivery dates, Schedule B specs) by Mon Nov 9. Jim had the author order corrected; Annick will void the first DocuSign and resend the revised agreement for signature (Oct 29)
-- [ ] Jay Shaw sent a near-complete first draft of the DDOH Viewpoint (AI chatbot example) Nov 1; Sandro: "looking great", citations still to add, few comments. Your comments
+- [ ] Springer PH3 author agreement is in DocuSign for your signature (Annick, Nov 2; Jim signed). Earlier: Springer Public Health 3rd edition APPROVED (David D'Addona, Oct 28): questions on the agreement (Schedule A delivery dates, Schedule B specs) by Mon Nov 9. Jim had the author order corrected; Annick will void the first DocuSign and resend the revised agreement for signature (Oct 29)
+- [ ] Jay (Nov 2): JAMA is a long shot but quick, worth trying first. Jay Shaw sent a near-complete first draft of the DDOH Viewpoint (AI chatbot example) Nov 1; Sandro: "looking great", citations still to add, few comments. Your comments
 - [ ] Joshua Bogus asks for colleagues to recommend for a conversation series on academia in a reformed global health governance architecture (Oct 30)
 - [ ] PLOS MH: invitation to handle PMEN-D-26-00542 (SAFE App evaluation, Nov 2)
+- [ ] Kirsten Jacobsen (time-sensitive): tell her by the morning of Nov 3 whether you want undergraduate TAs in your spring course and any criteria for reviewing applicants (form goes in the newsletter that afternoon)
+- [ ] Lancet GV paper: Aisha (Nov 2) suggests you keep developing your paper, especially the commercial determinants section and the conceptual framework, without coordinating with Arturo and Natalia for now; she asks "Does that sound okay?"
+- [ ] Ellie Solomon wants to start on research work for the rest of the semester (Nov 2)
+- [ ] Maggie Gross-Eldridge sent two encrypted messages about a PHS1000 student request (Nov 2); open in Outlook
+- [ ] PLOS MH: action reminder on PMEN-D-26-00449 (Nov 3)
 - [ ] PH3 to-do matrix (AH/JS/MAA/SG, to-dos and timelines, as done for EMM) for Sandro and Angela: you said "by the weekend" (Oct 29)
-- [ ] WHO Bulletin BLT/2026/296735 (Commercial determinants of armed conflict): technical edits back within 48 hours of Oct 29 8:39 AM CT, i.e. by ~Sat Oct 31 morning (no return visible in this inbox as of Nov 2; mark done if sent from Outlook); answer the Word queries with track changes, check yellow-highlighted additions, then "Approve technically edited file" and email the file separately to Fiona Curlet
+- [ ] WHO Bulletin: Fiona Curlet followed up Nov 3 asking when you will be able to respond. WHO Bulletin BLT/2026/296735 (Commercial determinants of armed conflict): technical edits back within 48 hours of Oct 29 8:39 AM CT, i.e. by ~Sat Oct 31 morning (no return visible in this inbox as of Nov 2; mark done if sent from Outlook); answer the Word queries with track changes, check yellow-highlighted additions, then "Approve technically edited file" and email the file separately to Fiona Curlet
 - [ ] Dagmawi Shibeshi (MPH '27, Meet the Experts committee) asks to meet in person next week for career advice (Oct 29)
 - [ ] SPH Events: After the Midterms fireside chat and dinner, Holmes Lounge, Mon Nov 16 — RSVP
 - [ ] Dr. Ojo Tunde sent ISTSS expense receipts to you and Maggie (Oct 28)
@@ -101,6 +104,9 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Done
 
+- [x] 2026-11-03 — Gavin received the updated manuscript and is revising (Nov 2)
+- [x] 2026-11-03 — Ans excused Abel from Nov 3 class (Nov 2)
+- [x] 2026-11-03 — BJC guests sent their final slides to Becky; they need internet for an embedded Mentimeter (Nov 2)
 - [x] 2026-11-02 — JTS validation paper PUBLISHED ONLINE (Wiley, Nov 2)
 - [x] 2026-11-02 — Rural Health Task Force white paper delivered to Dean Galea by Morven (Oct 31); Sandro thanked the team by name, you included
 - [x] 2026-11-02 — Angela got the Applied ML (Spring 2025) and Deep Learning (Fall 2024) syllabi from Jonesey after your Oct 30 meeting
