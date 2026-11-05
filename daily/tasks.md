@@ -58,7 +58,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Payroll ACTION REQUIRED: Sprintax Calculus data transition for foreign national taxation (Nov 3)
 - [ ] Epidemiology Matters (OUP): Sandro set the final-manuscript date as Feb 27, 2027, aiming to publish by Mar 28 for fall adoption (Nov 4); Sandro sent you chapters 1 and 14 edited for a look before sending formally (you replied, Nov 4). Earlier: contract coming; final book due ~February 2027 (Sandro met Emma Hodgdon at APHA Nov 3; Kerry says February is doable). Sandro asked OUP for the final Word files
 - [ ] TODAY Thu Nov 5 PHS1000: Jen Layden (today's guest, with Isabella Stone) cannot come for a family issue and offers to reschedule; Becky asked you and Ans whether she should close the loop. Ans is unwell and out; you lead today's teaching-team meeting and class
-- [ ] Bao Danh asks for missing attendance scores to be corrected (says he spoke with you; sits far right) (Nov 4)
+- [ ] Bao Danh asks for missing attendance scores to be corrected (says the two of you spoke; sits far right) (Nov 4)
 - [ ] PLOS MH PMEN-D-26-00318: URGENT, response required within 24 hours (Nov 5)
 - [ ] SSM-PH revision reminder: due Nov 12 (one week; Nov 5 automated notice)
 - [ ] PH3 to-do matrix (AH/JS/MAA/SG, to-dos and timelines, as done for EMM) for Sandro and Angela: you said "by the weekend" (Oct 29)
