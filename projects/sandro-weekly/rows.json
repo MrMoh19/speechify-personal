@@ -1,5 +1,5 @@
 {
-  "title_date": "30 October 2026",
+  "title_date": "6 November 2026",
   "excluded_from_sandro": [
     "ANCHOR-MH Nigeria",
     "PLOS Mental Health editor queue",
@@ -8,16 +8,16 @@
   "active": [
     {
       "ms": "MaRVIN 1 — Validation of Mental Health Screening Instruments in Nigerian Populations",
-      "stage": "Proof corrections submitted (Oct 27)",
+      "stage": "Published online (Nov 2)",
       "journal": "Journal of Traumatic Stress",
-      "next": "Open-access payment being processed; publication",
+      "next": "Open-access payment being processed",
       "due": ""
     },
     {
       "ms": "Commercial Determinants of Armed Conflict and the Global Arms Industry",
-      "stage": "Accepted (Oct 19); technical edits received (Oct 29)",
+      "stage": "Accepted (Oct 19); technical edits returned (Nov 4)",
       "journal": "WHO Bulletin",
-      "next": "Return the technically edited manuscript (48-hour turnaround)",
+      "next": "Answer the technical editor's final queries on the paper and figure",
       "due": ""
     },
     {
@@ -43,9 +43,9 @@
     },
     {
       "ms": "MaRVIN Expanded validation (population-level validation of PCL-5, PHQ-9, GAD-7)",
-      "stage": "Drafting with Gavin; Introduction and Discussion edits in (Oct 16)",
+      "stage": "Drafting with Gavin; updated manuscript sent to Gavin (Nov 2)",
       "journal": "TBD",
-      "next": "Review Gavin's edits",
+      "next": "Gavin's revisions",
       "due": ""
     },
     {
@@ -64,9 +64,9 @@
     },
     {
       "ms": "Digital Determinants of Health Viewpoint (with Jay Shaw)",
-      "stage": "Revised outline in from Jay; Sandro reviewed with suggestions",
+      "stage": "Near-complete draft from Jay (Nov 1); my edits incorporated, Sandro reviewed",
       "journal": "JAMA Health Forum",
-      "next": "Draft next (Jay leading, per his Sep 24 note)",
+      "next": "Jay's next draft; submit to JAMA first",
       "due": ""
     }
   ],
@@ -129,8 +129,8 @@
   "teaching": [
     {
       "name": "PHS1000 (Foundations in Public Health)",
-      "update": "Patrick Aguilar guest lecture (Oct 29)",
-      "next": "Deidre Griffith and Calencia Mitchell (BJC) guest session (Nov 3)"
+      "update": "Samuel Ekanem (3+2/4+1 pathways) and BJC guests Deidre Griffith and Calencia Mitchell (Nov 3); I led the Nov 5 class and teaching-team meeting",
+      "next": "Reschedule Jen Layden's guest lecture"
     },
     {
       "name": "RA / TA mentoring pipeline",
@@ -151,12 +151,12 @@
     },
     {
       "name": "Epidemiology Matters",
-      "update": "Response letter with OUP",
-      "next": "Meeting with Kerry for next steps"
+      "update": "Second edition approved by OUP; final manuscript due Feb 27, 2027, for publication by Mar 28",
+      "next": "Chapter edits against the to-do matrix"
     },
     {
       "name": "St. Louis SHINE Survey",
-      "update": "Soft launch data shared (Oct 15); batch 1 invitation letters scheduled for Nov 2",
+      "update": "Incentives confirmed; batch 1 invitations released (Nov 4)",
       "next": "Full launch"
     },
     {
@@ -171,8 +171,8 @@
     },
     {
       "name": "Rural Health Task Force",
-      "update": "White paper v2 circulated for review (due Oct 28); Morven consolidating",
-      "next": "White paper to Dean Galea"
+      "update": "White paper and recommendations delivered to Dean Galea (Oct 31)",
+      "next": "None"
     },
     {
       "name": "AI & Digital Innovation in Public Health Curriculum (MPH)",
@@ -182,11 +182,11 @@
     {
       "name": "Lancet Global Gun Violence Commission",
       "update": "Working-group synthesis completed; met Aisha (Oct 13) on the feedback",
-      "next": "[next steps agreed with Aisha]"
+      "next": "Develop my paper's commercial determinants section and conceptual framework (per Aisha, Nov 2)"
     },
     {
       "name": "Public Health 3rd edition (Springer)",
-      "update": "Third edition approved by Springer's editorial board (Oct 28); author agreement out for signature",
+      "update": "Third edition approved (Oct 28); author agreement fully signed (Nov 4); 2nd-edition files received",
       "next": "To-do matrix with timelines for Angela and Sandro"
     }
   ],
@@ -198,7 +198,7 @@
     },
     {
       "name": "MIT Applied AI and Data Science Program",
-      "status": "Registered; preparatory sessions under way (repeat intro session Oct 31); live course starts Nov 21",
+      "status": "Registered; pre-work under way; orientation and live course start Nov 21",
       "next": "Pre-course training from now to Nov 21"
     }
   ]
