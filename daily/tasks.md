@@ -18,7 +18,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [x] Code of Conduct training done
 - [ ] Evening: SSM-PH revision
 
-### Needs you now (brief, Thu Nov 5)
+### Needs you now (brief, Fri Nov 6)
 - [ ] SSM-PH revision (Digital Environments, SSMPH-D-26-00361): DUE NOV 12 (system updated Oct 21)
 - [ ] ISTSS thank-you notes to Nuha Alshabani and Jaimie Gradus — drafted, paste-ready in `istss-2026-discussant/emails/15-nuha-thankyou.md` and `16-jaimie-thankyou.md` (Nuha's has two brackets only you can fill)
 - [ ] PHS1000 Thu Oct 22 has no guest (Saffiyah Poole out; she thanked you Oct 19) — session plan with Ans
@@ -37,7 +37,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] MaRVIN six-state field implementation report from Olawunmi Adeoye (Oct 21): read and acknowledge
 - [ ] Angela Hobson: MS, MHA, DrPH market analysis meeting booked (her invite Oct 23)
 - [ ] Becker Library: remote access blocked until billed items are returned (final notice Oct 23)
-- [ ] Emma Levine: SOPHAS online recommendation requested (Oct 26); she also offered to meet this week or next
+- [ ] Emma Levine sent her completed letter-of-recommendation draft (Nov 5; she also met Dr. Abdalla Monday). Earlier: SOPHAS online recommendation requested (Oct 26); she also offered to meet this week or next
 - [ ] BIG talk on AI in research for Ross Brownson's PRC group: Fri Nov 20, 9 AM, ~20 min + 15 min discussion (Ross on your plan, Oct 27: "This sounds perfecto!")
 - [ ] Lancet GV: virtual meeting of the Commissioners (Aisha's Zoom invite Oct 23; date in the invite)
 - [ ] Caitlin Bristow is setting up dedicated Labs space for you on Hillman 2nd floor; she asks whether you want monitors, a keyboard, a mouse (Oct 27)
@@ -57,9 +57,8 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Wyatt Anderson: 3+2 MPH letter of recommendation; he sent his first draft and the SOPHAS online recommendation request (Nov 3)
 - [ ] Payroll ACTION REQUIRED: Sprintax Calculus data transition for foreign national taxation (Nov 3)
 - [ ] Epidemiology Matters (OUP): Sandro set the final-manuscript date as Feb 27, 2027, aiming to publish by Mar 28 for fall adoption (Nov 4); Sandro sent you chapters 1 and 14 edited for a look before sending formally (you replied, Nov 4). Earlier: contract coming; final book due ~February 2027 (Sandro met Emma Hodgdon at APHA Nov 3; Kerry says February is doable). Sandro asked OUP for the final Word files
-- [ ] TODAY Thu Nov 5 PHS1000: Jen Layden (today's guest, with Isabella Stone) cannot come for a family issue and offers to reschedule; Becky asked you and Ans whether she should close the loop. Ans is unwell and out; you lead today's teaching-team meeting and class
 - [ ] Bao Danh asks for missing attendance scores to be corrected (says the two of you spoke; sits far right) (Nov 4)
-- [ ] PLOS MH PMEN-D-26-00318: URGENT, response required within 24 hours (Nov 5)
+- [ ] WHO Bulletin BLT/2026/296735: Fiona says it is "about final from my end", with a couple of queries on the paper and figure in the attached files (Nov 5)
 - [ ] SSM-PH revision reminder: due Nov 12 (one week; Nov 5 automated notice)
 - [ ] PH3 to-do matrix (AH/JS/MAA/SG, to-dos and timelines, as done for EMM) for Sandro and Angela: you said "by the weekend" (Oct 29)
 - [ ] Dagmawi Shibeshi (MPH '27, Meet the Experts committee) asks to meet in person next week for career advice (Oct 29)
@@ -108,6 +107,9 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Done
 
+- [x] 2026-11-06 — PLOS MH PMEN-D-26-00318: decision sent, revision required (Nov 5)
+- [x] 2026-11-06 — Jen Layden's PHS1000 guest lecture: Jen apologized again; Isabella Stone will find a new slot (Nov 5)
+- [x] 2026-11-06 — Abel caught up on grading, attendance and missed classes; Ans answered the extra-credit question (Nov 5)
 - [x] 2026-11-05 — DDOH Viewpoint: Sandro liked your edits; Jay will incorporate them and send a next draft with concluding comments and key points (Nov 4-5)
 - [x] 2026-11-05 — Dean Galea one-on-one cancelled for his holiday travel (Nov 4)
 - [x] 2026-11-05 — SHINE: NORC confirmed incentives work; batch 1 invitations released by the mail vendor (Nov 4)
