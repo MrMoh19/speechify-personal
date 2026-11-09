@@ -116,7 +116,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 - [x] 2026-11-09 — Epidemiology Matters: your edits and the chapter 14 math check went to Sandro; Sandro ("terrific editing") sent chapters 1 and 14 to Kerry Nov 9; shared Box folder set up and accepted by Sandro and Kerry
 - [x] 2026-11-09 — Judith Mwobobia meeting held on Zoom Fri Nov 6
-- [x] 2026-11-09 — SHINE: ABS survey launched, batch 1 mailed (NORC weekly summary Nov 6)
+- [x] 2026-11-09 — SHINE: incentives tested and ABS survey confirmed ready for launch; mail vendor releasing batch 1 (NORC weekly summary Nov 6)
 - [x] 2026-11-06 — PLOS MH PMEN-D-26-00318: decision sent, revision required (Nov 5)
 - [x] 2026-11-06 — Jen Layden's PHS1000 guest lecture: Jen apologized again; Isabella Stone will find a new slot (Nov 5)
 - [x] 2026-11-06 — Abel caught up on grading, attendance and missed classes; Ans answered the extra-credit question (Nov 5)
