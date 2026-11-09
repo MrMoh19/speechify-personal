@@ -18,7 +18,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [x] Code of Conduct training done
 - [ ] Evening: SSM-PH revision
 
-### Needs you now (brief, Fri Nov 6)
+### Needs you now (brief, Mon Nov 9)
 - [ ] SSM-PH revision (Digital Environments, SSMPH-D-26-00361): DUE NOV 12 (system updated Oct 21)
 - [ ] ISTSS thank-you notes to Nuha Alshabani and Jaimie Gradus — drafted, paste-ready in `istss-2026-discussant/emails/15-nuha-thankyou.md` and `16-jaimie-thankyou.md` (Nuha's has two brackets only you can fill)
 - [ ] PHS1000 Thu Oct 22 has no guest (Saffiyah Poole out; she thanked you Oct 19) — session plan with Ans
@@ -45,7 +45,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] PLOS One PONE-D-26-42332 review invitation (Sadaf Sepanlou, Oct 27; reminder Oct 29; final reminder Oct 31)
 - [ ] Judith Mwobobia: Fri Oct 30 meeting called off (she had to cover a class); she asked to move to this week, and a Hillman room booking for the new slot was accepted Oct 30 (time not in mail)
 - [ ] Becky Light asks for the slides from Tue Oct 27 PHS1000 (Oct 27)
-- [ ] Labs/AHDC: Jen on your mock-ups (Nov 4): "These are wonderful! Really great work on this." Earlier (Nov 3 "Follow-up" thread): Jen asked you to start on the visualization of the user interfaces; she asked which email to send the Claude mock-ups to, and (Nov 3 night) how to share a Claude project outside wustl.edu users. Jesseca found no time for all four Wed/Thu; Fri 8 AM is open but Caitlin is not. Jesseca back Nov 5
+- [ ] Labs/AHDC renamed "Ask Bursky": Jen asks for the modified mock-ups Mon Nov 9 (name change plus the link); Jen sent a revised deck Nov 9 with comments; standing meetings now on the calendar (Jesseca, Nov 6). Earlier: Jen on your mock-ups (Nov 4): "These are wonderful! Really great work on this." Earlier (Nov 3 "Follow-up" thread): Jen asked you to start on the visualization of the user interfaces; she asked which email to send the Claude mock-ups to, and (Nov 3 night) how to share a Claude project outside wustl.edu users. Jesseca found no time for all four Wed/Thu; Fri 8 AM is open but Caitlin is not. Jesseca back Nov 5
 - [ ] Labs pitch: Caitlin merged your and Jen's decks into one revised pitch deck (to you, Sandro, Jen, Jesseca, Oct 29 evening); Jen reviews this morning. Jen asked Liv and Isabella Stone to book a 45-min meeting for you, her and Jesseca this Thu or Fri. Oct 30: Jen edited the deck; name settling on AHDC (Sandro and Jen); Jen proposes the accelerator focus on one user group, the public
 - [ ] Joshua Bogus asks for colleagues to recommend for a conversation series on academia in a reformed global health governance architecture (Oct 30)
 - [ ] PLOS MH: invitation to handle PMEN-D-26-00542 (SAFE App evaluation, Nov 2)
@@ -60,6 +60,13 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Bao Danh asks for missing attendance scores to be corrected (says the two of you spoke; sits far right) (Nov 4)
 - [ ] WHO Bulletin BLT/2026/296735: Fiona says it is "about final from my end", with a couple of queries on the paper and figure in the attached files (Nov 5)
 - [ ] SSM-PH revision reminder: due Nov 12 (one week; Nov 5 automated notice)
+- [ ] DDOH Viewpoint: Jay sent the JAMA-format revision Nov 8 (1,229 words, 29 over the limit)
+- [ ] Gavin: meeting Mon Nov 9; he sent a file to prepare (Nov 8)
+- [ ] Ross Brownson: PH WINS follow-up meeting Wed Nov 11, 9 AM (agreed Nov 8)
+- [ ] Becky asks for the slides from Thu Nov 5 class (Nov 6)
+- [ ] PLOS MH: invitation to handle PMEN-D-26-00596 (Nov 9); review reminder PMEN-D-26-00056R3 (Nov 8)
+- [ ] Wiley customer statement (correspondence 1014193767) needs attention (Nov 7) — likely the JTS OA charge
+- [ ] Deadlines Fri Nov 13: course withdrawal (W) for students; 2027 benefits enrollment
 - [ ] PH3 to-do matrix (AH/JS/MAA/SG, to-dos and timelines, as done for EMM) for Sandro and Angela: you said "by the weekend" (Oct 29)
 - [ ] Dagmawi Shibeshi (MPH '27, Meet the Experts committee) asks to meet in person next week for career advice (Oct 29)
 - [ ] SPH Events: After the Midterms fireside chat and dinner, Holmes Lounge, Mon Nov 16 — RSVP
@@ -107,6 +114,9 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Done
 
+- [x] 2026-11-09 — Epidemiology Matters: your edits and the chapter 14 math check went to Sandro; Sandro ("terrific editing") sent chapters 1 and 14 to Kerry Nov 9; shared Box folder set up and accepted by Sandro and Kerry
+- [x] 2026-11-09 — Judith Mwobobia meeting held on Zoom Fri Nov 6
+- [x] 2026-11-09 — SHINE: ABS survey launched, batch 1 mailed (NORC weekly summary Nov 6)
 - [x] 2026-11-06 — PLOS MH PMEN-D-26-00318: decision sent, revision required (Nov 5)
 - [x] 2026-11-06 — Jen Layden's PHS1000 guest lecture: Jen apologized again; Isabella Stone will find a new slot (Nov 5)
 - [x] 2026-11-06 — Abel caught up on grading, attendance and missed classes; Ans answered the extra-credit question (Nov 5)
