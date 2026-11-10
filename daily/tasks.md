@@ -119,7 +119,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [x] 2026-11-10 — npj Mental Health Research ACCEPTED: "Cumulative exposure to trauma and socioeconomic stressors and mental health across eight countries" (Salma leading; Nov 9)
 - [x] 2026-11-10 — J-1 waiver: DOS portal updated, everything received as of 10/28 (Tueth Keeney, Nov 9)
 - [x] 2026-11-10 — PH3 to-do matrix delivered to Sandro and Angela (Nov 9)
-- [x] 2026-11-10 — Gavin meeting held Mon Nov 9, 10 AM Zoom
+- [x] 2026-11-10 — Gavin meeting set for Mon Nov 9, 10 AM on Zoom (his invite); mark if it did not happen
 - [x] 2026-11-10 — Epidemiology Matters: B&W print, color in e-books (Sandro, Kerry, Emma agreed Nov 9); OUP draft contract coming this week
 - [x] 2026-11-10 — Sandro's Dec 13 holiday get-together: you accepted (Nov 9)
 - [x] 2026-11-10 — PLOS MH review invitation PMEN-D-26-00056R3 declined (Nov 10)
