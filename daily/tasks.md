@@ -18,7 +18,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [x] Code of Conduct training done
 - [ ] Evening: SSM-PH revision
 
-### Needs you now (brief, Mon Nov 9)
+### Needs you now (brief, Tue Nov 10)
 - [ ] SSM-PH revision (Digital Environments, SSMPH-D-26-00361): DUE NOV 12 (system updated Oct 21)
 - [ ] ISTSS thank-you notes to Nuha Alshabani and Jaimie Gradus — drafted, paste-ready in `istss-2026-discussant/emails/15-nuha-thankyou.md` and `16-jaimie-thankyou.md` (Nuha's has two brackets only you can fill)
 - [ ] PHS1000 Thu Oct 22 has no guest (Saffiyah Poole out; she thanked you Oct 19) — session plan with Ans
@@ -60,14 +60,16 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Bao Danh asks for missing attendance scores to be corrected (says the two of you spoke; sits far right) (Nov 4)
 - [ ] WHO Bulletin BLT/2026/296735: Fiona says it is "about final from my end", with a couple of queries on the paper and figure in the attached files (Nov 5)
 - [ ] SSM-PH revision reminder: due Nov 12 (one week; Nov 5 automated notice)
-- [ ] DDOH Viewpoint: Jay sent the JAMA-format revision Nov 8 (1,229 words, 29 over the limit)
-- [ ] Gavin: meeting Mon Nov 9; he sent a file to prepare (Nov 8)
+- [ ] DDOH Viewpoint: Sandro sent track edits and suggested a timely hook (Nov 9); you offered to revise the paper accordingly and Jay thanked you. Jay's JAMA-format version (Nov 8) was 1,229 words, 29 over
 - [ ] Ross Brownson: PH WINS follow-up meeting Wed Nov 11, 9 AM (agreed Nov 8)
 - [ ] Becky asks for the slides from Thu Nov 5 class (Nov 6)
 - [ ] PLOS MH: invitation to handle PMEN-D-26-00596 (Nov 9); review reminder PMEN-D-26-00056R3 (Nov 8)
 - [ ] Wiley customer statement (correspondence 1014193767) needs attention (Nov 7) — likely the JTS OA charge
 - [ ] Deadlines Fri Nov 13: course withdrawal (W) for students; 2027 benefits enrollment
-- [ ] PH3 to-do matrix (AH/JS/MAA/SG, to-dos and timelines, as done for EMM) for Sandro and Angela: you said "by the weekend" (Oct 29)
+- [ ] PH3: Sandro wants the Word files for chapters 1, 5, 6 and 15 once available (Nov 9); Angela will reply on the matrix (Nov 9)
+- [ ] TODAY Tue Nov 10: PHS1000 10 AM with a guest lecturer (Ans, Nov 9; Izzi Stone confirmed Jen Layden will be there); Isabella Li 12-1 PM (Hillman room accepted)
+- [ ] Lindsay Stark: MD/MPH panel for pre-med students Wed Nov 11; colleagues asked to talk up the MPH (Nov 9)
+- [x] PH3 to-do matrix DELIVERED; Sandro "terrific", Angela "impressive" (Nov 9). Was: (AH/JS/MAA/SG, to-dos and timelines, as done for EMM) for Sandro and Angela: you said "by the weekend" (Oct 29)
 - [ ] Dagmawi Shibeshi (MPH '27, Meet the Experts committee) asks to meet in person next week for career advice (Oct 29)
 - [ ] SPH Events: After the Midterms fireside chat and dinner, Holmes Lounge, Mon Nov 16 — RSVP
 - [ ] Dr. Ojo Tunde sent ISTSS expense receipts to you and Maggie (Oct 28)
@@ -114,6 +116,13 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Done
 
+- [x] 2026-11-10 — npj Mental Health Research ACCEPTED: "Cumulative exposure to trauma and socioeconomic stressors and mental health across eight countries" (Salma leading; Nov 9)
+- [x] 2026-11-10 — J-1 waiver: DOS portal updated, everything received as of 10/28 (Tueth Keeney, Nov 9)
+- [x] 2026-11-10 — PH3 to-do matrix delivered to Sandro and Angela (Nov 9)
+- [x] 2026-11-10 — Gavin meeting held Mon Nov 9, 10 AM Zoom
+- [x] 2026-11-10 — Epidemiology Matters: B&W print, color in e-books (Sandro, Kerry, Emma agreed Nov 9); OUP draft contract coming this week
+- [x] 2026-11-10 — Sandro's Dec 13 holiday get-together: you accepted (Nov 9)
+- [x] 2026-11-10 — PLOS MH review invitation PMEN-D-26-00056R3 declined (Nov 10)
 - [x] 2026-11-09 — Epidemiology Matters: your edits and the chapter 14 math check went to Sandro; Sandro ("terrific editing") sent chapters 1 and 14 to Kerry Nov 9; shared Box folder set up and accepted by Sandro and Kerry
 - [x] 2026-11-09 — Judith Mwobobia meeting held on Zoom Fri Nov 6
 - [x] 2026-11-09 — SHINE: incentives tested and ABS survey confirmed ready for launch; mail vendor releasing batch 1 (NORC weekly summary Nov 6)
