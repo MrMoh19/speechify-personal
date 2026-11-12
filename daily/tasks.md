@@ -18,7 +18,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [x] Code of Conduct training done
 - [ ] Evening: SSM-PH revision
 
-### Needs you now (brief, Wed Nov 11)
+### Needs you now (brief, Thu Nov 12)
 - [ ] SSM-PH revision (Digital Environments, SSMPH-D-26-00361): DUE NOV 12 (system updated Oct 21)
 - [ ] ISTSS thank-you notes to Nuha Alshabani and Jaimie Gradus — drafted, paste-ready in `istss-2026-discussant/emails/15-nuha-thankyou.md` and `16-jaimie-thankyou.md` (Nuha's has two brackets only you can fill)
 - [ ] PHS1000 Thu Oct 22 has no guest (Saffiyah Poole out; she thanked you Oct 19) — session plan with Ans
@@ -60,17 +60,20 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] WHO Bulletin BLT/2026/296735: Fiona says it is "about final from my end", with a couple of queries on the paper and figure in the attached files (Nov 5)
 - [ ] SSM-PH revision reminder: due Nov 12 (one week; Nov 5 automated notice)
 - [ ] DDOH Viewpoint: Sandro sent track edits and suggested a timely hook (Nov 9); you offered to revise the paper accordingly and Jay thanked you. Jay's JAMA-format version (Nov 8) was 1,229 words, 29 over
-- [ ] TODAY Wed Nov 11: Ross Brownson PH WINS follow-up 9 AM; Dean's Human Rights Lens dinner tonight (RSVP'd)
-- [ ] Becky asks for the slides from Thu Nov 5 class (Nov 6; followed up Nov 10)
+- [ ] Becky asks for the slides from Thu Nov 5 class (Nov 6; followed up Nov 10). Nov 11: Kareena needs them for a makeup brief; Becky told Ans these are the only slides not yet posted
 - [ ] PLOS MH: invitation to handle PMEN-D-26-00596 (Nov 9); review reminder PMEN-D-26-00056R3 (Nov 8)
 - [ ] Deadlines Fri Nov 13: course withdrawal (W) for students; 2027 benefits enrollment
-- [ ] Thu Nov 12: Jen Layden guest lecture in PHS1000 (slides sent to Becky Nov 10); Human Rights Lens convening 9 AM
+- [ ] TODAY Thu Nov 12: SSM-PH revision due; Jen Layden guest lecture in PHS1000 (slides sent to Becky Nov 10); Human Rights Lens convening 9 AM
 - [ ] BIG Fri Nov 20: Ross told Yi Wang you will give a short presentation with discussion; agenda items due to Yi by Wed Nov 18
 - [ ] Thuy-Duong asks for course recommendations for an interest in epidemiology (Nov 10)
+- [ ] PHS1000 final exam: you and Ans finalize it "over the next day or so" so Yuxin can build the Canvas version (Ans, Nov 12); Yuxin re-sent formatting suggestions
+- [ ] WashU Cares follow-up question on the student you referred (Nov 11)
+- [ ] Dean Galea guest lecture in PHS1000 Thu Dec 3 (AJ's notice, Nov 11)
+- [ ] Postdoc group portrait Fri Nov 20, 1 PM (Zachary Linhares)
 - [ ] PH3: Sandro wants the Word files for chapters 1, 5, 6 and 15 once available (Nov 9); Angela will reply on the matrix (Nov 9)
 - [x] PH3 to-do matrix DELIVERED; Sandro "terrific", Angela "impressive" (Nov 9). Was: (AH/JS/MAA/SG, to-dos and timelines, as done for EMM) for Sandro and Angela: you said "by the weekend" (Oct 29)
 - [ ] Dagmawi Shibeshi (MPH '27, Meet the Experts committee) asks to meet in person next week for career advice (Oct 29)
-- [ ] SPH Events: After the Midterms fireside chat and dinner, Holmes Lounge, Mon Nov 16 — RSVP
+- [ ] SPH Events: After the Midterms fireside chat and dinner, Holmes Lounge, Mon Nov 16, 6 PM — RSVP (SPH Events followed up Nov 11)
 - [ ] Dr. Ojo Tunde sent ISTSS expense receipts to you and Maggie (Oct 28)
 - [ ] Brain and Behavior review invitation 4280970 (PTSD in Elazig earthquake victims, Oct 28; reminder Nov 1)
 - [ ] Sandro sent you and Katherine Keyes two emails with attachments and no message text (Oct 28): "Errata" (Epidemiology Matters errata PDF) and "EMM"
@@ -115,6 +118,10 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Done
 
+- [x] 2026-11-12 — Wyatt thanked you for reviewing and editing his recommendation letter draft (Nov 11); SOPHAS submission still to do
+- [x] 2026-11-12 — Isabella Li meeting held Nov 11; she shared a Google Drive folder of articles
+- [x] 2026-11-12 — Data Channel Touchbase did meet Nov 11 in Hillman Suite 40 (Jesseca), despite Liv's earlier cancellation
+- [x] 2026-11-12 — Parth sent the PHS1000 student progress lists; Ans sent end-of-semester check-ins to students below 86% (Nov 11)
 - [x] 2026-11-11 — JTS open-access payment CONFIRMED (Wiley proof of payment, Nov 10)
 - [x] 2026-11-11 — PH3 matrix: Angela went through it in detail, "it all makes sense" (Nov 11)
 - [x] 2026-11-11 — Rural Health Task Force: Sandro sent the group a follow-up thank-you (Nov 10)
