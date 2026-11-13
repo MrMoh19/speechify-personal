@@ -1,5 +1,5 @@
 {
-  "title_date": "6 November 2026",
+  "title_date": "13 November 2026",
   "excluded_from_sandro": [
     "ANCHOR-MH Nigeria",
     "PLOS Mental Health editor queue",
@@ -10,7 +10,7 @@
       "ms": "MaRVIN 1 — Validation of Mental Health Screening Instruments in Nigerian Populations",
       "stage": "Published online (Nov 2)",
       "journal": "Journal of Traumatic Stress",
-      "next": "Open-access payment being processed",
+      "next": "Open-access payment confirmed (Nov 10)",
       "due": ""
     },
     {
@@ -64,9 +64,9 @@
     },
     {
       "ms": "Digital Determinants of Health Viewpoint (with Jay Shaw)",
-      "stage": "Near-complete draft from Jay (Nov 1); my edits incorporated, Sandro reviewed",
+      "stage": "Reframed around the midterms and AI (Nov 12); Sandro approved",
       "journal": "JAMA Health Forum",
-      "next": "Jay's next draft; submit to JAMA first",
+      "next": "Submitted to JAMA by Jay (Nov 13)",
       "due": ""
     }
   ],
@@ -129,8 +129,8 @@
   "teaching": [
     {
       "name": "PHS1000 (Foundations in Public Health)",
-      "update": "Samuel Ekanem (3+2/4+1 pathways) and BJC guests Deidre Griffith and Calencia Mitchell (Nov 3); I led the Nov 5 class and teaching-team meeting",
-      "next": "Reschedule Jen Layden's guest lecture"
+      "update": "Jen Layden guest lecture (Nov 12); final exam being finalized for Dec 1",
+      "next": "Final exam Dec 1; Dean Galea guest lecture in December"
     },
     {
       "name": "RA / TA mentoring pipeline",
@@ -141,8 +141,8 @@
   "projects": [
     {
       "name": "AI and Public Health Survey",
-      "update": "National survey of AI in public health practice; leading with Brownson's support, Jen Layden joined. PH WINS (de Beaumont) meeting being scheduled",
-      "next": "Meeting with ASTHO secured"
+      "update": "National survey of AI in public health practice; leading with Brownson's support, Jen Layden joined. PH WINS (de Beaumont) meeting being scheduled; PH WINS follow-up with Ross (Nov 11)",
+      "next": "BIG talk on AI in research (Nov 20)"
     },
     {
       "name": "Annual PH&S Lecture and book event",
@@ -151,8 +151,8 @@
     },
     {
       "name": "Epidemiology Matters",
-      "update": "Second edition approved by OUP; final manuscript due Feb 27, 2027, for publication by Mar 28",
-      "next": "Chapter edits against the to-do matrix"
+      "update": "OUP approved; chapters 1 and 14 edited (incl. chapter 14 math corrections) and sent to Kerry (Nov 9); B&W print, color e-book; final manuscript Feb 27, 2027",
+      "next": "OUP contract; remaining chapter edits"
     },
     {
       "name": "St. Louis SHINE Survey",
@@ -186,8 +186,8 @@
     },
     {
       "name": "Public Health 3rd edition (Springer)",
-      "update": "Third edition approved (Oct 28); author agreement fully signed (Nov 4); 2nd-edition files received",
-      "next": "To-do matrix with timelines for Angela and Sandro"
+      "update": "Agreement signed (Nov 4); to-do matrix delivered and approved by Sandro and Angela (Nov 9-11)",
+      "next": "Chapter Word files to Sandro (ch. 1, 5, 6, 15)"
     }
   ],
   "training": [
@@ -198,7 +198,7 @@
     },
     {
       "name": "MIT Applied AI and Data Science Program",
-      "status": "Registered; pre-work under way; orientation and live course start Nov 21",
+      "status": "Registered; online class Nov 14; orientation and live course Nov 21",
       "next": "Pre-course training from now to Nov 21"
     }
   ]
