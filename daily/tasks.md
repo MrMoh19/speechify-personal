@@ -18,7 +18,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [x] Code of Conduct training done
 - [ ] Evening: SSM-PH revision
 
-### Needs you now (brief, Thu Nov 12)
+### Needs you now (brief, Mon Nov 16)
 - [ ] SSM-PH revision (Digital Environments, SSMPH-D-26-00361): DUE NOV 12 (system updated Oct 21)
 - [ ] ISTSS thank-you notes to Nuha Alshabani and Jaimie Gradus — drafted, paste-ready in `istss-2026-discussant/emails/15-nuha-thankyou.md` and `16-jaimie-thankyou.md` (Nuha's has two brackets only you can fill)
 - [ ] PHS1000 Thu Oct 22 has no guest (Saffiyah Poole out; she thanked you Oct 19) — session plan with Ans
@@ -40,7 +40,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] BIG talk on AI in research for Ross Brownson's PRC group: Fri Nov 20, 9 AM, ~20 min + 15 min discussion (Ross on your plan, Oct 27: "This sounds perfecto!")
 - [ ] Lancet GV: virtual meeting of the Commissioners (Aisha's Zoom invite Oct 23; date in the invite)
 - [ ] Caitlin Bristow is setting up dedicated Labs space for you on Hillman 2nd floor; she asks whether you want monitors, a keyboard, a mouse (Oct 27)
-- [ ] Zoe Rochester: thanked you Nov 1 (TA override handled); she can meet most days the week of Nov 16 and asks what works
+- [ ] Zoe Rochester: meeting set this week, 12:30-12:50 (her pick, Nov 16; Hillman room accepted)
 - [ ] PLOS One PONE-D-26-42332 review invitation (Sadaf Sepanlou, Oct 27; reminder Oct 29; final reminder Oct 31)
 - [ ] Judith Mwobobia: Fri Oct 30 meeting called off (she had to cover a class); she asked to move to this week, and a Hillman room booking for the new slot was accepted Oct 30 (time not in mail)
 - [ ] Becky Light asks for the slides from Tue Oct 27 PHS1000 (Oct 27)
@@ -59,17 +59,20 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Bao Danh asks for missing attendance scores to be corrected (says the two of you spoke; sits far right) (Nov 4)
 - [ ] WHO Bulletin BLT/2026/296735: Fiona says it is "about final from my end", with a couple of queries on the paper and figure in the attached files (Nov 5)
 - [ ] SSM-PH revision reminder: due Nov 12 (one week; Nov 5 automated notice)
-- [ ] DDOH Viewpoint: Sandro sent track edits and suggested a timely hook (Nov 9); you offered to revise the paper accordingly and Jay thanked you. Jay's JAMA-format version (Nov 8) was 1,229 words, 29 over
 - [ ] Becky asks for the slides from Thu Nov 5 class (Nov 6; followed up Nov 10). Nov 11: Kareena needs them for a makeup brief; Becky told Ans these are the only slides not yet posted
 - [ ] PLOS MH: invitation to handle PMEN-D-26-00596 (Nov 9); review reminder PMEN-D-26-00056R3 (Nov 8)
-- [ ] Deadlines Fri Nov 13: course withdrawal (W) for students; 2027 benefits enrollment
-- [ ] TODAY Thu Nov 12: SSM-PH revision due; Jen Layden guest lecture in PHS1000 (slides sent to Becky Nov 10); Human Rights Lens convening 9 AM
+- [ ] Benefits open enrollment extended (HR, Nov 14): elections by 5 PM Tue Nov 17 per the notice; Express Scripts registration came through Nov 14
+- [ ] SSM-PH revision was due Thu Nov 12; the journal sent a "Your revision is due" notice Nov 13 — confirm it went in or ask for time. (Thu Nov 12 also: Jen Layden guest lecture in PHS1000 (slides sent to Becky Nov 10); Human Rights Lens convening 9 AM
 - [ ] BIG Fri Nov 20: Ross told Yi Wang you will give a short presentation with discussion; agenda items due to Yi by Wed Nov 18
 - [ ] Thuy-Duong asks for course recommendations for an interest in epidemiology (Nov 10)
 - [ ] PHS1000 final exam: you and Ans finalize it "over the next day or so" so Yuxin can build the Canvas version (Ans, Nov 12); Yuxin re-sent formatting suggestions
 - [ ] WashU Cares follow-up question on the student you referred (Nov 11)
 - [ ] Dean Galea guest lecture in PHS1000 Thu Dec 3 (AJ's notice, Nov 11)
 - [ ] Postdoc group portrait Fri Nov 20, 1 PM (Zachary Linhares)
+- [ ] PLOS MH: required reviews in for PMEN-D-26-00244R1 (Togo leprosy, Nov 14) — decision due; invitation to handle PMEN-D-26-00612 (Nov 16); revised PMEN-D-26-00321R1 assigned for review (Nov 16)
+- [ ] PLOS One: review invitation (vaccine readiness among BC teachers, Nov 16); PONE-D-25-51112R2 final reminder (Nov 14)
+- [ ] MIT Applied AI: program-fees due-date notice (Nov 16)
+- [ ] TODAY Mon Nov 16: After the Midterms fireside chat and dinner 6 PM Holmes Lounge; Tue Nov 17 symposium 9 AM
 - [ ] PH3: Sandro wants the Word files for chapters 1, 5, 6 and 15 once available (Nov 9); Angela will reply on the matrix (Nov 9)
 - [x] PH3 to-do matrix DELIVERED; Sandro "terrific", Angela "impressive" (Nov 9). Was: (AH/JS/MAA/SG, to-dos and timelines, as done for EMM) for Sandro and Angela: you said "by the weekend" (Oct 29)
 - [ ] Dagmawi Shibeshi (MPH '27, Meet the Experts committee) asks to meet in person next week for career advice (Oct 29)
@@ -118,6 +121,9 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Done
 
+- [x] 2026-11-16 — DDOH Viewpoint SUBMITTED to JAMA by Jay (Nov 13) after your midterms/AI reframe (Nov 12); Sandro "looks great"
+- [x] 2026-11-16 — Salma cancelled this week's meeting (in Singapore, Nov 16)
+- [x] 2026-11-16 — Sandro weekly for 13 Nov built and sent to you (no reply to the question round)
 - [x] 2026-11-12 — Wyatt thanked you for reviewing and editing his recommendation letter draft (Nov 11); SOPHAS submission still to do
 - [x] 2026-11-12 — Isabella Li meeting held Nov 11; she shared a Google Drive folder of articles
 - [x] 2026-11-12 — Data Channel Touchbase did meet Nov 11 in Hillman Suite 40 (Jesseca), despite Liv's earlier cancellation
