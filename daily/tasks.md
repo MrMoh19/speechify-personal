@@ -18,6 +18,13 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [x] Code of Conduct training done
 - [ ] Evening: SSM-PH revision
 
+### Today's focus (Tue Nov 17, your list)
+- [ ] 1. Email Epidemiology Matters Chapter 2 to Sandro and Kerry (cover note: `daily/drafts/2026-11-17-cover-emails.md`)
+- [ ] 2. SSM-PH resubmission: R1 clean manuscript v2 is in Drive (Nov 16); response to reviewers + Editorial Manager upload remain
+- [ ] 3. Upload Emma Levine's and Wyatt Anderson's letters of recommendation (Emma submits by end of this week)
+- [ ] 4. BIG talk (Fri Nov 20, 9 AM): finalize outline, format and messaging (draft: `daily/drafts/2026-11-17-big-outline.md`); agenda items to Yi by Wed Nov 18
+- [ ] 5. MPH course proposal form + draft syllabus to Jonesey and Charlene (due EOD Fri Nov 20; cover note in the same drafts file)
+
 ### Needs you now (brief, Tue Nov 17)
 - [ ] SSM-PH revision (Digital Environments, SSMPH-D-26-00361): DUE NOV 12 (system updated Oct 21)
 - [ ] ISTSS thank-you notes to Nuha Alshabani and Jaimie Gradus — drafted, paste-ready in `istss-2026-discussant/emails/15-nuha-thankyou.md` and `16-jaimie-thankyou.md` (Nuha's has two brackets only you can fill)
