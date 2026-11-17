@@ -22,7 +22,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] 1. Email Epidemiology Matters Chapter 2 to Sandro and Kerry (cover note: `daily/drafts/2026-11-17-cover-emails.md`)
 - [ ] 2. SSM-PH resubmission: R1 clean manuscript v2 is in Drive (Nov 16); response to reviewers + Editorial Manager upload remain
 - [ ] 3. Upload Emma Levine's and Wyatt Anderson's letters of recommendation (Emma submits by end of this week)
-- [ ] 4. BIG talk (Fri Nov 20, 9 AM, Zoom, shared slot with Amanda Gilbert): your script "A Law Against a Number" is the working version (Claude Docs, https://claude.ai/artifact/6UwDa9bDmaL4vNAMfDMCSJ); the 11/17 outline in drafts/ is superseded. Open: record the 2-min demo and pick its task; clear the from-memory facts; confirm 5%/63% and the survey wording (Ross suggested partnering with PH WINS, Nov 8); build the 13 slides; read aloud against a clock; agenda item to Yi by Wed Nov 18
+- [ ] 4. BIG talk (Fri Nov 20, 9 AM, Zoom, shared slot with Amanda Gilbert): your script "A Law Against a Number" is the working version (Claude Docs, https://claude.ai/artifact/6UwDa9bDmaL4vNAMfDMCSJ); the 11/17 outline in drafts/ is superseded. Open: record the 2-min demo and pick its task; clear the from-memory facts; confirm 5%/63% and the survey wording (Ross suggested partnering with PH WINS, Nov 8); build the 18 slides (Part 6 practical section added Nov 17: skills, MCP connections, workflows; talk now 30 min + 5 Q&A); screenshots for slides 13-15; read aloud against a clock; agenda item to Yi by Wed Nov 18
 - [ ] 5. MPH course proposal form + draft syllabus to Jonesey and Charlene (due EOD Fri Nov 20; cover note in the same drafts file)
 
 ### Needs you now (brief, Tue Nov 17)
