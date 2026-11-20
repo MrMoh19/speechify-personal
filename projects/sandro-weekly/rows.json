@@ -1,5 +1,5 @@
 {
-  "title_date": "13 November 2026",
+  "title_date": "20 November 2026",
   "excluded_from_sandro": [
     "ANCHOR-MH Nigeria",
     "PLOS Mental Health editor queue",
@@ -45,7 +45,7 @@
       "ms": "MaRVIN Expanded validation (population-level validation of PCL-5, PHQ-9, GAD-7)",
       "stage": "Drafting with Gavin; updated manuscript sent to Gavin (Nov 2)",
       "journal": "TBD",
-      "next": "Gavin's revisions",
+      "next": "Gavin's revisions; meeting moved to next week (Nov 16)",
       "due": ""
     },
     {
@@ -129,20 +129,20 @@
   "teaching": [
     {
       "name": "PHS1000 (Foundations in Public Health)",
-      "update": "Jen Layden guest lecture (Nov 12); final exam being finalized for Dec 1",
+      "update": "Guest lectures by Bethany Friedman (Nov 17) and Tim McBride (Nov 19); final exam finalized and review sessions scheduled",
       "next": "Final exam Dec 1; Dean Galea guest lecture in December"
     },
     {
       "name": "RA / TA mentoring pipeline",
-      "update": "Group-training session outlined for Parth, Ellie, Gabriel Estrada, Zoe; Zoe Rochester's request to TA Intro to Epi submitted (Oct 28)",
-      "next": "Send the RA group-training email"
+      "update": "Met Zoe Rochester on the Intro to Epi TA role (Nov 16); Ellie Solomon asked to TA Intro to Epi (Nov 16)",
+      "next": "Undergraduate TA enrollment; send the RA group-training email"
     }
   ],
   "projects": [
     {
       "name": "AI and Public Health Survey",
-      "update": "National survey of AI in public health practice; leading with Brownson's support, Jen Layden joined. PH WINS (de Beaumont) meeting being scheduled; PH WINS follow-up with Ross (Nov 11)",
-      "next": "BIG talk on AI in research (Nov 20)"
+      "update": "National survey of AI in public health practice; leading with Brownson's support, Jen Layden joined. PH WINS (de Beaumont) note sent with Jen's and Ross's edits; PH WINS on board (Nov 18)",
+      "next": "Meeting with PH WINS in early December; BIG talk on AI in research (Dec 18)"
     },
     {
       "name": "Annual PH&S Lecture and book event",
@@ -151,8 +151,8 @@
     },
     {
       "name": "Epidemiology Matters",
-      "update": "OUP approved; chapters 1 and 14 edited (incl. chapter 14 math corrections) and sent to Kerry (Nov 9); B&W print, color e-book; final manuscript Feb 27, 2027",
-      "next": "OUP contract; remaining chapter edits"
+      "update": "Contract language confirmed by all; OUP sending it by Adobe Sign (Nov 16). Chapter 2 revised and returned by Sandro with notes (Nov 20); Kerry drafted a DAG section, Sandro edited chapters 8-10 (Nov 17). B&W print, color e-book; final manuscript Feb 27, 2027",
+      "next": "Apply Sandro's Chapter 2 notes; remaining chapter edits"
     },
     {
       "name": "St. Louis SHINE Survey",
@@ -176,8 +176,8 @@
     },
     {
       "name": "AI & Digital Innovation in Public Health Curriculum (MPH)",
-      "update": "Course pitch meeting held; presentation to the MPH Education Subcommittee set for Nov 30",
-      "next": "Course syllabus and proposal (due Nov 23)"
+      "update": "Course pitch meeting held; course proposal form and draft syllabus due Nov 20",
+      "next": "Present to the MPH Education Subcommittee (Nov 30, Hillman 210)"
     },
     {
       "name": "Lancet Global Gun Violence Commission",
@@ -186,20 +186,20 @@
     },
     {
       "name": "Public Health 3rd edition (Springer)",
-      "update": "Agreement signed (Nov 4); to-do matrix delivered and approved by Sandro and Angela (Nov 9-11)",
-      "next": "Chapter Word files to Sandro (ch. 1, 5, 6, 15)"
+      "update": "Agreement signed (Nov 4); to-do matrix approved (Nov 9-11). Springer named Lucia Gunzel as Content Development Editor (Nov 19)",
+      "next": "Matrix meeting with Angela and Jim (Nov 24); December meeting with Springer; chapter Word files to Sandro (ch. 1, 5, 6, 15)"
     }
   ],
   "training": [
     {
       "name": "Teaching with AI series (Eddie Watson, FRPHC course developer team)",
-      "status": "Sessions ongoing; next on Oct 20 and Oct 23",
-      "next": "Meeting and training sessions."
+      "status": "Sessions ongoing; FRPHC session Nov 20",
+      "next": "Next session Dec 4"
     },
     {
       "name": "MIT Applied AI and Data Science Program",
-      "status": "Registered; online class Nov 14; orientation and live course Nov 21",
-      "next": "Pre-course training from now to Nov 21"
+      "status": "Registered; online class Nov 14; live course from Nov 21",
+      "next": "Live course sessions"
     }
   ]
 }
