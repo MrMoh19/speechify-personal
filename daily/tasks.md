@@ -23,7 +23,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] 2. SSM-PH resubmission: R1 clean manuscript v2 is in Drive (Nov 16); response to reviewers + Editorial Manager upload remain. Journal's automated reminder Nov 22 still lists the Nov 12 due date; reply to it to ask for time if needed
 - [ ] 4. BIG talk MOVED TO FRI DEC 18, 9 AM (Ross and Yi, Nov 18: "he'll need a bit more time"; Amanda takes Friday's slot). Script "A Law Against a Number" (https://claude.ai/artifact/6UwDa9bDmaL4vNAMfDMCSJ) runs 30 min + 5 Q&A. Open: record the demo, clear from-memory facts, confirm survey figures and wording, build 18 slides, screenshots for slides 13-15, read aloud against a clock
 
-### Needs you now (brief, Mon Nov 23)
+### Needs you now (brief, Tue Nov 24)
 - [ ] SSM-PH revision (Digital Environments, SSMPH-D-26-00361): DUE NOV 12 (system updated Oct 21)
 - [ ] ISTSS thank-you notes to Nuha Alshabani and Jaimie Gradus — drafted, paste-ready in `istss-2026-discussant/emails/15-nuha-thankyou.md` and `16-jaimie-thankyou.md` (Nuha's has two brackets only you can fill)
 - [ ] PHS1000 Thu Oct 22 has no guest (Saffiyah Poole out; she thanked you Oct 19) — session plan with Ans
@@ -71,19 +71,18 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Dean Galea guest lecture in PHS1000 Thu Dec 3 (AJ's notice, Nov 11)
 - [ ] Postdoc group portrait Fri Nov 20, 1 PM (Zachary Linhares)
 - [ ] PLOS MH: required reviews in for PMEN-D-26-00244R1 (Togo leprosy, Nov 14; another review completed and required number received again Nov 20) — decision due; invitation to handle PMEN-D-26-00612 (Nov 16); revised PMEN-D-26-00321R1 assigned for review (Nov 16)
-- [ ] PLOS MH: you agreed to handle 00612 and 00542 (Nov 19); four reviewers have now declined 00542 (Nov 19-20) — invite more. 00321R1 final decision being processed (Nov 20)
+- [ ] PLOS MH: you agreed to handle 00612 and 00542 (Nov 19); four reviewers have now declined 00542 (Nov 19-20) — invite more. 00321R1 final decision being processed (Nov 20). New invitation to handle PMEN-D-26-00578 (farming populations' mental health, Nov 24)
 - [ ] PH WINS: Maddy Popalis says they're happy to have you on board; office closed Thanksgiving week, open the first week of December (Nov 18) — propose a time (Ross replied too)
-- [ ] THIS WEEK: PH3 matrix meeting with Angela and Jim Tue Nov 24 (time in Torian's invite); Thanksgiving Thu Nov 26. MPH Subcommittee Mon Nov 30, 12 PM, Hillman 210 (Jonesey out Nov 23-27)
+- [ ] TODAY Tue Nov 24: PH3 matrix meeting with Angela and Jim (time in Torian's invite). Thanksgiving Thu Nov 26. MPH Subcommittee Mon Nov 30, 12 PM, Hillman 210 (Jonesey out Nov 23-27)
 - [ ] PLOS One: review invitation (vaccine readiness among BC teachers, PONE-D-26-06558R1, Nov 16; reminder Nov 18); PONE-D-25-51112R2 final reminder (Nov 14)
 - [ ] EA Quinn forwarded (Nov 17) Samuel Ekanem's offer of a 10-minute MPH admissions talk to PHS1000 students; decide with Ans
-- [ ] MIT Applied AI: second installment of USD 1,700 DUE TODAY Mon Nov 23 (notice Nov 22)
 - [ ] TODAY Tue Nov 17: After the Midterms symposium 9 AM; PHS1000 10 AM with guest Bethany Friedman on Zoom (slides sent to Becky overnight); Yuxin's exam review session 1-3 PM. Thu Nov 19 PHS1000 guest: Becky invited Tim McBride (Nov 16), reply pending
 - [ ] PH3: matrix meeting with Angela and Jim set for next Tuesday Nov 24 (Angela, Nov 19). Springer: David D'Addona introduced Lucia Gunzel as Content Development Editor and wants a December meeting with Angela, Jim and you; Sandro will be kept in the loop (Nov 19). Sandro wants the Word files for chapters 1, 5, 6 and 15
 - [ ] Data accelerator: Jen wants a 45-min meeting with you and Ben Cooper (Office of Innovation); Isabella Stone offers Mon 11/23 9 AM or 4 PM, Wed 11/25 10:15 AM and others (Nov 19). Jen also flagged the SOM data team as a later option
 - [ ] Salma forwarded a Thanksgiving dinner invitation for Thu Nov 26 for you and the family (Nov 20) — RSVP
-- [ ] Portia F. asks for a recommendation for the Drimolen Cave Field School in South Africa (Nov 21)
-- [ ] Gavin asks to reschedule this week's meeting to next week (Nov 16); Amanda's weekly meeting is off this week (Nov 16)
-- [ ] Sydney asks for your insight on researching and building an AI chatbot for admissions inquiries (Nov 16)
+- [ ] Portia Francois: you agreed to write the recommendation (Drimolen Cave Field School); Portia sent points to highlight (Nov 23) and WashU Global Gateway sent the study-abroad recommendation form (Nov 24) — complete it
+- [ ] Gavin sent the Zoom link and the manuscript for this week's meeting (Nov 23). Amanda's weekly meeting is back on the calendar (accepted Nov 23)
+- [ ] Sydney (admissions AI chatbot): proposes meeting early next week; Mon Nov 30 is open for Sydney (Nov 23) — reply with a time
 - [x] PH3 to-do matrix DELIVERED; Sandro "terrific", Angela "impressive" (Nov 9). Was: (AH/JS/MAA/SG, to-dos and timelines, as done for EMM) for Sandro and Angela: you said "by the weekend" (Oct 29)
 - [ ] Dagmawi Shibeshi (MPH '27, Meet the Experts committee) asks to meet in person next week for career advice (Oct 29)
 - [ ] SPH Events: After the Midterms fireside chat and dinner, Holmes Lounge, Mon Nov 16, 6 PM — RSVP (SPH Events followed up Nov 11)
@@ -131,6 +130,8 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 
 ## Done
 
+- [x] 2026-11-24 — MIT Applied AI second installment (USD 1,700) paid by Maggie; receipt Nov 23
+- [x] 2026-11-24 — HR FSA case closed: postdocs on stipend are not eligible for FSA/HSA (Nov 20, confirmed Nov 23)
 - [x] 2026-11-23 — WHO Bulletin: Commercial Determinants of Armed Conflict published online first (Nov 20); Sandro, Lorena and Dan congratulated you, Dan noting it lands in time for the PMAC launch
 - [x] 2026-11-23 — Emma Levine's SOPHAS recommendation submitted (Nov 20)
 - [x] 2026-11-23 — MPH course proposal and syllabus emailed to Jonesey and Charlene (Nov 20; Jonesey's auto-reply confirms receipt, out until Nov 30)
