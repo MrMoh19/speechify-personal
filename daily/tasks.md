@@ -23,7 +23,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] 2. SSM-PH resubmission: R1 clean manuscript v2 is in Drive (Nov 16); response to reviewers + Editorial Manager upload remain. Journal's automated reminder Nov 22 still lists the Nov 12 due date; reply to it to ask for time if needed
 - [ ] 4. BIG talk MOVED TO FRI DEC 18, 9 AM (Ross and Yi, Nov 18: "he'll need a bit more time"; Amanda takes Friday's slot). Script "A Law Against a Number" (https://claude.ai/artifact/6UwDa9bDmaL4vNAMfDMCSJ) runs 30 min + 5 Q&A. Open: record the demo, clear from-memory facts, confirm survey figures and wording, build 18 slides, screenshots for slides 13-15, read aloud against a clock
 
-### Needs you now (brief, Thu Nov 26)
+### Needs you now (brief, Fri Nov 27)
 - [ ] SSM-PH revision (Digital Environments, SSMPH-D-26-00361): DUE NOV 12 (system updated Oct 21)
 - [ ] ISTSS thank-you notes to Nuha Alshabani and Jaimie Gradus — drafted, paste-ready in `istss-2026-discussant/emails/15-nuha-thankyou.md` and `16-jaimie-thankyou.md` (Nuha's has two brackets only you can fill)
 - [ ] PHS1000 Thu Oct 22 has no guest (Saffiyah Poole out; she thanked you Oct 19) — session plan with Ans
@@ -72,7 +72,7 @@ Maintained by the weekday morning brief. Each morning: yesterday's email is revi
 - [ ] Dean Galea guest lecture in PHS1000 Thu Dec 3 (AJ's notice, Nov 11)
 - [ ] Postdoc group portrait Fri Nov 20, 1 PM (Zachary Linhares)
 - [ ] PLOS MH: required reviews in for PMEN-D-26-00244R1 (Togo leprosy, Nov 14; another review completed and required number received again Nov 20) — decision due; invitation to handle PMEN-D-26-00612 (Nov 16); revised PMEN-D-26-00321R1 assigned for review (Nov 16)
-- [ ] PLOS MH: you agreed to handle 00612 and 00542 (Nov 19); four reviewers have now declined 00542 (Nov 19-20) — invite more. 00321R1 final decision being processed (Nov 20). New invitation to handle PMEN-D-26-00578 (farming populations' mental health, Nov 24)
+- [ ] PLOS MH: you agreed to handle 00612 and 00542 (Nov 19); four reviewers have now declined 00542 (Nov 19-20) — invite more. 00321R1 final decision being processed (Nov 20). New invitation to handle PMEN-D-26-00578 (farming populations' mental health, Nov 24). PLOS action reminders on 00244R1, 00542 and 00612 (Nov 27)
 - [ ] PH WINS: Maddy Popalis says they're happy to have you on board; office closed Thanksgiving week, open the first week of December (Nov 18) — propose a time (Ross replied too)
 - [ ] THIS WEEK: Thanksgiving Thu Nov 26 (Salma's dinner). Next week: MPH Subcommittee Mon Nov 30, 12 PM, Hillman 210; PHS1000 final exam Tue Dec 1; Jen and Caitlin present to state legislators Wed Dec 2
 - [ ] PLOS One: review invitation (vaccine readiness among BC teachers, PONE-D-26-06558R1, Nov 16; reminder Nov 18); PONE-D-25-51112R2 final reminder (Nov 14)
