@@ -1,3 +1,25 @@
+# Routine prompts — SUPERSEDED 2026-10-18
+
+All three routines now fire into session_01LsjFMGPvAJYdbtzSqoYP5k and push to branch
+claude/istss-2026-discussant-m2xkou:
+
+| Routine | New ID | Schedule (America/Chicago) |
+|---|---|---|
+| Morning brief | trig_01RW6wLythr98jQNLkUdTXuy | weekdays 7:11 AM |
+| Sandro weekly question round | trig_01Lmi82yxowCSf7SGyZuHXjd | Fri 12:37 PM |
+| Sandro weekly compile and deliver | trig_01TUPvgtMBxBjARDBu8V5BKw | Fri 5:23 PM |
+
+The old IDs (trig_01Mvdrs8DxWA8TmBfm1a8S43, trig_01XQf4gT5kQ8FQwA4DVYrbaj,
+trig_018NVER5F3QgV6ap8YFDArLY) are disabled, not deleted. Why they broke: on Oct 14 the
+morning brief was switched to start a fresh session per firing; those sessions had no Gmail,
+Calendar or repo, and its prompt pushed to a `main` branch that doesn't exist. The brief
+produced nothing Oct 12-16. The Sandro weekly firings into the old session also stopped
+delivering after Oct 9. Schedules are now written in Central time, so they follow DST.
+
+The text below is the historical record from September.
+
+---
+
 # Routine prompt replacements — APPLIED 2026-09-18 ~5:26 PM CT
 
 Both prompts were applied verbatim via update_trigger from session_01PPwbUUWpfmtc9VHJ6fxbgv during the Friday compile run. The morning brief remains disabled until the Sunday sweep re-enables it. The open question below (dropping the daily render) still awaits Mohammed.
